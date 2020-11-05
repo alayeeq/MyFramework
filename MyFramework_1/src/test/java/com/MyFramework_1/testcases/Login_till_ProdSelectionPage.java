@@ -130,8 +130,6 @@ public class Login_till_ProdSelectionPage extends TestBase{
 		logger.info("RECPROD button is clicked");
 
 		screenshot("selectRecomProd");
-		
-		
 	}
 	
 }
