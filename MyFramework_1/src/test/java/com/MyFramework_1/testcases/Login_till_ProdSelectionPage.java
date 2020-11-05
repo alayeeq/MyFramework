@@ -134,4 +134,7 @@ public class Login_till_ProdSelectionPage extends TestBase{
 		
 	}
 	
+	@Test (priority = 4)
+	 public void DummyTest() throws InterruptedException {
+	}
 }
