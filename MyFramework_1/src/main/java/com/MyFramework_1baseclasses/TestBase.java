@@ -29,7 +29,7 @@ public class TestBase {
 	/*public static ExtentTest test;
 	public static ExtentHtmlReporter Hreporter;
 	public static ExtentReports report;*/
-
+	
 	
 	
 	
@@ -70,9 +70,10 @@ public class TestBase {
 			String Browsername = prop.getProperty("browser");
 			String BaseURL = prop.getProperty("URL");
 			
+			
 			if(Browsername.equalsIgnoreCase("Chrome")) {
 			
-			System.setProperty("webdriver.chrome.driver", CurrentDirectory + "\\Drivers\\chromedriver.exe");	
+			System.setProperty("webdriver.chrome.driver", CurrentDirectory + "\\Driver2\\chromedriver.exe");	
 			driver = new ChromeDriver();
 			
 			

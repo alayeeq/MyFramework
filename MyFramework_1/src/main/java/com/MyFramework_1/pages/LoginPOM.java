@@ -5,9 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPOM {
+import com.MyFramework_1baseclasses.TestBase;
+
+public class LoginPOM extends TestBase{
 	
-	WebDriver driver;
+	//WebDriver driver;
 	
 	public LoginPOM(WebDriver d) {
 		
@@ -17,8 +19,9 @@ public class LoginPOM {
 		
 	}
 	
-	@FindBy(xpath="//header//a[@class='sign-in']") public WebElement LoginLink;
-	
+	@FindBy(xpath="//input[@name='username']") public WebElement UserID;
+	@FindBy(xpath="//input[@name='password']") public WebElement Pwd;
+	@FindBy(xpath="//button[@id='btn_signin']") public WebElement LoginButton;
 	
 	
 	

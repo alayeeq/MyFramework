@@ -1,0 +1,5 @@
+2020-11-05 17:23:03,475  INFO [main] LandingPage_TC:96 - UserID is enterrerd
+2020-11-05 17:23:05,679  INFO [main] LandingPage_TC:99 - Pwd is enterrerd
+2020-11-05 17:23:08,687  INFO [main] LandingPage_TC:101 - LoginButton is clicked
+2020-11-05 17:23:33,919  INFO [main] LandingPage_TC:115 - Launch button is clicked
+2020-11-05 17:23:58,951  INFO [main] LandingPage_TC:130 - RECPROD button is clicked

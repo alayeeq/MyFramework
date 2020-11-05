@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.MyFramework_1.testcases.LandingPage_TC">
+      <class name="com.MyFramework_1.testcases.Login_till_ProdSelectionPage">
         <methods>
-          <include name="LoginLinkTest"/>
-          <include name="setup"/>
-          <include name="teardown"/>
           <include name="Setup"/>
+          <include name="setup"/>
+          <include name="selectRecomProd"/>
         </methods>
-      </class> <!-- com.MyFramework_1.testcases.LandingPage_TC -->
+      </class> <!-- com.MyFramework_1.testcases.Login_till_ProdSelectionPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
