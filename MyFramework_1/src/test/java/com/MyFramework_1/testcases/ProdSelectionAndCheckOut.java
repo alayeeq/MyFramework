@@ -1,5 +1,5 @@
 package com.MyFramework_1.testcases;
 
-public class Sample {
+public class ProdSelectionAndCheckOut {
 
 }
