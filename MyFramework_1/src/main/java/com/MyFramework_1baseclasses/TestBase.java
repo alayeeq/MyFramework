@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
@@ -12,6 +13,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 //import org.testng.ITestResult;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 /*import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -25,6 +27,7 @@ public class TestBase {
 	public static WebDriver driver;
 	public static TakesScreenshot TS;
 	public static Properties prop;
+	public static WebDriverWait wait;
 	protected final static  String CurrentDirectory = System.getProperty("user.dir");
 	/*public static ExtentTest test;
 	public static ExtentHtmlReporter Hreporter;
@@ -76,7 +79,9 @@ public class TestBase {
 			System.setProperty("webdriver.chrome.driver", CurrentDirectory + "\\Driver2\\chromedriver.exe");	
 			driver = new ChromeDriver();
 			
+			//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			
+			 wait = new WebDriverWait(driver,40);
 			}
 			driver.get(BaseURL);
 		}
