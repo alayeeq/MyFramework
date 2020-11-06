@@ -2,6 +2,8 @@ package com.MyFramework_1.testcases;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Iterator;
+import java.util.Set;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -122,16 +124,36 @@ public class Login_till_ProdSelectionPage extends TestBase{
 	@Test (priority = 3)
 	 public void selectRecomProd() throws InterruptedException {
 		
-		Thread.sleep(25000);
+		Thread.sleep(10000);
+		String HomeWindow = driver.getWindowHandle();
+		Set <String> Windows = driver.getWindowHandles();
+		
+		Iterator<String> itr = Windows.iterator();
+		
+		while (itr.hasNext())
+		{
+			String wind =  itr.next();
+			
+			if(!HomeWindow.equals(wind))
+				
+			{
+				driver.switchTo().window(wind);
+				
+				
+			}
+		}
 		System.out.println("sleep2 is executed");
 		
-		act.moveToElement(recommendedProductPOM.RECPROD).click();
-		//recommendedProductPOM.RECPROD.click();
+		//act.moveToElement(recommendedProductPOM.RECPROD).click();
+		Thread.sleep(5000);
+		recommendedProductPOM.RECPROD.click();
 		logger.info("RECPROD button is clicked");
 
-		screenshot("selectRecomProd");
+
+		//screenshot("selectRecomProd");
+		
+		
+
 	}
-	
-	
 	
 }
