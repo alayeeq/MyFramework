@@ -151,9 +151,11 @@ public class Login_till_ProdSelectionPage extends TestBase{
 		recommendedProductPOM.RECPROD.click();
 		logger.info("RECPROD button is clicked");
 
+
 		//screenshot("selectRecomProd");
 		
 		
+
 	}
 	
 
