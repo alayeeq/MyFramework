@@ -151,8 +151,6 @@ public class Login_till_ProdSelectionPage extends TestBase{
 				
 				
 			}
-			
-			
 		}
 		System.out.println("sleep2 is executed");
 		
@@ -171,5 +169,4 @@ public class Login_till_ProdSelectionPage extends TestBase{
 
 	}
 	
-
 }
