@@ -223,9 +223,9 @@ public class Login_till_ProdSelectionPage extends TestBase{
 					System.out.println("EE "+row+" product "+col+" ended for product -->"+(r1[row][col]));
 				}
 			//checkout to be added.
+			System.out.println(r1[row][24]);
 			System.out.println(r1[row][25]);
 			System.out.println(r1[row][26]);
-			System.out.println(r1[row][27]);
 			
 			
 			//Devesh_ checkout page
@@ -244,7 +244,7 @@ public class Login_till_ProdSelectionPage extends TestBase{
 					System.out.println("--------------------------entered checkout page for loop for item " +i+ "-------------------------------");
 					try
 					{
-						wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='section' and @class='item line-item-container-\"+i+\"']")));
+						wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']")));
 						//SHI supplier policy warning check
 							if(driver.findElement(By.xpath("//div[@id='section' and @class='item line-item-container-"+i+"']//child::span[.='SHI Supplier Policy']")).isDisplayed())
 								{
