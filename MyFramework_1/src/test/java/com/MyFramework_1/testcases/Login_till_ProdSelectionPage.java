@@ -159,7 +159,7 @@ public class Login_till_ProdSelectionPage extends TestBase{
 		
 		
 		bl.initPath();
-		bl.clearTD();
+		//bl.clearTD();
 		String[] ipFiles=bl.getIPFiles();
 		bl.WeedOut(ipFiles);
 		bl.xlwrite();
@@ -205,7 +205,7 @@ public class Login_till_ProdSelectionPage extends TestBase{
 		}
 	
 		//Archieving TD sheet with Timestamp
-		bl.archieveTD();
+		//bl.archieveTD();
 	}
 	
 }

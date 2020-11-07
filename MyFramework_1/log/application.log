@@ -1,5 +1,5 @@
-2020-11-06 19:12:07,125  INFO [main] LandingPage_TC:98 - UserID is enterrerd
-2020-11-06 19:12:09,215  INFO [main] LandingPage_TC:101 - Pwd is enterrerd
-2020-11-06 19:12:11,666  INFO [main] LandingPage_TC:103 - LoginButton is clicked
-2020-11-06 19:13:01,784  INFO [main] LandingPage_TC:118 - Launch button is clicked
-2020-11-06 19:13:09,934  INFO [main] LandingPage_TC:150 - RECPROD button is clicked
+2020-11-07 13:31:48,870  INFO [main] LandingPage_TC:98 - UserID is enterrerd
+2020-11-07 13:31:50,986  INFO [main] LandingPage_TC:101 - Pwd is enterrerd
+2020-11-07 13:31:53,828  INFO [main] LandingPage_TC:103 - LoginButton is clicked
+2020-11-07 13:32:43,967  INFO [main] LandingPage_TC:118 - Launch button is clicked
+2020-11-07 13:32:52,140  INFO [main] LandingPage_TC:150 - RECPROD button is clicked
