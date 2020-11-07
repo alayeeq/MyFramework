@@ -225,7 +225,7 @@ public class Login_till_ProdSelectionPage extends TestBase{
 			//checkout to be added.
 			System.out.println(r1[row][25]);
 			System.out.println(r1[row][26]);
-			System.out.println(r1[row][25]);
+			System.out.println(r1[row][27]);
 			
 			
 			//Devesh_ checkout page
