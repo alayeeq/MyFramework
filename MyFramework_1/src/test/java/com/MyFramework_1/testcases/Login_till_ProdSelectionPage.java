@@ -153,7 +153,7 @@ public class Login_till_ProdSelectionPage extends TestBase{
 	
 	
 	@Test (priority = 4)
-	public void sam() throws InterruptedException {
+	public void Product_addition() throws InterruptedException {
 		
 		ProductPagePOM p1=new ProductPagePOM(driver);
 		String r1[][]=p1.xlread();
@@ -170,20 +170,26 @@ public class Login_till_ProdSelectionPage extends TestBase{
 		Thread.sleep(5000);
 		for (int row=1;row<r1.length;row++)//Employee
 		{
-			System.out.println(row);
 			for (int col=11;col<21;col++)//Column
 				{
+					System.out.println("EE "+row+" product "+col+" started for product -->"+(r1[row][col]));
 					try {
-					if(!(r1[row][col].isBlank())){
+					if((!(r1[row][col].isEmpty())))
+					{
 						driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 						Thread.sleep(5000);
-						System.out.println(r1[row][col]);
 						p1.addProdCart(driver, r1[row][col]);
+					}
+					else {
+						System.out.println("blank break");
+						break;
 					}
 					}catch(NullPointerException e)
 					{
-							
+						System.out.println("blank break");	
+						break;
 					}
+					System.out.println("EE "+row+" product "+col+" ended for product -->"+(r1[row][col]));
 				}
 			//checkout to be added.
 		}

@@ -1,175 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-06T01:41:47 EST" name="Default suite" finished-at="2020-11-06T01:43:34 EST" duration-ms="107469">
+  <suite started-at="2020-11-06T18:30:04 EST" name="Default suite" finished-at="2020-11-06T18:40:12 EST" duration-ms="608308">
     <groups>
     </groups>
-    <test started-at="2020-11-06T01:41:47 EST" name="Default test" finished-at="2020-11-06T01:43:34 EST" duration-ms="107469">
+    <test started-at="2020-11-06T18:30:04 EST" name="Default test" finished-at="2020-11-06T18:40:12 EST" duration-ms="608308">
       <class name="com.MyFramework_1.testcases.Login_till_ProdSelectionPage">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@2ddc8ecb]" started-at="2020-11-06T01:41:47 EST" name="Setup" finished-at="2020-11-06T01:41:47 EST" duration-ms="121" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@2ddc8ecb]" started-at="2020-11-06T18:30:04 EST" name="Setup" finished-at="2020-11-06T18:30:04 EST" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@2ddc8ecb]" started-at="2020-11-06T01:41:47 EST" name="setup" finished-at="2020-11-06T01:41:56 EST" duration-ms="9488" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@2ddc8ecb]" started-at="2020-11-06T18:30:04 EST" name="setup" finished-at="2020-11-06T18:30:13 EST" duration-ms="9147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginLinkTest()[pri:1, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@2ddc8ecb]" started-at="2020-11-06T01:41:56 EST" name="LoginLinkTest" finished-at="2020-11-06T01:42:03 EST" duration-ms="6543" status="PASS">
+        <test-method signature="LoginLinkTest()[pri:1, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@2ddc8ecb]" started-at="2020-11-06T18:30:13 EST" name="LoginLinkTest" finished-at="2020-11-06T18:30:18 EST" duration-ms="4580" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginLinkTest -->
-        <test-method signature="LaunchBOUT()[pri:2, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@2ddc8ecb]" started-at="2020-11-06T01:42:03 EST" name="LaunchBOUT" finished-at="2020-11-06T01:42:53 EST" duration-ms="50186" status="PASS">
+        <test-method signature="LaunchBOUT()[pri:2, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@2ddc8ecb]" started-at="2020-11-06T18:30:18 EST" name="LaunchBOUT" finished-at="2020-11-06T18:31:08 EST" duration-ms="50118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBOUT -->
-        <test-method signature="selectRecomProd()[pri:3, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@2ddc8ecb]" started-at="2020-11-06T01:42:53 EST" name="selectRecomProd" finished-at="2020-11-06T01:43:06 EST" duration-ms="12926" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <img class="img-responsive" ng-src="/gb/tenant/IBM-GP0/image/peripheral-box.jpg" alt="Recommended Accessories" src="/gb/tenant/IBM-GP0/image/peripheral-box.jpg"> is not clickable at point (123, 409). Other element would receive the click: <img class="img-responsive" ng-src="/gb/tenant/IBM-GP0/user/client/fileStorage/ea3b284e-65bf-4013-a94f-79b0a70e1ada?fileName=first-time-user.jpg" alt="" src="/gb/tenant/IBM-GP0/user/client/fileStorage/ea3b284e-65bf-4013-a94f-79b0a70e1ada?fileName=first-time-user.jpg">
-  (Session info: chrome=86.0.4240.183)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-A4T63ADS', ip: '9.206.130.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\NAGARA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53785}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 09f7b8c1e500b360333b929f3d656ffa]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img class="img-responsive" ng-src="/gb/tenant/IBM-GP0/image/peripheral-box.jpg" alt="Recommended Accessories" src="/gb/tenant/IBM-GP0/image/peripheral-box.jpg"> is not clickable at point (123, 409). Other element would receive the click: <img class="img-responsive" ng-src="/gb/tenant/IBM-GP0/user/client/fileStorage/ea3b284e-65bf-4013-a94f-79b0a70e1ada?fileName=first-time-user.jpg" alt="" src="/gb/tenant/IBM-GP0/user/client/fileStorage/ea3b284e-65bf-4013-a94f-79b0a70e1ada?fileName=first-time-user.jpg">
-  (Session info: chrome=86.0.4240.183)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-A4T63ADS', ip: '9.206.130.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\NAGARA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53785}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 09f7b8c1e500b360333b929f3d656ffa
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy13.click(Unknown Source)
-at com.MyFramework_1.testcases.Login_till_ProdSelectionPage.selectRecomProd(Login_till_ProdSelectionPage.java:149)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method signature="selectRecomProd()[pri:3, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@2ddc8ecb]" started-at="2020-11-06T18:31:08 EST" name="selectRecomProd" finished-at="2020-11-06T18:31:15 EST" duration-ms="7477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectRecomProd -->
-        <test-method signature="sam()[pri:4, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@2ddc8ecb]" started-at="2020-11-06T01:43:06 EST" name="sam" finished-at="2020-11-06T01:43:34 EST" duration-ms="28144" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@ng-repeat='resource in containerResourceArr track by $index'])[1]"}
-  (Session info: chrome=86.0.4240.183)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-A4T63ADS', ip: '9.206.130.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\NAGARA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53785}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 09f7b8c1e500b360333b929f3d656ffa
-*** Element info: {Using=xpath, value=(//div[@ng-repeat='resource in containerResourceArr track by $index'])[1]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@ng-repeat='resource in containerResourceArr track by $index'])[1]"}
-  (Session info: chrome=86.0.4240.183)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-A4T63ADS', ip: '9.206.130.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\NAGARA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53785}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 09f7b8c1e500b360333b929f3d656ffa
-*** Element info: {Using=xpath, value=(//div[@ng-repeat='resource in containerResourceArr track by $index'])[1]}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.MyFramework_1.pages.ProductPagePOM.addProdCart(ProductPagePOM.java:155)
-at com.MyFramework_1.testcases.Login_till_ProdSelectionPage.sam(Login_till_ProdSelectionPage.java:181)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="Product_addition()[pri:4, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@2ddc8ecb]" started-at="2020-11-06T18:31:15 EST" name="Product_addition" finished-at="2020-11-06T18:40:12 EST" duration-ms="536888" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sam -->
+        </test-method> <!-- Product_addition -->
       </class> <!-- com.MyFramework_1.testcases.Login_till_ProdSelectionPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

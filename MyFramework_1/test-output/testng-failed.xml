@@ -6,9 +6,8 @@
       <class name="com.MyFramework_1.testcases.Login_till_ProdSelectionPage">
         <methods>
           <include name="Setup"/>
-          <include name="sam"/>
+          <include name="Product_addition"/>
           <include name="setup"/>
-          <include name="selectRecomProd"/>
         </methods>
       </class> <!-- com.MyFramework_1.testcases.Login_till_ProdSelectionPage -->
     </classes>
