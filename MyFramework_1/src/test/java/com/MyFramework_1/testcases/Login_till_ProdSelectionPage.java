@@ -153,18 +153,28 @@ public class Login_till_ProdSelectionPage extends TestBase{
 	
 	
 	@Test (priority = 4)
+	public void ipConsolidation() throws InterruptedException {
+		
+		inputConsolPOM bl=new inputConsolPOM(driver);
+		
+		
+		bl.initPath();
+		bl.clearTD();
+		String[] ipFiles=bl.getIPFiles();
+		bl.WeedOut(ipFiles);
+		bl.xlwrite();
+		
+	}
+	
+	@Test (priority = 5)
 	public void Product_addition() throws InterruptedException {
 		
 		ProductPagePOM p1=new ProductPagePOM(driver);
+		inputConsolPOM bl=new inputConsolPOM(driver);
+		
 		String r1[][]=p1.xlread();
 
 		System.out.println(r1.length);
-		
-		System.out.println(r1[0][0]);
-		System.out.println(r1[1][0]);
-/*		System.out.println(r1[2][0]);
-		System.out.println(r1[3][0]);
-		System.out.println(r1[4][0]);*/
 		
 		driver.manage().window().maximize();
 		Thread.sleep(5000);
@@ -193,7 +203,9 @@ public class Login_till_ProdSelectionPage extends TestBase{
 				}
 			//checkout to be added.
 		}
-		
+	
+		//Archieving TD sheet with Timestamp
+		bl.archieveTD();
 	}
 	
 }
