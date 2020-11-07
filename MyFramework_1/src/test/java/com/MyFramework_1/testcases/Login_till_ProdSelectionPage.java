@@ -8,7 +8,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
@@ -94,9 +96,13 @@ public class Login_till_ProdSelectionPage extends TestBase{
 	
 	@Test (priority = 1)
 	 public void LoginLinkTest() throws InterruptedException {
-		loginPOM.UserID.sendKeys(prop.getProperty("UID"));
+		WebElement w =wait.until(ExpectedConditions.visibilityOf(loginPOM.UserID));
+		w.sendKeys(prop.getProperty("UID"));
 		logger.info("UserID is enterrerd");
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
+		
+		
+		
 		loginPOM.Pwd.sendKeys(prop.getProperty("PWD"));
 		logger.info("Pwd is enterrerd");
 		loginPOM.LoginButton.click();
@@ -111,9 +117,14 @@ public class Login_till_ProdSelectionPage extends TestBase{
 	@Test (priority = 2)
 	 public void LaunchBOUT() throws InterruptedException {
 		
-		Thread.sleep(50000);
-		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		System.out.println("Sleep is complete");
+
+		Thread.sleep(25000);
+		driver.manage().window().maximize();
+		driver.switchTo().defaultContent();
+		//wait.until(ExpectedConditions.elementToBeSelected(launchPOM.LaunchButton));
+			
+		System.out.println("Loginbutton is Visible");
+
 		launchPOM.LaunchButton.click();
 		logger.info("Launch button is clicked");
 
@@ -125,8 +136,8 @@ public class Login_till_ProdSelectionPage extends TestBase{
 	@Test (priority = 3)
 	 public void selectRecomProd() throws InterruptedException {
 		
-		//Thread.sleep(10000);
-		driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
+		Thread.sleep(10000);
+		//driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
 		String HomeWindow = driver.getWindowHandle();
 		Set <String> Windows = driver.getWindowHandles();
 		
@@ -146,7 +157,10 @@ public class Login_till_ProdSelectionPage extends TestBase{
 		
 		//act.moveToElement(recommendedProductPOM.RECPROD).click();
 		Thread.sleep(5000);
+		//WebElement w2=wait.until(ExpectedConditions.visibilityOf(recommendedProductPOM.RECPROD));
+		//System.out.println("Sleep is complete");
 		recommendedProductPOM.RECPROD.click();
+		//recommendedProductPOM.RECPROD.click();
 		logger.info("RECPROD button is clicked");
 		//screenshot("selectRecomProd");
 	}
@@ -179,6 +193,8 @@ public class Login_till_ProdSelectionPage extends TestBase{
 		driver.manage().window().maximize();
 		Thread.sleep(5000);
 		for (int row=1;row<r1.length;row++)//Employee
+			
+			
 		{
 			for (int col=11;col<21;col++)//Column
 				{
@@ -202,10 +218,15 @@ public class Login_till_ProdSelectionPage extends TestBase{
 					System.out.println("EE "+row+" product "+col+" ended for product -->"+(r1[row][col]));
 				}
 			//checkout to be added.
+			
+			
 		}
 	
 		//Archieving TD sheet with Timestamp
 		//bl.archieveTD();
 	}
+	
+	
+	
 	
 }
