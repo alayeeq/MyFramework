@@ -223,6 +223,10 @@ public class Login_till_ProdSelectionPage extends TestBase{
 					System.out.println("EE "+row+" product "+col+" ended for product -->"+(r1[row][col]));
 				}
 			//checkout to be added.
+			System.out.println(r1[row][25]);
+			System.out.println(r1[row][26]);
+			System.out.println(r1[row][27]);
+			
 			
 			//Devesh_ checkout page
 			System.out.println("total no of items: " + item_counter);
