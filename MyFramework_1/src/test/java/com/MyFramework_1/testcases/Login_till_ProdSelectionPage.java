@@ -242,6 +242,7 @@ public class Login_till_ProdSelectionPage extends TestBase{
 					{
 						wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='section' and @class='item line-item-container-\"+i+\"']")));
 						//SHI supplier policy warning check
+							
 							if(driver.findElement(By.xpath("//div[@id='section' and @class='item line-item-container-"+i+"']//child::span[.='SHI Supplier Policy']")).isDisplayed())
 								{
 								System.out.println("--------------------------entered supplier check warning check-------------------------------");
@@ -250,7 +251,10 @@ public class Login_till_ProdSelectionPage extends TestBase{
 								driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::a[normalize-space(.)=\"I confirm that I have shared phone number in 'Comments' section with the supplier\"]")).click();
 								}
 							else
-								{}
+								{
+								
+							
+								}
 								
 							//item expansion check
 								if(driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']/div[2]/div[1]/button/i[@class='icon-slim-arrow-down']")).isDisplayed())
@@ -353,6 +357,30 @@ public class Login_till_ProdSelectionPage extends TestBase{
 			if(driver.findElement(By.xpath("//*[@id='gbsection']/div[1]/gb-action-bar/div/div/div/div[2]/div[1]/div[2]/div/button[text()='Submit']")).isEnabled())
 			{
 				//driver.findElement(By.xpath("//*[@id='gbsection']/div[1]/gb-action-bar/div/div/div/div[2]/div[1]/div[2]/div/button[text()='Submit']")).click();
+				
+				//thread.sleep(10000);
+				 Boolean is_submitted;
+				try
+				{
+					is_submitted = driver.findElements(By.xpath("enter xpath")).size()>0;
+					System.out.println("--------------------------if submission done: " +is_submitted+ "-------------------------------");
+				}
+				catch(Throwable e)
+				{}  
+				if(is_submitted = false)
+				{	
+					
+					System.out.println("--------------------------submitted-------------------------------");
+					driver.findElement(By.xpath("")).click();//Click existing address
+				}
+				else
+				{
+				for(int i=1;i<=item_counter;i++)
+				{
+				driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-1']/div[2]/div[5]/div/button/div[@class='vertical-dots']")).click();
+				driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-1']//child::a[contains(text(),'Remove')]")).click();
+				}
+				}
 			}
 			
 			else
