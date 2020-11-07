@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Iterator;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -20,7 +21,6 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.MyFramework_1.pages.*;
-import com.MyFramework_1.pages.LoginPOM;
 import com.MyFramework_1baseclasses.TestBase;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -117,12 +117,14 @@ public class Login_till_ProdSelectionPage extends TestBase{
 	@Test (priority = 2)
 	 public void LaunchBOUT() throws InterruptedException {
 		
+
 		Thread.sleep(25000);
 		driver.manage().window().maximize();
 		driver.switchTo().defaultContent();
 		//wait.until(ExpectedConditions.elementToBeSelected(launchPOM.LaunchButton));
 			
 		System.out.println("Loginbutton is Visible");
+
 		launchPOM.LaunchButton.click();
 		logger.info("Launch button is clicked");
 
@@ -135,6 +137,7 @@ public class Login_till_ProdSelectionPage extends TestBase{
 	 public void selectRecomProd() throws InterruptedException {
 		
 		Thread.sleep(10000);
+		//driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
 		String HomeWindow = driver.getWindowHandle();
 		Set <String> Windows = driver.getWindowHandles();
 		
@@ -148,8 +151,6 @@ public class Login_till_ProdSelectionPage extends TestBase{
 				
 			{
 				driver.switchTo().window(wind);
-				
-				
 			}
 		}
 		System.out.println("sleep2 is executed");
@@ -161,12 +162,71 @@ public class Login_till_ProdSelectionPage extends TestBase{
 		recommendedProductPOM.RECPROD.click();
 		//recommendedProductPOM.RECPROD.click();
 		logger.info("RECPROD button is clicked");
-
-
 		//screenshot("selectRecomProd");
-		
-		
-
 	}
+	
+	
+	@Test (priority = 4)
+	public void ipConsolidation() throws InterruptedException {
+		
+		inputConsolPOM bl=new inputConsolPOM(driver);
+		
+		
+		bl.initPath();
+		bl.clearTD();
+		String[] ipFiles=bl.getIPFiles();
+		bl.WeedOut(ipFiles);
+		bl.xlwrite();
+		
+	}
+	
+	@Test (priority = 5)
+	public void Product_addition() throws InterruptedException {
+		
+		ProductPagePOM p1=new ProductPagePOM(driver);
+		inputConsolPOM bl=new inputConsolPOM(driver);
+		
+		String r1[][]=p1.xlread();
+
+		System.out.println(r1.length);
+		
+		driver.manage().window().maximize();
+		Thread.sleep(5000);
+		for (int row=1;row<r1.length;row++)//Employee
+			
+			
+		{
+			for (int col=11;col<21;col++)//Column
+				{
+					System.out.println("EE "+row+" product "+col+" started for product -->"+(r1[row][col]));
+					try {
+					if((!(r1[row][col].isEmpty())))
+					{
+						driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+						Thread.sleep(5000);
+						p1.addProdCart(driver, r1[row][col]);
+					}
+					else {
+						System.out.println("blank break");
+						break;
+					}
+					}catch(NullPointerException e)
+					{
+						System.out.println("blank break");	
+						break;
+					}
+					System.out.println("EE "+row+" product "+col+" ended for product -->"+(r1[row][col]));
+				}
+			//checkout to be added.
+			
+			
+		}
+	
+		//Archieving TD sheet with Timestamp
+		bl.archieveTD();
+	}
+	
+	
+	
 	
 }
