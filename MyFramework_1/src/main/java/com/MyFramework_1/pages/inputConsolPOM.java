@@ -351,18 +351,18 @@ public class inputConsolPOM extends TestBase{
 	String tmp=ip_val.substring(cityEndPos+1);
 	System.out.println("tmp state string :"+tmp);
 	
-	int commaSep1=tmp.indexOf(",");
+	int commaSep1=ip_val.indexOf(",",stStartPos);
 	int sep_cntr=zipStartPos;
 	int sep1=0;
 	
-	if(commaSep1>0)
+	if(commaSep1>=0)
 	{
-		stEndPos=(stStartPos+1)+(commaSep1-1);
+		stEndPos=(commaSep1);
 		State=ip_val.substring(stStartPos, stEndPos);
 	}
 	else 
 	{
-		stEndPos=(sep_cntr-1);
+		stEndPos=(sep_cntr);
 		State=ip_val.substring(stStartPos, stEndPos);
 	}
 	
@@ -373,6 +373,32 @@ public class inputConsolPOM extends TestBase{
 	
 	finalAddr=City+","+State+","+Zip;
 	return retArr;
+	}
+	
+	public void statusUpdate(int row, String msg)
+	{
+		String tdPathAbs=tdPath+"\\TD.xlsx";
+		int status_Col = 1;
+		try {
+			File fil=new File(tdPathAbs);
+			FileInputStream fis=new FileInputStream(fil);
+			XSSFWorkbook wb = new XSSFWorkbook(fis);
+			XSSFSheet sh=wb.getSheet("Sheet1");
+
+			Row rw=sh.getRow(row);
+			Cell seq=rw.createCell(status_Col);
+			seq.setCellValue(msg);
+			
+			fis.close();
+			FileOutputStream fos=new FileOutputStream(fil);
+			wb.write(fos);
+			fos.close();
+			wb.close();
+			
+		}catch(Exception e)
+		{
+			e.printStackTrace();
+		}
 	}
 	
 	

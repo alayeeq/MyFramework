@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
@@ -22,6 +23,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import com.MyFramework_1baseclasses.TestBase;
 
 public class ProductPagePOM extends TestBase{
@@ -36,7 +40,65 @@ public class ProductPagePOM extends TestBase{
 		
 		@FindBy(xpath="//input[@name='username']") public WebElement UserID;
 
+		public void waitMod(WebDriver driver, String xpth) {
+			WebDriverWait wait = new WebDriverWait(driver, 15);
+			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpth)));
+			System.out.println("wait implemented");
+		}
 		
+		public boolean chckCart(WebDriver driver)
+		{
+			System.out.println("chck cart starts ");
+			boolean flag=false;
+			String cartPth="//span[@class='fd-counter fd-counter--notification']";
+			String cartitemsPth="//div[@class='col-xs-2 delete-cart-item']";
+			String closeCartPth="//button[@class='icon-decline close-cart-button']";
+			String closeCrtButton="//button[@title='Close cart']";
+			
+			try {
+				Thread.sleep(3000);
+				WebElement cart=driver.findElement(By.xpath(cartPth));
+				System.out.println("Items exist in Cart - need to delete");
+				cart.click();
+				
+				boolean dlist=true;
+				while(dlist)
+				{
+					try {
+						Thread.sleep(3000);
+						WebElement dartList=driver.findElement(By.xpath(cartitemsPth));
+						dartList.click();
+					}catch(org.openqa.selenium.NoSuchElementException nse) {
+						dlist=false;
+						break;
+					}
+				}
+				
+				
+/*				Thread.sleep(3000);
+				WebElement closeCart=driver.findElement(By.xpath(closeCartPth));
+				closeCart.click();*/
+				
+				System.out.println("Items Deleted rechecking Cart....");
+				this.chckCart(driver);
+				
+			}catch(org.openqa.selenium.NoSuchElementException nse) {
+				System.out.println("Cart Empty");
+				flag=true;
+			}catch(org.openqa.selenium.StaleElementReferenceException e) {
+				System.out.println("stale element");
+				e.printStackTrace();
+			}catch(org.openqa.selenium.ElementNotInteractableException e) {
+				System.out.println("Element Not Interactable");
+				e.printStackTrace();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+			System.out.println("return cart flag"+flag);
+			return flag;
+		}
 		
 		
 		
@@ -127,7 +189,7 @@ public class ProductPagePOM extends TestBase{
 			return td_Set;
 		}
 		
-		public void addProdCart(WebDriver driver,String prdName ) throws InterruptedException 
+		public boolean addProdCart(WebDriver driver,String prdName ) throws InterruptedException 
 		{
 			Actions builder = new Actions(driver);
 		
@@ -137,7 +199,9 @@ public class ProductPagePOM extends TestBase{
 			
 			Boolean flag=false;
 			String tmp="(//div[@class='product-name' and text()='"+prdName+"'])[1]";
-				
+			
+			
+			
 			Thread.sleep(5000);
 			try {
 				 WebElement prod = driver.findElement(By.xpath(tmp));
@@ -174,5 +238,6 @@ public class ProductPagePOM extends TestBase{
 				 WebElement selectGoBack=driver.findElement(By.xpath(selectGoBackXpth));
 				 selectGoBack.click();
 			}
+			return flag;
 		}
 }

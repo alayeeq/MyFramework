@@ -117,27 +117,27 @@ public class Login_till_ProdSelectionPage extends TestBase{
 	}
 	
 	
-	@Test (priority = 2)
+	@Test (priority = 2,enabled = false)
 	 public void LaunchBOUT() throws InterruptedException {
-		
+		ProductPagePOM p1=new ProductPagePOM(driver);
 
-		Thread.sleep(25000);
+		Thread.sleep(50000);
 		driver.manage().window().maximize();
 		driver.switchTo().defaultContent();
 		//wait.until(ExpectedConditions.elementToBeSelected(launchPOM.LaunchButton));
 			
 		System.out.println("Loginbutton is Visible");
-
+		//p1.waitMod(driver, "//a[@id='lunchbutton']");
+		
 		launchPOM.LaunchButton.click();
 		logger.info("Launch button is clicked");
-
 		//screenshot("LaunchBOUT");
-		
 		
 	}
 	
-	@Test (priority = 3)
+	@Test (priority = 3,enabled=false)
 	 public void selectRecomProd() throws InterruptedException {
+		ProductPagePOM p1=new ProductPagePOM(driver);
 		
 		Thread.sleep(10000);
 		//driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
@@ -162,6 +162,7 @@ public class Login_till_ProdSelectionPage extends TestBase{
 		Thread.sleep(5000);
 		//WebElement w2=wait.until(ExpectedConditions.visibilityOf(recommendedProductPOM.RECPROD));
 		//System.out.println("Sleep is complete");
+		p1.waitMod(driver, "//*[@id=\"popular\"]/div/div/div[2]/div/div[1]/img");
 		recommendedProductPOM.RECPROD.click();
 		//recommendedProductPOM.RECPROD.click();
 		logger.info("RECPROD button is clicked");
@@ -174,7 +175,8 @@ public class Login_till_ProdSelectionPage extends TestBase{
 		
 		inputConsolPOM bl=new inputConsolPOM(driver);
 		
-		
+		Thread.sleep(10000);
+		driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
 		bl.initPath();
 		//bl.clearTD();
 		String[] ipFiles=bl.getIPFiles();
@@ -188,7 +190,7 @@ public class Login_till_ProdSelectionPage extends TestBase{
 		
 		ProductPagePOM p1=new ProductPagePOM(driver);
 		inputConsolPOM bl=new inputConsolPOM(driver);
-		
+		bl.initPath();
 		String r1[][]=p1.xlread();
 
 		System.out.println(r1.length);
@@ -197,18 +199,38 @@ public class Login_till_ProdSelectionPage extends TestBase{
 		Thread.sleep(5000);
 		int user_counter=0;//user_counter
 		int item_counter=0;//item_counter
+		
+		Employee_loop:
 		for (int row=1;row<r1.length;row++)//Employee	
 		{
+			System.out.println("EE "+row+" Started"); 
+			Thread.sleep(3000);
+			boolean flag=true;
 			++user_counter;
+
+			//chck cart and if any item exist empty it
+			flag=p1.chckCart(driver);
+			
+			Product_Loop:
 			for (int col=11;col<21;col++)//Column
 				{
 					System.out.println("EE "+row+" product "+col+" started for product -->"+(r1[row][col]));
 					try {
 					if((!(r1[row][col].isEmpty())))
 					{
-						driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 						Thread.sleep(5000);
-						p1.addProdCart(driver, r1[row][col]);
+						flag=p1.addProdCart(driver, r1[row][col]);
+						
+						if(!(flag))
+						{
+							System.out.println("invalid Product idetified during product selection :"+r1[row][col]);
+							bl.statusUpdate(row, "Invalid Product exist");
+							/*if(!p1.chckCart(driver));
+							{
+								System.out.println("unalbe to empty cart");
+							}*/
+							continue Employee_loop;
+						}
 						item_counter++;
 					}
 					else {
@@ -217,15 +239,15 @@ public class Login_till_ProdSelectionPage extends TestBase{
 					}
 					}catch(NullPointerException e)
 					{
-						System.out.println("blank break");	
+						System.out.println("null pointer break");	
 						break;
 					}
 					System.out.println("EE "+row+" product "+col+" ended for product -->"+(r1[row][col]));
 				}
 			//checkout to be added.
-			System.out.println(r1[row][24]);
+/*			System.out.println(r1[row][24]);
 			System.out.println(r1[row][25]);
-			System.out.println(r1[row][26]);
+			System.out.println(r1[row][26]);*/
 			
 			
 			//Devesh_ checkout page
@@ -405,6 +427,7 @@ public class Login_till_ProdSelectionPage extends TestBase{
 			}
 			
 			System.out.println("Request Submitted for User"+ user_counter + r1[user_counter][4] );
+			
 		}
 	
 		//Archieving TD sheet with Timestamp
