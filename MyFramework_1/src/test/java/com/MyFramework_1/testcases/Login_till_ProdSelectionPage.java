@@ -289,13 +289,17 @@ public class Login_till_ProdSelectionPage extends TestBase{
 								Boolean isaddress_Present;
 								try
 								{
-									isaddress_Present = driver.findElements(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::a[normalize-space(.)='\"+r1[user_counter][4]+\"']")).size()>0;
-									System.out.println("--------------------------value of address_present: " +isaddress_Present+ "-------------------------------");
+									if(isaddress_Present = driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::a[normalize-space(.)='"+r1[user_counter][4]+"']")).isDisplayed())
+										{
+										isaddress_Present = true;
+										System.out.println("--------------------------value of address_present: " +isaddress_Present+ "-------------------------------");
+										}
+									else {}
 								}
 								catch(Throwable e)
 								{}
 								//if(driver.findElement(By.xpath("//*[@id=\"LineItemsFi3lD-iNd3x-0p3n1Fi3lD-iNd3x-Cl0s3D0Tt3d-Fi3lD-pAtHShipTo\"]/div[1]/div[1]/ng-include/div[1]/ul/li[4]/div/a[text()='"+r1[user_counter][4]+"']")) !=null)
-								if(isaddress_Present = false)
+								if(isaddress_Present = true)
 								{	
 									
 									System.out.println("--------------------------address present-------------------------------");
@@ -329,16 +333,16 @@ public class Login_till_ProdSelectionPage extends TestBase{
 								driver.findElement(By.xpath("//*[@id='streetline1']")).sendKeys(r1[user_counter][5]);//streetline1
 								driver.findElement(By.xpath("//*[@id='streetline2']")).sendKeys(r1[user_counter][6]);//streetline2
 								//driver.findElement(By.xpath("//*[@id=\"streetline3\"]")).sendKeys(r1[user_counter][4]);//streetline3
-								driver.findElement(By.xpath("//*[@id='city']")).sendKeys(r1[user_counter][7]);//city
-								driver.findElement(By.xpath("//*[@id='region']")).sendKeys(r1[user_counter][8]);//region
-								driver.findElement(By.xpath("//*[@id='postal-code']")).sendKeys(r1[user_counter][9]);//postal-code
+								driver.findElement(By.xpath("//*[@id='city']")).sendKeys(r1[user_counter][24]);//city
+								driver.findElement(By.xpath("//*[@id='region']")).sendKeys(r1[user_counter][25]);//region
+								driver.findElement(By.xpath("//*[@id='postal-code']")).sendKeys(r1[user_counter][26]);//postal-code
 								//driver.findElement(By.xpath("//select[@id=\"country\"]/option[235]"));//country
 								Select select = new Select(driver.findElement(By.id("country")));
 								select.selectByVisibleText("United States");//country
 								
-								driver.findElement(By.xpath("//*[@id=\"phone\"]")).sendKeys(r1[user_counter][10]);//phone
-								driver.findElement(By.xpath("//*[@id=\"fax\"]")).sendKeys(r1[user_counter][11]); //FAX
-								driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys(r1[user_counter][12]);//email
+								driver.findElement(By.xpath("//*[@id=\"phone\"]")).sendKeys(r1[user_counter][8]);//phone
+								//driver.findElement(By.xpath("//*[@id=\"fax\"]")).sendKeys(r1[user_counter][11]); //FAX
+								driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys(r1[user_counter][7]);//email
 								
 								driver.findElement(By.xpath("//*[@id=\"addressForm\"]/div[12]/button[2]")).click();
 								Thread.sleep(10000);
@@ -351,7 +355,7 @@ public class Login_till_ProdSelectionPage extends TestBase{
 					}
 				
 				}
-			driver.findElement(By.xpath("//*[@id='header-comments-comment']/div/div[1]/textarea")).sendKeys("My Phone number is: +1 "+ r1[user_counter][10]);
+			driver.findElement(By.xpath("//*[@id='header-comments-comment']/div/div[1]/textarea")).sendKeys("My Phone number is: +1 "+ r1[user_counter][8]);
 			driver.findElement(By.xpath("//*[@id=\"checkbox-header-comments\"]")).click();
 			driver.findElement(By.xpath("//*[@id=\"header-comments-commentButton\"]")).click();
 			System.out.println("Comment added for User"+ user_counter);
@@ -360,10 +364,12 @@ public class Login_till_ProdSelectionPage extends TestBase{
 			
 			if(driver.findElement(By.xpath("//*[@id='gbsection']/div[1]/gb-action-bar/div/div/div/div[2]/div[1]/div[2]/div/button[text()='Submit']")).isEnabled())
 			{
-				//driver.findElement(By.xpath("//*[@id='gbsection']/div[1]/gb-action-bar/div/div/div/div[2]/div[1]/div[2]/div/button[text()='Submit']")).click();
+				driver.findElement(By.xpath("//*[@id='gbsection']/div[1]/gb-action-bar/div/div/div/div[2]/div[1]/div[2]/div/button[text()='Submit']")).click();
 				
-				//thread.sleep(10000);
-				 Boolean is_submitted;
+				Thread.sleep(10000);
+				
+				//check if it is submitted
+				/* Boolean is_submitted;
 				try
 				{
 					is_submitted = driver.findElements(By.xpath("enter xpath")).size()>0;
@@ -371,11 +377,11 @@ public class Login_till_ProdSelectionPage extends TestBase{
 				}
 				catch(Throwable e)
 				{}  
-				if(is_submitted = false)
+				if(is_submitted = true)
 				{	
 					
-					System.out.println("--------------------------submitted-------------------------------");
-					driver.findElement(By.xpath("")).click();//Click existing address
+					driver.findElement(By.xpath("")).isDisplayed();//xpath of the element from post submit page
+					System.out.println("--------------------------submitted-------------------------------"); 
 				}
 				else
 				{
@@ -384,7 +390,8 @@ public class Login_till_ProdSelectionPage extends TestBase{
 				driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-1']/div[2]/div[5]/div/button/div[@class='vertical-dots']")).click();
 				driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-1']//child::a[contains(text(),'Remove')]")).click();
 				}
-				}
+				driver.findElement(By.xpath("//*[@id='gbsection']/div[4]/gb-comment/div/div[2]/div/div[2]/ul/li/div/div[4]/span[text()='Remove']")).click();
+				}*/
 			}
 			
 			else
@@ -394,9 +401,10 @@ public class Login_till_ProdSelectionPage extends TestBase{
 				driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-1']/div[2]/div[5]/div/button/div[@class='vertical-dots']")).click();
 				driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-1']//child::a[contains(text(),'Remove')]")).click();
 				}
+				driver.findElement(By.xpath("//*[@id='gbsection']/div[4]/gb-comment/div/div[2]/div/div[2]/ul/li/div/div[4]/span[text()='Remove']")).click();
 			}
 			
-			System.out.println("Request Submitted for User"+ user_counter);
+			System.out.println("Request Submitted for User"+ user_counter + r1[user_counter][4] );
 		}
 	
 		//Archieving TD sheet with Timestamp
