@@ -26,7 +26,10 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-public class Login_till_ProdSelectionPage extends TestBase{
+//import static com.MyFramework_1baseclasses.TestBase.*;
+
+
+public class Login_till_ProdSelectionPage extends TestBase {
 
 	public static ExtentTest test;
 	public static ExtentHtmlReporter Hreporter;
@@ -34,24 +37,15 @@ public class Login_till_ProdSelectionPage extends TestBase{
 	LoginPOM loginPOM;
 	LaunchPOM launchPOM;
 	RecommendedProductPOM recommendedProductPOM;
-	public Logger logger; 
+	//public Logger logger; 
 	public Actions act;
 	
 	@BeforeTest
 	
 	public void Setup() {
-		/*Hreporter = new ExtentHtmlReporter(CurrentDirectory+ "/test-output/my2.html");
-		Hreporter.config().setDocumentTitle("MyFramework_1 Report");
-		Hreporter.config().setReportName("First Report");
-			
-		report = new ExtentReports();	
-		report.attachReporter(Hreporter);
-		report.setSystemInfo("Environemnt", "QA");
-		report.setSystemInfo("Tester Name","Asif" );
-		report.setSystemInfo("Browser","Chrome" );*/
-		logger = Logger.getLogger("LandingPage_TC");
-		PropertyConfigurator.configure("log4j.properties");
-		//ExtentReportsetup();
+
+		
+
 		
 	}
 	
@@ -66,38 +60,20 @@ public class Login_till_ProdSelectionPage extends TestBase{
 		act = new Actions(driver);
 	}
 	
-	/*@AfterClass (alwaysRun = true)
+	@AfterClass (alwaysRun = true)
 	public void teardown(ITestResult tr) throws IOException {
 		
-		//CallExtentReport("ITestResult tr");
 		
-		if(tr.getStatus()==ITestResult.FAILURE) {
-			
-		
-		test.log(Status.FAIL, "Test Case Failed is" + tr.getName());
-		test.log(Status.FAIL, "Test case Failed is" + tr.getThrowable());
-		String Screenpath = screenshot(tr.getName());
-		test.addScreenCaptureFromPath(Screenpath);
-		}
-		
-		else if (tr.getStatus()==ITestResult.SKIP) {
-			test.log(Status.SKIP, "Test Case skipped is" + tr.getName());
-		}
-		
-		else if (tr.getStatus()==ITestResult.SUCCESS) {
-			test.log(Status.SKIP, "Test Case Passed is" + tr.getName());
-		}
-		
-		report.flush();
-		
-		driver.quit();
-	}*/
-	
+	}
 	
 	@Test (priority = 1)
 	 public void LoginLinkTest() throws InterruptedException {
-		WebElement w =wait.until(ExpectedConditions.visibilityOf(loginPOM.UserID));
-		w.sendKeys(prop.getProperty("UID"));
+		
+		System.out.println("Login is Visible");
+		Thread.sleep(10000);
+		//WebElement w =wait.until(ExpectedConditions.visibilityOf(loginPOM.UserID));
+		//w.sendKeys(prop.getProperty("UID"));
+		loginPOM.UserID.sendKeys(prop.getProperty("UID"));
 		logger.info("UserID is enterrerd");
 		//Thread.sleep(2000);
 		

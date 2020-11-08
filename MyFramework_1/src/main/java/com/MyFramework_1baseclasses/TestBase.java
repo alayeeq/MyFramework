@@ -8,6 +8,7 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -29,6 +30,7 @@ public class TestBase {
 	public static Properties prop;
 	public static WebDriverWait wait;
 	protected final static  String CurrentDirectory = System.getProperty("user.dir");
+	public static Logger logger;
 	/*public static ExtentTest test;
 	public static ExtentHtmlReporter Hreporter;
 	public static ExtentReports report;*/
@@ -81,9 +83,13 @@ public class TestBase {
 			
 			//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			
-			 wait = new WebDriverWait(driver,40);
+			 //wait = new WebDriverWait(driver,40);
 			}
 			driver.get(BaseURL);
+			
+			
+			logger = Logger.getLogger("Login_till_ProdSelectionPage");
+			PropertyConfigurator.configure("log4j.properties");
 		}
 		public static String screenshot(String Filename)   {
 			String destination ="C:\\Users\\AsifZoya\\Documents\\Asif\\Java\\FrameWork_1\\Screenshots\\" +"\\1\\"  +Filename+ "\\.jpg";
