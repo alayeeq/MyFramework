@@ -61,12 +61,12 @@ public class ProductPagePOM extends TestBase{
 			System.out.println("ROW COUNT "+rowCount);
 			++rowCount;
 			
-			td_Set=new String[rowCount][24];
+			td_Set=new String[rowCount][27];
 			
 		
 				for (int row=0;row<rowCount;row++)
 				{
-					for(int col=0;col<24;col++)
+					for(int col=0;col<27;col++)
 					{
 						XSSFRow rw=sh.getRow(row);
 						XSSFCell cl=rw.getCell(col);

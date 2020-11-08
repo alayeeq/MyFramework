@@ -14,7 +14,9 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
+import org.apache.poi.hssf.usermodel.HSSFDateUtil;
 import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.util.NumberToTextConverter;
 import org.apache.poi.xssf.usermodel.XSSFCell;
@@ -34,7 +36,7 @@ public class inputConsolPOM extends TestBase{
 		 PageFactory.initElements(driver, this);
 		}
 
-	
+
 
 	String absPath=null;
 	String ipPath=null;
@@ -55,6 +57,48 @@ public class inputConsolPOM extends TestBase{
 	  	  archieveTD=absPath+"\\TestData\\ArchieveTD";
 	}
 	
+	
+	@SuppressWarnings("deprecation")
+	public String readCell(XSSFCell cel)
+	{
+		String cellValue=null;
+		try {
+            CellType type = cel.getCellType();
+			
+            if ((type == CellType.STRING) ||(type == CellType.BLANK))
+            {					
+            	cellValue=cel.getStringCellValue();
+            	System.out.println(type);
+            }
+            else if (type == CellType.NUMERIC)  
+            {
+            	cellValue=NumberToTextConverter.toText(cel.getNumericCellValue());
+            	System.out.println(type);
+            	
+            }
+            else  if (HSSFDateUtil.isCellDateFormatted(cel))
+            {
+				Date date=cel.getDateCellValue();
+				System.out.println(date);
+				DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");  
+				cellValue=dateFormat.format(date);
+            	System.out.println(type);	
+            }
+            else 
+            {
+            	cellValue=cel.getStringCellValue();
+            	System.out.println(type);
+            }
+			}catch(NullPointerException e) 
+        { 
+            //System.out.print("NullPointerException Caught"); 
+         	//td_Set[row][col]=cl.getStringCellValue();
+        } 
+		
+		return cellValue;
+		
+	}
+	
 	public String[] ipRead(String ipFilName)
 	{
 		String ipPathAbs=ipPath+"\\"+ipFilName;
@@ -72,9 +116,14 @@ public class inputConsolPOM extends TestBase{
 		int ip_Manager_Email_Row = 9;
 		int ip_Prod_1_Row=11;
 
+<<<<<<< HEAD
 		String[] ip_val=new String[19];
 		
 		
+=======
+		String[] ip_val=new String[22];
+
+>>>>>>> a0bad3a177e8b0d3f3ccf6fe69dfa4b2407dd175
 		try {
 			File fil=new File(ipPathAbs);
 			FileInputStream fis;
@@ -94,71 +143,96 @@ public class inputConsolPOM extends TestBase{
 				ip_val[0]=dateFormat.format(date);
 				//[1]=cl.getStringCellValue();
 				System.out.println(ip_val[0]);
+				System.out.println(this.readCell(cl));
 			}
 			
 			//ip_Emp_No
 			{
 				XSSFRow rw=sh.getRow(ip_Emp_No_Row);
 				XSSFCell cl=rw.getCell(1);
-				ip_val[1]=cl.getStringCellValue();
+				//ip_val[1]=cl.getStringCellValue();
+				ip_val[1]=this.readCell(cl);
 				System.out.println(ip_val[1]);
+			//	System.out.println(this.readCell(cl));
 			}
 			
 			//ip_Emp_Name
 			{
 				XSSFRow rw=sh.getRow(ip_Emp_Name_Row);
 				XSSFCell cl=rw.getCell(1);
-				ip_val[2]=cl.getStringCellValue();
+				//ip_val[2]=cl.getStringCellValue();
+				ip_val[2]=this.readCell(cl);
 				System.out.println(ip_val[2]);
+				//System.out.println(this.readCell(cl));
 			}
 			
 			//ip_Home_address
 			{
 				XSSFRow rw=sh.getRow(ip_Home_address_Row);
 				XSSFCell cl=rw.getCell(1);
-				ip_val[3]=cl.getStringCellValue();
+				//ip_val[3]=cl.getStringCellValue();
+				ip_val[3]=this.readCell(cl);
 				System.out.println(ip_val[3]);
+				//System.out.println(this.readCell(cl));
 			}
 			
 			//ip_Home_address1
 			{
+				String[] clnAddr=new String[3];
 				XSSFRow rw=sh.getRow(ip_Home_address_Row1);
 				XSSFCell cl=rw.getCell(1);
-				ip_val[4]=cl.getStringCellValue();
+				//ip_val[4]=cl.getStringCellValue();
+				ip_val[4]=this.readCell(cl);
+				clnAddr=this.addrSplitCity(ip_val[4]);
 				System.out.println(ip_val[4]);
+				
+				ip_val[4]=clnAddr[0]+","+clnAddr[2]+","+clnAddr[1];
+				ip_val[19]=clnAddr[0];
+				ip_val[20]=clnAddr[2];
+				ip_val[21]=clnAddr[1];
+				System.out.println(ip_val[4]);
+				//System.out.println(this.readCell(cl));
 			}
 			
 			//ip_Email_Address
 			{
 				XSSFRow rw=sh.getRow(ip_Email_Address_Row);
 				XSSFCell cl=rw.getCell(1);
-				ip_val[5]=cl.getStringCellValue();
+				//ip_val[5]=cl.getStringCellValue();
+				ip_val[5]=this.readCell(cl);
 				System.out.println(ip_val[5]);
+				//System.out.println(this.readCell(cl));
 			}
 			
 			//ip_Cell_No
 			{
 				XSSFRow rw=sh.getRow(ip_Cell_No_Row);
 				XSSFCell cl=rw.getCell(1);
-				String str = NumberToTextConverter.toText(cl.getNumericCellValue());
-				ip_val[6]=str;
+				//String str = NumberToTextConverter.toText(cl.getNumericCellValue());
+				ip_val[6]=this.readCell(cl);
+				//ip_val[6]=str;
 				System.out.println(ip_val[6]);
+				//System.out.println(this.readCell(cl));
 			}
 			
 			//ip_Manager_Name
 			{
 				XSSFRow rw=sh.getRow(ip_Manager_Name_Row);
 				XSSFCell cl=rw.getCell(1);
-				ip_val[7]=cl.getStringCellValue();
+				//ip_val[7]=cl.getStringCellValue();
+				ip_val[7]=this.readCell(cl);
 				System.out.println(ip_val[7]);
+				//System.out.println(this.readCell(cl));
 			}
 			
 			//ip_Manager_Email
 			{
 				XSSFRow rw=sh.getRow(ip_Manager_Email_Row);
 				XSSFCell cl=rw.getCell(1);
-				ip_val[8]=cl.getStringCellValue();
+				//ip_val[8]=cl.getStringCellValue();
+				ip_val[8]=this.readCell(cl);
 				System.out.println(ip_val[8]);
+				//System.out.println(this.readCell(cl));
 			}
 			
 			
@@ -210,6 +284,104 @@ public class inputConsolPOM extends TestBase{
 		
 	}
 	
+	public String[] addrSplitCity(String ip_val)
+	{
+		String[] retArr=new String[3];
+	String City=null;
+	String finalAddr=null;
+	ip_val=ip_val.trim();
+	
+	//---------
+	int commaSep=ip_val.indexOf(",");
+	int blankSep=ip_val.indexOf(" ");
+	int sep=0;
+	
+	if((commaSep>0)&&(commaSep<blankSep))
+	{
+		sep=commaSep;
+	}
+	else 
+	{
+		sep=blankSep;
+	}
+	int cityEndPos=sep;
+	System.out.println("City seperator "+sep+"city end pos :"+cityEndPos);
+	City=ip_val.substring(0, cityEndPos);
+	City=City.trim();
+	retArr[0]=City;
+	System.out.println(City);
+	//----------
+	
+	String Zip1=null;
+	String Zip2=null;
+	String Zip=null;
+	boolean extZip=true;
+	int zipStartPos=0;
+	
+	int ipValLen=ip_val.length();
+	int zipSep=ip_val.indexOf("-");
+	System.out.println("Zip Sep index"+zipSep);
+	
+	if(!(zipSep<0))
+	{
+		zipStartPos=zipSep-5;
+		System.out.println("Zip Start index " +zipStartPos);
+		Zip1=ip_val.substring(zipStartPos,zipSep);
+		Zip1=Zip1.trim();
+		
+		Zip2=ip_val.substring(zipSep+1);
+		Zip2=Zip2.trim();
+		System.out.println("Zip1 :"+Zip1+"Zip2 :"+Zip2);
+		Zip=Zip1+"-"+Zip2;
+		System.out.println(Zip);
+	}
+	else
+	{
+		zipStartPos=ipValLen-5;
+		System.out.println("Zip Start index " +zipStartPos);
+		Zip1=ip_val.substring(zipStartPos);
+		Zip1=Zip1.trim();
+		
+		Zip=Zip1;
+		System.out.println(Zip1);
+		extZip=false;
+	}
+	retArr[1]=Zip;
+	
+	//----------
+	
+	int stStartPos=cityEndPos+1;
+	int stEndPos=0;
+	String State=null;
+	String tmp1=null;
+	String tmp=ip_val.substring(cityEndPos+1);
+	System.out.println("tmp state string :"+tmp);
+	
+	int commaSep1=tmp.indexOf(",");
+	int sep_cntr=zipStartPos;
+	int sep1=0;
+	
+	if(commaSep1>0)
+	{
+		stEndPos=(stStartPos+1)+(commaSep1-1);
+		State=ip_val.substring(stStartPos, stEndPos);
+	}
+	else 
+	{
+		stEndPos=(sep_cntr-1);
+		State=ip_val.substring(stStartPos, stEndPos);
+	}
+	
+	State=State.trim();
+	retArr[2]=State;
+	System.out.println("state start "+stStartPos+" end pos "+stEndPos);
+	System.out.println("State "+State);
+	
+	finalAddr=City+","+State+","+Zip;
+	return retArr;
+	}
+	
+	
 	public void xlwrite()
 	{
 		String tdPathAbs=tdPath+"\\TD.xlsx";
@@ -238,6 +410,9 @@ public class inputConsolPOM extends TestBase{
 		int Prod10_Col = 20;
 		int Process_DT_Col = 21;
 		int fileName_Col = 23;
+		int city_Col=24;
+		int state_Col=25;
+		int zip_Col=26;
 
 		//Get Date
 		   DateTimeFormatter dtf = DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm:ss");  
@@ -336,6 +511,15 @@ public class inputConsolPOM extends TestBase{
 				Cell cel_fileName=rw.createCell(fileName_Col);
 				cel_fileName.setCellValue(p);
 				
+				Cell cel_City=rw.createCell(city_Col);
+				cel_City.setCellValue(ipVal[19]);
+				
+				Cell cel_State=rw.createCell(state_Col);
+				cel_State.setCellValue(ipVal[20]);
+				
+				Cell cel_Zip=rw.createCell(zip_Col);
+				cel_Zip.setCellValue(ipVal[21]);
+				
 				fis.close();
 				FileOutputStream fos=new FileOutputStream(fil);
 				wb.write(fos);
@@ -373,6 +557,7 @@ public class inputConsolPOM extends TestBase{
 				System.out.println(ipPathAbs);
 				String errPathAbs=errPath+"\\"+f;
 				System.out.println(errPathAbs);
+				
 				this.moveFile(ipPathAbs, errPathAbs);
 			}
 		}
@@ -390,6 +575,7 @@ public class inputConsolPOM extends TestBase{
 	}
 	
 	   private void moveFile(String src, String dest ) {
+		   
 		      Path result = null;
 		      try {
 		         result = Files.move(Paths.get(src), Paths.get(dest));
@@ -428,7 +614,6 @@ public class inputConsolPOM extends TestBase{
 		   
 		
 		   this.moveFile(tdPathAbs, tdArchievePathAbs);
-		   System.out.println("TD Archieved");
 
 	   }
 	   
@@ -441,7 +626,7 @@ public class inputConsolPOM extends TestBase{
 
 	   }
 	   
-	
+	   
 	public String[] getIPFiles ()
 	{
 	// TODO Auto-generated method stub
@@ -459,6 +644,5 @@ public class inputConsolPOM extends TestBase{
 	return filNames;
       
 	}
-	
 	
 }
