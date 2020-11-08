@@ -1,3 +1,61 @@
+<<<<<<< HEAD
 2020-11-08 04:30:26,530  INFO [main] LandingPage_TC:104 - UserID is enterrerd
 2020-11-08 04:30:26,687  INFO [main] LandingPage_TC:110 - Pwd is enterrerd
 2020-11-08 04:30:29,472  INFO [main] LandingPage_TC:112 - LoginButton is clicked
+=======
+<<<<<<< HEAD
+2020-11-07 22:00:50,702  INFO [main] Login_till_ProdSelectionPage:101 - UserID is enterrerd
+2020-11-07 22:00:50,814  INFO [main] Login_till_ProdSelectionPage:107 - Pwd is enterrerd
+2020-11-07 22:00:53,569  INFO [main] Login_till_ProdSelectionPage:109 - LoginButton is clicked
+2020-11-07 22:01:20,941  INFO [main] Login_till_ProdSelectionPage:129 - Launch button is clicked
+2020-11-07 22:01:38,274  INFO [main] Login_till_ProdSelectionPage:164 - RECPROD button is clicked
+2020-11-07 22:48:10,317  INFO [main] Login_till_ProdSelectionPage:101 - UserID is enterrerd
+2020-11-07 22:48:10,403  INFO [main] Login_till_ProdSelectionPage:107 - Pwd is enterrerd
+2020-11-07 22:48:12,908  INFO [main] Login_till_ProdSelectionPage:109 - LoginButton is clicked
+2020-11-07 22:48:40,233  INFO [main] Login_till_ProdSelectionPage:129 - Launch button is clicked
+2020-11-07 22:48:57,519  INFO [main] Login_till_ProdSelectionPage:164 - RECPROD button is clicked
+2020-11-07 23:36:54,424  INFO [main] Login_till_ProdSelectionPage:73 - UserID is enterrerd
+2020-11-07 23:36:54,511  INFO [main] Login_till_ProdSelectionPage:79 - Pwd is enterrerd
+2020-11-07 23:36:57,060  INFO [main] Login_till_ProdSelectionPage:81 - LoginButton is clicked
+2020-11-07 23:37:11,423  INFO [main] Login_till_ProdSelectionPage:101 - Launch button is clicked
+2020-11-07 23:53:23,014  INFO [main] Login_till_ProdSelectionPage:74 - UserID is enterrerd
+2020-11-07 23:53:23,118  INFO [main] Login_till_ProdSelectionPage:80 - Pwd is enterrerd
+2020-11-07 23:53:27,676  INFO [main] Login_till_ProdSelectionPage:82 - LoginButton is clicked
+2020-11-07 23:53:41,603  INFO [main] Login_till_ProdSelectionPage:102 - Launch button is clicked
+2020-11-07 23:54:58,328  INFO [main] Login_till_ProdSelectionPage:74 - UserID is enterrerd
+2020-11-07 23:54:58,450  INFO [main] Login_till_ProdSelectionPage:80 - Pwd is enterrerd
+2020-11-07 23:55:00,986  INFO [main] Login_till_ProdSelectionPage:82 - LoginButton is clicked
+2020-11-07 23:55:14,636  INFO [main] Login_till_ProdSelectionPage:102 - Launch button is clicked
+2020-11-07 23:59:40,243  INFO [main] Login_till_ProdSelectionPage:73 - UserID is enterrerd
+2020-11-07 23:59:40,354  INFO [main] Login_till_ProdSelectionPage:79 - Pwd is enterrerd
+2020-11-07 23:59:43,196  INFO [main] Login_till_ProdSelectionPage:81 - LoginButton is clicked
+2020-11-08 00:00:10,590  INFO [main] Login_till_ProdSelectionPage:101 - Launch button is clicked
+2020-11-08 00:00:27,837  INFO [main] Login_till_ProdSelectionPage:136 - RECPROD button is clicked
+2020-11-08 00:24:16,208  INFO [main] Login_till_ProdSelectionPage:74 - UserID is enterrerd
+2020-11-08 00:24:16,310  INFO [main] Login_till_ProdSelectionPage:80 - Pwd is enterrerd
+2020-11-08 00:24:18,935  INFO [main] Login_till_ProdSelectionPage:82 - LoginButton is clicked
+2020-11-08 00:24:33,619  INFO [main] Login_till_ProdSelectionPage:102 - Launch button is clicked
+2020-11-08 00:29:11,480  INFO [main] Login_till_ProdSelectionPage:74 - UserID is enterrerd
+2020-11-08 00:29:11,562  INFO [main] Login_till_ProdSelectionPage:80 - Pwd is enterrerd
+2020-11-08 00:29:14,306  INFO [main] Login_till_ProdSelectionPage:82 - LoginButton is clicked
+2020-11-08 00:29:28,952  INFO [main] Login_till_ProdSelectionPage:102 - Launch button is clicked
+2020-11-08 00:30:19,890  INFO [main] Login_till_ProdSelectionPage:74 - UserID is enterrerd
+2020-11-08 00:30:19,985  INFO [main] Login_till_ProdSelectionPage:80 - Pwd is enterrerd
+2020-11-08 00:30:22,733  INFO [main] Login_till_ProdSelectionPage:82 - LoginButton is clicked
+2020-11-08 00:30:36,833  INFO [main] Login_till_ProdSelectionPage:102 - Launch button is clicked
+2020-11-08 00:34:20,671  INFO [main] Login_till_ProdSelectionPage:74 - UserID is enterrerd
+2020-11-08 00:34:20,756  INFO [main] Login_till_ProdSelectionPage:80 - Pwd is enterrerd
+2020-11-08 00:34:23,311  INFO [main] Login_till_ProdSelectionPage:82 - LoginButton is clicked
+2020-11-08 00:34:37,638  INFO [main] Login_till_ProdSelectionPage:104 - Launch button is clicked
+2020-11-08 00:47:33,627  INFO [main] Login_till_ProdSelectionPage:77 - UserID is enterrerd
+2020-11-08 00:47:33,712  INFO [main] Login_till_ProdSelectionPage:83 - Pwd is enterrerd
+2020-11-08 00:47:36,361  INFO [main] Login_till_ProdSelectionPage:85 - LoginButton is clicked
+2020-11-08 00:48:03,801  INFO [main] Login_till_ProdSelectionPage:105 - Launch button is clicked
+2020-11-08 00:48:21,124  INFO [main] Login_till_ProdSelectionPage:140 - RECPROD button is clicked
+=======
+2020-11-07 19:31:34,266  INFO [main] LandingPage_TC:104 - UserID is enterrerd
+2020-11-07 19:31:34,416  INFO [main] LandingPage_TC:110 - Pwd is enterrerd
+2020-11-07 19:31:36,524  INFO [main] LandingPage_TC:112 - LoginButton is clicked
+2020-11-07 19:32:03,907  INFO [main] LandingPage_TC:132 - Launch button is clicked
+>>>>>>> a0bad3a177e8b0d3f3ccf6fe69dfa4b2407dd175
+>>>>>>> d854c03dd826823c6a4dbfaf372295dff231896a

@@ -116,8 +116,14 @@ public class inputConsolPOM extends TestBase{
 		int ip_Manager_Email_Row = 9;
 		int ip_Prod_1_Row=11;
 
+<<<<<<< HEAD
+		String[] ip_val=new String[19];
+		
+		
+=======
 		String[] ip_val=new String[22];
 
+>>>>>>> a0bad3a177e8b0d3f3ccf6fe69dfa4b2407dd175
 		try {
 			File fil=new File(ipPathAbs);
 			FileInputStream fis;

@@ -5,6 +5,11 @@
     <classes>
       <class name="com.MyFramework_1.testcases.Login_till_ProdSelectionPage">
         <methods>
+<<<<<<< HEAD
+=======
+          <include name="ipConsolidation"/>
+          <include name="teardown"/>
+>>>>>>> d854c03dd826823c6a4dbfaf372295dff231896a
           <include name="Setup"/>
           <include name="Product_addition"/>
           <include name="setup"/>
