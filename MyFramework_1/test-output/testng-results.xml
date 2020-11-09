@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-09T17:53:57 EST" name="Default suite" finished-at="2020-11-09T17:54:32 EST" duration-ms="35601">
+  <suite started-at="2020-11-09T18:19:46 EST" name="Default suite" finished-at="2020-11-09T18:23:54 EST" duration-ms="247690">
     <groups>
     </groups>
-    <test started-at="2020-11-09T17:53:57 EST" name="Default test" finished-at="2020-11-09T17:54:32 EST" duration-ms="35601">
+    <test started-at="2020-11-09T18:19:46 EST" name="Default test" finished-at="2020-11-09T18:23:54 EST" duration-ms="247690">
       <class name="com.MyFramework_1.testcases.Login_till_ProdSelectionPage">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@229d10bd]" started-at="2020-11-09T17:53:57 EST" name="Setup" finished-at="2020-11-09T17:53:57 EST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@229d10bd]" started-at="2020-11-09T18:19:46 EST" name="Setup" finished-at="2020-11-09T18:19:46 EST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@229d10bd]" started-at="2020-11-09T17:53:57 EST" name="setup" finished-at="2020-11-09T17:54:05 EST" duration-ms="8459" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@229d10bd]" started-at="2020-11-09T18:19:46 EST" name="setup" finished-at="2020-11-09T18:19:57 EST" duration-ms="10421" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginLinkTest()[pri:1, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@229d10bd]" started-at="2020-11-09T17:54:05 EST" name="LoginLinkTest" finished-at="2020-11-09T17:54:18 EST" duration-ms="12539" status="PASS">
+        <test-method signature="LoginLinkTest()[pri:1, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@229d10bd]" started-at="2020-11-09T18:19:57 EST" name="LoginLinkTest" finished-at="2020-11-09T18:20:10 EST" duration-ms="12856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginLinkTest -->
-        <test-method signature="ipConsolidation()[pri:4, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@229d10bd]" started-at="2020-11-09T17:54:18 EST" name="ipConsolidation" finished-at="2020-11-09T17:54:32 EST" duration-ms="14563" status="PASS">
+        <test-method signature="ipConsolidation()[pri:4, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@229d10bd]" started-at="2020-11-09T18:20:10 EST" name="ipConsolidation" finished-at="2020-11-09T18:20:23 EST" duration-ms="12964" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ipConsolidation -->
+        <test-method signature="Product_addition()[pri:5, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@229d10bd]" started-at="2020-11-09T18:20:23 EST" name="Product_addition" finished-at="2020-11-09T18:23:54 EST" duration-ms="211368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product_addition -->
       </class> <!-- com.MyFramework_1.testcases.Login_till_ProdSelectionPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

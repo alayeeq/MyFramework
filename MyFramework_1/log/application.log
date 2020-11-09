@@ -119,3 +119,8 @@
 2020-11-09 17:54:15,736  INFO [main] Login_till_ProdSelectionPage:80 - UserID is enterrerd
 2020-11-09 17:54:15,806  INFO [main] Login_till_ProdSelectionPage:86 - Pwd is enterrerd
 2020-11-09 17:54:18,192  INFO [main] Login_till_ProdSelectionPage:88 - LoginButton is clicked
+2020-11-09 18:20:07,436  INFO [main] Login_till_ProdSelectionPage:80 - UserID is enterrerd
+2020-11-09 18:20:07,533  INFO [main] Login_till_ProdSelectionPage:86 - Pwd is enterrerd
+2020-11-09 18:20:10,179  INFO [main] Login_till_ProdSelectionPage:88 - LoginButton is clicked
+2020-11-09 18:20:23,148  INFO [main] Login_till_ProdSelectionPage:51 - Path Initilization
+2020-11-09 18:20:23,160  INFO [main] Login_till_ProdSelectionPage:51 - Path Initilization

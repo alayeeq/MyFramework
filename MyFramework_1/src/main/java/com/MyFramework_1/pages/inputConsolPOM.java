@@ -48,6 +48,7 @@ public class inputConsolPOM extends TestBase{
 	
 	public void initPath()
 	{
+		logger.info("Path Initilization");
 	      String currentDirectory = System.getProperty("user.dir");
 	      System.out.println("The current working directory is " + currentDirectory);
 	      absPath=currentDirectory;
