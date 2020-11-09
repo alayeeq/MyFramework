@@ -173,7 +173,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		
 		driver.manage().window().maximize();
 		Thread.sleep(5000);
-		int user_counter=0;//user_counter
+		int user_counter=0;//user_counter 
 		
 		
 		Employee_loop:
