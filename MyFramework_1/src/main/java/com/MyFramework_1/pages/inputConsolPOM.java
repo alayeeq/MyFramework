@@ -36,6 +36,7 @@ public class inputConsolPOM extends TestBase{
 		 PageFactory.initElements(driver, this);
 		}
 
+	
 
 
 	String absPath=null;
@@ -115,15 +116,9 @@ public class inputConsolPOM extends TestBase{
 		int ip_Manager_Name_Row = 8;
 		int ip_Manager_Email_Row = 9;
 		int ip_Prod_1_Row=11;
-
-<<<<<<< HEAD
-		String[] ip_val=new String[19];
-		
-		
-=======
+//11---------------------
 		String[] ip_val=new String[22];
-
->>>>>>> a0bad3a177e8b0d3f3ccf6fe69dfa4b2407dd175
+		
 		try {
 			File fil=new File(ipPathAbs);
 			FileInputStream fis;
@@ -621,6 +616,7 @@ public class inputConsolPOM extends TestBase{
 		   File dst=new File(dstPth);
 		   try {
 			Files.copy(src.toPath(), dst.toPath());
+			System.out.println("TD template Creation successfull");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

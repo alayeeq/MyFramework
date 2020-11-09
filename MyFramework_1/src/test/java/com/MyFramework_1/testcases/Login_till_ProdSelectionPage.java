@@ -63,11 +63,11 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		act = new Actions(driver);
 	}
 	
-	@AfterClass (alwaysRun = true)
+	/*@AfterClass (alwaysRun = true)
 	public void teardown(ITestResult tr) throws IOException {
 		
 		
-	}
+	}*/
 	
 	@Test (priority = 1)
 	 public void LoginLinkTest() throws InterruptedException {
@@ -154,14 +154,14 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		Thread.sleep(10000);
 		driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
 		bl.initPath();
-		//bl.clearTD();
+		bl.clearTD();
 		String[] ipFiles=bl.getIPFiles();
 		bl.WeedOut(ipFiles);
 		bl.xlwrite();
 		
 	}
 	
-	@Test (priority = 5)
+	@Test (priority = 5, enabled=false)
 	public void Product_addition() throws InterruptedException {
 		
 		ProductPagePOM p1=new ProductPagePOM(driver);
@@ -434,7 +434,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		}
 	
 		//Archieving TD sheet with Timestamp
-		//bl.archieveTD();
+		bl.archieveTD();
 	}
 	
 }
