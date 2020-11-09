@@ -93,27 +93,27 @@ public class Login_till_ProdSelectionPage extends TestBase {
 	}
 	
 	
-	@Test (priority = 2)
+	@Test (priority = 2,enabled = false)
 	 public void LaunchBOUT() throws InterruptedException {
-		
+		ProductPagePOM p1=new ProductPagePOM(driver);
 
-		Thread.sleep(25000);
+		Thread.sleep(50000);
 		driver.manage().window().maximize();
 		driver.switchTo().defaultContent();
 		//wait.until(ExpectedConditions.elementToBeSelected(launchPOM.LaunchButton));
 			
 		System.out.println("Loginbutton is Visible");
-
+		//p1.waitMod(driver, "//a[@id='lunchbutton']");
+		
 		launchPOM.LaunchButton.click();
 		logger.info("Launch button is clicked");
-
 		//screenshot("LaunchBOUT");
-		
-		
+		 
 	}
 	
-	@Test (priority = 3)
+	@Test (priority = 3,enabled=false)
 	 public void selectRecomProd() throws InterruptedException {
+		ProductPagePOM p1=new ProductPagePOM(driver);
 		
 		Thread.sleep(10000);
 		//driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
@@ -138,6 +138,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		Thread.sleep(5000);
 		//WebElement w2=wait.until(ExpectedConditions.visibilityOf(recommendedProductPOM.RECPROD));
 		//System.out.println("Sleep is complete");
+		p1.waitMod(driver, "//*[@id=\"popular\"]/div/div/div[2]/div/div[1]/img");
 		recommendedProductPOM.RECPROD.click();
 		//recommendedProductPOM.RECPROD.click();
 		logger.info("RECPROD button is clicked");
@@ -150,7 +151,8 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		
 		inputConsolPOM bl=new inputConsolPOM(driver);
 		
-		
+		Thread.sleep(10000);
+		driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
 		bl.initPath();
 		//bl.clearTD();
 		String[] ipFiles=bl.getIPFiles();
@@ -164,7 +166,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		
 		ProductPagePOM p1=new ProductPagePOM(driver);
 		inputConsolPOM bl=new inputConsolPOM(driver);
-		
+		bl.initPath();
 		String r1[][]=p1.xlread();
 
 		System.out.println(r1.length);
@@ -172,19 +174,41 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		driver.manage().window().maximize();
 		Thread.sleep(5000);
 		int user_counter=0;//user_counter
-		int item_counter=0;//item_counter
+		
+		
+		Employee_loop:
 		for (int row=1;row<r1.length;row++)//Employee	
 		{
+			
+			System.out.println("EE "+row+" Started"); 
+			Thread.sleep(3000);
+			boolean flag=true;
 			++user_counter;
+			int i=0;
+			int item_counter=0;//item_counter
+			//chck cart and if any item exist empty it
+			flag=p1.chckCart(driver);
+			
+			Product_Loop:
 			for (int col=11;col<21;col++)//Column
 				{
 					System.out.println("EE "+row+" product "+col+" started for product -->"+(r1[row][col]));
 					try {
 					if((!(r1[row][col].isEmpty())))
 					{
-						driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 						Thread.sleep(5000);
-						p1.addProdCart(driver, r1[row][col]);
+						flag=p1.addProdCart(driver, r1[row][col]);
+						
+						if(!(flag))
+						{
+							System.out.println("invalid Product idetified during product selection :"+r1[row][col]);
+							bl.statusUpdate(row, "Invalid Product exist");
+							/*if(!p1.chckCart(driver));
+							{
+								System.out.println("unalbe to empty cart");
+							}*/
+							continue Employee_loop;
+						}
 						item_counter++;
 					}
 					else {
@@ -193,15 +217,15 @@ public class Login_till_ProdSelectionPage extends TestBase {
 					}
 					}catch(NullPointerException e)
 					{
-						System.out.println("blank break");	
+						System.out.println("null pointer break");	
 						break;
 					}
 					System.out.println("EE "+row+" product "+col+" ended for product -->"+(r1[row][col]));
 				}
 			//checkout to be added.
-			System.out.println(r1[row][24]);
+/*			System.out.println(r1[row][24]);
 			System.out.println(r1[row][25]);
-			System.out.println(r1[row][26]);
+			System.out.println(r1[row][26]);*/
 			
 			
 			//Devesh_ checkout page
@@ -215,7 +239,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 			WebDriverWait wait = new WebDriverWait(driver, 15);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"gbsection\"]/div[1]/gb-action-bar/div/div/div/div[2]/div[1]/div[2]/div/button[2]")));
 			System.out.println("--------------------------wait completed -------------------------------");
-			for(int i=1;i<=item_counter;i++)
+			for(i=1;i<=item_counter;i++)
 				{
 					System.out.println("--------------------------entered checkout page for loop for item " +i+ "-------------------------------");
 					try
@@ -262,12 +286,12 @@ public class Login_till_ProdSelectionPage extends TestBase {
 							//address check 
 								System.out.println("--------------------------entered address check-------------------------------");
 								driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::div[1]/button[@type='button' and @class='dropdown-chooser dropdown-toggle invalid']")).click();
+								
 								Boolean isaddress_Present;
 								try
 								{
 									if(isaddress_Present = driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::a[normalize-space(.)='"+r1[user_counter][4]+"']")).isDisplayed())
 										{
-										isaddress_Present = true;
 										System.out.println("--------------------------value of address_present: " +isaddress_Present+ "-------------------------------");
 										}
 									else {}
@@ -290,7 +314,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 									System.out.println("--------------------------address not present, create new one-------------------------------");
 									//driver.findElement(By.xpath("//*[@id=\"LineItemsFi3lD-iNd3x-0p3n1Fi3lD-iNd3x-Cl0s3D0Tt3d-Fi3lD-pAtHShipTo\"]/div[1]/div[1]/ng-include/div[1]")).click();//click the dropped down
 									//System.out.println("--------------------------clicked address dropdown-------------------------------");
-									driver.findElement(By.xpath("//*[@id=\"LineItemsFi3lD-iNd3x-0p3n1Fi3lD-iNd3x-Cl0s3D0Tt3d-Fi3lD-pAtHShipTo\"]/div[1]/div[1]/ng-include/div[1]/ul/li[6]/div/a[contains(text(),'Browse')]")).click();//Click browse all
+									driver.findElement(By.xpath("//*[@id=\"LineItemsFi3lD-iNd3x-0p3n1Fi3lD-iNd3x-Cl0s3D0Tt3d-Fi3lD-pAtHShipTo\"]//child::div/a[contains(text(),'Browse')]")).click();//Click browse all
 									//Thread.sleep(5000);
 								
 								
@@ -325,9 +349,15 @@ public class Login_till_ProdSelectionPage extends TestBase {
 								System.out.println("Item " +i+ " is done");
 								}
 						}
-					catch(NullPointerException e)
+					catch(Throwable e)
 					{
-					
+						//go for 2nd employee
+						bl.statusUpdate(row, "Wrong product added for Submission");
+						System.out.println("--------------------------Wrong product added for Submission-------------------------------");
+						driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
+						Thread.sleep(5000);
+						driver.switchTo().defaultContent();
+						continue Employee_loop;
 					}
 				
 				}
@@ -345,10 +375,10 @@ public class Login_till_ProdSelectionPage extends TestBase {
 				Thread.sleep(10000);
 				
 				//check if it is submitted
-				/* Boolean is_submitted;
+				Boolean is_submitted;
 				try
 				{
-					is_submitted = driver.findElements(By.xpath("enter xpath")).size()>0;
+					is_submitted = driver.findElements(By.xpath("(//span[text()='Success'])[3]")).size()>0;
 					System.out.println("--------------------------if submission done: " +is_submitted+ "-------------------------------");
 				}
 				catch(Throwable e)
@@ -356,38 +386,55 @@ public class Login_till_ProdSelectionPage extends TestBase {
 				if(is_submitted = true)
 				{	
 					
-					driver.findElement(By.xpath("")).isDisplayed();//xpath of the element from post submit page
-					System.out.println("--------------------------submitted-------------------------------"); 
+					//driver.findElement(By.xpath("")).isDisplayed();//xpath of the element from post submit page
+					System.out.println("Request Submitted for User "+user_counter+" : " +r1[user_counter][4]);
+					driver.findElement(By.xpath("(//button[@translate='actionButton2_button_View_Requisition'])[3]")).click();
+					WebElement element = driver.findElement(By.xpath("//div[@class='fd-action-bar__description']"));
+					String elementval = element.getText();
+					bl.statusUpdate(row, "Submission completed with order number: "+elementval);//write status to data file
+					driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
+					Thread.sleep(5000);
+					driver.switchTo().defaultContent();
+					continue Employee_loop;
 				}
 				else
 				{
-				for(int i=1;i<=item_counter;i++)
+				/*for(i=1;i<=item_counter;i++)
 				{
 				driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-1']/div[2]/div[5]/div/button/div[@class='vertical-dots']")).click();
 				driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-1']//child::a[contains(text(),'Remove')]")).click();
-				}
-				driver.findElement(By.xpath("//*[@id='gbsection']/div[4]/gb-comment/div/div[2]/div/div[2]/ul/li/div/div[4]/span[text()='Remove']")).click();
 				}*/
+				driver.findElement(By.xpath("//*[@id='gbsection']/div[4]/gb-comment/div/div[2]/div/div[2]/ul/li/div/div[4]/span[text()='Remove']")).click();
+				//go for 2nd employee
+				bl.statusUpdate(row, "Submission failed");
+				driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
+				Thread.sleep(5000);
+				driver.switchTo().defaultContent();
+				continue Employee_loop;
+				
+				}
 			}
 			
 			else
 			{
-				for(int i=1;i<=item_counter;i++)
+				/*for(i=1;i<=item_counter;i++)
 				{
 				driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-1']/div[2]/div[5]/div/button/div[@class='vertical-dots']")).click();
 				driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-1']//child::a[contains(text(),'Remove')]")).click();
-				}
+				}*/
 				driver.findElement(By.xpath("//*[@id='gbsection']/div[4]/gb-comment/div/div[2]/div/div[2]/ul/li/div/div[4]/span[text()='Remove']")).click();
+				
+				bl.statusUpdate(row, "Submission failed");
+				driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
+				Thread.sleep(5000);
+				driver.switchTo().defaultContent();
+				continue Employee_loop;
 			}
 			
-			System.out.println("Request Submitted for User"+ user_counter + r1[user_counter][4] );
 		}
 	
 		//Archieving TD sheet with Timestamp
 		//bl.archieveTD();
 	}
-	
-	
-	
 	
 }
