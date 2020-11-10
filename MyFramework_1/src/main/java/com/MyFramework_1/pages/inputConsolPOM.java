@@ -36,9 +36,6 @@ public class inputConsolPOM extends TestBase{
 		 PageFactory.initElements(driver, this);
 		}
 
-	
-
-
 	String absPath=null;
 	String ipPath=null;
 	String archievePath=null;
@@ -48,7 +45,7 @@ public class inputConsolPOM extends TestBase{
 	
 	public void initPath()
 	{
-		logger.info("Path Initilization");
+		logger.info("Folder Path initialized");
 	      String currentDirectory = System.getProperty("user.dir");
 	      System.out.println("The current working directory is " + currentDirectory);
 	      absPath=currentDirectory;
@@ -70,26 +67,26 @@ public class inputConsolPOM extends TestBase{
             if ((type == CellType.STRING) ||(type == CellType.BLANK))
             {					
             	cellValue=cel.getStringCellValue();
-            	System.out.println(type);
+            	//System.out.println(type);
             }
             else if (type == CellType.NUMERIC)  
             {
             	cellValue=NumberToTextConverter.toText(cel.getNumericCellValue());
-            	System.out.println(type);
+            	//System.out.println(type);
             	
             }
             else  if (HSSFDateUtil.isCellDateFormatted(cel))
             {
 				Date date=cel.getDateCellValue();
-				System.out.println(date);
+				//System.out.println(date);
 				DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");  
 				cellValue=dateFormat.format(date);
-            	System.out.println(type);	
+            	//System.out.println(type);	
             }
             else 
             {
             	cellValue=cel.getStringCellValue();
-            	System.out.println(type);
+            	//System.out.println(type);
             }
 			}catch(NullPointerException e) 
         { 
@@ -117,160 +114,155 @@ public class inputConsolPOM extends TestBase{
 		int ip_Manager_Name_Row = 8;
 		int ip_Manager_Email_Row = 9;
 		int ip_Prod_1_Row=11;
-//11---------------------
-		String[] ip_val=new String[22];
+		boolean shtChck=true;
 		
+		String sheetName="Requistion";
+
+		String[] ip_val=new String[22];
+
 		try {
 			File fil=new File(ipPathAbs);
 			FileInputStream fis;
 			fis = new FileInputStream(fil);
 			
 			XSSFWorkbook wb = new XSSFWorkbook(fis);
-			XSSFSheet sh=wb.getSheet("Requistion");
+			XSSFSheet sh=wb.getSheet(sheetName);
 			
-			//ip_Date
+	
+			
+			try{
+				String dummy=sh.getSheetName();
+			}catch(NullPointerException e)
 			{
-				XSSFRow rw=sh.getRow(ip_Date_Row);
-				XSSFCell cl=rw.getCell(1);
-				
-				Date date=cl.getDateCellValue();
-				System.out.println(date);
-				DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");  
-				ip_val[0]=dateFormat.format(date);
-				//[1]=cl.getStringCellValue();
-				System.out.println(ip_val[0]);
-				System.out.println(this.readCell(cl));
+				logger.info("Sheet --> Requistion is missing" );
+				shtChck=false;
 			}
 			
-			//ip_Emp_No
+			if(shtChck)
 			{
-				XSSFRow rw=sh.getRow(ip_Emp_No_Row);
-				XSSFCell cl=rw.getCell(1);
-				//ip_val[1]=cl.getStringCellValue();
-				ip_val[1]=this.readCell(cl);
-				System.out.println(ip_val[1]);
-			//	System.out.println(this.readCell(cl));
-			}
-			
-			//ip_Emp_Name
-			{
-				XSSFRow rw=sh.getRow(ip_Emp_Name_Row);
-				XSSFCell cl=rw.getCell(1);
-				//ip_val[2]=cl.getStringCellValue();
-				ip_val[2]=this.readCell(cl);
-				System.out.println(ip_val[2]);
-				//System.out.println(this.readCell(cl));
-			}
-			
-			//ip_Home_address
-			{
-				XSSFRow rw=sh.getRow(ip_Home_address_Row);
-				XSSFCell cl=rw.getCell(1);
-				//ip_val[3]=cl.getStringCellValue();
-				ip_val[3]=this.readCell(cl);
-				System.out.println(ip_val[3]);
-				//System.out.println(this.readCell(cl));
-			}
-			
-			//ip_Home_address1
-			{
-				String[] clnAddr=new String[3];
-				XSSFRow rw=sh.getRow(ip_Home_address_Row1);
-				XSSFCell cl=rw.getCell(1);
-				//ip_val[4]=cl.getStringCellValue();
-				ip_val[4]=this.readCell(cl);
-				clnAddr=this.addrSplitCity(ip_val[4]);
-				System.out.println(ip_val[4]);
-				
-				ip_val[4]=clnAddr[0]+","+clnAddr[2]+","+clnAddr[1];
-				ip_val[19]=clnAddr[0];
-				ip_val[20]=clnAddr[2];
-				ip_val[21]=clnAddr[1];
-				System.out.println(ip_val[4]);
-				//System.out.println(this.readCell(cl));
-			}
-			
-			//ip_Email_Address
-			{
-				XSSFRow rw=sh.getRow(ip_Email_Address_Row);
-				XSSFCell cl=rw.getCell(1);
-				//ip_val[5]=cl.getStringCellValue();
-				ip_val[5]=this.readCell(cl);
-				System.out.println(ip_val[5]);
-				//System.out.println(this.readCell(cl));
-			}
-			
-			//ip_Cell_No
-			{
-				XSSFRow rw=sh.getRow(ip_Cell_No_Row);
-				XSSFCell cl=rw.getCell(1);
-				//String str = NumberToTextConverter.toText(cl.getNumericCellValue());
-				ip_val[6]=this.readCell(cl);
-				//ip_val[6]=str;
-				System.out.println(ip_val[6]);
-				//System.out.println(this.readCell(cl));
-			}
-			
-			//ip_Manager_Name
-			{
-				XSSFRow rw=sh.getRow(ip_Manager_Name_Row);
-				XSSFCell cl=rw.getCell(1);
-				//ip_val[7]=cl.getStringCellValue();
-				ip_val[7]=this.readCell(cl);
-				System.out.println(ip_val[7]);
-				//System.out.println(this.readCell(cl));
-			}
-			
-			//ip_Manager_Email
-			{
-				XSSFRow rw=sh.getRow(ip_Manager_Email_Row);
-				XSSFCell cl=rw.getCell(1);
-				//ip_val[8]=cl.getStringCellValue();
-				ip_val[8]=this.readCell(cl);
-				System.out.println(ip_val[8]);
-				//System.out.println(this.readCell(cl));
-			}
-			
-			
-			//Product details
-			String tmp=null;
-			int counter1=ip_Prod_1_Row;
-			int counter2=9;
-			boolean flag=false;
-			{
-			XSSFRow rw=sh.getRow(counter1);
-			XSSFCell cl=rw.getCell(1);
-			tmp=cl.getStringCellValue();
-			}
-			
-			if(!((tmp.equalsIgnoreCase("TOTAL"))||(tmp.isEmpty())))
-			{
-			flag=true;
-			}
-			
-			
-			while(flag)
-			{
-				ip_val[counter2]=tmp;
-				System.out.println(ip_val[counter2]);
-				counter1++;
-				counter2++;
+				//ip_Date
 				{
-					XSSFRow rw=sh.getRow(counter1);
+					XSSFRow rw=sh.getRow(ip_Date_Row);
 					XSSFCell cl=rw.getCell(1);
-					tmp=cl.getStringCellValue();
+					
+					Date date=cl.getDateCellValue();
+					DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");  
+					ip_val[0]=dateFormat.format(date);
+					logger.info(ip_val[0]);
+					logger.info(this.readCell(cl));
 				}
-				if(((tmp.equalsIgnoreCase("TOTAL"))||(tmp.isEmpty())||(counter2>18)))
+				
+				//ip_Emp_No
 				{
-					flag=false;
+					XSSFRow rw=sh.getRow(ip_Emp_No_Row);
+					XSSFCell cl=rw.getCell(1);
+					ip_val[1]=this.readCell(cl);
+					logger.info(ip_val[1]);
+				}
+				
+				//ip_Emp_Name
+				{
+					XSSFRow rw=sh.getRow(ip_Emp_Name_Row);
+					XSSFCell cl=rw.getCell(1);
+					ip_val[2]=this.readCell(cl);
+					logger.info(ip_val[2]);
+				}
+				
+				//ip_Home_address
+				{
+					XSSFRow rw=sh.getRow(ip_Home_address_Row);
+					XSSFCell cl=rw.getCell(1);
+					ip_val[3]=this.readCell(cl);
+					logger.info(ip_val[3]);
+				}
+				
+				//ip_Home_address1
+				{
+					String[] clnAddr=new String[3];
+					XSSFRow rw=sh.getRow(ip_Home_address_Row1);
+					XSSFCell cl=rw.getCell(1);
+					ip_val[4]=this.readCell(cl);
+					clnAddr=this.addrSplitCity(ip_val[4]);
+					logger.info(ip_val[4]);
+					
+					ip_val[4]=clnAddr[0]+","+clnAddr[2]+","+clnAddr[1];
+					ip_val[19]=clnAddr[0];
+					ip_val[20]=clnAddr[2];
+					ip_val[21]=clnAddr[1];
+					logger.info(ip_val[4]);
+				}
+				
+				//ip_Email_Address
+				{
+					XSSFRow rw=sh.getRow(ip_Email_Address_Row);
+					XSSFCell cl=rw.getCell(1);
+					ip_val[5]=this.readCell(cl);
+					logger.info(ip_val[5]);
+				}
+				
+				//ip_Cell_No
+				{
+					XSSFRow rw=sh.getRow(ip_Cell_No_Row);
+					XSSFCell cl=rw.getCell(1);
+					ip_val[6]=this.readCell(cl);
+					logger.info(ip_val[6]);
+				}
+				
+				//ip_Manager_Name
+				{
+					XSSFRow rw=sh.getRow(ip_Manager_Name_Row);
+					XSSFCell cl=rw.getCell(1);
+					ip_val[7]=this.readCell(cl);
+					logger.info(ip_val[7]);
+				}
+				
+				//ip_Manager_Email
+				{
+					XSSFRow rw=sh.getRow(ip_Manager_Email_Row);
+					XSSFCell cl=rw.getCell(1);
+					ip_val[8]=this.readCell(cl);
+					logger.info(ip_val[8]);
+				}
+				
+				
+				//Product details
+				String tmp=null;
+				int counter1=ip_Prod_1_Row;
+				int counter2=9;
+				boolean flag=false;
+				{
+				XSSFRow rw=sh.getRow(counter1);
+				XSSFCell cl=rw.getCell(1);
+				tmp=cl.getStringCellValue();
+				}
+				
+				if(!((tmp.equalsIgnoreCase("TOTAL"))||(tmp.isEmpty())))
+				{
+				flag=true;
+				}
+				
+				
+				while(flag)
+				{
+					ip_val[counter2]=tmp;
+					logger.info(ip_val[counter2]);
+					counter1++;
+					counter2++;
+					{
+						XSSFRow rw=sh.getRow(counter1);
+						XSSFCell cl=rw.getCell(1);
+						tmp=cl.getStringCellValue();
+					}
+					if(((tmp.equalsIgnoreCase("TOTAL"))||(tmp.isEmpty())||(counter2>18)))
+					{
+						flag=false;
+					}
 				}
 			}
-			
 			fis.close();
 			wb.close();
 			
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		
 		}
@@ -301,11 +293,11 @@ public class inputConsolPOM extends TestBase{
 		sep=blankSep;
 	}
 	int cityEndPos=sep;
-	System.out.println("City seperator "+sep+"city end pos :"+cityEndPos);
+	//System.out.println("City seperator "+sep+"city end pos :"+cityEndPos);
 	City=ip_val.substring(0, cityEndPos);
 	City=City.trim();
 	retArr[0]=City;
-	System.out.println(City);
+	logger.info(City);
 	//----------
 	
 	String Zip1=null;
@@ -316,30 +308,30 @@ public class inputConsolPOM extends TestBase{
 	
 	int ipValLen=ip_val.length();
 	int zipSep=ip_val.indexOf("-");
-	System.out.println("Zip Sep index"+zipSep);
+	//System.out.println("Zip Sep index"+zipSep);
 	
 	if(!(zipSep<0))
 	{
 		zipStartPos=zipSep-5;
-		System.out.println("Zip Start index " +zipStartPos);
+		//System.out.println("Zip Start index " +zipStartPos);
 		Zip1=ip_val.substring(zipStartPos,zipSep);
 		Zip1=Zip1.trim();
 		
 		Zip2=ip_val.substring(zipSep+1);
 		Zip2=Zip2.trim();
-		System.out.println("Zip1 :"+Zip1+"Zip2 :"+Zip2);
+		//System.out.println("Zip1 :"+Zip1+"Zip2 :"+Zip2);
 		Zip=Zip1+"-"+Zip2;
-		System.out.println(Zip);
+		logger.info(Zip);
 	}
 	else
 	{
 		zipStartPos=ipValLen-5;
-		System.out.println("Zip Start index " +zipStartPos);
+		//System.out.println("Zip Start index " +zipStartPos);
 		Zip1=ip_val.substring(zipStartPos);
 		Zip1=Zip1.trim();
 		
 		Zip=Zip1;
-		System.out.println(Zip1);
+		logger.info(Zip1);
 		extZip=false;
 	}
 	retArr[1]=Zip;
@@ -351,7 +343,7 @@ public class inputConsolPOM extends TestBase{
 	String State=null;
 	String tmp1=null;
 	String tmp=ip_val.substring(cityEndPos+1);
-	System.out.println("tmp state string :"+tmp);
+	//System.out.println("tmp state string :"+tmp);
 	
 	int commaSep1=ip_val.indexOf(",",stStartPos);
 	int sep_cntr=zipStartPos;
@@ -370,8 +362,8 @@ public class inputConsolPOM extends TestBase{
 	
 	State=State.trim();
 	retArr[2]=State;
-	System.out.println("state start "+stStartPos+" end pos "+stEndPos);
-	System.out.println("State "+State);
+	//System.out.println("state start "+stStartPos+" end pos "+stEndPos);
+	logger.info("State "+State);
 	
 	finalAddr=City+","+State+","+Zip;
 	return retArr;
@@ -408,7 +400,7 @@ public class inputConsolPOM extends TestBase{
 	{
 		String tdPathAbs=tdPath+"\\TD.xlsx";
 		//String[] ipClnFils=this.getIPFiles();
-		System.out.println(tdPathAbs);
+		logger.info(tdPathAbs);
 		
 		int seq_Col = 0;
 		int Date_Col = 2;
@@ -440,7 +432,7 @@ public class inputConsolPOM extends TestBase{
 		   DateTimeFormatter dtf = DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm:ss");  
 		   LocalDateTime now = LocalDateTime.now();  
 		   String timeStamp=dtf.format(now);
-		   System.out.println(timeStamp);  
+		   logger.info(timeStamp);  
 		
 		
 		
@@ -460,7 +452,7 @@ public class inputConsolPOM extends TestBase{
 				XSSFWorkbook wb = new XSSFWorkbook(fis);
 				XSSFSheet sh=wb.getSheet("Sheet1");
 				int rowCount = sh.getLastRowNum();
-				System.out.println("ROW COUNT "+rowCount);
+				logger.info("ROW COUNT "+rowCount);
 				++rowCount;
 
 				
@@ -553,10 +545,8 @@ public class inputConsolPOM extends TestBase{
 			}
 			
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -566,19 +556,18 @@ public class inputConsolPOM extends TestBase{
 
 	public void WeedOut(String[] ipFiles)
 	{
-
+		logger.info("Weed out method init ");
 		for(String f:ipFiles)
 			{
 			int dotPos=f.indexOf(".");
 			String tmp=f.substring(dotPos);
-			System.out.println(tmp);
 			if(!tmp.equalsIgnoreCase(".xlsx"))
 			{
 				String ipPathAbs=ipPath+"\\"+f;
-				System.out.println(ipPath);
-				System.out.println(ipPathAbs);
+				logger.info(ipPath);
+				logger.info(ipPathAbs);
 				String errPathAbs=errPath+"\\"+f;
-				System.out.println(errPathAbs);
+				logger.info(errPathAbs);
 				
 				this.moveFile(ipPathAbs, errPathAbs);
 			}
@@ -588,10 +577,9 @@ public class inputConsolPOM extends TestBase{
 	public void archieve(String file)
 	{
 		String ipPathAbs=ipPath+"\\"+file;
-		System.out.println(ipPath);
-		System.out.println(ipPathAbs);
+		logger.info(ipPathAbs);
 		String arrPathAbs=archievePath+"\\"+file;
-		System.out.println(arrPathAbs);
+		logger.info(arrPathAbs);
 		
 		this.moveFile(ipPathAbs, arrPathAbs);
 	}
@@ -602,70 +590,91 @@ public class inputConsolPOM extends TestBase{
 		      try {
 		         result = Files.move(Paths.get(src), Paths.get(dest));
 		      } catch (IOException e) {
-		         System.out.println("Exception while moving file: " + e.getMessage());
+		         logger.info("Exception while moving file: " + e.getMessage());
 		      }
 		      if(result != null) {
-		         System.out.println("File moved successfully." + dest);
+		         logger.info("File moved successfully." + dest);
 		      }else{
-		         System.out.println("File movement failed." + dest);
+		         logger.info("File movement failed." + dest);
 		      }
 	   }
 	
 	   public void copyFile(String srcPth, String dstPth) 
 	   {
+		   logger.info("Copy File Method init");
 		   File src=new File(srcPth);
 		   File dst=new File(dstPth);
 		   try {
-			Files.copy(src.toPath(), dst.toPath());
-			System.out.println("TD template Creation successfull");
+			   if(src.exists())
+			   {
+				   if(!(dst.exists()))
+				   {
+					   Files.copy(src.toPath(), dst.toPath());   
+					   logger.info("File Copy successfull Source "+srcPth+" destination :"+dstPth);
+				   }
+				   else
+				   {
+					   logger.info("Desitination file Already Exist- Delete and Retry :"+dstPth);
+				   }
+			   }
+			   else {
+				   logger.info("Source file for Copy is NOT avavilable :"+srcPth);
+			   }
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	   }
 	   
+	   
 	   public void archieveTD() {
 		   
+		   logger.info("Archieve TD Method init");
 		   //Get Date
 		   DateTimeFormatter dtf = DateTimeFormatter.ofPattern("MMddyyyyHHmm");  
 		   LocalDateTime now = LocalDateTime.now();  
 		   String timeStamp=dtf.format(now);
-		   System.out.println(timeStamp);  
+		   //logger.info(timeStamp);  
 		   
 		   String tdArchievePathAbs=archieveTD+"\\TD_TS"+timeStamp+".xlsx"; 
 		   String tdPathAbs=tdPath+"\\TD.xlsx";
-		   
 		
 		   this.moveFile(tdPathAbs, tdArchievePathAbs);
 
 	   }
 	   
 	   public void clearTD() {
+
+		   logger.info("Test Data Template creation");
 		   
 		   String tdGCPathAbs=tdPath+"\\TD_GC.xlsx";
 		   String tdPathAbs=tdPath+"\\TD.xlsx";
-		
-		   this.copyFile(tdGCPathAbs, tdPathAbs);
+		   try {
+			   this.copyFile(tdGCPathAbs, tdPathAbs);	
+		   }catch(Exception e) {
+			   e.printStackTrace();
+		   }
 
 	   }
 	   
 	   
-	public String[] getIPFiles ()
-	{
-	// TODO Auto-generated method stub
-
-		String[] filNames;
-
-      System.out.println(ipPath);
-      File fil=new File(ipPath);
-      filNames=fil.list();
-      
-      for(String p:filNames)
-      {
-    	  System.out.println(p);
-      }
-	return filNames;
-      
-	}
+		public String[] getIPFiles ()
+		{
+			logger.info("GET IP File method call init");
+			String[] filNames;
+			logger.info(ipPath);
+			File fil=new File(ipPath);
+			filNames=fil.list();
+			
+			try{
+			  for(String p:filNames)
+			  {
+				  logger.info(p);
+			  }
+			}catch(NullPointerException e) {
+			     logger.info("Input Folder does NOT Exist :"+ipPath);
+			  }
+			return filNames;
+		}
 	
 }
