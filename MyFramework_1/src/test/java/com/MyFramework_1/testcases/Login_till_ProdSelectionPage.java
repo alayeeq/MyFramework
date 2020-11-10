@@ -323,7 +323,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 									driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']/div[3]/div[3]/ng-toggle/button/span/span[text()='Shipping']")).click();	
 								}
 								
-					//Accouning dropdown expansion check
+					//Accounting drop-down expansion check
 								System.out.println("--------------------------accounting expansion check-------------------------------");
 							driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::span[text()='Accounting']")).click();
 															
