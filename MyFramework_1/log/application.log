@@ -396,3 +396,116 @@
 2020-11-09 21:48:12,858  INFO [main] Login_till_ProdSelectionPage:582 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template3.xlsx
 2020-11-09 21:48:12,859  INFO [main] Login_till_ProdSelectionPage:596 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template3.xlsx
 >>>>>>> aba5662fa1441bf5b6b1a37539998e11a1618d03
+2020-11-10 00:28:33,114  INFO [main] Login_till_ProdSelectionPage:80 - UserID is enterrerd
+2020-11-10 00:28:33,181  INFO [main] Login_till_ProdSelectionPage:86 - Pwd is enterrerd
+2020-11-10 00:28:35,437  INFO [main] Login_till_ProdSelectionPage:88 - LoginButton is clicked
+2020-11-10 00:28:48,296  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 00:28:48,296  INFO [main] Login_till_ProdSelectionPage:650 - Test Data Template creation
+2020-11-10 00:28:48,297  INFO [main] Login_till_ProdSelectionPage:604 - Copy File Method init
+2020-11-10 00:28:48,297  INFO [main] Login_till_ProdSelectionPage:617 - Desitination file Already Exist- Delete and Retry :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-10 00:28:48,298  INFO [main] Login_till_ProdSelectionPage:634 - Archieve TD Method init
+2020-11-10 00:28:48,311  INFO [main] Login_till_ProdSelectionPage:596 - File moved successfully.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\ArchieveTD\TD_TS111020200028.xlsx
+2020-11-10 00:28:48,332  INFO [main] Login_till_ProdSelectionPage:620 - File Copy successfull Source C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\TD\TD_GC.xlsx destination :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-10 00:28:48,332  INFO [main] Login_till_ProdSelectionPage:665 - GET IP File method call init
+2020-11-10 00:28:48,333  INFO [main] Login_till_ProdSelectionPage:667 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 00:28:48,333  INFO [main] Login_till_ProdSelectionPage:677 - Input Folder does NOT Exist :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 00:28:48,333  INFO [main] Login_till_ProdSelectionPage:559 - Weed out method init 
+2020-11-10 00:28:48,339  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 00:28:48,849  INFO [main] Login_till_ProdSelectionPage:171 - 1
+2020-11-10 00:29:46,930  INFO [main] Login_till_ProdSelectionPage:80 - UserID is enterrerd
+2020-11-10 00:29:47,001  INFO [main] Login_till_ProdSelectionPage:86 - Pwd is enterrerd
+2020-11-10 00:29:50,703  INFO [main] Login_till_ProdSelectionPage:88 - LoginButton is clicked
+2020-11-10 00:30:04,147  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 00:30:04,147  INFO [main] Login_till_ProdSelectionPage:650 - Test Data Template creation
+2020-11-10 00:30:04,147  INFO [main] Login_till_ProdSelectionPage:604 - Copy File Method init
+2020-11-10 00:30:04,148  INFO [main] Login_till_ProdSelectionPage:617 - Desitination file Already Exist- Delete and Retry :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-10 00:30:04,148  INFO [main] Login_till_ProdSelectionPage:634 - Archieve TD Method init
+2020-11-10 00:30:04,156  INFO [main] Login_till_ProdSelectionPage:596 - File moved successfully.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\ArchieveTD\TD_TS111020200030.xlsx
+2020-11-10 00:30:04,158  INFO [main] Login_till_ProdSelectionPage:620 - File Copy successfull Source C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\TD\TD_GC.xlsx destination :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-10 00:30:04,159  INFO [main] Login_till_ProdSelectionPage:665 - GET IP File method call init
+2020-11-10 00:30:04,159  INFO [main] Login_till_ProdSelectionPage:667 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 00:30:04,159  INFO [main] Login_till_ProdSelectionPage:677 - Input Folder does NOT Exist :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 00:30:04,159  INFO [main] Login_till_ProdSelectionPage:559 - Weed out method init 
+2020-11-10 00:30:04,165  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 00:30:04,701  INFO [main] Login_till_ProdSelectionPage:171 - 1
+2020-11-10 00:31:55,379  INFO [main] Login_till_ProdSelectionPage:80 - UserID is enterrerd
+2020-11-10 00:31:55,445  INFO [main] Login_till_ProdSelectionPage:86 - Pwd is enterrerd
+2020-11-10 00:31:57,866  INFO [main] Login_till_ProdSelectionPage:88 - LoginButton is clicked
+2020-11-10 00:32:12,401  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 00:32:12,401  INFO [main] Login_till_ProdSelectionPage:665 - GET IP File method call init
+2020-11-10 00:32:12,403  INFO [main] Login_till_ProdSelectionPage:667 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 00:32:12,403  INFO [main] Login_till_ProdSelectionPage:677 - Input Folder does NOT Exist :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 00:32:12,404  INFO [main] Login_till_ProdSelectionPage:559 - Weed out method init 
+2020-11-10 00:32:12,412  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 00:32:12,981  INFO [main] Login_till_ProdSelectionPage:171 - 4
+2020-11-10 00:32:20,160  INFO [main] Login_till_ProdSelectionPage:181 - EE 1 Started
+2020-11-10 00:32:26,210  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 11 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 00:32:46,787  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 11 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 00:32:46,787  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 12 started for product -->null
+2020-11-10 00:32:46,788  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 00:33:09,873  INFO [main] Login_till_ProdSelectionPage:181 - EE 2 Started
+2020-11-10 00:33:35,255  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 11 started for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 00:34:00,882  INFO [main] Login_till_ProdSelectionPage:224 - EE 2 product 11 ended for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 00:34:00,882  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 12 started for product -->null
+2020-11-10 00:34:00,883  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 00:34:09,693  INFO [main] Login_till_ProdSelectionPage:181 - EE 3 Started
+2020-11-10 00:34:35,011  INFO [main] Login_till_ProdSelectionPage:196 - EE 3 product 11 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 00:35:00,661  INFO [main] Login_till_ProdSelectionPage:224 - EE 3 product 11 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 00:35:00,661  INFO [main] Login_till_ProdSelectionPage:196 - EE 3 product 12 started for product -->null
+2020-11-10 00:35:00,661  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 00:37:26,958  INFO [main] Login_till_ProdSelectionPage:80 - UserID is enterrerd
+2020-11-10 00:37:27,025  INFO [main] Login_till_ProdSelectionPage:86 - Pwd is enterrerd
+2020-11-10 00:37:30,405  INFO [main] Login_till_ProdSelectionPage:88 - LoginButton is clicked
+2020-11-10 00:37:43,065  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 00:37:43,066  INFO [main] Login_till_ProdSelectionPage:665 - GET IP File method call init
+2020-11-10 00:37:43,066  INFO [main] Login_till_ProdSelectionPage:667 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 00:37:43,067  INFO [main] Login_till_ProdSelectionPage:677 - Input Folder does NOT Exist :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 00:37:43,067  INFO [main] Login_till_ProdSelectionPage:559 - Weed out method init 
+2020-11-10 00:37:43,089  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 00:37:43,632  INFO [main] Login_till_ProdSelectionPage:171 - 4
+2020-11-10 00:37:50,846  INFO [main] Login_till_ProdSelectionPage:181 - EE 1 Started
+2020-11-10 00:38:06,119  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 11 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 00:38:26,642  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 11 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 00:38:26,643  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 12 started for product -->null
+2020-11-10 00:38:26,643  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 00:38:53,905  INFO [main] Login_till_ProdSelectionPage:181 - EE 2 Started
+2020-11-10 00:46:14,525  INFO [main] Login_till_ProdSelectionPage:80 - UserID is enterrerd
+2020-11-10 00:46:14,592  INFO [main] Login_till_ProdSelectionPage:86 - Pwd is enterrerd
+2020-11-10 00:46:17,074  INFO [main] Login_till_ProdSelectionPage:88 - LoginButton is clicked
+2020-11-10 00:46:29,316  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 00:46:29,317  INFO [main] Login_till_ProdSelectionPage:665 - GET IP File method call init
+2020-11-10 00:46:29,317  INFO [main] Login_till_ProdSelectionPage:667 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 00:46:29,317  INFO [main] Login_till_ProdSelectionPage:677 - Input Folder does NOT Exist :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 00:46:29,317  INFO [main] Login_till_ProdSelectionPage:559 - Weed out method init 
+2020-11-10 00:46:29,324  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 00:46:29,884  INFO [main] Login_till_ProdSelectionPage:171 - 4
+2020-11-10 00:46:37,084  INFO [main] Login_till_ProdSelectionPage:181 - EE 1 Started
+2020-11-10 00:46:43,135  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 11 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 00:47:03,696  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 11 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 00:47:03,696  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 12 started for product -->null
+2020-11-10 00:47:03,696  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 00:51:31,360  INFO [main] Login_till_ProdSelectionPage:80 - UserID is enterrerd
+2020-11-10 00:51:31,426  INFO [main] Login_till_ProdSelectionPage:86 - Pwd is enterrerd
+2020-11-10 00:51:33,513  INFO [main] Login_till_ProdSelectionPage:88 - LoginButton is clicked
+2020-11-10 00:51:45,835  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 00:51:45,836  INFO [main] Login_till_ProdSelectionPage:665 - GET IP File method call init
+2020-11-10 00:51:45,836  INFO [main] Login_till_ProdSelectionPage:667 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 00:51:45,837  INFO [main] Login_till_ProdSelectionPage:677 - Input Folder does NOT Exist :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 00:51:45,837  INFO [main] Login_till_ProdSelectionPage:559 - Weed out method init 
+2020-11-10 00:51:45,843  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 00:51:46,407  INFO [main] Login_till_ProdSelectionPage:171 - 4
+2020-11-10 00:51:53,593  INFO [main] Login_till_ProdSelectionPage:181 - EE 1 Started
+2020-11-10 00:52:08,899  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 11 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 00:52:29,454  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 11 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 00:52:29,454  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 12 started for product -->null
+2020-11-10 00:52:29,455  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 00:53:04,957  INFO [main] Login_till_ProdSelectionPage:181 - EE 2 Started
+2020-11-10 00:53:15,997  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 11 started for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 00:53:41,643  INFO [main] Login_till_ProdSelectionPage:224 - EE 2 product 11 ended for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 00:53:41,643  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 12 started for product -->null
+2020-11-10 00:53:41,643  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 00:53:50,170  INFO [main] Login_till_ProdSelectionPage:181 - EE 3 Started
+2020-11-10 00:54:15,557  INFO [main] Login_till_ProdSelectionPage:196 - EE 3 product 11 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 00:54:41,105  INFO [main] Login_till_ProdSelectionPage:224 - EE 3 product 11 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 00:54:41,105  INFO [main] Login_till_ProdSelectionPage:196 - EE 3 product 12 started for product -->null
+2020-11-10 00:54:41,105  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break

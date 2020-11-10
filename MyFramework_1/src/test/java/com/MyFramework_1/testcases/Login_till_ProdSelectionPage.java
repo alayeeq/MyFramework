@@ -154,7 +154,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		Thread.sleep(10000);
 		driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
 		bl.initPath();
-		bl.clearTD();
+		//bl.clearTD();
 		String[] ipFiles=bl.getIPFiles();
 		bl.WeedOut(ipFiles);
 		bl.xlwrite();
@@ -327,15 +327,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 							//address check 
 								System.out.println("--------------------------entered address check-------------------------------");
 								driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::div[1]/button[@type='button' and @class='dropdown-chooser dropdown-toggle invalid']")).click();
-								/*Boolean is_submitted;
-								try
-								{
-									is_submitted = driver.findElements(By.xpath("(//span[text()='Success'])[3]")).size()>0;
-									System.out.println("--------------------------if submission done: " +is_submitted+ "-------------------------------");
-								}
-								catch(Throwable e)
-								{}  
-								if(is_submitted = true)*/
+								
 								Boolean isaddress_Present=false;
 								try
 								{
@@ -392,7 +384,18 @@ public class Login_till_ProdSelectionPage extends TestBase {
 								driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys(r1[user_counter][7]);//email
 								
 								driver.findElement(By.xpath("//*[@id=\"addressForm\"]/div[12]/button[2]")).click();
-								if(driver.findElement(By.xpath("//*[@id='chooser_modalLineItemsFi3lD-iNd3x-0p3n1Fi3lD-iNd3x-Cl0s3D0Tt3d-Fi3lD-pAtHShipTo']//child::*[@id='fieldChoice-header-notification']//child::i[@class='icon-message-warning']")).isDisplayed())
+								
+								Boolean isaddress_Submitted=false;
+								try
+								{
+									isaddress_Submitted = driver.findElements(By.xpath("//*[@id='chooser_modalLineItemsFi3lD-iNd3x-0p3n1Fi3lD-iNd3x-Cl0s3D0Tt3d-Fi3lD-pAtHShipTo']//child::*[@id='fieldChoice-header-notification']//child::i[@class='icon-message-warning']")).size()>0;
+										System.out.println("--------------------------value of address_present: " +isaddress_Submitted+ "-------------------------------");
+										
+								}
+								catch(Throwable e)
+								{}
+								
+								if(isaddress_Submitted == true)
 								{
 									bl.statusUpdate(row, "Wrong address provided");
 									System.out.println("--------------------------Wrong address provided-------------------------------");
@@ -411,7 +414,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 									}
 								}	
 								Thread.sleep(10000);
-								System.out.println("Item " +i+ " is done");
+								System.out.println("--------------------------Item " +i+ " is done-------------------------------");
 								}
 						}
 					catch(Throwable e)
@@ -435,9 +438,11 @@ public class Login_till_ProdSelectionPage extends TestBase {
 					}
 				
 				}
+			
+			//Comment section
 			driver.findElement(By.xpath("//*[@id='header-comments-comment']/div/div[1]/textarea")).sendKeys("My Phone number is: +1 "+ r1[user_counter][8]);
-			driver.findElement(By.xpath("//*[@id=\"checkbox-header-comments']")).click();
-			driver.findElement(By.xpath("//*[@id='header-comments-commentButton\"]")).click();
+			driver.findElement(By.xpath("//*[@id='checkbox-header-comments']")).click();
+			driver.findElement(By.xpath("//*[@id='header-comments-commentButton']")).click();
 			System.out.println("Comment added for User"+ user_counter);
 			Thread.sleep(5000);
 			
