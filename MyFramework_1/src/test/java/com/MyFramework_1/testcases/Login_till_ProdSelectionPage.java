@@ -238,14 +238,47 @@ public class Login_till_ProdSelectionPage extends TestBase {
 			
 			WebDriverWait wait = new WebDriverWait(driver, 15);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"gbsection\"]/div[1]/gb-action-bar/div/div/div/div[2]/div[1]/div[2]/div/button[2]")));
-			System.out.println("--------------------------wait completed -------------------------------");
+			System.out.println("--------------------------wait completed, checkout page element located -------------------------------");
+			
+		//Total amount > $150.00 check
+			String total_amount_full = driver.findElement(By.xpath("//*[@id='gbsection']//child::span[@class='money-amount']")).getText();
+			System.out.println("--------------------------Total Amount full : "+total_amount_full+"-------------------------------");
+			String total_amount = total_amount_full.substring(0, total_amount_full.length()-4);
+			System.out.println("--------------------------Total Amount : "+total_amount+"-------------------------------");
+			String final_amount = total_amount.substring(1,total_amount.length());
+			System.out.println("--------------------------Final Amount : "+final_amount+"-------------------------------");
+			float tamt= Float.parseFloat(final_amount);
+			System.out.println("--------------------------Final Amount (in float) : "+tamt+"-------------------------------");
+				if(tamt>150.00)
+				{
+					//go for next employee
+					bl.statusUpdate(row, "Declined -- Total amount greater than $150.00");
+					System.out.println("--------------------------Declined -- Total amount greater than $150.00-------------------------------");
+					if(row!=(r1.length-1))
+					{
+						System.out.println("--------------------------Row count: "+row+" and User count:"+(r1.length-1)+"--(IF)-------------------------------");
+					driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
+					Thread.sleep(5000);
+					driver.switchTo().defaultContent();
+					continue Employee_loop;
+					}
+					else
+					{ 
+						System.out.println("--------------------------Row count: "+row+" and User count:"+(r1.length-1)+"--(else)-------------------------------");
+						break Employee_loop;
+					}
+				
+				}
+			
+			
 			for(i=1;i<=item_counter;i++)
 				{
 					System.out.println("--------------------------entered checkout page for loop for item " +i+ "-------------------------------");
 					try
 					{
 						wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']")));
-						//SHI supplier policy warning check
+						
+						//Item warning check
 							
 							if(driver.findElement(By.xpath("//div[@id='section' and @class='item line-item-container-"+i+"']//child::span[.='SHI Supplier Policy']")).isDisplayed())
 								{
@@ -254,11 +287,23 @@ public class Login_till_ProdSelectionPage extends TestBase {
 								driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::div[@class='field-dropdown dropdown']/button[@aria-label='  Required' and @class='dropdown-toggle invalid']")).click();
 								driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::a[normalize-space(.)=\"I confirm that I have shared phone number in 'Comments' section with the supplier\"]")).click();
 								}
-							else
+							/*else if(driver.findElement(By.xpath("//div[@id='section' and @class='item line-item-container-"+i+"']//child::div[@class='alert alert-warning justification-notification']")).isDisplayed())
 								{
+									bl.statusUpdate(row, "Declined -- Wrong item selected");
+									System.out.println("--------------------------Declined -- Wrong item selected-------------------------------");
+									if(row!=user_counter)
+									{
+									driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
+									Thread.sleep(5000);
+									driver.switchTo().defaultContent();
+									continue Employee_loop;
+									}
+									else
+									{ break Employee_loop;
+									}
 								
 							
-								}
+								}*/
 								
 							//item expansion check
 								if(driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']/div[2]/div[1]/button/i[@class='icon-slim-arrow-down']")).isDisplayed())
@@ -286,20 +331,26 @@ public class Login_till_ProdSelectionPage extends TestBase {
 							//address check 
 								System.out.println("--------------------------entered address check-------------------------------");
 								driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::div[1]/button[@type='button' and @class='dropdown-chooser dropdown-toggle invalid']")).click();
-								
-								Boolean isaddress_Present;
+								/*Boolean is_submitted;
 								try
 								{
-									if(isaddress_Present = driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::a[normalize-space(.)='"+r1[user_counter][4]+"']")).isDisplayed())
-										{
+									is_submitted = driver.findElements(By.xpath("(//span[text()='Success'])[3]")).size()>0;
+									System.out.println("--------------------------if submission done: " +is_submitted+ "-------------------------------");
+								}
+								catch(Throwable e)
+								{}  
+								if(is_submitted = true)*/
+								Boolean isaddress_Present=false;
+								try
+								{
+									isaddress_Present = driver.findElements(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::a[normalize-space(.)='"+r1[user_counter][4]+"']")).size()>0;
 										System.out.println("--------------------------value of address_present: " +isaddress_Present+ "-------------------------------");
-										}
-									else {}
+										
 								}
 								catch(Throwable e)
 								{}
 								//if(driver.findElement(By.xpath("//*[@id=\"LineItemsFi3lD-iNd3x-0p3n1Fi3lD-iNd3x-Cl0s3D0Tt3d-Fi3lD-pAtHShipTo\"]/div[1]/div[1]/ng-include/div[1]/ul/li[4]/div/a[text()='"+r1[user_counter][4]+"']")) !=null)
-								if(isaddress_Present = true)
+								if(isaddress_Present == true)
 								{	
 									
 									System.out.println("--------------------------address present-------------------------------");
@@ -345,25 +396,52 @@ public class Login_till_ProdSelectionPage extends TestBase {
 								driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys(r1[user_counter][7]);//email
 								
 								driver.findElement(By.xpath("//*[@id=\"addressForm\"]/div[12]/button[2]")).click();
+								if(driver.findElement(By.xpath("//*[@id='chooser_modalLineItemsFi3lD-iNd3x-0p3n1Fi3lD-iNd3x-Cl0s3D0Tt3d-Fi3lD-pAtHShipTo']//child::*[@id='fieldChoice-header-notification']//child::i[@class='icon-message-warning']")).isDisplayed())
+								{
+									bl.statusUpdate(row, "Wrong address provided");
+									System.out.println("--------------------------Wrong address provided-------------------------------");
+									if(row!=(r1.length-1))
+									{
+										System.out.println("--------------------------Row count: "+row+" and User count:"+(r1.length-1)+"--(IF)-------------------------------");
+									driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
+									Thread.sleep(5000);
+									driver.switchTo().defaultContent();
+									continue Employee_loop;
+									}
+									else
+									{ 
+										System.out.println("--------------------------Row count: "+row+" and User count:"+(r1.length-1)+"--(else)-------------------------------");
+										break Employee_loop;
+									}
+								}	
 								Thread.sleep(10000);
 								System.out.println("Item " +i+ " is done");
 								}
 						}
 					catch(Throwable e)
 					{
-						//go for 2nd employee
+						//go for next employee
 						bl.statusUpdate(row, "Wrong product added for Submission");
 						System.out.println("--------------------------Wrong product added for Submission-------------------------------");
+						if(row!=(r1.length-1))
+						{
+							System.out.println("--------------------------Row count: "+row+" and User count:"+(r1.length-1)+"--(IF)-------------------------------");
 						driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
 						Thread.sleep(5000);
 						driver.switchTo().defaultContent();
 						continue Employee_loop;
+						}
+						else
+						{ 
+							System.out.println("--------------------------Row count: "+row+" and User count:"+(r1.length-1)+"--(else)-------------------------------");
+							break Employee_loop;
+						}
 					}
 				
 				}
 			driver.findElement(By.xpath("//*[@id='header-comments-comment']/div/div[1]/textarea")).sendKeys("My Phone number is: +1 "+ r1[user_counter][8]);
-			driver.findElement(By.xpath("//*[@id=\"checkbox-header-comments\"]")).click();
-			driver.findElement(By.xpath("//*[@id=\"header-comments-commentButton\"]")).click();
+			driver.findElement(By.xpath("//*[@id=\"checkbox-header-comments']")).click();
+			driver.findElement(By.xpath("//*[@id='header-comments-commentButton\"]")).click();
 			System.out.println("Comment added for User"+ user_counter);
 			Thread.sleep(5000);
 			
@@ -375,7 +453,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 				Thread.sleep(10000);
 				
 				//check if it is submitted
-				Boolean is_submitted;
+				Boolean is_submitted=false;
 				try
 				{
 					is_submitted = driver.findElements(By.xpath("(//span[text()='Success'])[3]")).size()>0;
@@ -383,7 +461,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 				}
 				catch(Throwable e)
 				{}  
-				if(is_submitted = true)
+				if(is_submitted == true)
 				{	
 					
 					//driver.findElement(By.xpath("")).isDisplayed();//xpath of the element from post submit page
@@ -392,10 +470,19 @@ public class Login_till_ProdSelectionPage extends TestBase {
 					WebElement element = driver.findElement(By.xpath("//div[@class='fd-action-bar__description']"));
 					String elementval = element.getText();
 					bl.statusUpdate(row, "Submission completed with order number: "+elementval);//write status to data file
+					if(row!=(r1.length-1))
+					{
+						System.out.println("--------------------------Row count: "+row+" and User count:"+(r1.length-1)+"--(IF)-------------------------------");
 					driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
 					Thread.sleep(5000);
 					driver.switchTo().defaultContent();
 					continue Employee_loop;
+					}
+					else
+					{ 
+						System.out.println("--------------------------Row count: "+row+" and User count:"+(r1.length-1)+"--(else)-------------------------------");
+						break Employee_loop;
+					}
 				}
 				else
 				{
@@ -405,13 +492,21 @@ public class Login_till_ProdSelectionPage extends TestBase {
 				driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-1']//child::a[contains(text(),'Remove')]")).click();
 				}*/
 				driver.findElement(By.xpath("//*[@id='gbsection']/div[4]/gb-comment/div/div[2]/div/div[2]/ul/li/div/div[4]/span[text()='Remove']")).click();
-				//go for 2nd employee
+				//go for next employee
 				bl.statusUpdate(row, "Submission failed");
+				if(row!=(r1.length-1))
+				{
+					System.out.println("--------------------------Row count: "+row+" and User count:"+(r1.length-1)+"--(IF)-------------------------------");
 				driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
 				Thread.sleep(5000);
 				driver.switchTo().defaultContent();
 				continue Employee_loop;
-				
+				}
+				else
+				{ 
+					System.out.println("--------------------------Row count: "+row+" and User count:"+(r1.length-1)+"--(else)-------------------------------");
+					break Employee_loop;
+				}
 				}
 			}
 			
@@ -425,16 +520,25 @@ public class Login_till_ProdSelectionPage extends TestBase {
 				driver.findElement(By.xpath("//*[@id='gbsection']/div[4]/gb-comment/div/div[2]/div/div[2]/ul/li/div/div[4]/span[text()='Remove']")).click();
 				
 				bl.statusUpdate(row, "Submission failed");
+				if(row!=(r1.length-1))
+				{
+					System.out.println("--------------------------Row count: "+row+" and User count:"+(r1.length-1)+"--(IF)-------------------------------");
 				driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
 				Thread.sleep(5000);
 				driver.switchTo().defaultContent();
 				continue Employee_loop;
+				}
+				else
+				{ 
+					System.out.println("--------------------------Row count: "+row+" and User count:"+(r1.length-1)+"--(else)-------------------------------");
+					break Employee_loop;
+				}
 			}
 			
 		}
 	
 		//Archieving TD sheet with Timestamp
-		bl.archieveTD();
+		//bl.archieveTD();
 	}
 	
 }
