@@ -48,7 +48,6 @@ public class Login_till_ProdSelectionPage extends TestBase {
 	public void Setup() {
 
 		
-
 		
 	}
 	
@@ -64,10 +63,10 @@ public class Login_till_ProdSelectionPage extends TestBase {
 	}
 	
 	@AfterClass (alwaysRun = true)
-	public void teardown(ITestResult tr) throws IOException {
+	//public void teardown(ITestResult tr) throws IOException {
 		
 		
-	}
+	//}
 	
 	@Test (priority = 1)
 	 public void LoginLinkTest() throws InterruptedException {
@@ -352,8 +351,8 @@ public class Login_till_ProdSelectionPage extends TestBase {
 					catch(Throwable e)
 					{
 						//go for 2nd employee
-						bl.statusUpdate(row, "Wrong product added for Submission");
-						System.out.println("--------------------------Wrong product added for Submission-------------------------------");
+						bl.statusUpdate(row, "Wrong product found in checkout");
+						System.out.println("--------------------------Wrong product found in checkout-------------------------------");
 						driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
 						Thread.sleep(5000);
 						driver.switchTo().defaultContent();
