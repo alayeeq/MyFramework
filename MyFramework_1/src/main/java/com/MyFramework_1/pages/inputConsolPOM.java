@@ -615,13 +615,15 @@ public class inputConsolPOM extends TestBase{
 				   else
 				   {
 					   logger.info("Desitination file Already Exist- Delete and Retry :"+dstPth);
+					   this.archieveTD();
+					   Files.copy(src.toPath(), dst.toPath());   
+					   logger.info("File Copy successfull Source "+srcPth+" destination :"+dstPth);
 				   }
 			   }
 			   else {
 				   logger.info("Source file for Copy is NOT avavilable :"+srcPth);
 			   }
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	   }
