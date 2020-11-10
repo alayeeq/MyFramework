@@ -154,7 +154,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		Thread.sleep(10000);
 		driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
 		bl.initPath();
-		//bl.clearTD();
+		bl.clearTD();
 		String[] ipFiles=bl.getIPFiles();
 		bl.WeedOut(ipFiles);
 		bl.xlwrite();
@@ -168,9 +168,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		inputConsolPOM bl=new inputConsolPOM(driver);
 		bl.initPath();
 		String r1[][]=p1.xlread();
-
-		System.out.println(r1.length);
-		
+		logger.info(r1.length);
 		driver.manage().window().maximize();
 		Thread.sleep(5000);
 		int user_counter=0;//user_counter 
@@ -180,19 +178,22 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		for (int row=1;row<r1.length;row++)//Employee	
 		{
 			
-			System.out.println("EE "+row+" Started"); 
+			logger.info("EE "+row+" Started"); 
 			Thread.sleep(3000);
 			boolean flag=true;
+			
 			++user_counter;
-			int i=0;
+			int i=0; //Item container counter
+			
 			int item_counter=0;//item_counter
+			
 			//chck cart and if any item exist empty it
 			flag=p1.chckCart(driver);
 			
 			Product_Loop:
 			for (int col=11;col<21;col++)//Column
 				{
-					System.out.println("EE "+row+" product "+col+" started for product -->"+(r1[row][col]));
+					logger.info("EE "+row+" product "+col+" started for product -->"+(r1[row][col]));
 					try {
 					if((!(r1[row][col].isEmpty())))
 					{
@@ -201,7 +202,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 						
 						if(!(flag))
 						{
-							System.out.println("invalid Product idetified during product selection :"+r1[row][col]);
+							logger.info("invalid Product idetified during product selection :"+r1[row][col]);
 							bl.statusUpdate(row, "Invalid Product exist");
 							/*if(!p1.chckCart(driver));
 							{
@@ -212,22 +213,17 @@ public class Login_till_ProdSelectionPage extends TestBase {
 						item_counter++;
 					}
 					else {
-						System.out.println("blank break");
+						logger.info("blank break");
 						break;
 					}
 					}catch(NullPointerException e)
 					{
-						System.out.println("null pointer break");	
+						logger.info("null pointer break");	
 						break;
 					}
-					System.out.println("EE "+row+" product "+col+" ended for product -->"+(r1[row][col]));
+					logger.info("EE "+row+" product "+col+" ended for product -->"+(r1[row][col]));
 				}
 			//checkout to be added.
-/*			System.out.println(r1[row][24]);
-			System.out.println(r1[row][25]);
-			System.out.println(r1[row][26]);*/
-			
-			
 			//Devesh_ checkout page
 			System.out.println("total no of items: " + item_counter);
 			driver.findElement(By.xpath("//*[@id=\"shoppingCart\"]/div/div/div[1]/button")).click();//click on cart button
