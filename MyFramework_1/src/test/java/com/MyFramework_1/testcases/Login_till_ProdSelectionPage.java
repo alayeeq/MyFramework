@@ -266,7 +266,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 				
 				}
 			
-			
+			//Item check loop
 			for(i=1;i<=item_counter;i++)
 				{
 					System.out.println("--------------------------entered checkout page for loop for item " +i+ "-------------------------------");
@@ -275,31 +275,53 @@ public class Login_till_ProdSelectionPage extends TestBase {
 						wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']")));
 						
 						//Item warning check
-							
-							if(driver.findElement(By.xpath("//div[@id='section' and @class='item line-item-container-"+i+"']//child::span[.='SHI Supplier Policy']")).isDisplayed())
+								Boolean multi_warning_Present=false;
+								try
 								{
-								System.out.println("--------------------------entered supplier check warning check-------------------------------");
-								
-								driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::div[@class='field-dropdown dropdown']/button[@aria-label='  Required' and @class='dropdown-toggle invalid']")).click();
-								driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::a[normalize-space(.)=\"I confirm that I have shared phone number in 'Comments' section with the supplier\"]")).click();
+									multi_warning_Present = driver.findElements(By.xpath("//*//div[@id='section' and @class='item line-item-container-1']//child::span[@class='multiple-policies-text' and text()='This item has or requires multiple justifications']")).size()>0;
+										System.out.println("--------------------------Multiple warnings present : " +multi_warning_Present+ "-------------------------------");
 								}
-							/*else if(driver.findElement(By.xpath("//div[@id='section' and @class='item line-item-container-"+i+"']//child::div[@class='alert alert-warning justification-notification']")).isDisplayed())
+								catch(Throwable e)
+								{}
+								Boolean shi_warning_Present=false;
+								try
+								{
+									shi_warning_Present = driver.findElements(By.xpath("//div[@id='section' and @class='item line-item-container-"+i+"']//child::span[.='SHI Supplier Policy']")).size()>0;
+										System.out.println("--------------------------SHI warning present : " +shi_warning_Present+ "-------------------------------");
+								}
+								catch(Throwable e)
+								{}
+								
+								if(multi_warning_Present==true)
 								{
 									bl.statusUpdate(row, "Declined -- Wrong item selected");
 									System.out.println("--------------------------Declined -- Wrong item selected-------------------------------");
-									if(row!=user_counter)
+									if(row!=(r1.length-1))
 									{
+										System.out.println("--------------------------Row count: "+row+" and Total no of users in datasheet: "+(r1.length-1)+"--(IF)-------------------------------");
 									driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
 									Thread.sleep(5000);
 									driver.switchTo().defaultContent();
 									continue Employee_loop;
 									}
 									else
-									{ break Employee_loop;
+									{ 
+										System.out.println("--------------------------Row count: "+row+" and Total no of users in datasheet: "+(r1.length-1)+"--(else)-------------------------------");
+										break Employee_loop;
 									}
+								}
+								else if(shi_warning_Present == true)
+								//if(driver.findElement(By.xpath("//div[@id='section' and @class='item line-item-container-"+i+"']//child::span[.='SHI Supplier Policy']")).isDisplayed())
+								{
+								System.out.println("--------------------------entered supplier check warning check-------------------------------");
 								
+								driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::div[@class='field-dropdown dropdown']/button[@aria-label='  Required' and @class='dropdown-toggle invalid']")).click();
+								driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::a[normalize-space(.)=\"I confirm that I have shared phone number in 'Comments' section with the supplier\"]")).click();
+								}
+							    
 							
-								}*/
+								else
+								{}
 								
 					//item expansion check
 								if(driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']/div[2]/div[1]/button/i[@class='icon-slim-arrow-down']")).isDisplayed())
@@ -445,6 +467,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 					//Deliver to name:
 								System.out.println("--------------------------Deliver to: "+r1[user_counter][4]+ "-------------------------------");
 								driver.findElement(By.xpath("//*[@id='LineItemsFi3lD-iNd3x-0p3n1Fi3lD-iNd3x-Cl0s3D0Tt3d-Fi3lD-pAtHDeliverTo']//child::input[@name='DeliverTo']")).clear();
+								wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='LineItemsFi3lD-iNd3x-0p3n1Fi3lD-iNd3x-Cl0s3D0Tt3d-Fi3lD-pAtHDeliverTo']//child::span[@id='error-code' and text()='Deliver To Attention must be set.']")));
 								driver.findElement(By.xpath("//*[@id='LineItemsFi3lD-iNd3x-0p3n1Fi3lD-iNd3x-Cl0s3D0Tt3d-Fi3lD-pAtHDeliverTo']//child::input[@name='DeliverTo']")).sendKeys(r1[user_counter][4]);
 								
 								

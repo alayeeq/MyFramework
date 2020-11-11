@@ -757,3 +757,238 @@
 2020-11-10 12:38:09,379  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 11 ended for product -->Apple Magic Keyboard - keyboard - US
 2020-11-10 12:38:09,380  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 12 started for product -->null
 2020-11-10 12:38:09,381  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 16:54:17,100  INFO [main] Login_till_ProdSelectionPage:80 - UserID is enterrerd
+2020-11-10 16:54:17,178  INFO [main] Login_till_ProdSelectionPage:86 - Pwd is enterrerd
+2020-11-10 16:54:19,468  INFO [main] Login_till_ProdSelectionPage:88 - LoginButton is clicked
+2020-11-10 16:54:31,892  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 16:54:31,893  INFO [main] Login_till_ProdSelectionPage:665 - GET IP File method call init
+2020-11-10 16:54:31,893  INFO [main] Login_till_ProdSelectionPage:667 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 16:54:31,894  INFO [main] Login_till_ProdSelectionPage:677 - Input Folder does NOT Exist :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 16:54:31,894  INFO [main] Login_till_ProdSelectionPage:559 - Weed out method init 
+2020-11-10 16:54:31,899  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 16:54:32,534  INFO [main] Login_till_ProdSelectionPage:171 - 5
+2020-11-10 16:54:39,715  INFO [main] Login_till_ProdSelectionPage:181 - EE 1 Started
+2020-11-10 16:54:55,007  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 11 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 16:55:15,556  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 11 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 16:55:15,556  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 12 started for product -->null
+2020-11-10 16:55:15,557  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 17:29:30,197  INFO [main] Login_till_ProdSelectionPage:80 - UserID is enterrerd
+2020-11-10 17:29:30,261  INFO [main] Login_till_ProdSelectionPage:86 - Pwd is enterrerd
+2020-11-10 17:29:32,983  INFO [main] Login_till_ProdSelectionPage:88 - LoginButton is clicked
+2020-11-10 17:29:45,626  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 17:29:45,627  INFO [main] Login_till_ProdSelectionPage:665 - GET IP File method call init
+2020-11-10 17:29:45,627  INFO [main] Login_till_ProdSelectionPage:667 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 17:29:45,628  INFO [main] Login_till_ProdSelectionPage:677 - Input Folder does NOT Exist :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 17:29:45,628  INFO [main] Login_till_ProdSelectionPage:559 - Weed out method init 
+2020-11-10 17:29:45,647  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 17:29:46,178  INFO [main] Login_till_ProdSelectionPage:171 - 5
+2020-11-10 17:29:53,360  INFO [main] Login_till_ProdSelectionPage:181 - EE 1 Started
+2020-11-10 17:30:08,660  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 11 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 17:30:29,198  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 11 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 17:30:29,198  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 12 started for product -->null
+2020-11-10 17:30:29,198  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 17:31:21,409  INFO [main] Login_till_ProdSelectionPage:181 - EE 2 Started
+2020-11-10 17:31:32,503  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 11 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 17:31:58,143  INFO [main] Login_till_ProdSelectionPage:224 - EE 2 product 11 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 17:31:58,143  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 12 started for product -->null
+2020-11-10 17:31:58,143  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 17:36:23,566  INFO [main] Login_till_ProdSelectionPage:80 - UserID is enterrerd
+2020-11-10 17:36:23,637  INFO [main] Login_till_ProdSelectionPage:86 - Pwd is enterrerd
+2020-11-10 17:36:26,195  INFO [main] Login_till_ProdSelectionPage:88 - LoginButton is clicked
+2020-11-10 17:36:39,191  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 17:36:39,192  INFO [main] Login_till_ProdSelectionPage:665 - GET IP File method call init
+2020-11-10 17:36:39,192  INFO [main] Login_till_ProdSelectionPage:667 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 17:36:39,193  INFO [main] Login_till_ProdSelectionPage:677 - Input Folder does NOT Exist :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 17:36:39,193  INFO [main] Login_till_ProdSelectionPage:559 - Weed out method init 
+2020-11-10 17:36:39,198  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 17:36:39,726  INFO [main] Login_till_ProdSelectionPage:171 - 4
+2020-11-10 17:36:46,906  INFO [main] Login_till_ProdSelectionPage:181 - EE 1 Started
+2020-11-10 17:37:02,229  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 11 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 17:37:22,789  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 11 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 17:37:22,789  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 12 started for product -->null
+2020-11-10 17:37:22,790  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 17:38:05,171  INFO [main] Login_till_ProdSelectionPage:181 - EE 2 Started
+2020-11-10 17:38:30,524  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 11 started for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 17:38:56,114  INFO [main] Login_till_ProdSelectionPage:224 - EE 2 product 11 ended for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 17:38:56,114  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 12 started for product -->null
+2020-11-10 17:38:56,114  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 17:44:41,470  INFO [main] Login_till_ProdSelectionPage:80 - UserID is enterrerd
+2020-11-10 17:44:41,536  INFO [main] Login_till_ProdSelectionPage:86 - Pwd is enterrerd
+2020-11-10 17:44:43,904  INFO [main] Login_till_ProdSelectionPage:88 - LoginButton is clicked
+2020-11-10 17:44:56,751  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 17:44:56,752  INFO [main] Login_till_ProdSelectionPage:665 - GET IP File method call init
+2020-11-10 17:44:56,752  INFO [main] Login_till_ProdSelectionPage:667 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 17:44:56,753  INFO [main] Login_till_ProdSelectionPage:677 - Input Folder does NOT Exist :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 17:44:56,753  INFO [main] Login_till_ProdSelectionPage:559 - Weed out method init 
+2020-11-10 17:44:56,760  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 17:44:57,268  INFO [main] Login_till_ProdSelectionPage:171 - 4
+2020-11-10 17:45:04,505  INFO [main] Login_till_ProdSelectionPage:181 - EE 1 Started
+2020-11-10 17:45:19,820  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 11 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 17:45:40,355  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 11 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 17:45:40,355  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 12 started for product -->null
+2020-11-10 17:45:40,356  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 17:46:22,713  INFO [main] Login_till_ProdSelectionPage:181 - EE 2 Started
+2020-11-10 17:46:48,147  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 11 started for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 17:47:13,766  INFO [main] Login_till_ProdSelectionPage:224 - EE 2 product 11 ended for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 17:47:13,766  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 12 started for product -->null
+2020-11-10 17:47:13,766  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 17:47:49,772  INFO [main] Login_till_ProdSelectionPage:181 - EE 3 Started
+2020-11-10 17:48:15,090  INFO [main] Login_till_ProdSelectionPage:196 - EE 3 product 11 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 17:48:40,643  INFO [main] Login_till_ProdSelectionPage:224 - EE 3 product 11 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 17:48:40,644  INFO [main] Login_till_ProdSelectionPage:196 - EE 3 product 12 started for product -->null
+2020-11-10 17:48:40,644  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 18:01:02,302  INFO [main] Login_till_ProdSelectionPage:80 - UserID is enterrerd
+2020-11-10 18:01:02,368  INFO [main] Login_till_ProdSelectionPage:86 - Pwd is enterrerd
+2020-11-10 18:01:04,857  INFO [main] Login_till_ProdSelectionPage:88 - LoginButton is clicked
+2020-11-10 18:01:17,639  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 18:01:17,639  INFO [main] Login_till_ProdSelectionPage:665 - GET IP File method call init
+2020-11-10 18:01:17,640  INFO [main] Login_till_ProdSelectionPage:667 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 18:01:17,640  INFO [main] Login_till_ProdSelectionPage:677 - Input Folder does NOT Exist :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 18:01:17,640  INFO [main] Login_till_ProdSelectionPage:559 - Weed out method init 
+2020-11-10 18:01:17,647  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 18:01:18,153  INFO [main] Login_till_ProdSelectionPage:171 - 4
+2020-11-10 18:01:25,478  INFO [main] Login_till_ProdSelectionPage:181 - EE 1 Started
+2020-11-10 18:01:40,818  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 11 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 18:02:01,369  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 11 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 18:02:01,370  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 12 started for product -->null
+2020-11-10 18:02:01,370  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 18:02:53,204  INFO [main] Login_till_ProdSelectionPage:181 - EE 2 Started
+2020-11-10 18:03:04,250  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 11 started for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 18:03:29,858  INFO [main] Login_till_ProdSelectionPage:224 - EE 2 product 11 ended for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 18:03:29,859  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 12 started for product -->null
+2020-11-10 18:03:29,859  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 18:07:31,878  INFO [main] Login_till_ProdSelectionPage:80 - UserID is enterrerd
+2020-11-10 18:07:31,947  INFO [main] Login_till_ProdSelectionPage:86 - Pwd is enterrerd
+2020-11-10 18:07:34,148  INFO [main] Login_till_ProdSelectionPage:88 - LoginButton is clicked
+2020-11-10 18:07:46,761  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 18:07:46,762  INFO [main] Login_till_ProdSelectionPage:665 - GET IP File method call init
+2020-11-10 18:07:46,762  INFO [main] Login_till_ProdSelectionPage:667 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 18:07:46,763  INFO [main] Login_till_ProdSelectionPage:677 - Input Folder does NOT Exist :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 18:07:46,764  INFO [main] Login_till_ProdSelectionPage:559 - Weed out method init 
+2020-11-10 18:07:46,770  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 18:07:47,270  INFO [main] Login_till_ProdSelectionPage:171 - 3
+2020-11-10 18:07:54,478  INFO [main] Login_till_ProdSelectionPage:181 - EE 1 Started
+2020-11-10 18:08:09,770  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 11 started for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 18:08:30,312  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 11 ended for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 18:08:30,313  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 12 started for product -->null
+2020-11-10 18:08:30,313  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 18:14:36,063  INFO [main] Login_till_ProdSelectionPage:80 - UserID is enterrerd
+2020-11-10 18:14:36,150  INFO [main] Login_till_ProdSelectionPage:86 - Pwd is enterrerd
+2020-11-10 18:14:38,529  INFO [main] Login_till_ProdSelectionPage:88 - LoginButton is clicked
+2020-11-10 18:14:52,631  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 18:14:52,632  INFO [main] Login_till_ProdSelectionPage:665 - GET IP File method call init
+2020-11-10 18:14:52,632  INFO [main] Login_till_ProdSelectionPage:667 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 18:14:52,632  INFO [main] Login_till_ProdSelectionPage:677 - Input Folder does NOT Exist :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 18:14:52,633  INFO [main] Login_till_ProdSelectionPage:559 - Weed out method init 
+2020-11-10 18:14:52,651  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 18:14:53,267  INFO [main] Login_till_ProdSelectionPage:171 - 3
+2020-11-10 18:15:00,453  INFO [main] Login_till_ProdSelectionPage:181 - EE 1 Started
+2020-11-10 18:15:15,749  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 11 started for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 18:15:36,299  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 11 ended for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 18:15:36,300  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 12 started for product -->null
+2020-11-10 18:15:36,300  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 18:15:50,320  INFO [main] Login_till_ProdSelectionPage:181 - EE 2 Started
+2020-11-10 18:16:15,661  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 11 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 18:16:41,288  INFO [main] Login_till_ProdSelectionPage:224 - EE 2 product 11 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 18:16:41,289  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 12 started for product -->null
+2020-11-10 18:16:41,289  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 18:32:17,372  INFO [main] Login_till_ProdSelectionPage:80 - UserID is enterrerd
+2020-11-10 18:32:17,439  INFO [main] Login_till_ProdSelectionPage:86 - Pwd is enterrerd
+2020-11-10 18:32:19,712  INFO [main] Login_till_ProdSelectionPage:88 - LoginButton is clicked
+2020-11-10 18:32:33,632  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 18:32:33,632  INFO [main] Login_till_ProdSelectionPage:665 - GET IP File method call init
+2020-11-10 18:32:33,633  INFO [main] Login_till_ProdSelectionPage:667 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 18:32:33,634  INFO [main] Login_till_ProdSelectionPage:677 - Input Folder does NOT Exist :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 18:32:33,635  INFO [main] Login_till_ProdSelectionPage:559 - Weed out method init 
+2020-11-10 18:32:33,658  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 18:32:34,135  INFO [main] Login_till_ProdSelectionPage:171 - 3
+2020-11-10 18:32:41,341  INFO [main] Login_till_ProdSelectionPage:181 - EE 1 Started
+2020-11-10 18:32:57,100  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 11 started for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 18:33:17,710  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 11 ended for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 18:33:17,711  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 12 started for product -->null
+2020-11-10 18:33:17,711  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 18:33:31,810  INFO [main] Login_till_ProdSelectionPage:181 - EE 2 Started
+2020-11-10 18:33:57,202  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 11 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 18:34:22,754  INFO [main] Login_till_ProdSelectionPage:224 - EE 2 product 11 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 18:34:22,754  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 12 started for product -->null
+2020-11-10 18:34:22,755  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 18:42:14,888  INFO [main] Login_till_ProdSelectionPage:80 - UserID is enterrerd
+2020-11-10 18:42:14,956  INFO [main] Login_till_ProdSelectionPage:86 - Pwd is enterrerd
+2020-11-10 18:42:17,458  INFO [main] Login_till_ProdSelectionPage:88 - LoginButton is clicked
+2020-11-10 18:42:30,521  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 18:42:30,522  INFO [main] Login_till_ProdSelectionPage:665 - GET IP File method call init
+2020-11-10 18:42:30,523  INFO [main] Login_till_ProdSelectionPage:667 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 18:42:30,524  INFO [main] Login_till_ProdSelectionPage:677 - Input Folder does NOT Exist :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 18:42:30,524  INFO [main] Login_till_ProdSelectionPage:559 - Weed out method init 
+2020-11-10 18:42:30,535  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 18:42:31,036  INFO [main] Login_till_ProdSelectionPage:171 - 3
+2020-11-10 18:42:38,846  INFO [main] Login_till_ProdSelectionPage:181 - EE 1 Started
+2020-11-10 18:42:54,147  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 11 started for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 18:43:14,693  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 11 ended for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 18:43:14,694  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 12 started for product -->null
+2020-11-10 18:43:14,694  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 18:43:29,198  INFO [main] Login_till_ProdSelectionPage:181 - EE 2 Started
+2020-11-10 18:43:54,534  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 11 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 18:44:20,141  INFO [main] Login_till_ProdSelectionPage:224 - EE 2 product 11 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 18:44:20,141  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 12 started for product -->null
+2020-11-10 18:44:20,141  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 18:53:22,257  INFO [main] Login_till_ProdSelectionPage:80 - UserID is enterrerd
+2020-11-10 18:53:22,326  INFO [main] Login_till_ProdSelectionPage:86 - Pwd is enterrerd
+2020-11-10 18:53:25,260  INFO [main] Login_till_ProdSelectionPage:88 - LoginButton is clicked
+2020-11-10 18:53:39,048  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 18:53:39,048  INFO [main] Login_till_ProdSelectionPage:665 - GET IP File method call init
+2020-11-10 18:53:39,049  INFO [main] Login_till_ProdSelectionPage:667 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 18:53:39,050  INFO [main] Login_till_ProdSelectionPage:677 - Input Folder does NOT Exist :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 18:53:39,050  INFO [main] Login_till_ProdSelectionPage:559 - Weed out method init 
+2020-11-10 18:53:39,057  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 18:53:39,565  INFO [main] Login_till_ProdSelectionPage:171 - 3
+2020-11-10 18:53:46,749  INFO [main] Login_till_ProdSelectionPage:181 - EE 1 Started
+2020-11-10 18:53:52,800  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 11 started for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 18:54:13,372  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 11 ended for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 18:54:13,372  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 12 started for product -->null
+2020-11-10 18:54:13,372  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 18:54:27,613  INFO [main] Login_till_ProdSelectionPage:181 - EE 2 Started
+2020-11-10 18:54:52,968  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 11 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 18:55:18,606  INFO [main] Login_till_ProdSelectionPage:224 - EE 2 product 11 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 18:55:18,607  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 12 started for product -->null
+2020-11-10 18:55:18,607  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 19:01:40,315  INFO [main] Login_till_ProdSelectionPage:80 - UserID is enterrerd
+2020-11-10 19:01:40,379  INFO [main] Login_till_ProdSelectionPage:86 - Pwd is enterrerd
+2020-11-10 19:01:42,606  INFO [main] Login_till_ProdSelectionPage:88 - LoginButton is clicked
+2020-11-10 19:01:55,608  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 19:01:55,609  INFO [main] Login_till_ProdSelectionPage:665 - GET IP File method call init
+2020-11-10 19:01:55,609  INFO [main] Login_till_ProdSelectionPage:667 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 19:01:55,609  INFO [main] Login_till_ProdSelectionPage:677 - Input Folder does NOT Exist :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 19:01:55,609  INFO [main] Login_till_ProdSelectionPage:559 - Weed out method init 
+2020-11-10 19:01:55,616  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 19:01:56,187  INFO [main] Login_till_ProdSelectionPage:171 - 3
+2020-11-10 19:02:03,342  INFO [main] Login_till_ProdSelectionPage:181 - EE 1 Started
+2020-11-10 19:02:18,605  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 11 started for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 19:02:39,141  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 11 ended for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 19:02:39,141  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 12 started for product -->null
+2020-11-10 19:02:39,142  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 19:02:55,759  INFO [main] Login_till_ProdSelectionPage:181 - EE 2 Started
+2020-11-10 19:03:21,094  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 11 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 19:03:46,669  INFO [main] Login_till_ProdSelectionPage:224 - EE 2 product 11 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 19:03:46,669  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 12 started for product -->null
+2020-11-10 19:03:46,669  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 19:09:05,615  INFO [main] Login_till_ProdSelectionPage:80 - UserID is enterrerd
+2020-11-10 19:09:05,693  INFO [main] Login_till_ProdSelectionPage:86 - Pwd is enterrerd
+2020-11-10 19:09:08,078  INFO [main] Login_till_ProdSelectionPage:88 - LoginButton is clicked
+2020-11-10 19:09:20,957  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 19:09:20,958  INFO [main] Login_till_ProdSelectionPage:665 - GET IP File method call init
+2020-11-10 19:09:20,958  INFO [main] Login_till_ProdSelectionPage:667 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 19:09:20,959  INFO [main] Login_till_ProdSelectionPage:677 - Input Folder does NOT Exist :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 3\MyFramework_1\TestData\Input
+2020-11-10 19:09:20,959  INFO [main] Login_till_ProdSelectionPage:559 - Weed out method init 
+2020-11-10 19:09:20,964  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-10 19:09:21,505  INFO [main] Login_till_ProdSelectionPage:171 - 3
+2020-11-10 19:09:28,693  INFO [main] Login_till_ProdSelectionPage:181 - EE 1 Started
+2020-11-10 19:09:34,745  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 11 started for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 19:09:55,308  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 11 ended for product -->ViewSonic VX2757-MHD - LED monitor - Full HD (1080p) - 27"
+2020-11-10 19:09:55,308  INFO [main] Login_till_ProdSelectionPage:196 - EE 1 product 12 started for product -->null
+2020-11-10 19:09:55,309  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
+2020-11-10 19:10:04,394  INFO [main] Login_till_ProdSelectionPage:181 - EE 2 Started
+2020-11-10 19:10:29,651  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 11 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 19:10:55,230  INFO [main] Login_till_ProdSelectionPage:224 - EE 2 product 11 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-10 19:10:55,231  INFO [main] Login_till_ProdSelectionPage:196 - EE 2 product 12 started for product -->null
+2020-11-10 19:10:55,231  INFO [main] Login_till_ProdSelectionPage:221 - null pointer break
