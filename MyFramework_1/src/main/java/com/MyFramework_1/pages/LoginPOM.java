@@ -19,7 +19,10 @@ public class LoginPOM extends TestBase{
 		
 	}
 	
-	@FindBy(xpath="//input[@name='username']") public WebElement UserID;
+	
+	public String UserID = "//input[@name='username']";
+	
+	//@FindBy(xpath="//input[@name='username']") public WebElement UserID;
 	@FindBy(xpath="//input[@name='password']") public WebElement Pwd;
 	@FindBy(xpath="//button[@id='btn_signin']") public WebElement LoginButton;
 	

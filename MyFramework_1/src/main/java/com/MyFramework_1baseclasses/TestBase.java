@@ -9,10 +9,13 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 //import org.testng.ITestResult;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -31,6 +34,7 @@ public class TestBase {
 	public static WebDriverWait wait;
 	protected final static  String CurrentDirectory = System.getProperty("user.dir");
 	public static Logger logger;
+	public static WebDriverWait  webDriverWait;
 	/*public static ExtentTest test;
 	public static ExtentHtmlReporter Hreporter;
 	public static ExtentReports report;*/
@@ -90,6 +94,8 @@ public class TestBase {
 			
 			logger = Logger.getLogger("Login_till_ProdSelectionPage");
 			PropertyConfigurator.configure("log4j.properties");
+			
+			webDriverWait = new WebDriverWait(driver, 30);
 		}
 		public static String screenshot(String Filename)   {
 			String destination ="C:\\Users\\AsifZoya\\Documents\\Asif\\Java\\FrameWork_1\\Screenshots\\" +"\\1\\"  +Filename+ "\\.jpg";
@@ -108,6 +114,15 @@ public class TestBase {
 		return destination;
 	
 		
+		}
+		
+		public static WebElement wait_base (String xpath) {
+			
+			
+			WebElement returned_waitElement = webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
+			
+			return returned_waitElement;
+			
 		}
 		
 				 
