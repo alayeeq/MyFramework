@@ -46,6 +46,19 @@ public class ProductPagePOM extends TestBase{
 			System.out.println("wait implemented");
 		}
 		
+		public boolean webElementWaitAndCheck(WebDriver driver, String xpth) {
+			boolean isPresent=false;
+			
+			WebDriverWait wait = new WebDriverWait(driver, 15);
+			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpth)));
+			//System.out.println("wait implemented");
+			
+			isPresent=driver.findElements(By.xpath(xpth)).size()>0;
+			
+			
+			return isPresent;
+		}
+		
 		public boolean chckCart(WebDriver driver)
 		{
 			System.out.println("chck cart starts ");
