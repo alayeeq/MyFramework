@@ -70,6 +70,9 @@ public class ProductPagePOM extends TestBase{
 			
 			try {
 				Thread.sleep(3000);
+				
+				//WebElement cart = wait_base(cartPth);
+				
 				WebElement cart=driver.findElement(By.xpath(cartPth));
 				System.out.println("Items exist in Cart - need to delete");
 				cart.click();
@@ -215,9 +218,10 @@ public class ProductPagePOM extends TestBase{
 			
 			
 			
-			Thread.sleep(5000);
+			//Thread.sleep(5000);
 			try {
-				 WebElement prod = driver.findElement(By.xpath(tmp));
+				 //WebElement prod = driver.findElement(By.xpath(tmp));
+				WebElement prod = wait_base(tmp);
 				 builder.moveToElement(prod).build().perform();
 				 prod.click();
 				 flag=true;
@@ -234,21 +238,28 @@ public class ProductPagePOM extends TestBase{
 			}
 			
 			if(flag) {
-				Thread.sleep(5000);
+				//Thread.sleep(5000);
 				try{
-					 WebElement ibmEntName = driver.findElement(By.xpath(ibmEntNamXpth));
+					// WebElement ibmEntName = driver.findElement(By.xpath(ibmEntNamXpth));
+					WebElement ibmEntName = wait_base(ibmEntNamXpth);
 					 ibmEntName.click();
 				    }
 				    catch(org.openqa.selenium.NoSuchElementException nse){
 				        //return false;
 				}
 	
-				 WebElement selectAddCart=driver.findElement(By.xpath(selectAddCartXpth1));
+				 catch(org.openqa.selenium.TimeoutException nse){
+				        //return false;
+				}
+				 //WebElement selectAddCart=driver.findElement(By.xpath(selectAddCartXpth1));
+				
+				WebElement selectAddCart = wait_base(selectAddCartXpth1);
 				 selectAddCart.click();
 				 
-				 Thread.sleep(5000);
-				 driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-				 WebElement selectGoBack=driver.findElement(By.xpath(selectGoBackXpth));
+				 //Thread.sleep(5000);
+				 //driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+				 //WebElement selectGoBack=driver.findElement(By.xpath(selectGoBackXpth));
+				 WebElement selectGoBack = wait_base(selectGoBackXpth);
 				 selectGoBack.click();
 			}
 			return flag;
