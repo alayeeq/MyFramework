@@ -91,7 +91,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 	}
 	
 	
-	@Test (priority = 2,enabled = false)
+	@Test (priority = 2)
 	 public void LaunchBOUT() throws InterruptedException {
 		ProductPagePOM p1=new ProductPagePOM(driver);
 
@@ -109,7 +109,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		 
 	}
 	
-	@Test (priority = 3,enabled=false)
+	@Test (priority = 3)
 	 public void selectRecomProd() throws InterruptedException {
 		ProductPagePOM p1=new ProductPagePOM(driver);
 		
@@ -198,7 +198,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 				flag=p1.chckCart(driver);
 				
 				Product_Loop:
-				for (int col=11;col<21;col++)//Column
+				for (int col=13;col<23;col++)//Column
 					{
 						logger.info("EE "+row+" product "+col+" started for product -->"+(r1[row][col]));
 						try {
@@ -232,8 +232,8 @@ public class Login_till_ProdSelectionPage extends TestBase {
 					}
 				
 				//checkout to be added.
-				//if(false)
-				//{
+				if(false)
+				{
 			//Devesh_ checkout page
 				System.out.println("total no of items: " + item_counter);
 				driver.findElement(By.xpath("//*[@id=\"shoppingCart\"]/div/div/div[1]/button")).click();//click on cart button
@@ -603,7 +603,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 						break Employee_loop;
 					}
 				}
-				//}
+				}//
 			}
 			else {
 				logger.info("EE "+row+" Skipped");
