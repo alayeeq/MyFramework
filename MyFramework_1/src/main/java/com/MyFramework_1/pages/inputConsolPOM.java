@@ -115,159 +115,163 @@ public class inputConsolPOM extends TestBase{
 		int ip_Manager_Email_Row = 9;
 		int ip_Prod_1_Row=11;
 		boolean shtChck=true;
+		//boolean contentChck=true;
 		
 		String sheetName="Requistion";
-
 		String[] ip_val=new String[22];
-
+		
+		FileInputStream fis = null;
+		XSSFWorkbook wb=null;
+		XSSFSheet sh=null;
+		
 		try {
 			File fil=new File(ipPathAbs);
-			FileInputStream fis;
 			fis = new FileInputStream(fil);
+			wb = new XSSFWorkbook(fis);
+			sh=wb.getSheet(sheetName);
+				
+			//Requistion sheet check 
+			String dummy=sh.getSheetName();
 			
-			XSSFWorkbook wb = new XSSFWorkbook(fis);
-			XSSFSheet sh=wb.getSheet(sheetName);
-			
-	
-			
-			try{
-				String dummy=sh.getSheetName();
-			}catch(NullPointerException e)
+			//ip_Date
 			{
-				logger.info("Sheet --> Requistion is missing" );
-				shtChck=false;
-			}
-			
-			if(shtChck)
-			{
-				//ip_Date
-				{
-					XSSFRow rw=sh.getRow(ip_Date_Row);
-					XSSFCell cl=rw.getCell(1);
-					
-					Date date=cl.getDateCellValue();
-					DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");  
-					ip_val[0]=dateFormat.format(date);
-					logger.info(ip_val[0]);
-					logger.info(this.readCell(cl));
-				}
-				
-				//ip_Emp_No
-				{
-					XSSFRow rw=sh.getRow(ip_Emp_No_Row);
-					XSSFCell cl=rw.getCell(1);
-					ip_val[1]=this.readCell(cl);
-					logger.info(ip_val[1]);
-				}
-				
-				//ip_Emp_Name
-				{
-					XSSFRow rw=sh.getRow(ip_Emp_Name_Row);
-					XSSFCell cl=rw.getCell(1);
-					ip_val[2]=this.readCell(cl);
-					logger.info(ip_val[2]);
-				}
-				
-				//ip_Home_address
-				{
-					XSSFRow rw=sh.getRow(ip_Home_address_Row);
-					XSSFCell cl=rw.getCell(1);
-					ip_val[3]=this.readCell(cl);
-					logger.info(ip_val[3]);
-				}
-				
-				//ip_Home_address1
-				{
-					String[] clnAddr=new String[3];
-					XSSFRow rw=sh.getRow(ip_Home_address_Row1);
-					XSSFCell cl=rw.getCell(1);
-					ip_val[4]=this.readCell(cl);
-					clnAddr=this.addrSplitCity(ip_val[4]);
-					logger.info(ip_val[4]);
-					
-					ip_val[4]=clnAddr[0]+","+clnAddr[2]+","+clnAddr[1];
-					ip_val[19]=clnAddr[0];
-					ip_val[20]=clnAddr[2];
-					ip_val[21]=clnAddr[1];
-					logger.info(ip_val[4]);
-				}
-				
-				//ip_Email_Address
-				{
-					XSSFRow rw=sh.getRow(ip_Email_Address_Row);
-					XSSFCell cl=rw.getCell(1);
-					ip_val[5]=this.readCell(cl);
-					logger.info(ip_val[5]);
-				}
-				
-				//ip_Cell_No
-				{
-					XSSFRow rw=sh.getRow(ip_Cell_No_Row);
-					XSSFCell cl=rw.getCell(1);
-					ip_val[6]=this.readCell(cl);
-					logger.info(ip_val[6]);
-				}
-				
-				//ip_Manager_Name
-				{
-					XSSFRow rw=sh.getRow(ip_Manager_Name_Row);
-					XSSFCell cl=rw.getCell(1);
-					ip_val[7]=this.readCell(cl);
-					logger.info(ip_val[7]);
-				}
-				
-				//ip_Manager_Email
-				{
-					XSSFRow rw=sh.getRow(ip_Manager_Email_Row);
-					XSSFCell cl=rw.getCell(1);
-					ip_val[8]=this.readCell(cl);
-					logger.info(ip_val[8]);
-				}
-				
-				
-				//Product details
-				String tmp=null;
-				int counter1=ip_Prod_1_Row;
-				int counter2=9;
-				boolean flag=false;
-				{
-				XSSFRow rw=sh.getRow(counter1);
+				XSSFRow rw=sh.getRow(ip_Date_Row);
 				XSSFCell cl=rw.getCell(1);
-				tmp=cl.getStringCellValue();
-				}
 				
-				if(!((tmp.equalsIgnoreCase("TOTAL"))||(tmp.isEmpty())))
+				Date date=cl.getDateCellValue();
+				DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");  
+				ip_val[0]=dateFormat.format(date);
+				logger.info(ip_val[0]);
+				logger.info(this.readCell(cl));
+			}
+			
+			//ip_Emp_No
+			{
+				XSSFRow rw=sh.getRow(ip_Emp_No_Row);
+				XSSFCell cl=rw.getCell(1);
+				ip_val[1]=this.readCell(cl);
+				logger.info(ip_val[1]);
+			}
+			
+			//ip_Emp_Name
+			{
+				XSSFRow rw=sh.getRow(ip_Emp_Name_Row);
+				XSSFCell cl=rw.getCell(1);
+				ip_val[2]=this.readCell(cl);
+				logger.info(ip_val[2]);
+			}
+			
+			//ip_Home_address
+			{
+				XSSFRow rw=sh.getRow(ip_Home_address_Row);
+				XSSFCell cl=rw.getCell(1);
+				ip_val[3]=this.readCell(cl);
+				logger.info(ip_val[3]);
+			}
+			
+			//ip_Home_address1
+			{
+				String[] clnAddr=new String[3];
+				XSSFRow rw=sh.getRow(ip_Home_address_Row1);
+				XSSFCell cl=rw.getCell(1);
+				ip_val[4]=this.readCell(cl);
+				clnAddr=this.addrSplitCity(ip_val[4]);
+				logger.info(ip_val[4]);
+				
+				ip_val[4]=clnAddr[0]+","+clnAddr[2]+","+clnAddr[1];
+				ip_val[19]=clnAddr[0];
+				ip_val[20]=clnAddr[2];
+				ip_val[21]=clnAddr[1];
+				logger.info(ip_val[4]);
+			}
+			
+			//ip_Email_Address
+			{
+				XSSFRow rw=sh.getRow(ip_Email_Address_Row);
+				XSSFCell cl=rw.getCell(1);
+				ip_val[5]=this.readCell(cl);
+				logger.info(ip_val[5]);
+			}
+			
+			//ip_Cell_No
+			{
+				XSSFRow rw=sh.getRow(ip_Cell_No_Row);
+				XSSFCell cl=rw.getCell(1);
+				ip_val[6]=this.readCell(cl);
+				logger.info(ip_val[6]);
+			}
+			
+			//ip_Manager_Name
+			{
+				XSSFRow rw=sh.getRow(ip_Manager_Name_Row);
+				XSSFCell cl=rw.getCell(1);
+				ip_val[7]=this.readCell(cl);
+				logger.info(ip_val[7]);
+			}
+			
+			//ip_Manager_Email
+			{
+				XSSFRow rw=sh.getRow(ip_Manager_Email_Row);
+				XSSFCell cl=rw.getCell(1);
+				ip_val[8]=this.readCell(cl);
+				logger.info(ip_val[8]);
+			}
+			
+			
+			//Product details
+			String tmp=null;
+			int counter1=ip_Prod_1_Row;
+			int counter2=9;
+			
+			boolean flag=false;
+			{
+			XSSFRow rw=sh.getRow(counter1);
+			XSSFCell cl=rw.getCell(1);
+			tmp=cl.getStringCellValue();
+			}
+			
+			if(!((tmp.equalsIgnoreCase("TOTAL"))||(tmp.isEmpty())))
+			{
+			flag=true;
+			}
+			
+			
+			while(flag)
+			{
+				ip_val[counter2]=tmp;
+				logger.info(ip_val[counter2]);
+				counter1++;
+				counter2++;
 				{
-				flag=true;
+					XSSFRow rw=sh.getRow(counter1);
+					XSSFCell cl=rw.getCell(1);
+					tmp=cl.getStringCellValue();
 				}
-				
-				
-				while(flag)
+				if(((tmp.equalsIgnoreCase("TOTAL"))||(tmp.isEmpty())||(counter2>18)))
 				{
-					ip_val[counter2]=tmp;
-					logger.info(ip_val[counter2]);
-					counter1++;
-					counter2++;
-					{
-						XSSFRow rw=sh.getRow(counter1);
-						XSSFCell cl=rw.getCell(1);
-						tmp=cl.getStringCellValue();
-					}
-					if(((tmp.equalsIgnoreCase("TOTAL"))||(tmp.isEmpty())||(counter2>18)))
-					{
-						flag=false;
-					}
+					flag=false;
 				}
 			}
-			fis.close();
-			wb.close();
 			
-		} catch (IOException e) {
+		} catch(NullPointerException e){
+			logger.info("Sheet --> Requistion tab is missing" );
+			ip_val[0]="false";
+		}catch (java.lang.IllegalStateException e) {
+			logger.info("Sheet --> Data is inconsistent" );
+			ip_val[0]="false";
+		}catch (java.lang.StringIndexOutOfBoundsException e) {
+			logger.info("Sheet --> Address is not in expected sandard" );
+			ip_val[0]="false";
+		}catch (IOException e) {
 			e.printStackTrace();
-		
 		}
 		
-		
+		try {
+		fis.close();
+		wb.close();
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
 		return ip_val;
 		
 	}
@@ -369,6 +373,36 @@ public class inputConsolPOM extends TestBase{
 	return retArr;
 	}
 	
+	public String statusChck(int row)
+	{
+		String tdPathAbs=tdPath+"\\TD.xlsx";
+		int status_Col = 1;
+		String msg = null;
+		
+		try {
+			File fil=new File(tdPathAbs);
+			FileInputStream fis=new FileInputStream(fil);
+			XSSFWorkbook wb = new XSSFWorkbook(fis);
+			XSSFSheet sh=wb.getSheet("Sheet1");
+
+			XSSFRow rw=sh.getRow(row);
+			XSSFCell cl=rw.getCell(status_Col);
+			msg=this.readCell(cl);
+			logger.info("Status check - "+msg);
+			
+			fis.close();
+			FileOutputStream fos=new FileOutputStream(fil);
+			wb.write(fos);
+			fos.close();
+			wb.close();
+			
+		}catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		return msg;
+	}
+	
 	public void statusUpdate(int row, String msg)
 	{
 		String tdPathAbs=tdPath+"\\TD.xlsx";
@@ -455,93 +489,110 @@ public class inputConsolPOM extends TestBase{
 				logger.info("ROW COUNT "+rowCount);
 				++rowCount;
 
-				
 				String[] ipVal=this.ipRead(p);
-				Row rw=sh.createRow(rowCount);
-				
-				Cell seq=rw.createCell(seq_Col);
-				seq.setCellValue(rowCount);
-				
-				Cell cel_Date=rw.createCell(Date_Col);
-				cel_Date.setCellValue(ipVal[0]);
-				
-				Cell cel_Emp_No=rw.createCell(Emp_No_Col);
-				cel_Emp_No.setCellValue(ipVal[1]);
-				
-				Cell cel_Emp_Name=rw.createCell(Emp_Name_Col);
-				cel_Emp_Name.setCellValue(ipVal[2]);
-				
-				Cell cel_Home_address=rw.createCell(Home_address_Col);
-				cel_Home_address.setCellValue(ipVal[3]);
-				
-				Cell cel_Home_address1=rw.createCell(Home_address1_Col);
-				cel_Home_address1.setCellValue(ipVal[4]);
-				
-				Cell cel_Email_Address=rw.createCell(Email_Address_Col);
-				cel_Email_Address.setCellValue(ipVal[5]);				
-				
-				Cell cel_Cell_No=rw.createCell(Cell_No_Col);
-				cel_Cell_No.setCellValue(ipVal[6]);
-				
-				Cell cel_Manager_Name=rw.createCell(Manager_Name_Col);
-				cel_Manager_Name.setCellValue(ipVal[7]);
-				
-				Cell cel_Manager_Email=rw.createCell(Manager_Email_Col);
-				cel_Manager_Email.setCellValue(ipVal[8]);
-				
-				Cell cel_Prod1=rw.createCell(Prod1_Col);
-				cel_Prod1.setCellValue(ipVal[9]);
-				
-				Cell cel_Prod2=rw.createCell(Prod2_Col);
-				cel_Prod2.setCellValue(ipVal[10]);
-				
-				Cell cel_Prod3=rw.createCell(Prod3_Col);
-				cel_Prod3.setCellValue(ipVal[11]);
-				
-				Cell cel_Prod4=rw.createCell(Prod4_Col);
-				cel_Prod4.setCellValue(ipVal[12]);
-				
-				Cell cel_Prod5=rw.createCell(Prod5_Col);
-				cel_Prod5.setCellValue(ipVal[13]);
-				
-				Cell cel_Prod6=rw.createCell(Prod6_Col);
-				cel_Prod6.setCellValue(ipVal[14]);
-				
-				Cell cel_Prod7=rw.createCell(Prod7_Col);
-				cel_Prod7.setCellValue(ipVal[15]);
-				
-				Cell cel_Prod8=rw.createCell(Prod8_Col);
-				cel_Prod8.setCellValue(ipVal[16]);
-				
-				Cell cel_Prod9=rw.createCell(Prod9_Col);
-				cel_Prod9.setCellValue(ipVal[17]);
-				
-				Cell cel_Prod10=rw.createCell(Prod10_Col);
-				cel_Prod10.setCellValue(ipVal[18]);
-				
-				Cell cel_Process_DT=rw.createCell(Process_DT_Col);
-				cel_Process_DT.setCellValue(timeStamp);
-				
-				Cell cel_fileName=rw.createCell(fileName_Col);
-				cel_fileName.setCellValue(p);
-				
-				Cell cel_City=rw.createCell(city_Col);
-				cel_City.setCellValue(ipVal[19]);
-				
-				Cell cel_State=rw.createCell(state_Col);
-				cel_State.setCellValue(ipVal[20]);
-				
-				Cell cel_Zip=rw.createCell(zip_Col);
-				cel_Zip.setCellValue(ipVal[21]);
-				
-				fis.close();
-				FileOutputStream fos=new FileOutputStream(fil);
-				wb.write(fos);
-				fos.close();
-				wb.close();
-				
-				this.archieve(p);
-				
+				if(!(ipVal[0].equalsIgnoreCase("false")))
+				{
+					Row rw=sh.createRow(rowCount);
+					
+					Cell seq=rw.createCell(seq_Col);
+					seq.setCellValue(rowCount);
+					
+					Cell cel_Date=rw.createCell(Date_Col);
+					cel_Date.setCellValue(ipVal[0]);
+					
+					Cell cel_Emp_No=rw.createCell(Emp_No_Col);
+					cel_Emp_No.setCellValue(ipVal[1]);
+					
+					Cell cel_Emp_Name=rw.createCell(Emp_Name_Col);
+					cel_Emp_Name.setCellValue(ipVal[2]);
+					
+					Cell cel_Home_address=rw.createCell(Home_address_Col);
+					cel_Home_address.setCellValue(ipVal[3]);
+					
+					Cell cel_Home_address1=rw.createCell(Home_address1_Col);
+					cel_Home_address1.setCellValue(ipVal[4]);
+					
+					Cell cel_Email_Address=rw.createCell(Email_Address_Col);
+					cel_Email_Address.setCellValue(ipVal[5]);				
+					
+					Cell cel_Cell_No=rw.createCell(Cell_No_Col);
+					cel_Cell_No.setCellValue(ipVal[6]);
+					
+					Cell cel_Manager_Name=rw.createCell(Manager_Name_Col);
+					cel_Manager_Name.setCellValue(ipVal[7]);
+					
+					Cell cel_Manager_Email=rw.createCell(Manager_Email_Col);
+					cel_Manager_Email.setCellValue(ipVal[8]);
+					
+					Cell cel_Prod1=rw.createCell(Prod1_Col);
+					cel_Prod1.setCellValue(ipVal[9]);
+					
+					Cell cel_Prod2=rw.createCell(Prod2_Col);
+					cel_Prod2.setCellValue(ipVal[10]);
+					
+					Cell cel_Prod3=rw.createCell(Prod3_Col);
+					cel_Prod3.setCellValue(ipVal[11]);
+					
+					Cell cel_Prod4=rw.createCell(Prod4_Col);
+					cel_Prod4.setCellValue(ipVal[12]);
+					
+					Cell cel_Prod5=rw.createCell(Prod5_Col);
+					cel_Prod5.setCellValue(ipVal[13]);
+					
+					Cell cel_Prod6=rw.createCell(Prod6_Col);
+					cel_Prod6.setCellValue(ipVal[14]);
+					
+					Cell cel_Prod7=rw.createCell(Prod7_Col);
+					cel_Prod7.setCellValue(ipVal[15]);
+					
+					Cell cel_Prod8=rw.createCell(Prod8_Col);
+					cel_Prod8.setCellValue(ipVal[16]);
+					
+					Cell cel_Prod9=rw.createCell(Prod9_Col);
+					cel_Prod9.setCellValue(ipVal[17]);
+					
+					Cell cel_Prod10=rw.createCell(Prod10_Col);
+					cel_Prod10.setCellValue(ipVal[18]);
+					
+					Cell cel_Process_DT=rw.createCell(Process_DT_Col);
+					cel_Process_DT.setCellValue(timeStamp);
+					
+					Cell cel_fileName=rw.createCell(fileName_Col);
+					cel_fileName.setCellValue(p);
+					
+					Cell cel_City=rw.createCell(city_Col);
+					cel_City.setCellValue(ipVal[19]);
+					
+					Cell cel_State=rw.createCell(state_Col);
+					cel_State.setCellValue(ipVal[20]);
+					
+					Cell cel_Zip=rw.createCell(zip_Col);
+					cel_Zip.setCellValue(ipVal[21]);
+					
+					this.archieve(p);
+					fis.close();
+					FileOutputStream fos=new FileOutputStream(fil);
+					wb.write(fos);
+					fos.close();
+					wb.close();
+				}
+				else {
+					//Incorrect data exist in input file, File to be moved to Error folder.
+					fis.close();
+					FileOutputStream fos=new FileOutputStream(fil);
+					wb.write(fos);
+					fos.close();
+					wb.close();
+					
+					String ipPathAbs=ipPath+"\\"+p;
+					logger.info(ipPath);
+					logger.info("File moved to error for data inconisstency"+ipPathAbs);
+					String errPathAbs=errPath+"\\"+p;
+					logger.info(errPathAbs);
+					
+					this.moveFile(ipPathAbs, errPathAbs);
+				}
+
 			}
 			
 		} catch (FileNotFoundException e) {

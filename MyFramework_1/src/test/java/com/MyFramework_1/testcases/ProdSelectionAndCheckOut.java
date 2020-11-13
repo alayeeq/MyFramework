@@ -7,7 +7,7 @@ import com.MyFramework_1baseclasses.TestBase;
 
 public class ProdSelectionAndCheckOut extends TestBase{
 	
-	@Test (priority = 4)
+	//@Test (priority = 4)
 	ProductPagePOM p1=new ProductPagePOM(driver);
 	public void sam() {
 		

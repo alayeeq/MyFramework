@@ -155,18 +155,18 @@ public class ProductPagePOM extends TestBase{
 		                    if ((type == CellType.STRING) ||(type == CellType.BLANK))
 		                    {					
 		                    	td_Set[row][col]=cl.getStringCellValue();
-		                    	System.out.println(type);
+		                    	//System.out.println(type);
 		                    }
 		                    else if (type == CellType.NUMERIC)  
 		                    {
 		                    	td_Set[row][col]=NumberToTextConverter.toText(cl.getNumericCellValue());
-		                    	System.out.println(type);
+		                    	//System.out.println(type);
 		                    	
 		                    }
 		                    else if (type == CellType.NUMERIC)  
 		                    {
 		                    	td_Set[row][col]=NumberToTextConverter.toText(cl.getNumericCellValue());
-		                    	System.out.println(type);
+		                    	//System.out.println(type);
 		                    	
 		                    }
 		                    else  if (HSSFDateUtil.isCellDateFormatted(cl))
@@ -175,12 +175,12 @@ public class ProductPagePOM extends TestBase{
 		        				System.out.println(date);
 		        				DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");  
 		        				td_Set[row][col]=dateFormat.format(date);
-		                    	System.out.println(type);	
+		                    	//System.out.println(type);	
 		                    }
 		                    else 
 		                    {
 		                      	td_Set[row][col]=cl.getStringCellValue();
-		                    	System.out.println(type);
+		                    	//System.out.println(type);
 		                    }
 							}catch(NullPointerException e) 
 				        { 
