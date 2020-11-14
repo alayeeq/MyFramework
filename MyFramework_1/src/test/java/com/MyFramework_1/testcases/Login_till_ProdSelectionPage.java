@@ -210,7 +210,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 							if(!(flag))
 							{
 								logger.info("invalid Product idetified during product selection :"+r1[row][col]);
-								bl.statusUpdate(row, "Invalid Product exist");
+								bl.statusUpdate(row, "Failed -Invalid Product exist :"+r1[row][col]);
 								/*if(!p1.chckCart(driver));
 								{
 									System.out.println("Unalbe to empty cart");
@@ -232,8 +232,8 @@ public class Login_till_ProdSelectionPage extends TestBase {
 					}
 				
 				//checkout to be added.
-				if(false)
-				{
+				//if(false)
+				//{
 			//Devesh_ checkout page
 				System.out.println("total no of items: " + item_counter);
 				driver.findElement(By.xpath("//*[@id=\"shoppingCart\"]/div/div/div[1]/button")).click();//click on cart button
@@ -603,7 +603,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 						break Employee_loop;
 					}
 				}
-				}//
+				//}//
 			}
 			else {
 				logger.info("EE "+row+" Skipped");

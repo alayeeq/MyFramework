@@ -649,3 +649,72 @@
 2020-11-13 18:39:39,464  INFO [main] Login_till_ProdSelectionPage:231 - EE 12 product 14 ended for product -->StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
 2020-11-13 18:39:39,464  INFO [main] Login_till_ProdSelectionPage:203 - EE 12 product 15 started for product -->
 2020-11-13 18:39:39,465  INFO [main] Login_till_ProdSelectionPage:223 - blank break
+2020-11-13 19:01:15,864  INFO [main] Login_till_ProdSelectionPage:80 - UserID is enterrerd
+2020-11-13 19:01:15,989  INFO [main] Login_till_ProdSelectionPage:86 - Pwd is enterrerd
+2020-11-13 19:01:19,075  INFO [main] Login_till_ProdSelectionPage:88 - LoginButton is clicked
+2020-11-13 19:02:11,328  INFO [main] Login_till_ProdSelectionPage:107 - Launch button is clicked
+2020-11-13 19:02:35,327  INFO [main] Login_till_ProdSelectionPage:142 - RECPROD button is clicked
+2020-11-13 19:02:45,339  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-13 19:02:45,339  INFO [main] Login_till_ProdSelectionPage:768 - GET IP File method call init
+2020-11-13 19:02:45,340  INFO [main] Login_till_ProdSelectionPage:770 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-13 19:02:45,341  INFO [main] Login_till_ProdSelectionPage:660 - Weed out method init 
+2020-11-13 19:02:45,341  INFO [main] Login_till_ProdSelectionPage:470 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-13 19:02:45,345  INFO [main] Login_till_ProdSelectionPage:510 - 11/13/2020 19:02:45
+2020-11-13 19:02:45,346  INFO [main] Login_till_ProdSelectionPage:768 - GET IP File method call init
+2020-11-13 19:02:45,346  INFO [main] Login_till_ProdSelectionPage:770 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-13 19:02:45,353  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-13 19:02:45,945  INFO [main] Login_till_ProdSelectionPage:174 - 13
+2020-11-13 19:02:50,952  INFO [main] Login_till_ProdSelectionPage:183 - EE 1 Started
+2020-11-13 19:02:51,028  INFO [main] Login_till_ProdSelectionPage:424 - Status check - null
+2020-11-13 19:02:51,242  INFO [main] Login_till_ProdSelectionPage:188 - EE 1 Started
+2020-11-13 19:03:09,673  INFO [main] Login_till_ProdSelectionPage:203 - EE 1 product 13 started for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-13 19:03:30,188  INFO [main] Login_till_ProdSelectionPage:231 - EE 1 product 13 ended for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-13 19:03:30,189  INFO [main] Login_till_ProdSelectionPage:203 - EE 1 product 14 started for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-13 19:03:55,765  INFO [main] Login_till_ProdSelectionPage:231 - EE 1 product 14 ended for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-13 19:03:55,766  INFO [main] Login_till_ProdSelectionPage:203 - EE 1 product 15 started for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-13 19:04:21,365  INFO [main] Login_till_ProdSelectionPage:231 - EE 1 product 15 ended for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-13 19:04:21,366  INFO [main] Login_till_ProdSelectionPage:203 - EE 1 product 16 started for product -->null
+2020-11-13 19:04:21,366  INFO [main] Login_till_ProdSelectionPage:228 - null pointer break
+2020-11-13 19:04:21,366  INFO [main] Login_till_ProdSelectionPage:183 - EE 2 Started
+2020-11-13 19:04:21,447  INFO [main] Login_till_ProdSelectionPage:424 - Status check - null
+2020-11-13 19:04:21,493  INFO [main] Login_till_ProdSelectionPage:188 - EE 2 Started
+2020-11-13 19:04:52,945  INFO [main] Login_till_ProdSelectionPage:203 - EE 2 product 13 started for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-13 19:05:18,521  INFO [main] Login_till_ProdSelectionPage:231 - EE 2 product 13 ended for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-13 19:05:18,522  INFO [main] Login_till_ProdSelectionPage:203 - EE 2 product 14 started for product -->EVOLVE 65 WIRELESS BLUETOOTH SINGLE EAR HEADSET
+2020-11-13 19:05:44,067  INFO [main] Login_till_ProdSelectionPage:231 - EE 2 product 14 ended for product -->EVOLVE 65 WIRELESS BLUETOOTH SINGLE EAR HEADSET
+2020-11-13 19:05:44,067  INFO [main] Login_till_ProdSelectionPage:203 - EE 2 product 15 started for product -->null
+2020-11-13 19:05:44,067  INFO [main] Login_till_ProdSelectionPage:228 - null pointer break
+2020-11-13 19:05:44,067  INFO [main] Login_till_ProdSelectionPage:183 - EE 3 Started
+2020-11-13 19:05:44,118  INFO [main] Login_till_ProdSelectionPage:424 - Status check - null
+2020-11-13 19:05:44,164  INFO [main] Login_till_ProdSelectionPage:188 - EE 3 Started
+2020-11-13 19:06:12,531  INFO [main] Login_till_ProdSelectionPage:203 - EE 3 product 13 started for product -->T24i-20(A20238FT0)23.8 inch Monitor-HDMI
+2020-11-13 19:06:38,041  INFO [main] Login_till_ProdSelectionPage:231 - EE 3 product 13 ended for product -->T24i-20(A20238FT0)23.8 inch Monitor-HDMI
+2020-11-13 19:06:38,041  INFO [main] Login_till_ProdSelectionPage:203 - EE 3 product 14 started for product -->null
+2020-11-13 19:06:38,041  INFO [main] Login_till_ProdSelectionPage:228 - null pointer break
+2020-11-13 19:06:38,041  INFO [main] Login_till_ProdSelectionPage:183 - EE 4 Started
+2020-11-13 19:06:38,087  INFO [main] Login_till_ProdSelectionPage:424 - Status check - null
+2020-11-13 19:06:38,118  INFO [main] Login_till_ProdSelectionPage:188 - EE 4 Started
+2020-11-13 19:07:03,365  INFO [main] Login_till_ProdSelectionPage:203 - EE 4 product 13 started for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-13 19:07:28,962  INFO [main] Login_till_ProdSelectionPage:231 - EE 4 product 13 ended for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-13 19:07:28,962  INFO [main] Login_till_ProdSelectionPage:203 - EE 4 product 14 started for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-13 19:07:54,519  INFO [main] Login_till_ProdSelectionPage:231 - EE 4 product 14 ended for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-13 19:07:54,521  INFO [main] Login_till_ProdSelectionPage:203 - EE 4 product 15 started for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-13 19:08:20,048  INFO [main] Login_till_ProdSelectionPage:231 - EE 4 product 15 ended for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-13 19:08:20,049  INFO [main] Login_till_ProdSelectionPage:203 - EE 4 product 16 started for product -->null
+2020-11-13 19:08:20,049  INFO [main] Login_till_ProdSelectionPage:228 - null pointer break
+2020-11-13 19:08:20,049  INFO [main] Login_till_ProdSelectionPage:183 - EE 5 Started
+2020-11-13 19:08:20,097  INFO [main] Login_till_ProdSelectionPage:424 - Status check - null
+2020-11-13 19:08:20,141  INFO [main] Login_till_ProdSelectionPage:188 - EE 5 Started
+2020-11-13 19:08:51,531  INFO [main] Login_till_ProdSelectionPage:203 - EE 5 product 13 started for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-13 19:09:17,136  INFO [main] Login_till_ProdSelectionPage:231 - EE 5 product 13 ended for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-13 19:09:17,136  INFO [main] Login_till_ProdSelectionPage:203 - EE 5 product 14 started for product -->EVOLVE 40 UC USB-A CORDED MONAURAL HEADSET
+2020-11-13 19:09:42,680  INFO [main] Login_till_ProdSelectionPage:231 - EE 5 product 14 ended for product -->EVOLVE 40 UC USB-A CORDED MONAURAL HEADSET
+2020-11-13 19:09:42,681  INFO [main] Login_till_ProdSelectionPage:203 - EE 5 product 15 started for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-13 19:10:08,223  INFO [main] Login_till_ProdSelectionPage:231 - EE 5 product 15 ended for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-13 19:10:08,223  INFO [main] Login_till_ProdSelectionPage:203 - EE 5 product 16 started for product -->StarTech.com USB C to Gigabit Ethernet Adapter - Black - USB 3.1 to RJ45 LAN Net
+2020-11-13 19:10:33,778  INFO [main] Login_till_ProdSelectionPage:231 - EE 5 product 16 ended for product -->StarTech.com USB C to Gigabit Ethernet Adapter - Black - USB 3.1 to RJ45 LAN Net
+2020-11-13 19:10:33,781  INFO [main] Login_till_ProdSelectionPage:203 - EE 5 product 17 started for product -->null
+2020-11-13 19:10:33,782  INFO [main] Login_till_ProdSelectionPage:228 - null pointer break
+2020-11-13 19:10:33,782  INFO [main] Login_till_ProdSelectionPage:183 - EE 6 Started
+2020-11-13 19:10:33,820  INFO [main] Login_till_ProdSelectionPage:424 - Status check - null
+2020-11-13 19:10:33,856  INFO [main] Login_till_ProdSelectionPage:188 - EE 6 Started
