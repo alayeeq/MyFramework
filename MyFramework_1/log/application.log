@@ -718,3 +718,884 @@
 2020-11-13 19:10:33,782  INFO [main] Login_till_ProdSelectionPage:183 - EE 6 Started
 2020-11-13 19:10:33,820  INFO [main] Login_till_ProdSelectionPage:424 - Status check - null
 2020-11-13 19:10:33,856  INFO [main] Login_till_ProdSelectionPage:188 - EE 6 Started
+2020-11-13 23:30:53,289  INFO [main] Login_till_ProdSelectionPage:80 - UserID is enterrerd
+2020-11-13 23:30:53,443  INFO [main] Login_till_ProdSelectionPage:86 - Pwd is enterrerd
+2020-11-13 23:30:56,299  INFO [main] Login_till_ProdSelectionPage:88 - LoginButton is clicked
+2020-11-13 23:31:48,741  INFO [main] Login_till_ProdSelectionPage:107 - Launch button is clicked
+2020-11-13 23:32:06,371  INFO [main] Login_till_ProdSelectionPage:142 - RECPROD button is clicked
+2020-11-13 23:32:16,404  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-13 23:32:16,405  INFO [main] Login_till_ProdSelectionPage:768 - GET IP File method call init
+2020-11-13 23:32:16,405  INFO [main] Login_till_ProdSelectionPage:770 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input
+2020-11-13 23:32:16,408  INFO [main] Login_till_ProdSelectionPage:777 - 05322B - Rahul Yadav.xlsx
+2020-11-13 23:32:16,408  INFO [main] Login_till_ProdSelectionPage:777 - 053969 NIRAJ KUMAR.xlsx
+2020-11-13 23:32:16,409  INFO [main] Login_till_ProdSelectionPage:777 - 066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-13 23:32:16,409  INFO [main] Login_till_ProdSelectionPage:777 - 641538 - Tapas Saha.xlsx
+2020-11-13 23:32:16,410  INFO [main] Login_till_ProdSelectionPage:777 - Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-13 23:32:16,410  INFO [main] Login_till_ProdSelectionPage:777 - Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-13 23:32:16,411  INFO [main] Login_till_ProdSelectionPage:777 - Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-13 23:32:16,411  INFO [main] Login_till_ProdSelectionPage:777 - Branch - Office Supplies Requisiton Template v2.0-4_Anirban Datta.xlsx
+2020-11-13 23:32:16,413  INFO [main] Login_till_ProdSelectionPage:777 - Branch - Office Supplies Requisiton Template v2.0-4_VikasSharma_052170.xlsx
+2020-11-13 23:32:16,414  INFO [main] Login_till_ProdSelectionPage:777 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-13 23:32:16,414  INFO [main] Login_till_ProdSelectionPage:777 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-13 23:32:16,415  INFO [main] Login_till_ProdSelectionPage:777 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-13 23:32:16,417  INFO [main] Login_till_ProdSelectionPage:660 - Weed out method init 
+2020-11-13 23:32:16,418  INFO [main] Login_till_ProdSelectionPage:470 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-13 23:32:16,425  INFO [main] Login_till_ProdSelectionPage:510 - 11/13/2020 23:32:16
+2020-11-13 23:32:16,425  INFO [main] Login_till_ProdSelectionPage:768 - GET IP File method call init
+2020-11-13 23:32:16,425  INFO [main] Login_till_ProdSelectionPage:770 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input
+2020-11-13 23:32:16,426  INFO [main] Login_till_ProdSelectionPage:777 - 05322B - Rahul Yadav.xlsx
+2020-11-13 23:32:16,426  INFO [main] Login_till_ProdSelectionPage:777 - 053969 NIRAJ KUMAR.xlsx
+2020-11-13 23:32:16,427  INFO [main] Login_till_ProdSelectionPage:777 - 066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-13 23:32:16,427  INFO [main] Login_till_ProdSelectionPage:777 - 641538 - Tapas Saha.xlsx
+2020-11-13 23:32:16,427  INFO [main] Login_till_ProdSelectionPage:777 - Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-13 23:32:16,427  INFO [main] Login_till_ProdSelectionPage:777 - Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-13 23:32:16,427  INFO [main] Login_till_ProdSelectionPage:777 - Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-13 23:32:16,428  INFO [main] Login_till_ProdSelectionPage:777 - Branch - Office Supplies Requisiton Template v2.0-4_Anirban Datta.xlsx
+2020-11-13 23:32:16,428  INFO [main] Login_till_ProdSelectionPage:777 - Branch - Office Supplies Requisiton Template v2.0-4_VikasSharma_052170.xlsx
+2020-11-13 23:32:16,429  INFO [main] Login_till_ProdSelectionPage:777 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-13 23:32:16,429  INFO [main] Login_till_ProdSelectionPage:777 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-13 23:32:16,430  INFO [main] Login_till_ProdSelectionPage:777 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-13 23:32:17,236  INFO [main] Login_till_ProdSelectionPage:527 - ROW COUNT 12
+2020-11-13 23:32:17,503  INFO [main] Login_till_ProdSelectionPage:149 - 11/12/2020
+2020-11-13 23:32:17,508  INFO [main] Login_till_ProdSelectionPage:150 - 44147
+2020-11-13 23:32:17,510  INFO [main] Login_till_ProdSelectionPage:158 - 05322B
+2020-11-13 23:32:17,511  INFO [main] Login_till_ProdSelectionPage:166 - Rahul Yadav
+2020-11-13 23:32:17,511  INFO [main] Login_till_ProdSelectionPage:174 - 5300 W Memorial Rd, APT 2Q
+2020-11-13 23:32:17,512  INFO [main] Login_till_ProdSelectionPage:183 - Oklahoma City
+2020-11-13 23:32:17,513  INFO [main] Login_till_ProdSelectionPage:191 - OK
+2020-11-13 23:32:17,513  INFO [main] Login_till_ProdSelectionPage:199 - 73142-2032
+2020-11-13 23:32:17,514  INFO [main] Login_till_ProdSelectionPage:223 - radyadav@in.ibm.com
+2020-11-13 23:32:17,514  INFO [main] Login_till_ProdSelectionPage:231 - 405-719-5046
+2020-11-13 23:32:17,515  INFO [main] Login_till_ProdSelectionPage:239 - Rohit Mehta
+2020-11-13 23:32:17,515  INFO [main] Login_till_ProdSelectionPage:247 - romehta1@in.ibm.com
+2020-11-13 23:32:17,515  INFO [main] Login_till_ProdSelectionPage:272 - Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-13 23:32:17,516  INFO [main] Login_till_ProdSelectionPage:272 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-13 23:32:17,517  INFO [main] Login_till_ProdSelectionPage:272 - Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-13 23:32:17,529  INFO [main] Login_till_ProdSelectionPage:683 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\05322B - Rahul Yadav.xlsx
+2020-11-13 23:32:17,530  INFO [main] Login_till_ProdSelectionPage:685 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\05322B - Rahul Yadav.xlsx
+2020-11-13 23:32:17,531  INFO [main] Login_till_ProdSelectionPage:696 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\05322B - Rahul Yadav.xlsx
+2020-11-13 23:32:17,532  INFO [main] Login_till_ProdSelectionPage:701 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\05322B - Rahul Yadav.xlsx
+2020-11-13 23:32:17,849  INFO [main] Login_till_ProdSelectionPage:527 - ROW COUNT 13
+2020-11-13 23:32:18,003  INFO [main] Login_till_ProdSelectionPage:149 - 11/12/2020
+2020-11-13 23:32:18,003  INFO [main] Login_till_ProdSelectionPage:150 - 44147
+2020-11-13 23:32:18,004  INFO [main] Login_till_ProdSelectionPage:158 - 053969
+2020-11-13 23:32:18,005  INFO [main] Login_till_ProdSelectionPage:166 - NIRAJ KUMAR
+2020-11-13 23:32:18,005  INFO [main] Login_till_ProdSelectionPage:174 - 14504 BRIAR FOREST DR APT 715
+2020-11-13 23:32:18,006  INFO [main] Login_till_ProdSelectionPage:183 - HOUSTON
+2020-11-13 23:32:18,006  INFO [main] Login_till_ProdSelectionPage:191 - TX
+2020-11-13 23:32:18,007  INFO [main] Login_till_ProdSelectionPage:199 - 77077-1742
+2020-11-13 23:32:18,007  INFO [main] Login_till_ProdSelectionPage:223 - nirajlohani@in.ibm.com
+2020-11-13 23:32:18,007  INFO [main] Login_till_ProdSelectionPage:231 - 248 839 9305
+2020-11-13 23:32:18,008  INFO [main] Login_till_ProdSelectionPage:239 - Gorakshanath Thube
+2020-11-13 23:32:18,009  INFO [main] Login_till_ProdSelectionPage:247 - gorthube@in.ibm.com
+2020-11-13 23:32:18,009  INFO [main] Login_till_ProdSelectionPage:272 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-13 23:32:18,009  INFO [main] Login_till_ProdSelectionPage:272 - EVOLVE 65 WIRELESS BLUETOOTH SINGLE EAR HEADSET
+2020-11-13 23:32:18,016  INFO [main] Login_till_ProdSelectionPage:683 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\053969 NIRAJ KUMAR.xlsx
+2020-11-13 23:32:18,016  INFO [main] Login_till_ProdSelectionPage:685 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\053969 NIRAJ KUMAR.xlsx
+2020-11-13 23:32:18,017  INFO [main] Login_till_ProdSelectionPage:696 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\053969 NIRAJ KUMAR.xlsx
+2020-11-13 23:32:18,017  INFO [main] Login_till_ProdSelectionPage:701 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\053969 NIRAJ KUMAR.xlsx
+2020-11-13 23:32:18,102  INFO [main] Login_till_ProdSelectionPage:527 - ROW COUNT 14
+2020-11-13 23:32:18,262  INFO [main] Login_till_ProdSelectionPage:149 - 11/12/2020
+2020-11-13 23:32:18,263  INFO [main] Login_till_ProdSelectionPage:150 - 44147
+2020-11-13 23:32:18,263  INFO [main] Login_till_ProdSelectionPage:158 - 66504
+2020-11-13 23:32:18,264  INFO [main] Login_till_ProdSelectionPage:166 - JAIKUMAR KOCHI RAMMOHAN
+2020-11-13 23:32:18,264  INFO [main] Login_till_ProdSelectionPage:174 - 8809 RODEO DR APT 213
+2020-11-13 23:32:18,264  INFO [main] Login_till_ProdSelectionPage:183 - IRVING
+2020-11-13 23:32:18,265  INFO [main] Login_till_ProdSelectionPage:191 - TX
+2020-11-13 23:32:18,265  INFO [main] Login_till_ProdSelectionPage:199 - 75063-6352
+2020-11-13 23:32:18,265  INFO [main] Login_till_ProdSelectionPage:223 - JAIKUMAR.KR@IN.IBM.COM
+2020-11-13 23:32:18,266  INFO [main] Login_till_ProdSelectionPage:231 - 214-714-5719
+2020-11-13 23:32:18,267  INFO [main] Login_till_ProdSelectionPage:239 - Shebeen Usman
+2020-11-13 23:32:18,268  INFO [main] Login_till_ProdSelectionPage:247 - ushebeen@in.ibm.com
+2020-11-13 23:32:18,268  INFO [main] Login_till_ProdSelectionPage:272 - T24i-20(A20238FT0)23.8 inch Monitor-HDMI
+2020-11-13 23:32:18,275  INFO [main] Login_till_ProdSelectionPage:683 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-13 23:32:18,275  INFO [main] Login_till_ProdSelectionPage:685 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-13 23:32:18,276  INFO [main] Login_till_ProdSelectionPage:696 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-13 23:32:18,276  INFO [main] Login_till_ProdSelectionPage:701 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-13 23:32:18,341  INFO [main] Login_till_ProdSelectionPage:527 - ROW COUNT 15
+2020-11-13 23:32:18,582  INFO [main] Login_till_ProdSelectionPage:149 - 12/12/2020
+2020-11-13 23:32:18,582  INFO [main] Login_till_ProdSelectionPage:150 - 44177
+2020-11-13 23:32:18,582  INFO [main] Login_till_ProdSelectionPage:158 - 641538
+2020-11-13 23:32:18,583  INFO [main] Login_till_ProdSelectionPage:166 - Tapas K Saha
+2020-11-13 23:32:18,583  INFO [main] Login_till_ProdSelectionPage:174 - 587 Lakehurst Road, APT - GL
+2020-11-13 23:32:18,583  INFO [main] Login_till_ProdSelectionPage:183 - Waukegan
+2020-11-13 23:32:18,583  INFO [main] Login_till_ProdSelectionPage:191 - IL
+2020-11-13 23:32:18,585  INFO [main] Login_till_ProdSelectionPage:199 - 60085-6627
+2020-11-13 23:32:18,585  INFO [main] Login_till_ProdSelectionPage:223 - tapas.saha@in.ibm.com
+2020-11-13 23:32:18,585  INFO [main] Login_till_ProdSelectionPage:231 - 224-413-7948
+2020-11-13 23:32:18,585  INFO [main] Login_till_ProdSelectionPage:239 - Sachin B Kulkarni
+2020-11-13 23:32:18,585  INFO [main] Login_till_ProdSelectionPage:247 - sachin.kulkarni@in.ibm.com
+2020-11-13 23:32:18,585  INFO [main] Login_till_ProdSelectionPage:272 - Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-13 23:32:18,585  INFO [main] Login_till_ProdSelectionPage:272 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-13 23:32:18,587  INFO [main] Login_till_ProdSelectionPage:272 - Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-13 23:32:18,590  INFO [main] Login_till_ProdSelectionPage:683 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\641538 - Tapas Saha.xlsx
+2020-11-13 23:32:18,590  INFO [main] Login_till_ProdSelectionPage:685 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\641538 - Tapas Saha.xlsx
+2020-11-13 23:32:18,591  INFO [main] Login_till_ProdSelectionPage:696 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\641538 - Tapas Saha.xlsx
+2020-11-13 23:32:18,592  INFO [main] Login_till_ProdSelectionPage:701 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\641538 - Tapas Saha.xlsx
+2020-11-13 23:32:18,662  INFO [main] Login_till_ProdSelectionPage:527 - ROW COUNT 16
+2020-11-13 23:32:18,804  INFO [main] Login_till_ProdSelectionPage:149 - 11/12/2020
+2020-11-13 23:32:18,805  INFO [main] Login_till_ProdSelectionPage:150 - 44147
+2020-11-13 23:32:18,807  INFO [main] Login_till_ProdSelectionPage:158 - 08350F
+2020-11-13 23:32:18,807  INFO [main] Login_till_ProdSelectionPage:166 - RAGHAVENDER BITTLY
+2020-11-13 23:32:18,808  INFO [main] Login_till_ProdSelectionPage:174 - 3980 OLD STERLINGTON RD APT#1502
+2020-11-13 23:32:18,817  INFO [main] Login_till_ProdSelectionPage:183 - MONROE
+2020-11-13 23:32:18,818  INFO [main] Login_till_ProdSelectionPage:191 - LA
+2020-11-13 23:32:18,820  INFO [main] Login_till_ProdSelectionPage:199 - 71203-2601
+2020-11-13 23:32:18,821  INFO [main] Login_till_ProdSelectionPage:223 - rabittly@in.ibm.com
+2020-11-13 23:32:18,821  INFO [main] Login_till_ProdSelectionPage:231 - 318-509-9999
+2020-11-13 23:32:18,822  INFO [main] Login_till_ProdSelectionPage:239 - Jiby Joseph
+2020-11-13 23:32:18,823  INFO [main] Login_till_ProdSelectionPage:247 - jiby.joseph@in.ibm.com
+2020-11-13 23:32:18,823  INFO [main] Login_till_ProdSelectionPage:272 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-13 23:32:18,823  INFO [main] Login_till_ProdSelectionPage:272 - EVOLVE 40 UC USB-A CORDED MONAURAL HEADSET
+2020-11-13 23:32:18,823  INFO [main] Login_till_ProdSelectionPage:272 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-13 23:32:18,824  INFO [main] Login_till_ProdSelectionPage:272 - StarTech.com USB C to Gigabit Ethernet Adapter - Black - USB 3.1 to RJ45 LAN Net
+2020-11-13 23:32:18,827  INFO [main] Login_till_ProdSelectionPage:683 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-13 23:32:18,828  INFO [main] Login_till_ProdSelectionPage:685 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-13 23:32:18,828  INFO [main] Login_till_ProdSelectionPage:696 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-13 23:32:18,829  INFO [main] Login_till_ProdSelectionPage:701 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-13 23:32:18,910  INFO [main] Login_till_ProdSelectionPage:527 - ROW COUNT 17
+2020-11-13 23:32:19,044  INFO [main] Login_till_ProdSelectionPage:149 - 11/12/2020
+2020-11-13 23:32:19,045  INFO [main] Login_till_ProdSelectionPage:150 - 44147
+2020-11-13 23:32:19,046  INFO [main] Login_till_ProdSelectionPage:158 - 915452
+2020-11-13 23:32:19,046  INFO [main] Login_till_ProdSelectionPage:166 - Mahendran Shanmugam
+2020-11-13 23:32:19,046  INFO [main] Login_till_ProdSelectionPage:174 - 4155 Essen Ln, Apt 180
+2020-11-13 23:32:19,047  INFO [main] Login_till_ProdSelectionPage:183 - Baton Rouge
+2020-11-13 23:32:19,047  INFO [main] Login_till_ProdSelectionPage:191 - LA
+2020-11-13 23:32:19,048  INFO [main] Login_till_ProdSelectionPage:199 - 70809-2143
+2020-11-13 23:32:19,048  INFO [main] Login_till_ProdSelectionPage:223 - smahendr@in.ibm.com
+2020-11-13 23:32:19,048  INFO [main] Login_till_ProdSelectionPage:231 - 9199866707
+2020-11-13 23:32:19,048  INFO [main] Login_till_ProdSelectionPage:239 - Nilotpal.Sengupta
+2020-11-13 23:32:19,048  INFO [main] Login_till_ProdSelectionPage:247 -  Nilotpal.sengupta@ibm.com
+2020-11-13 23:32:19,048  INFO [main] Login_till_ProdSelectionPage:272 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-13 23:32:19,049  INFO [main] Login_till_ProdSelectionPage:272 - StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-13 23:32:19,053  INFO [main] Login_till_ProdSelectionPage:683 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-13 23:32:19,054  INFO [main] Login_till_ProdSelectionPage:685 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-13 23:32:19,055  INFO [main] Login_till_ProdSelectionPage:696 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-13 23:32:19,055  INFO [main] Login_till_ProdSelectionPage:701 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-13 23:32:19,108  INFO [main] Login_till_ProdSelectionPage:527 - ROW COUNT 18
+2020-11-13 23:32:19,229  INFO [main] Login_till_ProdSelectionPage:149 - 11/12/2020
+2020-11-13 23:32:19,230  INFO [main] Login_till_ProdSelectionPage:150 - 44147
+2020-11-13 23:32:19,230  INFO [main] Login_till_ProdSelectionPage:158 - 078641
+2020-11-13 23:32:19,230  INFO [main] Login_till_ProdSelectionPage:166 - Nabanita Choudhury
+2020-11-13 23:32:19,230  INFO [main] Login_till_ProdSelectionPage:174 - 2606 Society Drive
+2020-11-13 23:32:19,230  INFO [main] Login_till_ProdSelectionPage:183 - Claymont
+2020-11-13 23:32:19,232  INFO [main] Login_till_ProdSelectionPage:191 - DE
+2020-11-13 23:32:19,232  INFO [main] Login_till_ProdSelectionPage:199 - 19703-1709
+2020-11-13 23:32:19,233  INFO [main] Login_till_ProdSelectionPage:223 - nabanita.choudhury@in.ibm.com
+2020-11-13 23:32:19,233  INFO [main] Login_till_ProdSelectionPage:231 - +1-3023459079
+2020-11-13 23:32:19,234  INFO [main] Login_till_ProdSelectionPage:239 - Rajeev Gupta
+2020-11-13 23:32:19,234  INFO [main] Login_till_ProdSelectionPage:247 - rajeevgu@in.ibm.com
+2020-11-13 23:32:19,234  INFO [main] Login_till_ProdSelectionPage:272 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-13 23:32:19,234  INFO [main] Login_till_ProdSelectionPage:272 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-13 23:32:19,237  INFO [main] Login_till_ProdSelectionPage:683 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-13 23:32:19,237  INFO [main] Login_till_ProdSelectionPage:685 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-13 23:32:19,239  INFO [main] Login_till_ProdSelectionPage:696 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-13 23:32:19,239  INFO [main] Login_till_ProdSelectionPage:701 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-13 23:32:19,287  INFO [main] Login_till_ProdSelectionPage:527 - ROW COUNT 19
+2020-11-13 23:32:19,413  INFO [main] Login_till_ProdSelectionPage:149 - 11/12/2020
+2020-11-13 23:32:19,413  INFO [main] Login_till_ProdSelectionPage:150 - 44147
+2020-11-13 23:32:19,415  INFO [main] Login_till_ProdSelectionPage:158 - 639570
+2020-11-13 23:32:19,415  INFO [main] Login_till_ProdSelectionPage:166 - Anirban Datta
+2020-11-13 23:32:19,418  INFO [main] Login_till_ProdSelectionPage:174 - 1469 Creekside Drive ; Apt 3029
+2020-11-13 23:32:19,418  INFO [main] Login_till_ProdSelectionPage:183 - Walnut Creek
+2020-11-13 23:32:19,419  INFO [main] Login_till_ProdSelectionPage:191 - CA
+2020-11-13 23:32:19,420  INFO [main] Login_till_ProdSelectionPage:199 - 94596-7400
+2020-11-13 23:32:19,420  INFO [main] Login_till_ProdSelectionPage:223 - Anirban.Datta@in.ibm.com
+2020-11-13 23:32:19,420  INFO [main] Login_till_ProdSelectionPage:231 - 925 639 4479
+2020-11-13 23:32:19,420  INFO [main] Login_till_ProdSelectionPage:239 - Chitralekha Datta
+2020-11-13 23:32:19,420  INFO [main] Login_till_ProdSelectionPage:247 - dchitral@in.ibm.com
+2020-11-13 23:32:19,420  INFO [main] Login_till_ProdSelectionPage:272 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-13 23:32:19,420  INFO [main] Login_till_ProdSelectionPage:272 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-13 23:32:19,424  INFO [main] Login_till_ProdSelectionPage:683 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\Branch - Office Supplies Requisiton Template v2.0-4_Anirban Datta.xlsx
+2020-11-13 23:32:19,424  INFO [main] Login_till_ProdSelectionPage:685 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_Anirban Datta.xlsx
+2020-11-13 23:32:19,425  INFO [main] Login_till_ProdSelectionPage:696 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_Anirban Datta.xlsx
+2020-11-13 23:32:19,426  INFO [main] Login_till_ProdSelectionPage:701 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_Anirban Datta.xlsx
+2020-11-13 23:32:19,541  INFO [main] Login_till_ProdSelectionPage:527 - ROW COUNT 20
+2020-11-13 23:32:19,685  INFO [main] Login_till_ProdSelectionPage:149 - 11/12/2020
+2020-11-13 23:32:19,685  INFO [main] Login_till_ProdSelectionPage:150 - 44147
+2020-11-13 23:32:19,685  INFO [main] Login_till_ProdSelectionPage:158 - 052170
+2020-11-13 23:32:19,686  INFO [main] Login_till_ProdSelectionPage:166 - Vikas Sharma
+2020-11-13 23:32:19,686  INFO [main] Login_till_ProdSelectionPage:174 - 9548 Valley Ranch Pkwy E, Apt #1107
+2020-11-13 23:32:19,686  INFO [main] Login_till_ProdSelectionPage:183 - Irving
+2020-11-13 23:32:19,686  INFO [main] Login_till_ProdSelectionPage:191 - TX
+2020-11-13 23:32:19,686  INFO [main] Login_till_ProdSelectionPage:199 - 75063-4911
+2020-11-13 23:32:19,686  INFO [main] Login_till_ProdSelectionPage:223 - vikshar1@in.ibm.com
+2020-11-13 23:32:19,687  INFO [main] Login_till_ProdSelectionPage:231 - 6194679248
+2020-11-13 23:32:19,687  INFO [main] Login_till_ProdSelectionPage:239 - Santosh D Pawar
+2020-11-13 23:32:19,688  INFO [main] Login_till_ProdSelectionPage:247 - santosh.pawar@in.ibm.com
+2020-11-13 23:32:19,688  INFO [main] Login_till_ProdSelectionPage:272 - Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-13 23:32:19,688  INFO [main] Login_till_ProdSelectionPage:272 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-13 23:32:19,692  INFO [main] Login_till_ProdSelectionPage:683 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\Branch - Office Supplies Requisiton Template v2.0-4_VikasSharma_052170.xlsx
+2020-11-13 23:32:19,692  INFO [main] Login_till_ProdSelectionPage:685 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_VikasSharma_052170.xlsx
+2020-11-13 23:32:19,693  INFO [main] Login_till_ProdSelectionPage:696 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_VikasSharma_052170.xlsx
+2020-11-13 23:32:19,693  INFO [main] Login_till_ProdSelectionPage:701 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_VikasSharma_052170.xlsx
+2020-11-13 23:32:19,746  INFO [main] Login_till_ProdSelectionPage:527 - ROW COUNT 21
+2020-11-13 23:32:19,860  INFO [main] Login_till_ProdSelectionPage:149 - 11/12/2020
+2020-11-13 23:32:19,860  INFO [main] Login_till_ProdSelectionPage:150 - 44147
+2020-11-13 23:32:19,861  INFO [main] Login_till_ProdSelectionPage:158 - 01205Q
+2020-11-13 23:32:19,861  INFO [main] Login_till_ProdSelectionPage:166 - Rajasekaran Periasamy
+2020-11-13 23:32:19,861  INFO [main] Login_till_ProdSelectionPage:174 - Apt # 204, 144 Galway Drive
+2020-11-13 23:32:19,862  INFO [main] Login_till_ProdSelectionPage:183 - Mooresville
+2020-11-13 23:32:19,862  INFO [main] Login_till_ProdSelectionPage:191 - NC
+2020-11-13 23:32:19,863  INFO [main] Login_till_ProdSelectionPage:199 - 28117-5558
+2020-11-13 23:32:19,863  INFO [main] Login_till_ProdSelectionPage:223 - raperias@in.ibm.com
+2020-11-13 23:32:19,864  INFO [main] Login_till_ProdSelectionPage:231 - 4693860871
+2020-11-13 23:32:19,864  INFO [main] Login_till_ProdSelectionPage:239 - Vamsi M Thirumala
+2020-11-13 23:32:19,864  INFO [main] Login_till_ProdSelectionPage:247 - Vamsi M Thirumala1/India/IBM
+2020-11-13 23:32:19,865  INFO [main] Login_till_ProdSelectionPage:272 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-13 23:32:19,865  INFO [main] Login_till_ProdSelectionPage:272 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-13 23:32:19,867  INFO [main] Login_till_ProdSelectionPage:683 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-13 23:32:19,868  INFO [main] Login_till_ProdSelectionPage:685 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-13 23:32:19,869  INFO [main] Login_till_ProdSelectionPage:696 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-13 23:32:19,869  INFO [main] Login_till_ProdSelectionPage:701 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-13 23:32:19,929  INFO [main] Login_till_ProdSelectionPage:527 - ROW COUNT 22
+2020-11-13 23:32:20,022  INFO [main] Login_till_ProdSelectionPage:149 - 11/12/2020
+2020-11-13 23:32:20,022  INFO [main] Login_till_ProdSelectionPage:150 - 44147
+2020-11-13 23:32:20,022  INFO [main] Login_till_ProdSelectionPage:158 - 073574
+2020-11-13 23:32:20,023  INFO [main] Login_till_ProdSelectionPage:166 - Farid Ahmad
+2020-11-13 23:32:20,023  INFO [main] Login_till_ProdSelectionPage:174 - 2106 Lakeview Drive
+2020-11-13 23:32:20,023  INFO [main] Login_till_ProdSelectionPage:183 - Parlin
+2020-11-13 23:32:20,024  INFO [main] Login_till_ProdSelectionPage:191 - NJ
+2020-11-13 23:32:20,024  INFO [main] Login_till_ProdSelectionPage:199 - 08859-2252
+2020-11-13 23:32:20,025  INFO [main] Login_till_ProdSelectionPage:223 - fariahma@in.ibm.com
+2020-11-13 23:32:20,025  INFO [main] Login_till_ProdSelectionPage:231 - 732 397 3266
+2020-11-13 23:32:20,025  INFO [main] Login_till_ProdSelectionPage:239 - Phani Kiran
+2020-11-13 23:32:20,026  INFO [main] Login_till_ProdSelectionPage:247 - phanikiran@in.ibm.com
+2020-11-13 23:32:20,026  INFO [main] Login_till_ProdSelectionPage:272 - Apple Magic Keyboard - keyboard - US
+2020-11-13 23:32:20,029  INFO [main] Login_till_ProdSelectionPage:683 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-13 23:32:20,030  INFO [main] Login_till_ProdSelectionPage:685 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-13 23:32:20,030  INFO [main] Login_till_ProdSelectionPage:696 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-13 23:32:20,030  INFO [main] Login_till_ProdSelectionPage:701 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-13 23:32:20,133  INFO [main] Login_till_ProdSelectionPage:527 - ROW COUNT 23
+2020-11-13 23:32:20,244  INFO [main] Login_till_ProdSelectionPage:149 - 11/12/2020
+2020-11-13 23:32:20,244  INFO [main] Login_till_ProdSelectionPage:150 - 44147
+2020-11-13 23:32:20,247  INFO [main] Login_till_ProdSelectionPage:158 - 018594
+2020-11-13 23:32:20,249  INFO [main] Login_till_ProdSelectionPage:166 - HILLOL MUKHERJEE
+2020-11-13 23:32:20,249  INFO [main] Login_till_ProdSelectionPage:174 - 2330 Pleasant Hill Rd. Apt 20
+2020-11-13 23:32:20,250  INFO [main] Login_till_ProdSelectionPage:183 - Pleasant Hill
+2020-11-13 23:32:20,250  INFO [main] Login_till_ProdSelectionPage:191 - CA
+2020-11-13 23:32:20,250  INFO [main] Login_till_ProdSelectionPage:199 - 94523-3160
+2020-11-13 23:32:20,250  INFO [main] Login_till_ProdSelectionPage:223 - hilmukhe@in.ibm.com
+2020-11-13 23:32:20,251  INFO [main] Login_till_ProdSelectionPage:231 - 925-914-7904
+2020-11-13 23:32:20,251  INFO [main] Login_till_ProdSelectionPage:239 - JOYJIT BOSE
+2020-11-13 23:32:20,251  INFO [main] Login_till_ProdSelectionPage:247 - joyjbose@in.ibm.com
+2020-11-13 23:32:20,252  INFO [main] Login_till_ProdSelectionPage:272 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-13 23:32:20,252  INFO [main] Login_till_ProdSelectionPage:272 - StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-13 23:32:20,255  INFO [main] Login_till_ProdSelectionPage:683 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-13 23:32:20,255  INFO [main] Login_till_ProdSelectionPage:685 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-13 23:32:20,257  INFO [main] Login_till_ProdSelectionPage:696 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-13 23:32:20,258  INFO [main] Login_till_ProdSelectionPage:701 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-13 23:32:20,292  INFO [main] Login_till_ProdSelectionPage:48 - Folder Path initialized
+2020-11-13 23:32:20,391  INFO [main] Login_till_ProdSelectionPage:174 - 25
+2020-11-13 23:32:25,402  INFO [main] Login_till_ProdSelectionPage:183 - EE 1 Started
+2020-11-13 23:32:25,459  INFO [main] Login_till_ProdSelectionPage:424 - Status check - null
+2020-11-13 23:32:25,479  INFO [main] Login_till_ProdSelectionPage:188 - EE 1 Started
+2020-11-13 23:32:44,254  INFO [main] Login_till_ProdSelectionPage:203 - EE 1 product 13 started for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-13 23:33:05,129  INFO [main] Login_till_ProdSelectionPage:231 - EE 1 product 13 ended for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-13 23:33:05,129  INFO [main] Login_till_ProdSelectionPage:203 - EE 1 product 14 started for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-14 00:17:45,223  INFO [main] Login_till_ProdSelectionPage:88 - UserID is enterrerd
+2020-11-14 00:17:45,334  INFO [main] Login_till_ProdSelectionPage:94 - Pwd is enterrerd
+2020-11-14 00:17:48,053  INFO [main] Login_till_ProdSelectionPage:96 - LoginButton is clicked
+2020-11-14 00:18:40,538  INFO [main] Login_till_ProdSelectionPage:115 - Launch button is clicked
+2020-11-14 00:18:58,109  INFO [main] Login_till_ProdSelectionPage:150 - RECPROD button is clicked
+2020-11-14 00:19:08,146  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-14 00:19:08,148  INFO [main] Login_till_ProdSelectionPage:801 - GET IP File method call init
+2020-11-14 00:19:08,149  INFO [main] Login_till_ProdSelectionPage:803 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input
+2020-11-14 00:19:08,151  INFO [main] Login_till_ProdSelectionPage:810 - 05322B - Rahul Yadav.xlsx
+2020-11-14 00:19:08,152  INFO [main] Login_till_ProdSelectionPage:810 - 053969 NIRAJ KUMAR.xlsx
+2020-11-14 00:19:08,153  INFO [main] Login_till_ProdSelectionPage:810 - 066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-14 00:19:08,154  INFO [main] Login_till_ProdSelectionPage:810 - 641538 - Tapas Saha.xlsx
+2020-11-14 00:19:08,155  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-14 00:19:08,157  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-14 00:19:08,158  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-14 00:19:08,158  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_Anirban Datta.xlsx
+2020-11-14 00:19:08,162  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_VikasSharma_052170.xlsx
+2020-11-14 00:19:08,163  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-14 00:19:08,164  INFO [main] Login_till_ProdSelectionPage:810 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-14 00:19:08,165  INFO [main] Login_till_ProdSelectionPage:810 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-14 00:19:08,166  INFO [main] Login_till_ProdSelectionPage:693 - Weed out method init 
+2020-11-14 00:19:08,167  INFO [main] Login_till_ProdSelectionPage:503 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-14 00:19:08,181  INFO [main] Login_till_ProdSelectionPage:543 - 11/14/2020 00:19:08
+2020-11-14 00:19:08,183  INFO [main] Login_till_ProdSelectionPage:801 - GET IP File method call init
+2020-11-14 00:19:08,183  INFO [main] Login_till_ProdSelectionPage:803 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input
+2020-11-14 00:19:08,183  INFO [main] Login_till_ProdSelectionPage:810 - 05322B - Rahul Yadav.xlsx
+2020-11-14 00:19:08,183  INFO [main] Login_till_ProdSelectionPage:810 - 053969 NIRAJ KUMAR.xlsx
+2020-11-14 00:19:08,184  INFO [main] Login_till_ProdSelectionPage:810 - 066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-14 00:19:08,184  INFO [main] Login_till_ProdSelectionPage:810 - 641538 - Tapas Saha.xlsx
+2020-11-14 00:19:08,184  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-14 00:19:08,185  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-14 00:19:08,185  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-14 00:19:08,185  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_Anirban Datta.xlsx
+2020-11-14 00:19:08,186  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_VikasSharma_052170.xlsx
+2020-11-14 00:19:08,186  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-14 00:19:08,186  INFO [main] Login_till_ProdSelectionPage:810 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-14 00:19:08,186  INFO [main] Login_till_ProdSelectionPage:810 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-14 00:19:08,196  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-14 00:21:04,103  INFO [main] Login_till_ProdSelectionPage:88 - UserID is enterrerd
+2020-11-14 00:21:04,213  INFO [main] Login_till_ProdSelectionPage:94 - Pwd is enterrerd
+2020-11-14 00:21:06,846  INFO [main] Login_till_ProdSelectionPage:96 - LoginButton is clicked
+2020-11-14 00:21:59,214  INFO [main] Login_till_ProdSelectionPage:115 - Launch button is clicked
+2020-11-14 00:22:39,800  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-14 00:22:39,801  INFO [main] Login_till_ProdSelectionPage:801 - GET IP File method call init
+2020-11-14 00:22:39,802  INFO [main] Login_till_ProdSelectionPage:803 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input
+2020-11-14 00:22:39,804  INFO [main] Login_till_ProdSelectionPage:810 - 05322B - Rahul Yadav.xlsx
+2020-11-14 00:22:39,805  INFO [main] Login_till_ProdSelectionPage:810 - 053969 NIRAJ KUMAR.xlsx
+2020-11-14 00:22:39,806  INFO [main] Login_till_ProdSelectionPage:810 - 066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-14 00:22:39,808  INFO [main] Login_till_ProdSelectionPage:810 - 641538 - Tapas Saha.xlsx
+2020-11-14 00:22:39,808  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-14 00:22:39,809  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-14 00:22:39,810  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-14 00:22:39,811  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_Anirban Datta.xlsx
+2020-11-14 00:22:39,812  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_VikasSharma_052170.xlsx
+2020-11-14 00:22:39,816  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-14 00:22:39,818  INFO [main] Login_till_ProdSelectionPage:810 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-14 00:22:39,818  INFO [main] Login_till_ProdSelectionPage:810 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-14 00:22:39,819  INFO [main] Login_till_ProdSelectionPage:693 - Weed out method init 
+2020-11-14 00:22:39,820  INFO [main] Login_till_ProdSelectionPage:503 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-14 00:22:39,829  INFO [main] Login_till_ProdSelectionPage:543 - 11/14/2020 00:22:39
+2020-11-14 00:22:39,830  INFO [main] Login_till_ProdSelectionPage:801 - GET IP File method call init
+2020-11-14 00:22:39,831  INFO [main] Login_till_ProdSelectionPage:803 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input
+2020-11-14 00:22:39,832  INFO [main] Login_till_ProdSelectionPage:810 - 05322B - Rahul Yadav.xlsx
+2020-11-14 00:22:39,833  INFO [main] Login_till_ProdSelectionPage:810 - 053969 NIRAJ KUMAR.xlsx
+2020-11-14 00:22:39,833  INFO [main] Login_till_ProdSelectionPage:810 - 066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-14 00:22:39,834  INFO [main] Login_till_ProdSelectionPage:810 - 641538 - Tapas Saha.xlsx
+2020-11-14 00:22:39,834  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-14 00:22:39,834  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-14 00:22:39,834  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-14 00:22:39,835  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_Anirban Datta.xlsx
+2020-11-14 00:22:39,835  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_VikasSharma_052170.xlsx
+2020-11-14 00:22:39,836  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-14 00:22:39,836  INFO [main] Login_till_ProdSelectionPage:810 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-14 00:22:39,836  INFO [main] Login_till_ProdSelectionPage:810 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-14 00:22:39,848  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-14 00:46:50,629  INFO [main] Login_till_ProdSelectionPage:88 - UserID is enterrerd
+2020-11-14 00:46:50,755  INFO [main] Login_till_ProdSelectionPage:94 - Pwd is enterrerd
+2020-11-14 00:46:53,949  INFO [main] Login_till_ProdSelectionPage:96 - LoginButton is clicked
+2020-11-14 00:47:46,488  INFO [main] Login_till_ProdSelectionPage:115 - Launch button is clicked
+2020-11-14 00:48:04,081  INFO [main] Login_till_ProdSelectionPage:150 - RECPROD button is clicked
+2020-11-14 00:48:14,113  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-14 00:48:14,115  INFO [main] Login_till_ProdSelectionPage:801 - GET IP File method call init
+2020-11-14 00:48:14,116  INFO [main] Login_till_ProdSelectionPage:803 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input
+2020-11-14 00:48:14,118  INFO [main] Login_till_ProdSelectionPage:810 - 05322B - Rahul Yadav.xlsx
+2020-11-14 00:48:14,119  INFO [main] Login_till_ProdSelectionPage:810 - 053969 NIRAJ KUMAR.xlsx
+2020-11-14 00:48:14,120  INFO [main] Login_till_ProdSelectionPage:810 - 066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-14 00:48:14,121  INFO [main] Login_till_ProdSelectionPage:810 - 641538 - Tapas Saha.xlsx
+2020-11-14 00:48:14,121  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-14 00:48:14,123  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-14 00:48:14,124  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-14 00:48:14,125  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_Anirban Datta.xlsx
+2020-11-14 00:48:14,130  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_VikasSharma_052170.xlsx
+2020-11-14 00:48:14,131  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-14 00:48:14,132  INFO [main] Login_till_ProdSelectionPage:810 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-14 00:48:14,133  INFO [main] Login_till_ProdSelectionPage:810 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-14 00:48:14,133  INFO [main] Login_till_ProdSelectionPage:693 - Weed out method init 
+2020-11-14 00:48:14,136  INFO [main] Login_till_ProdSelectionPage:503 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-14 00:48:14,148  INFO [main] Login_till_ProdSelectionPage:543 - 11/14/2020 00:48:14
+2020-11-14 00:48:14,149  INFO [main] Login_till_ProdSelectionPage:801 - GET IP File method call init
+2020-11-14 00:48:14,149  INFO [main] Login_till_ProdSelectionPage:803 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input
+2020-11-14 00:48:14,150  INFO [main] Login_till_ProdSelectionPage:810 - 05322B - Rahul Yadav.xlsx
+2020-11-14 00:48:14,150  INFO [main] Login_till_ProdSelectionPage:810 - 053969 NIRAJ KUMAR.xlsx
+2020-11-14 00:48:14,151  INFO [main] Login_till_ProdSelectionPage:810 - 066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-14 00:48:14,151  INFO [main] Login_till_ProdSelectionPage:810 - 641538 - Tapas Saha.xlsx
+2020-11-14 00:48:14,151  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-14 00:48:14,152  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-14 00:48:14,152  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-14 00:48:14,153  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_Anirban Datta.xlsx
+2020-11-14 00:48:14,153  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_VikasSharma_052170.xlsx
+2020-11-14 00:48:14,154  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-14 00:48:14,154  INFO [main] Login_till_ProdSelectionPage:810 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-14 00:48:14,154  INFO [main] Login_till_ProdSelectionPage:810 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-14 00:48:14,167  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-14 01:15:02,310  INFO [main] Login_till_ProdSelectionPage:88 - UserID is enterrerd
+2020-11-14 01:15:02,400  INFO [main] Login_till_ProdSelectionPage:94 - Pwd is enterrerd
+2020-11-14 01:15:05,029  INFO [main] Login_till_ProdSelectionPage:96 - LoginButton is clicked
+2020-11-14 01:15:57,434  INFO [main] Login_till_ProdSelectionPage:115 - Launch button is clicked
+2020-11-14 01:16:14,810  INFO [main] Login_till_ProdSelectionPage:150 - RECPROD button is clicked
+2020-11-14 01:16:24,831  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-14 01:16:24,833  INFO [main] Login_till_ProdSelectionPage:801 - GET IP File method call init
+2020-11-14 01:16:24,834  INFO [main] Login_till_ProdSelectionPage:803 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input
+2020-11-14 01:16:24,836  INFO [main] Login_till_ProdSelectionPage:810 - 05322B - Rahul Yadav.xlsx
+2020-11-14 01:16:24,838  INFO [main] Login_till_ProdSelectionPage:810 - 053969 NIRAJ KUMAR.xlsx
+2020-11-14 01:16:24,839  INFO [main] Login_till_ProdSelectionPage:810 - 066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-14 01:16:24,840  INFO [main] Login_till_ProdSelectionPage:810 - 641538 - Tapas Saha.xlsx
+2020-11-14 01:16:24,841  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-14 01:16:24,842  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-14 01:16:24,843  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-14 01:16:24,844  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_Anirban Datta.xlsx
+2020-11-14 01:16:24,847  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_VikasSharma_052170.xlsx
+2020-11-14 01:16:24,848  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-14 01:16:24,849  INFO [main] Login_till_ProdSelectionPage:810 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-14 01:16:24,850  INFO [main] Login_till_ProdSelectionPage:810 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-14 01:16:24,850  INFO [main] Login_till_ProdSelectionPage:693 - Weed out method init 
+2020-11-14 01:16:24,851  INFO [main] Login_till_ProdSelectionPage:503 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-14 01:16:24,860  INFO [main] Login_till_ProdSelectionPage:543 - 11/14/2020 01:16:24
+2020-11-14 01:16:24,860  INFO [main] Login_till_ProdSelectionPage:801 - GET IP File method call init
+2020-11-14 01:16:24,861  INFO [main] Login_till_ProdSelectionPage:803 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input
+2020-11-14 01:16:24,861  INFO [main] Login_till_ProdSelectionPage:810 - 05322B - Rahul Yadav.xlsx
+2020-11-14 01:16:24,861  INFO [main] Login_till_ProdSelectionPage:810 - 053969 NIRAJ KUMAR.xlsx
+2020-11-14 01:16:24,861  INFO [main] Login_till_ProdSelectionPage:810 - 066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-14 01:16:24,862  INFO [main] Login_till_ProdSelectionPage:810 - 641538 - Tapas Saha.xlsx
+2020-11-14 01:16:24,862  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-14 01:16:24,862  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-14 01:16:24,862  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-14 01:16:24,862  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_Anirban Datta.xlsx
+2020-11-14 01:16:24,863  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_VikasSharma_052170.xlsx
+2020-11-14 01:16:24,863  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-14 01:16:24,863  INFO [main] Login_till_ProdSelectionPage:810 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-14 01:16:24,863  INFO [main] Login_till_ProdSelectionPage:810 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-14 01:16:25,574  INFO [main] Login_till_ProdSelectionPage:560 - ROW COUNT 0
+2020-11-14 01:16:25,852  INFO [main] Login_till_ProdSelectionPage:150 - 11/12/2020
+2020-11-14 01:16:25,858  INFO [main] Login_till_ProdSelectionPage:151 - 44147
+2020-11-14 01:16:25,861  INFO [main] Login_till_ProdSelectionPage:159 - 05322B
+2020-11-14 01:16:25,862  INFO [main] Login_till_ProdSelectionPage:167 - Rahul Yadav
+2020-11-14 01:16:25,862  INFO [main] Login_till_ProdSelectionPage:175 - 5300 W Memorial Rd, APT 2Q
+2020-11-14 01:16:25,863  INFO [main] Login_till_ProdSelectionPage:184 - Oklahoma City
+2020-11-14 01:16:25,864  INFO [main] Login_till_ProdSelectionPage:192 - OK
+2020-11-14 01:16:25,865  INFO [main] Login_till_ProdSelectionPage:200 - 73142-2032
+2020-11-14 01:16:25,865  INFO [main] Login_till_ProdSelectionPage:224 - radyadav@in.ibm.com
+2020-11-14 01:16:25,866  INFO [main] Login_till_ProdSelectionPage:232 - 405-719-5046
+2020-11-14 01:16:25,866  INFO [main] Login_till_ProdSelectionPage:240 - Rohit Mehta
+2020-11-14 01:16:25,867  INFO [main] Login_till_ProdSelectionPage:248 - romehta1@in.ibm.com
+2020-11-14 01:16:25,867  INFO [main] Login_till_ProdSelectionPage:273 - Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-14 01:16:25,868  INFO [main] Login_till_ProdSelectionPage:273 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-14 01:16:25,868  INFO [main] Login_till_ProdSelectionPage:273 - Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-14 01:16:25,897  INFO [main] Login_till_ProdSelectionPage:716 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\05322B - Rahul Yadav.xlsx
+2020-11-14 01:16:25,898  INFO [main] Login_till_ProdSelectionPage:718 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\05322B - Rahul Yadav.xlsx
+2020-11-14 01:16:25,899  INFO [main] Login_till_ProdSelectionPage:729 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\05322B - Rahul Yadav.xlsx
+2020-11-14 01:16:25,900  INFO [main] Login_till_ProdSelectionPage:734 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\05322B - Rahul Yadav.xlsx
+2020-11-14 01:16:26,110  INFO [main] Login_till_ProdSelectionPage:560 - ROW COUNT 1
+2020-11-14 01:16:26,242  INFO [main] Login_till_ProdSelectionPage:150 - 11/12/2020
+2020-11-14 01:16:26,242  INFO [main] Login_till_ProdSelectionPage:151 - 44147
+2020-11-14 01:16:26,243  INFO [main] Login_till_ProdSelectionPage:159 - 053969
+2020-11-14 01:16:26,243  INFO [main] Login_till_ProdSelectionPage:167 - NIRAJ KUMAR
+2020-11-14 01:16:26,243  INFO [main] Login_till_ProdSelectionPage:175 - 14504 BRIAR FOREST DR APT 715
+2020-11-14 01:16:26,244  INFO [main] Login_till_ProdSelectionPage:184 - HOUSTON
+2020-11-14 01:16:26,244  INFO [main] Login_till_ProdSelectionPage:192 - TX
+2020-11-14 01:16:26,245  INFO [main] Login_till_ProdSelectionPage:200 - 77077-1742
+2020-11-14 01:16:26,245  INFO [main] Login_till_ProdSelectionPage:224 - nirajlohani@in.ibm.com
+2020-11-14 01:16:26,246  INFO [main] Login_till_ProdSelectionPage:232 - 248 839 9305
+2020-11-14 01:16:26,246  INFO [main] Login_till_ProdSelectionPage:240 - Gorakshanath Thube
+2020-11-14 01:16:26,246  INFO [main] Login_till_ProdSelectionPage:248 - gorthube@in.ibm.com
+2020-11-14 01:16:26,247  INFO [main] Login_till_ProdSelectionPage:273 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-14 01:16:26,248  INFO [main] Login_till_ProdSelectionPage:273 - EVOLVE 65 WIRELESS BLUETOOTH SINGLE EAR HEADSET
+2020-11-14 01:16:26,258  INFO [main] Login_till_ProdSelectionPage:716 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\053969 NIRAJ KUMAR.xlsx
+2020-11-14 01:16:26,259  INFO [main] Login_till_ProdSelectionPage:718 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\053969 NIRAJ KUMAR.xlsx
+2020-11-14 01:16:26,259  INFO [main] Login_till_ProdSelectionPage:729 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\053969 NIRAJ KUMAR.xlsx
+2020-11-14 01:16:26,260  INFO [main] Login_till_ProdSelectionPage:734 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\053969 NIRAJ KUMAR.xlsx
+2020-11-14 01:16:26,342  INFO [main] Login_till_ProdSelectionPage:560 - ROW COUNT 2
+2020-11-14 01:16:26,482  INFO [main] Login_till_ProdSelectionPage:150 - 11/12/2020
+2020-11-14 01:16:26,483  INFO [main] Login_till_ProdSelectionPage:151 - 44147
+2020-11-14 01:16:26,484  INFO [main] Login_till_ProdSelectionPage:159 - 66504
+2020-11-14 01:16:26,484  INFO [main] Login_till_ProdSelectionPage:167 - JAIKUMAR KOCHI RAMMOHAN
+2020-11-14 01:16:26,485  INFO [main] Login_till_ProdSelectionPage:175 - 8809 RODEO DR APT 213
+2020-11-14 01:16:26,485  INFO [main] Login_till_ProdSelectionPage:184 - IRVING
+2020-11-14 01:16:26,485  INFO [main] Login_till_ProdSelectionPage:192 - TX
+2020-11-14 01:16:26,485  INFO [main] Login_till_ProdSelectionPage:200 - 75063-6352
+2020-11-14 01:16:26,486  INFO [main] Login_till_ProdSelectionPage:224 - JAIKUMAR.KR@IN.IBM.COM
+2020-11-14 01:16:26,486  INFO [main] Login_till_ProdSelectionPage:232 - 214-714-5719
+2020-11-14 01:16:26,487  INFO [main] Login_till_ProdSelectionPage:240 - Shebeen Usman
+2020-11-14 01:16:26,487  INFO [main] Login_till_ProdSelectionPage:248 - ushebeen@in.ibm.com
+2020-11-14 01:16:26,488  INFO [main] Login_till_ProdSelectionPage:273 - T24i-20(A20238FT0)23.8 inch Monitor-HDMI
+2020-11-14 01:16:26,492  INFO [main] Login_till_ProdSelectionPage:716 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-14 01:16:26,493  INFO [main] Login_till_ProdSelectionPage:718 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-14 01:16:26,493  INFO [main] Login_till_ProdSelectionPage:729 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-14 01:16:26,494  INFO [main] Login_till_ProdSelectionPage:734 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-14 01:16:26,578  INFO [main] Login_till_ProdSelectionPage:560 - ROW COUNT 3
+2020-11-14 01:16:26,712  INFO [main] Login_till_ProdSelectionPage:150 - 12/12/2020
+2020-11-14 01:16:26,713  INFO [main] Login_till_ProdSelectionPage:151 - 44177
+2020-11-14 01:16:26,713  INFO [main] Login_till_ProdSelectionPage:159 - 641538
+2020-11-14 01:16:26,713  INFO [main] Login_till_ProdSelectionPage:167 - Tapas K Saha
+2020-11-14 01:16:26,713  INFO [main] Login_till_ProdSelectionPage:175 - 587 Lakehurst Road, APT - GL
+2020-11-14 01:16:26,714  INFO [main] Login_till_ProdSelectionPage:184 - Waukegan
+2020-11-14 01:16:26,715  INFO [main] Login_till_ProdSelectionPage:192 - IL
+2020-11-14 01:16:26,716  INFO [main] Login_till_ProdSelectionPage:200 - 60085-6627
+2020-11-14 01:16:26,717  INFO [main] Login_till_ProdSelectionPage:224 - tapas.saha@in.ibm.com
+2020-11-14 01:16:26,717  INFO [main] Login_till_ProdSelectionPage:232 - 224-413-7948
+2020-11-14 01:16:26,717  INFO [main] Login_till_ProdSelectionPage:240 - Sachin B Kulkarni
+2020-11-14 01:16:26,717  INFO [main] Login_till_ProdSelectionPage:248 - sachin.kulkarni@in.ibm.com
+2020-11-14 01:16:26,718  INFO [main] Login_till_ProdSelectionPage:273 - Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-14 01:16:26,718  INFO [main] Login_till_ProdSelectionPage:273 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-14 01:16:26,718  INFO [main] Login_till_ProdSelectionPage:273 - Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-14 01:16:26,722  INFO [main] Login_till_ProdSelectionPage:716 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\641538 - Tapas Saha.xlsx
+2020-11-14 01:16:26,722  INFO [main] Login_till_ProdSelectionPage:718 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\641538 - Tapas Saha.xlsx
+2020-11-14 01:16:26,723  INFO [main] Login_till_ProdSelectionPage:729 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\641538 - Tapas Saha.xlsx
+2020-11-14 01:16:26,723  INFO [main] Login_till_ProdSelectionPage:734 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\641538 - Tapas Saha.xlsx
+2020-11-14 01:16:26,776  INFO [main] Login_till_ProdSelectionPage:560 - ROW COUNT 4
+2020-11-14 01:16:26,876  INFO [main] Login_till_ProdSelectionPage:150 - 11/12/2020
+2020-11-14 01:16:26,877  INFO [main] Login_till_ProdSelectionPage:151 - 44147
+2020-11-14 01:16:26,877  INFO [main] Login_till_ProdSelectionPage:159 - 08350F
+2020-11-14 01:16:26,877  INFO [main] Login_till_ProdSelectionPage:167 - RAGHAVENDER BITTLY
+2020-11-14 01:16:26,877  INFO [main] Login_till_ProdSelectionPage:175 - 3980 OLD STERLINGTON RD APT#1502
+2020-11-14 01:16:26,878  INFO [main] Login_till_ProdSelectionPage:184 - MONROE
+2020-11-14 01:16:26,878  INFO [main] Login_till_ProdSelectionPage:192 - LA
+2020-11-14 01:16:26,879  INFO [main] Login_till_ProdSelectionPage:200 - 71203-2601
+2020-11-14 01:16:26,879  INFO [main] Login_till_ProdSelectionPage:224 - rabittly@in.ibm.com
+2020-11-14 01:16:26,879  INFO [main] Login_till_ProdSelectionPage:232 - 318-509-9999
+2020-11-14 01:16:26,880  INFO [main] Login_till_ProdSelectionPage:240 - Jiby Joseph
+2020-11-14 01:16:26,880  INFO [main] Login_till_ProdSelectionPage:248 - jiby.joseph@in.ibm.com
+2020-11-14 01:16:26,881  INFO [main] Login_till_ProdSelectionPage:273 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-14 01:16:26,882  INFO [main] Login_till_ProdSelectionPage:273 - EVOLVE 40 UC USB-A CORDED MONAURAL HEADSET
+2020-11-14 01:16:26,882  INFO [main] Login_till_ProdSelectionPage:273 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-14 01:16:26,882  INFO [main] Login_till_ProdSelectionPage:273 - StarTech.com USB C to Gigabit Ethernet Adapter - Black - USB 3.1 to RJ45 LAN Net
+2020-11-14 01:16:26,886  INFO [main] Login_till_ProdSelectionPage:716 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-14 01:16:26,887  INFO [main] Login_till_ProdSelectionPage:718 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-14 01:16:26,888  INFO [main] Login_till_ProdSelectionPage:729 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-14 01:16:26,888  INFO [main] Login_till_ProdSelectionPage:734 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-14 01:16:26,943  INFO [main] Login_till_ProdSelectionPage:560 - ROW COUNT 5
+2020-11-14 01:16:27,150  INFO [main] Login_till_ProdSelectionPage:150 - 11/12/2020
+2020-11-14 01:16:27,151  INFO [main] Login_till_ProdSelectionPage:151 - 44147
+2020-11-14 01:16:27,152  INFO [main] Login_till_ProdSelectionPage:159 - 915452
+2020-11-14 01:16:27,152  INFO [main] Login_till_ProdSelectionPage:167 - Mahendran Shanmugam
+2020-11-14 01:16:27,152  INFO [main] Login_till_ProdSelectionPage:175 - 4155 Essen Ln, Apt 180
+2020-11-14 01:16:27,153  INFO [main] Login_till_ProdSelectionPage:184 - Baton Rouge
+2020-11-14 01:16:27,153  INFO [main] Login_till_ProdSelectionPage:192 - LA
+2020-11-14 01:16:27,153  INFO [main] Login_till_ProdSelectionPage:200 - 70809-2143
+2020-11-14 01:16:27,154  INFO [main] Login_till_ProdSelectionPage:224 - smahendr@in.ibm.com
+2020-11-14 01:16:27,154  INFO [main] Login_till_ProdSelectionPage:232 - 9199866707
+2020-11-14 01:16:27,155  INFO [main] Login_till_ProdSelectionPage:240 - Nilotpal.Sengupta
+2020-11-14 01:16:27,155  INFO [main] Login_till_ProdSelectionPage:248 -  Nilotpal.sengupta@ibm.com
+2020-11-14 01:16:27,155  INFO [main] Login_till_ProdSelectionPage:273 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-14 01:16:27,156  INFO [main] Login_till_ProdSelectionPage:273 - StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-14 01:16:27,165  INFO [main] Login_till_ProdSelectionPage:716 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-14 01:16:27,165  INFO [main] Login_till_ProdSelectionPage:718 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-14 01:16:27,166  INFO [main] Login_till_ProdSelectionPage:729 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-14 01:16:27,166  INFO [main] Login_till_ProdSelectionPage:734 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-14 01:16:27,262  INFO [main] Login_till_ProdSelectionPage:560 - ROW COUNT 6
+2020-11-14 01:16:27,452  INFO [main] Login_till_ProdSelectionPage:150 - 11/12/2020
+2020-11-14 01:16:27,453  INFO [main] Login_till_ProdSelectionPage:151 - 44147
+2020-11-14 01:16:27,454  INFO [main] Login_till_ProdSelectionPage:159 - 078641
+2020-11-14 01:16:27,455  INFO [main] Login_till_ProdSelectionPage:167 - Nabanita Choudhury
+2020-11-14 01:16:27,456  INFO [main] Login_till_ProdSelectionPage:175 - 2606 Society Drive
+2020-11-14 01:16:27,456  INFO [main] Login_till_ProdSelectionPage:184 - Claymont
+2020-11-14 01:16:27,458  INFO [main] Login_till_ProdSelectionPage:192 - DE
+2020-11-14 01:16:27,458  INFO [main] Login_till_ProdSelectionPage:200 - 19703-1709
+2020-11-14 01:16:27,459  INFO [main] Login_till_ProdSelectionPage:224 - nabanita.choudhury@in.ibm.com
+2020-11-14 01:16:27,459  INFO [main] Login_till_ProdSelectionPage:232 - +1-3023459079
+2020-11-14 01:16:27,459  INFO [main] Login_till_ProdSelectionPage:240 - Rajeev Gupta
+2020-11-14 01:16:27,459  INFO [main] Login_till_ProdSelectionPage:248 - rajeevgu@in.ibm.com
+2020-11-14 01:16:27,460  INFO [main] Login_till_ProdSelectionPage:273 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-14 01:16:27,460  INFO [main] Login_till_ProdSelectionPage:273 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-14 01:16:27,473  INFO [main] Login_till_ProdSelectionPage:716 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-14 01:16:27,473  INFO [main] Login_till_ProdSelectionPage:718 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-14 01:16:27,474  INFO [main] Login_till_ProdSelectionPage:729 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-14 01:16:27,474  INFO [main] Login_till_ProdSelectionPage:734 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-14 01:16:27,560  INFO [main] Login_till_ProdSelectionPage:560 - ROW COUNT 7
+2020-11-14 01:16:27,731  INFO [main] Login_till_ProdSelectionPage:150 - 11/12/2020
+2020-11-14 01:16:27,732  INFO [main] Login_till_ProdSelectionPage:151 - 44147
+2020-11-14 01:16:27,733  INFO [main] Login_till_ProdSelectionPage:159 - 639570
+2020-11-14 01:16:27,734  INFO [main] Login_till_ProdSelectionPage:167 - Anirban Datta
+2020-11-14 01:16:27,737  INFO [main] Login_till_ProdSelectionPage:175 - 1469 Creekside Drive ; Apt 3029
+2020-11-14 01:16:27,737  INFO [main] Login_till_ProdSelectionPage:184 - Walnut Creek
+2020-11-14 01:16:27,737  INFO [main] Login_till_ProdSelectionPage:192 - CA
+2020-11-14 01:16:27,738  INFO [main] Login_till_ProdSelectionPage:200 - 94596-7400
+2020-11-14 01:16:27,739  INFO [main] Login_till_ProdSelectionPage:224 - Anirban.Datta@in.ibm.com
+2020-11-14 01:16:27,739  INFO [main] Login_till_ProdSelectionPage:232 - 925 639 4479
+2020-11-14 01:16:27,741  INFO [main] Login_till_ProdSelectionPage:240 - Chitralekha Datta
+2020-11-14 01:16:27,741  INFO [main] Login_till_ProdSelectionPage:248 - dchitral@in.ibm.com
+2020-11-14 01:16:27,741  INFO [main] Login_till_ProdSelectionPage:273 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-14 01:16:27,742  INFO [main] Login_till_ProdSelectionPage:273 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-14 01:16:27,753  INFO [main] Login_till_ProdSelectionPage:716 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\Branch - Office Supplies Requisiton Template v2.0-4_Anirban Datta.xlsx
+2020-11-14 01:16:27,754  INFO [main] Login_till_ProdSelectionPage:718 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_Anirban Datta.xlsx
+2020-11-14 01:16:27,754  INFO [main] Login_till_ProdSelectionPage:729 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_Anirban Datta.xlsx
+2020-11-14 01:16:27,756  INFO [main] Login_till_ProdSelectionPage:734 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_Anirban Datta.xlsx
+2020-11-14 01:16:27,823  INFO [main] Login_till_ProdSelectionPage:560 - ROW COUNT 8
+2020-11-14 01:16:27,945  INFO [main] Login_till_ProdSelectionPage:150 - 11/12/2020
+2020-11-14 01:16:27,946  INFO [main] Login_till_ProdSelectionPage:151 - 44147
+2020-11-14 01:16:27,946  INFO [main] Login_till_ProdSelectionPage:159 - 052170
+2020-11-14 01:16:27,952  INFO [main] Login_till_ProdSelectionPage:167 - Vikas Sharma
+2020-11-14 01:16:27,952  INFO [main] Login_till_ProdSelectionPage:175 - 9548 Valley Ranch Pkwy E, Apt #1107
+2020-11-14 01:16:27,955  INFO [main] Login_till_ProdSelectionPage:184 - Irving
+2020-11-14 01:16:27,955  INFO [main] Login_till_ProdSelectionPage:192 - TX
+2020-11-14 01:16:27,955  INFO [main] Login_till_ProdSelectionPage:200 - 75063-4911
+2020-11-14 01:16:27,955  INFO [main] Login_till_ProdSelectionPage:224 - vikshar1@in.ibm.com
+2020-11-14 01:16:27,956  INFO [main] Login_till_ProdSelectionPage:232 - 6194679248
+2020-11-14 01:16:27,956  INFO [main] Login_till_ProdSelectionPage:240 - Santosh D Pawar
+2020-11-14 01:16:27,957  INFO [main] Login_till_ProdSelectionPage:248 - santosh.pawar@in.ibm.com
+2020-11-14 01:16:27,958  INFO [main] Login_till_ProdSelectionPage:273 - Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-14 01:16:27,959  INFO [main] Login_till_ProdSelectionPage:273 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-14 01:16:27,974  INFO [main] Login_till_ProdSelectionPage:716 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\Branch - Office Supplies Requisiton Template v2.0-4_VikasSharma_052170.xlsx
+2020-11-14 01:16:27,975  INFO [main] Login_till_ProdSelectionPage:718 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_VikasSharma_052170.xlsx
+2020-11-14 01:16:27,975  INFO [main] Login_till_ProdSelectionPage:729 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_VikasSharma_052170.xlsx
+2020-11-14 01:16:27,975  INFO [main] Login_till_ProdSelectionPage:734 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_VikasSharma_052170.xlsx
+2020-11-14 01:16:28,112  INFO [main] Login_till_ProdSelectionPage:560 - ROW COUNT 9
+2020-11-14 01:16:28,220  INFO [main] Login_till_ProdSelectionPage:150 - 11/12/2020
+2020-11-14 01:16:28,221  INFO [main] Login_till_ProdSelectionPage:151 - 44147
+2020-11-14 01:16:28,221  INFO [main] Login_till_ProdSelectionPage:159 - 01205Q
+2020-11-14 01:16:28,221  INFO [main] Login_till_ProdSelectionPage:167 - Rajasekaran Periasamy
+2020-11-14 01:16:28,221  INFO [main] Login_till_ProdSelectionPage:175 - Apt # 204, 144 Galway Drive
+2020-11-14 01:16:28,221  INFO [main] Login_till_ProdSelectionPage:184 - Mooresville
+2020-11-14 01:16:28,222  INFO [main] Login_till_ProdSelectionPage:192 - NC
+2020-11-14 01:16:28,222  INFO [main] Login_till_ProdSelectionPage:200 - 28117-5558
+2020-11-14 01:16:28,223  INFO [main] Login_till_ProdSelectionPage:224 - raperias@in.ibm.com
+2020-11-14 01:16:28,223  INFO [main] Login_till_ProdSelectionPage:232 - 4693860871
+2020-11-14 01:16:28,223  INFO [main] Login_till_ProdSelectionPage:240 - Vamsi M Thirumala
+2020-11-14 01:16:28,224  INFO [main] Login_till_ProdSelectionPage:248 - Vamsi M Thirumala1/India/IBM
+2020-11-14 01:16:28,224  INFO [main] Login_till_ProdSelectionPage:273 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-14 01:16:28,224  INFO [main] Login_till_ProdSelectionPage:273 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-14 01:16:28,227  INFO [main] Login_till_ProdSelectionPage:716 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-14 01:16:28,227  INFO [main] Login_till_ProdSelectionPage:718 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-14 01:16:28,228  INFO [main] Login_till_ProdSelectionPage:729 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-14 01:16:28,228  INFO [main] Login_till_ProdSelectionPage:734 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-14 01:16:28,279  INFO [main] Login_till_ProdSelectionPage:560 - ROW COUNT 10
+2020-11-14 01:16:28,369  INFO [main] Login_till_ProdSelectionPage:150 - 11/12/2020
+2020-11-14 01:16:28,370  INFO [main] Login_till_ProdSelectionPage:151 - 44147
+2020-11-14 01:16:28,370  INFO [main] Login_till_ProdSelectionPage:159 - 073574
+2020-11-14 01:16:28,370  INFO [main] Login_till_ProdSelectionPage:167 - Farid Ahmad
+2020-11-14 01:16:28,371  INFO [main] Login_till_ProdSelectionPage:175 - 2106 Lakeview Drive
+2020-11-14 01:16:28,371  INFO [main] Login_till_ProdSelectionPage:184 - Parlin
+2020-11-14 01:16:28,371  INFO [main] Login_till_ProdSelectionPage:192 - NJ
+2020-11-14 01:16:28,371  INFO [main] Login_till_ProdSelectionPage:200 - 08859-2252
+2020-11-14 01:16:28,372  INFO [main] Login_till_ProdSelectionPage:224 - fariahma@in.ibm.com
+2020-11-14 01:16:28,372  INFO [main] Login_till_ProdSelectionPage:232 - 732 397 3266
+2020-11-14 01:16:28,372  INFO [main] Login_till_ProdSelectionPage:240 - Phani Kiran
+2020-11-14 01:16:28,372  INFO [main] Login_till_ProdSelectionPage:248 - phanikiran@in.ibm.com
+2020-11-14 01:16:28,373  INFO [main] Login_till_ProdSelectionPage:273 - Apple Magic Keyboard - keyboard - US
+2020-11-14 01:16:28,383  INFO [main] Login_till_ProdSelectionPage:716 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-14 01:16:28,383  INFO [main] Login_till_ProdSelectionPage:718 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-14 01:16:28,384  INFO [main] Login_till_ProdSelectionPage:729 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-14 01:16:28,384  INFO [main] Login_till_ProdSelectionPage:734 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-14 01:16:28,491  INFO [main] Login_till_ProdSelectionPage:560 - ROW COUNT 11
+2020-11-14 01:16:28,602  INFO [main] Login_till_ProdSelectionPage:150 - 11/12/2020
+2020-11-14 01:16:28,603  INFO [main] Login_till_ProdSelectionPage:151 - 44147
+2020-11-14 01:16:28,603  INFO [main] Login_till_ProdSelectionPage:159 - 018594
+2020-11-14 01:16:28,603  INFO [main] Login_till_ProdSelectionPage:167 - HILLOL MUKHERJEE
+2020-11-14 01:16:28,604  INFO [main] Login_till_ProdSelectionPage:175 - 2330 Pleasant Hill Rd. Apt 20
+2020-11-14 01:16:28,604  INFO [main] Login_till_ProdSelectionPage:184 - Pleasant Hill
+2020-11-14 01:16:28,604  INFO [main] Login_till_ProdSelectionPage:192 - CA
+2020-11-14 01:16:28,604  INFO [main] Login_till_ProdSelectionPage:200 - 94523-3160
+2020-11-14 01:16:28,605  INFO [main] Login_till_ProdSelectionPage:224 - hilmukhe@in.ibm.com
+2020-11-14 01:16:28,605  INFO [main] Login_till_ProdSelectionPage:232 - 925-914-7904
+2020-11-14 01:16:28,605  INFO [main] Login_till_ProdSelectionPage:240 - JOYJIT BOSE
+2020-11-14 01:16:28,605  INFO [main] Login_till_ProdSelectionPage:248 - joyjbose@in.ibm.com
+2020-11-14 01:16:28,605  INFO [main] Login_till_ProdSelectionPage:273 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-14 01:16:28,606  INFO [main] Login_till_ProdSelectionPage:273 - StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-14 01:16:28,610  INFO [main] Login_till_ProdSelectionPage:716 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-14 01:16:28,611  INFO [main] Login_till_ProdSelectionPage:718 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-14 01:16:28,611  INFO [main] Login_till_ProdSelectionPage:729 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-14 01:16:28,612  INFO [main] Login_till_ProdSelectionPage:734 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-14 01:16:28,644  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-14 01:16:28,693  INFO [main] Login_till_ProdSelectionPage:182 - 13
+2020-11-14 01:16:33,801  INFO [main] Login_till_ProdSelectionPage:194 - EE 1 Started
+2020-11-14 01:16:33,821  INFO [main] Login_till_ProdSelectionPage:425 - Status check - null
+2020-11-14 01:16:33,841  INFO [main] Login_till_ProdSelectionPage:199 - EE 1 Started
+2020-11-14 01:16:52,330  INFO [main] Login_till_ProdSelectionPage:214 - EE 1 product 13 started for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-14 01:17:12,916  INFO [main] Login_till_ProdSelectionPage:242 - EE 1 product 13 ended for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-14 01:17:12,916  INFO [main] Login_till_ProdSelectionPage:214 - EE 1 product 14 started for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-14 01:17:38,559  INFO [main] Login_till_ProdSelectionPage:242 - EE 1 product 14 ended for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-14 01:17:38,559  INFO [main] Login_till_ProdSelectionPage:214 - EE 1 product 15 started for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-14 01:18:04,183  INFO [main] Login_till_ProdSelectionPage:242 - EE 1 product 15 ended for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-14 01:18:04,184  INFO [main] Login_till_ProdSelectionPage:214 - EE 1 product 16 started for product -->
+2020-11-14 01:18:04,184  INFO [main] Login_till_ProdSelectionPage:234 - blank break
+2020-11-14 01:18:48,748  INFO [main] Login_till_ProdSelectionPage:194 - EE 2 Started
+2020-11-14 01:18:48,768  INFO [main] Login_till_ProdSelectionPage:425 - Status check - null
+2020-11-14 01:18:48,786  INFO [main] Login_till_ProdSelectionPage:199 - EE 2 Started
+2020-11-14 01:19:20,317  INFO [main] Login_till_ProdSelectionPage:214 - EE 2 product 13 started for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-14 01:19:45,996  INFO [main] Login_till_ProdSelectionPage:242 - EE 2 product 13 ended for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-14 01:19:45,997  INFO [main] Login_till_ProdSelectionPage:214 - EE 2 product 14 started for product -->EVOLVE 65 WIRELESS BLUETOOTH SINGLE EAR HEADSET
+2020-11-14 01:20:11,681  INFO [main] Login_till_ProdSelectionPage:242 - EE 2 product 14 ended for product -->EVOLVE 65 WIRELESS BLUETOOTH SINGLE EAR HEADSET
+2020-11-14 01:20:11,681  INFO [main] Login_till_ProdSelectionPage:214 - EE 2 product 15 started for product -->
+2020-11-14 01:20:11,682  INFO [main] Login_till_ProdSelectionPage:234 - blank break
+2020-11-14 01:20:49,121  INFO [main] Login_till_ProdSelectionPage:194 - EE 3 Started
+2020-11-14 01:20:49,139  INFO [main] Login_till_ProdSelectionPage:425 - Status check - null
+2020-11-14 01:20:49,157  INFO [main] Login_till_ProdSelectionPage:199 - EE 3 Started
+2020-11-14 01:21:17,555  INFO [main] Login_till_ProdSelectionPage:214 - EE 3 product 13 started for product -->T24i-20(A20238FT0)23.8 inch Monitor-HDMI
+2020-11-14 01:21:43,206  INFO [main] Login_till_ProdSelectionPage:242 - EE 3 product 13 ended for product -->T24i-20(A20238FT0)23.8 inch Monitor-HDMI
+2020-11-14 01:21:43,207  INFO [main] Login_till_ProdSelectionPage:214 - EE 3 product 14 started for product -->
+2020-11-14 01:21:43,207  INFO [main] Login_till_ProdSelectionPage:234 - blank break
+2020-11-14 01:22:22,960  INFO [main] Login_till_ProdSelectionPage:194 - EE 4 Started
+2020-11-14 01:22:22,977  INFO [main] Login_till_ProdSelectionPage:425 - Status check - null
+2020-11-14 01:22:22,989  INFO [main] Login_till_ProdSelectionPage:199 - EE 4 Started
+2020-11-14 01:22:48,347  INFO [main] Login_till_ProdSelectionPage:214 - EE 4 product 13 started for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-14 01:23:13,979  INFO [main] Login_till_ProdSelectionPage:242 - EE 4 product 13 ended for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-14 01:23:13,980  INFO [main] Login_till_ProdSelectionPage:214 - EE 4 product 14 started for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-14 01:23:39,702  INFO [main] Login_till_ProdSelectionPage:242 - EE 4 product 14 ended for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-14 01:23:39,702  INFO [main] Login_till_ProdSelectionPage:214 - EE 4 product 15 started for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-14 01:24:05,307  INFO [main] Login_till_ProdSelectionPage:242 - EE 4 product 15 ended for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-14 01:24:05,309  INFO [main] Login_till_ProdSelectionPage:214 - EE 4 product 16 started for product -->
+2020-11-14 01:24:05,310  INFO [main] Login_till_ProdSelectionPage:234 - blank break
+2020-11-14 01:24:41,165  INFO [main] Login_till_ProdSelectionPage:194 - EE 5 Started
+2020-11-14 01:24:41,184  INFO [main] Login_till_ProdSelectionPage:425 - Status check - null
+2020-11-14 01:24:41,201  INFO [main] Login_till_ProdSelectionPage:199 - EE 5 Started
+2020-11-14 01:25:12,928  INFO [main] Login_till_ProdSelectionPage:214 - EE 5 product 13 started for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-14 01:25:38,622  INFO [main] Login_till_ProdSelectionPage:242 - EE 5 product 13 ended for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-14 01:25:38,622  INFO [main] Login_till_ProdSelectionPage:214 - EE 5 product 14 started for product -->EVOLVE 40 UC USB-A CORDED MONAURAL HEADSET
+2020-11-14 01:26:04,214  INFO [main] Login_till_ProdSelectionPage:242 - EE 5 product 14 ended for product -->EVOLVE 40 UC USB-A CORDED MONAURAL HEADSET
+2020-11-14 01:26:04,215  INFO [main] Login_till_ProdSelectionPage:214 - EE 5 product 15 started for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-14 01:26:29,845  INFO [main] Login_till_ProdSelectionPage:242 - EE 5 product 15 ended for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-14 01:26:29,845  INFO [main] Login_till_ProdSelectionPage:214 - EE 5 product 16 started for product -->StarTech.com USB C to Gigabit Ethernet Adapter - Black - USB 3.1 to RJ45 LAN Net
+2020-11-14 01:26:55,453  INFO [main] Login_till_ProdSelectionPage:242 - EE 5 product 16 ended for product -->StarTech.com USB C to Gigabit Ethernet Adapter - Black - USB 3.1 to RJ45 LAN Net
+2020-11-14 01:26:55,453  INFO [main] Login_till_ProdSelectionPage:214 - EE 5 product 17 started for product -->
+2020-11-14 01:26:55,453  INFO [main] Login_till_ProdSelectionPage:234 - blank break
+2020-11-14 01:27:33,117  INFO [main] Login_till_ProdSelectionPage:194 - EE 6 Started
+2020-11-14 01:27:33,131  INFO [main] Login_till_ProdSelectionPage:425 - Status check - null
+2020-11-14 01:27:33,143  INFO [main] Login_till_ProdSelectionPage:199 - EE 6 Started
+2020-11-14 01:28:07,857  INFO [main] Login_till_ProdSelectionPage:214 - EE 6 product 13 started for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-14 01:28:33,525  INFO [main] Login_till_ProdSelectionPage:242 - EE 6 product 13 ended for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-14 01:28:33,525  INFO [main] Login_till_ProdSelectionPage:214 - EE 6 product 14 started for product -->StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-14 01:28:59,164  INFO [main] Login_till_ProdSelectionPage:242 - EE 6 product 14 ended for product -->StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-14 01:28:59,164  INFO [main] Login_till_ProdSelectionPage:214 - EE 6 product 15 started for product -->
+2020-11-14 01:28:59,164  INFO [main] Login_till_ProdSelectionPage:234 - blank break
+2020-11-14 01:29:38,752  INFO [main] Login_till_ProdSelectionPage:194 - EE 7 Started
+2020-11-14 01:29:38,765  INFO [main] Login_till_ProdSelectionPage:425 - Status check - null
+2020-11-14 01:29:38,777  INFO [main] Login_till_ProdSelectionPage:199 - EE 7 Started
+2020-11-14 01:30:07,193  INFO [main] Login_till_ProdSelectionPage:214 - EE 7 product 13 started for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-14 01:30:32,970  INFO [main] Login_till_ProdSelectionPage:242 - EE 7 product 13 ended for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-14 01:30:32,970  INFO [main] Login_till_ProdSelectionPage:214 - EE 7 product 14 started for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-14 01:30:58,622  INFO [main] Login_till_ProdSelectionPage:242 - EE 7 product 14 ended for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-14 01:30:58,622  INFO [main] Login_till_ProdSelectionPage:214 - EE 7 product 15 started for product -->
+2020-11-14 01:30:58,622  INFO [main] Login_till_ProdSelectionPage:234 - blank break
+2020-11-14 01:31:39,366  INFO [main] Login_till_ProdSelectionPage:194 - EE 8 Started
+2020-11-14 01:31:39,380  INFO [main] Login_till_ProdSelectionPage:425 - Status check - null
+2020-11-14 01:31:39,396  INFO [main] Login_till_ProdSelectionPage:199 - EE 8 Started
+2020-11-14 01:32:07,863  INFO [main] Login_till_ProdSelectionPage:214 - EE 8 product 13 started for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-14 01:32:33,535  INFO [main] Login_till_ProdSelectionPage:242 - EE 8 product 13 ended for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-14 01:32:33,535  INFO [main] Login_till_ProdSelectionPage:214 - EE 8 product 14 started for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-14 01:32:59,166  INFO [main] Login_till_ProdSelectionPage:242 - EE 8 product 14 ended for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-14 01:32:59,166  INFO [main] Login_till_ProdSelectionPage:214 - EE 8 product 15 started for product -->
+2020-11-14 01:32:59,166  INFO [main] Login_till_ProdSelectionPage:234 - blank break
+2020-11-14 01:33:39,963  INFO [main] Login_till_ProdSelectionPage:194 - EE 9 Started
+2020-11-14 01:33:39,980  INFO [main] Login_till_ProdSelectionPage:425 - Status check - null
+2020-11-14 01:33:39,994  INFO [main] Login_till_ProdSelectionPage:199 - EE 9 Started
+2020-11-14 01:34:08,498  INFO [main] Login_till_ProdSelectionPage:214 - EE 9 product 13 started for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-14 01:34:34,140  INFO [main] Login_till_ProdSelectionPage:242 - EE 9 product 13 ended for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-14 01:34:34,140  INFO [main] Login_till_ProdSelectionPage:214 - EE 9 product 14 started for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-14 01:34:59,797  INFO [main] Login_till_ProdSelectionPage:242 - EE 9 product 14 ended for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-14 01:34:59,797  INFO [main] Login_till_ProdSelectionPage:214 - EE 9 product 15 started for product -->
+2020-11-14 01:34:59,797  INFO [main] Login_till_ProdSelectionPage:234 - blank break
+2020-11-14 01:35:39,677  INFO [main] Login_till_ProdSelectionPage:194 - EE 10 Started
+2020-11-14 01:35:39,698  INFO [main] Login_till_ProdSelectionPage:425 - Status check - null
+2020-11-14 01:35:39,713  INFO [main] Login_till_ProdSelectionPage:199 - EE 10 Started
+2020-11-14 01:36:08,148  INFO [main] Login_till_ProdSelectionPage:214 - EE 10 product 13 started for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-14 01:36:33,880  INFO [main] Login_till_ProdSelectionPage:242 - EE 10 product 13 ended for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-14 01:36:33,880  INFO [main] Login_till_ProdSelectionPage:214 - EE 10 product 14 started for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-14 01:36:59,473  INFO [main] Login_till_ProdSelectionPage:242 - EE 10 product 14 ended for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-14 01:36:59,474  INFO [main] Login_till_ProdSelectionPage:214 - EE 10 product 15 started for product -->
+2020-11-14 01:36:59,474  INFO [main] Login_till_ProdSelectionPage:234 - blank break
+2020-11-14 01:37:39,392  INFO [main] Login_till_ProdSelectionPage:194 - EE 11 Started
+2020-11-14 01:37:39,409  INFO [main] Login_till_ProdSelectionPage:425 - Status check - null
+2020-11-14 01:37:39,420  INFO [main] Login_till_ProdSelectionPage:199 - EE 11 Started
+2020-11-14 01:38:07,852  INFO [main] Login_till_ProdSelectionPage:214 - EE 11 product 13 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-14 01:38:33,517  INFO [main] Login_till_ProdSelectionPage:242 - EE 11 product 13 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-14 01:38:33,517  INFO [main] Login_till_ProdSelectionPage:214 - EE 11 product 14 started for product -->
+2020-11-14 01:38:33,518  INFO [main] Login_till_ProdSelectionPage:234 - blank break
+2020-11-14 01:39:06,733  INFO [main] Login_till_ProdSelectionPage:194 - EE 12 Started
+2020-11-14 01:39:06,750  INFO [main] Login_till_ProdSelectionPage:425 - Status check - null
+2020-11-14 01:39:06,767  INFO [main] Login_till_ProdSelectionPage:199 - EE 12 Started
+2020-11-14 01:39:32,133  INFO [main] Login_till_ProdSelectionPage:214 - EE 12 product 13 started for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-14 01:39:57,848  INFO [main] Login_till_ProdSelectionPage:242 - EE 12 product 13 ended for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-14 01:39:57,848  INFO [main] Login_till_ProdSelectionPage:214 - EE 12 product 14 started for product -->StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-14 01:40:23,492  INFO [main] Login_till_ProdSelectionPage:242 - EE 12 product 14 ended for product -->StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-14 01:40:23,493  INFO [main] Login_till_ProdSelectionPage:214 - EE 12 product 15 started for product -->
+2020-11-14 01:40:23,493  INFO [main] Login_till_ProdSelectionPage:234 - blank break
+2020-11-14 01:54:10,888  INFO [main] Login_till_ProdSelectionPage:88 - UserID is enterrerd
+2020-11-14 01:54:10,997  INFO [main] Login_till_ProdSelectionPage:94 - Pwd is enterrerd
+2020-11-14 02:10:32,124  INFO [main] Login_till_ProdSelectionPage:88 - UserID is enterrerd
+2020-11-14 02:10:32,241  INFO [main] Login_till_ProdSelectionPage:94 - Pwd is enterrerd
+2020-11-14 02:10:34,722  INFO [main] Login_till_ProdSelectionPage:96 - LoginButton is clicked
+2020-11-14 02:12:24,024  INFO [main] Login_till_ProdSelectionPage:88 - UserID is enterrerd
+2020-11-14 02:12:24,125  INFO [main] Login_till_ProdSelectionPage:94 - Pwd is enterrerd
+2020-11-14 02:12:26,683  INFO [main] Login_till_ProdSelectionPage:96 - LoginButton is clicked
+2020-11-14 02:12:42,257  INFO [main] Login_till_ProdSelectionPage:120 - Launch button is clicked
+2020-11-14 02:17:25,777  INFO [main] Login_till_ProdSelectionPage:88 - UserID is enterrerd
+2020-11-14 02:17:25,863  INFO [main] Login_till_ProdSelectionPage:94 - Pwd is enterrerd
+2020-11-14 02:17:28,333  INFO [main] Login_till_ProdSelectionPage:96 - LoginButton is clicked
+2020-11-14 02:17:43,396  INFO [main] Login_till_ProdSelectionPage:120 - Launch button is clicked
+2020-11-14 02:23:00,171  INFO [main] Login_till_ProdSelectionPage:88 - UserID is enterrerd
+2020-11-14 02:23:00,278  INFO [main] Login_till_ProdSelectionPage:94 - Pwd is enterrerd
+2020-11-14 02:23:03,009  INFO [main] Login_till_ProdSelectionPage:96 - LoginButton is clicked
+2020-11-14 02:23:18,948  INFO [main] Login_till_ProdSelectionPage:121 - Launch button is clicked
+2020-11-14 02:24:09,338  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-14 02:24:09,340  INFO [main] Login_till_ProdSelectionPage:801 - GET IP File method call init
+2020-11-14 02:24:09,341  INFO [main] Login_till_ProdSelectionPage:803 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input
+2020-11-14 02:24:09,344  INFO [main] Login_till_ProdSelectionPage:810 - 05322B - Rahul Yadav.xlsx
+2020-11-14 02:24:09,345  INFO [main] Login_till_ProdSelectionPage:810 - 053969 NIRAJ KUMAR.xlsx
+2020-11-14 02:24:09,346  INFO [main] Login_till_ProdSelectionPage:810 - 066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-14 02:24:09,347  INFO [main] Login_till_ProdSelectionPage:810 - 641538 - Tapas Saha.xlsx
+2020-11-14 02:24:09,348  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-14 02:24:09,349  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-14 02:24:09,350  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-14 02:24:09,351  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_Anirban Datta.xlsx
+2020-11-14 02:24:09,351  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_VikasSharma_052170.xlsx
+2020-11-14 02:24:09,354  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-14 02:24:09,354  INFO [main] Login_till_ProdSelectionPage:810 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-14 02:24:09,355  INFO [main] Login_till_ProdSelectionPage:810 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-14 02:24:09,355  INFO [main] Login_till_ProdSelectionPage:693 - Weed out method init 
+2020-11-14 02:24:09,356  INFO [main] Login_till_ProdSelectionPage:503 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-14 02:24:09,369  INFO [main] Login_till_ProdSelectionPage:543 - 11/14/2020 02:24:09
+2020-11-14 02:24:09,370  INFO [main] Login_till_ProdSelectionPage:801 - GET IP File method call init
+2020-11-14 02:24:09,370  INFO [main] Login_till_ProdSelectionPage:803 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input
+2020-11-14 02:24:09,371  INFO [main] Login_till_ProdSelectionPage:810 - 05322B - Rahul Yadav.xlsx
+2020-11-14 02:24:09,371  INFO [main] Login_till_ProdSelectionPage:810 - 053969 NIRAJ KUMAR.xlsx
+2020-11-14 02:24:09,371  INFO [main] Login_till_ProdSelectionPage:810 - 066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-14 02:24:09,371  INFO [main] Login_till_ProdSelectionPage:810 - 641538 - Tapas Saha.xlsx
+2020-11-14 02:24:09,371  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-14 02:24:09,371  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-14 02:24:09,372  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-14 02:24:09,372  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_Anirban Datta.xlsx
+2020-11-14 02:24:09,372  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Requisiton Template v2.0-4_VikasSharma_052170.xlsx
+2020-11-14 02:24:09,372  INFO [main] Login_till_ProdSelectionPage:810 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-14 02:24:09,372  INFO [main] Login_till_ProdSelectionPage:810 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-14 02:24:09,373  INFO [main] Login_till_ProdSelectionPage:810 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-14 02:24:10,084  INFO [main] Login_till_ProdSelectionPage:560 - ROW COUNT 12
+2020-11-14 02:24:10,368  INFO [main] Login_till_ProdSelectionPage:150 - 11/12/2020
+2020-11-14 02:24:10,373  INFO [main] Login_till_ProdSelectionPage:151 - 44147
+2020-11-14 02:24:10,375  INFO [main] Login_till_ProdSelectionPage:159 - 05322B
+2020-11-14 02:24:10,376  INFO [main] Login_till_ProdSelectionPage:167 - Rahul Yadav
+2020-11-14 02:24:10,376  INFO [main] Login_till_ProdSelectionPage:175 - 5300 W Memorial Rd, APT 2Q
+2020-11-14 02:24:10,377  INFO [main] Login_till_ProdSelectionPage:184 - Oklahoma City
+2020-11-14 02:24:10,377  INFO [main] Login_till_ProdSelectionPage:192 - OK
+2020-11-14 02:24:10,378  INFO [main] Login_till_ProdSelectionPage:200 - 73142-2032
+2020-11-14 02:24:10,379  INFO [main] Login_till_ProdSelectionPage:224 - radyadav@in.ibm.com
+2020-11-14 02:24:10,379  INFO [main] Login_till_ProdSelectionPage:232 - 405-719-5046
+2020-11-14 02:24:10,380  INFO [main] Login_till_ProdSelectionPage:240 - Rohit Mehta
+2020-11-14 02:24:10,380  INFO [main] Login_till_ProdSelectionPage:248 - romehta1@in.ibm.com
+2020-11-14 02:24:10,381  INFO [main] Login_till_ProdSelectionPage:273 - Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-14 02:24:10,381  INFO [main] Login_till_ProdSelectionPage:273 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-14 02:24:10,382  INFO [main] Login_till_ProdSelectionPage:273 - Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-14 02:24:10,394  INFO [main] Login_till_ProdSelectionPage:716 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Input\05322B - Rahul Yadav.xlsx
+2020-11-14 02:24:10,395  INFO [main] Login_till_ProdSelectionPage:718 - C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\05322B - Rahul Yadav.xlsx
+2020-11-14 02:24:10,396  INFO [main] Login_till_ProdSelectionPage:729 - Exception while moving file: C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\05322B - Rahul Yadav.xlsx
+2020-11-14 02:24:10,397  INFO [main] Login_till_ProdSelectionPage:734 - File movement failed.C:\Users\MohammedAsif\Desktop\GitLocal_3\MyFramework_1\TestData\Archieve\05322B - Rahul Yadav.xlsx
+2020-11-14 02:24:10,408  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-14 02:24:10,555  INFO [main] Login_till_ProdSelectionPage:192 - 12
+2020-11-14 02:24:15,718  INFO [main] Login_till_ProdSelectionPage:204 - EE 1 Started
+2020-11-14 02:24:15,763  INFO [main] Login_till_ProdSelectionPage:425 - Status check - Wrong product added for Submission
+2020-11-14 02:24:15,764  INFO [main] Login_till_ProdSelectionPage:631 - EE 1 Skipped
+2020-11-14 02:24:15,764  INFO [main] Login_till_ProdSelectionPage:204 - EE 2 Started
+2020-11-14 02:24:15,816  INFO [main] Login_till_ProdSelectionPage:425 - Status check - Wrong product added for Submission
+2020-11-14 02:24:15,817  INFO [main] Login_till_ProdSelectionPage:631 - EE 2 Skipped
+2020-11-14 02:24:15,818  INFO [main] Login_till_ProdSelectionPage:204 - EE 3 Started
+2020-11-14 02:24:15,865  INFO [main] Login_till_ProdSelectionPage:425 - Status check - Wrong product added for Submission
+2020-11-14 02:24:15,866  INFO [main] Login_till_ProdSelectionPage:631 - EE 3 Skipped
+2020-11-14 02:24:15,866  INFO [main] Login_till_ProdSelectionPage:204 - EE 4 Started
+2020-11-14 02:24:15,913  INFO [main] Login_till_ProdSelectionPage:425 - Status check - Wrong product added for Submission
+2020-11-14 02:24:15,915  INFO [main] Login_till_ProdSelectionPage:631 - EE 4 Skipped
+2020-11-14 02:24:15,915  INFO [main] Login_till_ProdSelectionPage:204 - EE 5 Started
+2020-11-14 02:24:15,965  INFO [main] Login_till_ProdSelectionPage:425 - Status check - Wrong product added for Submission
+2020-11-14 02:24:15,970  INFO [main] Login_till_ProdSelectionPage:631 - EE 5 Skipped
+2020-11-14 02:24:15,970  INFO [main] Login_till_ProdSelectionPage:204 - EE 6 Started
+2020-11-14 02:24:16,007  INFO [main] Login_till_ProdSelectionPage:425 - Status check - Wrong product added for Submission
+2020-11-14 02:24:16,009  INFO [main] Login_till_ProdSelectionPage:631 - EE 6 Skipped
+2020-11-14 02:24:16,009  INFO [main] Login_till_ProdSelectionPage:204 - EE 7 Started
+2020-11-14 02:24:16,054  INFO [main] Login_till_ProdSelectionPage:425 - Status check - Wrong product added for Submission
+2020-11-14 02:24:16,055  INFO [main] Login_till_ProdSelectionPage:631 - EE 7 Skipped
+2020-11-14 02:24:16,056  INFO [main] Login_till_ProdSelectionPage:204 - EE 8 Started
+2020-11-14 02:24:16,095  INFO [main] Login_till_ProdSelectionPage:425 - Status check - Wrong product added for Submission
+2020-11-14 02:24:16,097  INFO [main] Login_till_ProdSelectionPage:631 - EE 8 Skipped
+2020-11-14 02:24:16,097  INFO [main] Login_till_ProdSelectionPage:204 - EE 9 Started
+2020-11-14 02:24:16,397  INFO [main] Login_till_ProdSelectionPage:425 - Status check - Wrong product added for Submission
+2020-11-14 02:24:16,401  INFO [main] Login_till_ProdSelectionPage:631 - EE 9 Skipped
+2020-11-14 02:24:16,401  INFO [main] Login_till_ProdSelectionPage:204 - EE 10 Started
+2020-11-14 02:24:16,487  INFO [main] Login_till_ProdSelectionPage:425 - Status check - Wrong product added for Submission
+2020-11-14 02:24:16,489  INFO [main] Login_till_ProdSelectionPage:631 - EE 10 Skipped
+2020-11-14 02:24:16,489  INFO [main] Login_till_ProdSelectionPage:204 - EE 11 Started
+2020-11-14 02:24:16,539  INFO [main] Login_till_ProdSelectionPage:425 - Status check - Wrong product added for Submission
+2020-11-14 02:24:16,545  INFO [main] Login_till_ProdSelectionPage:631 - EE 11 Skipped
+2020-11-14 02:24:16,548  INFO [main] Login_till_ProdSelectionPage:204 - EE 12 Started
+2020-11-14 02:24:16,585  INFO [main] Login_till_ProdSelectionPage:425 - Status check - Wrong product added for Submission
+2020-11-14 02:24:16,586  INFO [main] Login_till_ProdSelectionPage:631 - EE 12 Skipped
+2020-11-14 02:31:15,739  INFO [main] Login_till_ProdSelectionPage:88 - UserID is enterrerd
+2020-11-14 02:31:15,839  INFO [main] Login_till_ProdSelectionPage:94 - Pwd is enterrerd
+2020-11-14 02:31:18,728  INFO [main] Login_till_ProdSelectionPage:96 - LoginButton is clicked
+2020-11-14 02:32:11,114  INFO [main] Login_till_ProdSelectionPage:121 - Launch button is clicked
+2020-11-14 02:32:28,528  INFO [main] Login_till_ProdSelectionPage:159 - RECPROD button is clicked

@@ -190,7 +190,7 @@ public class ProductPagePOM extends TestBase{
 				            //System.out.print("NullPointerException Caught"); 
 				         	//td_Set[row][col]=cl.getStringCellValue();
 				        } 
-	                    
+	                     
 	                    System.out.println("Row # "+row+"| Col # "+col+"| Val -->"+td_Set[row][col]);
 	                }
 				}
@@ -203,6 +203,18 @@ public class ProductPagePOM extends TestBase{
 				e.printStackTrace();
 			}
 			return td_Set;
+		}
+		
+		
+		public int numberOfCols () {
+			
+			String [][] XcellArry = xlread();
+			
+			String [] RowOne = XcellArry [0];
+			
+			int NumCols = RowOne.length;
+			
+			return NumCols;
 		}
 		
 		public boolean addProdCart(WebDriver driver,String prdName ) throws InterruptedException 

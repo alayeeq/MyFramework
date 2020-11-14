@@ -61,7 +61,7 @@ public class TestBase {
 		public TestBase()  {
 			
 	    try {		
-		FileInputStream ip = new FileInputStream(CurrentDirectory +"/src/main/java/com/MyFramework_1/config/config.properties");
+		FileInputStream ip = new FileInputStream(CurrentDirectory +"/Config/config.properties");
 		prop = new Properties();
 		prop.load(ip);
 	    }
@@ -125,7 +125,15 @@ public class TestBase {
 			
 		}
 		
-				 
+
+		public static WebElement wait_base_click (String xpath) {
+			
+			
+			WebElement returned_waitElement = webDriverWait.until(ExpectedConditions.elementToBeClickable(By.xpath(xpath)));
+			
+			return returned_waitElement;
+			
+		}
 		/*public static void ExtentReportsetup() {
 			
 			Hreporter = new ExtentHtmlReporter(CurrentDirectory+ "/test-output/my.html");

@@ -6,6 +6,8 @@ import java.util.Iterator;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
+import javax.swing.JOptionPane;
+
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
@@ -37,6 +39,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 	public static ExtentTest test;
 	public static ExtentHtmlReporter Hreporter;
 	public static ExtentReports report;
+	public int success;
 	LoginPOM loginPOM;
 	LaunchPOM launchPOM;
 	RecommendedProductPOM recommendedProductPOM;
@@ -64,9 +67,14 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		act = new Actions(driver);
 	}
 	
-	/*@AfterClass (alwaysRun = true)
-	public void teardown(ITestResult tr) throws IOException {
-	}*/
+	@AfterClass (alwaysRun = true)
+	public void teardown()   {
+		
+		driver.quit();
+		JOptionPane.showMessageDialog(null, "BatchComplete");
+		
+	}
+	
 	
 	@Test (priority = 1)
 	 public void LoginLinkTest() throws InterruptedException {
@@ -103,6 +111,12 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		System.out.println("Loginbutton is Visible");
 		//p1.waitMod(driver, "//a[@id='lunchbutton']");
 		
+		//WebElement LB = wait_base(launchPOM.LaunchButton);
+		
+		 //WebElement LB = wait_base_click(launchPOM.LaunchButton);
+		
+		//LB.click();
+				
 		launchPOM.LaunchButton.click();
 		logger.info("Launch button is clicked");
 		//screenshot("LaunchBOUT");
@@ -136,7 +150,10 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		Thread.sleep(5000);
 		//WebElement w2=wait.until(ExpectedConditions.visibilityOf(recommendedProductPOM.RECPROD));
 		//System.out.println("Sleep is complete");
-		p1.waitMod(driver, "//*[@id=\"popular\"]/div/div/div[2]/div/div[1]/img");
+		//p1.waitMod(driver, "//*[@id=\"popular\"]/div/div/div[2]/div/div[1]/img");
+		
+		//WebElement RP = wait_base(recommendedProductPOM.RECPROD);
+		//RP.click();
 		recommendedProductPOM.RECPROD.click();
 		//recommendedProductPOM.RECPROD.click();
 		logger.info("RECPROD button is clicked");
@@ -171,7 +188,11 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		
 		bl.initPath();
 		String r1[][]=p1.xlread();
-		logger.info(r1.length);
+		int NumberofRows = r1.length-1;
+		logger.info(NumberofRows);
+		
+		bl.nofRecords(4, "Total No records in input : " +NumberofRows);
+		
 		driver.manage().window().maximize();
 		Thread.sleep(5000);
 		int user_counter=0;//user_counter 
@@ -527,6 +548,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 					{
 						is_submitted = driver.findElements(By.xpath("(//span[text()='Success'])[3]")).size()>0;
 						System.out.println("--------------------------if submission done: " +is_submitted+ "-------------------------------");
+						success++;
 					}
 					catch(Throwable e)
 					{}  
@@ -609,6 +631,11 @@ public class Login_till_ProdSelectionPage extends TestBase {
 				logger.info("EE "+row+" Skipped");
 			}
 		 }
+		
+		
+		bl.nofRecords(5, "Total number of Records processed : " +user_counter);
+		bl.nofRecords(6, "Total number of Records submitted successfully: "+success);
+		
 		//Archieving TD sheet with Timestamp
 		//bl.archieveTD();
 	}
