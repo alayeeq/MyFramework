@@ -292,6 +292,7 @@ public class inputConsolPOM extends TestBase{
 			ip_val[0]="false";
 		}catch (java.lang.StringIndexOutOfBoundsException e) {
 			/*logger.info("Sheet --> Address is not in expected sandard" );*/
+			e.printStackTrace();
 			logger.info("Sheet --> Data is inconsistent" );
 			ip_val[0]="false";
 		}catch (IOException e) {

@@ -99,7 +99,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 	}
 	
 	
-	@Test (priority = 2)
+	@Test (priority = 2, enabled=false)
 	 public void LaunchBOUT() throws InterruptedException {
 		ProductPagePOM p1=new ProductPagePOM(driver);
 
@@ -123,7 +123,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		 
 	}
 	
-	@Test (priority = 3)
+	@Test (priority = 3, dependsOnMethods= {"LoginLinkTest"})
 	 public void selectRecomProd() throws InterruptedException {
 		ProductPagePOM p1=new ProductPagePOM(driver);
 		
@@ -161,7 +161,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 	}
 	
 	
-	@Test (priority = 4)
+	@Test (priority = 4,dependsOnMethods= {"selectRecomProd"})
 	public void ipConsolidation() throws InterruptedException {
 		
 		inputConsolPOM bl=new inputConsolPOM(driver);
@@ -176,7 +176,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		
 	}
 	
-	@Test (priority = 5)
+	@Test (priority = 5,dependsOnMethods= {"ipConsolidation"},enabled=false)
 	public void Product_addition() throws InterruptedException {
 		
 		ProductPagePOM p1=new ProductPagePOM(driver);
