@@ -10702,3 +10702,67 @@
 2020-11-16 05:08:50,758  INFO [main] Login_till_ProdSelectionPage:252 - EE 1 product 14 ended for product -->Apple Magic Keyboard - keyboard - US
 2020-11-16 05:08:50,759  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 15 started for product -->null
 2020-11-16 05:08:50,759  INFO [main] Login_till_ProdSelectionPage:249 - null pointer break
+2020-11-16 05:10:06,605  INFO [main] Login_till_ProdSelectionPage:88 - UserID is enterrerd
+2020-11-16 05:10:06,673  INFO [main] Login_till_ProdSelectionPage:94 - Pwd is enterrerd
+2020-11-16 05:10:08,057  INFO [main] Login_till_ProdSelectionPage:96 - LoginButton is clicked
+2020-11-16 05:11:00,344  INFO [main] Login_till_ProdSelectionPage:121 - Launch button is clicked
+2020-11-16 05:11:17,587  INFO [main] Login_till_ProdSelectionPage:159 - RECPROD button is clicked
+2020-11-16 05:11:27,621  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-16 05:11:27,622  INFO [main] Login_till_ProdSelectionPage:801 - GET IP File method call init
+2020-11-16 05:11:27,622  INFO [main] Login_till_ProdSelectionPage:803 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 5\MyFramework_1\TestData\Input
+2020-11-16 05:11:27,623  INFO [main] Login_till_ProdSelectionPage:810 - 641538 - Tapas Saha.xlsx
+2020-11-16 05:11:27,624  INFO [main] Login_till_ProdSelectionPage:810 - archive
+2020-11-16 05:11:27,624  INFO [main] Login_till_ProdSelectionPage:693 - Weed out method init 
+2020-11-16 05:11:27,633  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-16 05:11:28,093  INFO [main] Login_till_ProdSelectionPage:192 - 1
+2020-11-16 05:11:33,193  INFO [main] Login_till_ProdSelectionPage:204 - EE 1 Started
+2020-11-16 05:11:33,216  INFO [main] Login_till_ProdSelectionPage:425 - Status check - null
+2020-11-16 05:11:33,333  INFO [main] Login_till_ProdSelectionPage:209 - EE 1 Started
+2020-11-16 05:11:59,430  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 13 started for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-16 05:12:51,287  INFO [main] Login_till_ProdSelectionPage:88 - UserID is enterrerd
+2020-11-16 05:12:51,356  INFO [main] Login_till_ProdSelectionPage:94 - Pwd is enterrerd
+2020-11-16 05:12:52,677  INFO [main] Login_till_ProdSelectionPage:96 - LoginButton is clicked
+2020-11-16 05:13:44,963  INFO [main] Login_till_ProdSelectionPage:121 - Launch button is clicked
+2020-11-16 05:14:02,212  INFO [main] Login_till_ProdSelectionPage:159 - RECPROD button is clicked
+2020-11-16 05:14:12,220  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-16 05:14:12,220  INFO [main] Login_till_ProdSelectionPage:801 - GET IP File method call init
+2020-11-16 05:14:12,220  INFO [main] Login_till_ProdSelectionPage:803 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 5\MyFramework_1\TestData\Input
+2020-11-16 05:14:12,221  INFO [main] Login_till_ProdSelectionPage:810 - 641538 - Tapas Saha.xlsx
+2020-11-16 05:14:12,221  INFO [main] Login_till_ProdSelectionPage:810 - archive
+2020-11-16 05:14:12,221  INFO [main] Login_till_ProdSelectionPage:693 - Weed out method init 
+2020-11-16 05:14:12,225  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-16 05:14:12,657  INFO [main] Login_till_ProdSelectionPage:192 - 1
+2020-11-16 05:14:17,734  INFO [main] Login_till_ProdSelectionPage:204 - EE 1 Started
+2020-11-16 05:14:17,758  INFO [main] Login_till_ProdSelectionPage:425 - Status check - null
+2020-11-16 05:14:17,864  INFO [main] Login_till_ProdSelectionPage:209 - EE 1 Started
+2020-11-16 05:14:33,155  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 13 started for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-16 05:14:53,708  INFO [main] Login_till_ProdSelectionPage:252 - EE 1 product 13 ended for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-16 05:14:53,709  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 14 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-16 05:15:19,240  INFO [main] Login_till_ProdSelectionPage:252 - EE 1 product 14 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-16 05:15:19,241  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 15 started for product -->null
+2020-11-16 05:15:19,241  INFO [main] Login_till_ProdSelectionPage:249 - null pointer break
+2020-11-16 05:22:57,766  INFO [main] Login_till_ProdSelectionPage:88 - UserID is enterrerd
+2020-11-16 05:22:57,828  INFO [main] Login_till_ProdSelectionPage:94 - Pwd is enterrerd
+2020-11-16 05:22:59,158  INFO [main] Login_till_ProdSelectionPage:96 - LoginButton is clicked
+2020-11-16 05:24:04,006  INFO [main] Login_till_ProdSelectionPage:88 - UserID is enterrerd
+2020-11-16 05:24:04,075  INFO [main] Login_till_ProdSelectionPage:94 - Pwd is enterrerd
+2020-11-16 05:24:05,424  INFO [main] Login_till_ProdSelectionPage:96 - LoginButton is clicked
+2020-11-16 05:24:57,699  INFO [main] Login_till_ProdSelectionPage:121 - Launch button is clicked
+2020-11-16 05:25:14,945  INFO [main] Login_till_ProdSelectionPage:159 - RECPROD button is clicked
+2020-11-16 05:25:24,960  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-16 05:25:24,961  INFO [main] Login_till_ProdSelectionPage:801 - GET IP File method call init
+2020-11-16 05:25:24,962  INFO [main] Login_till_ProdSelectionPage:803 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 5\MyFramework_1\TestData\Input
+2020-11-16 05:25:24,963  INFO [main] Login_till_ProdSelectionPage:810 - 641538 - Tapas Saha.xlsx
+2020-11-16 05:25:24,964  INFO [main] Login_till_ProdSelectionPage:810 - archive
+2020-11-16 05:25:24,964  INFO [main] Login_till_ProdSelectionPage:693 - Weed out method init 
+2020-11-16 05:25:24,971  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-16 05:25:25,422  INFO [main] Login_till_ProdSelectionPage:192 - 1
+2020-11-16 05:25:30,510  INFO [main] Login_till_ProdSelectionPage:204 - EE 1 Started
+2020-11-16 05:25:30,532  INFO [main] Login_till_ProdSelectionPage:425 - Status check - null
+2020-11-16 05:25:30,634  INFO [main] Login_till_ProdSelectionPage:209 - EE 1 Started
+2020-11-16 05:25:36,666  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 13 started for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-16 05:25:57,240  INFO [main] Login_till_ProdSelectionPage:252 - EE 1 product 13 ended for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-16 05:25:57,241  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 14 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-16 05:26:22,756  INFO [main] Login_till_ProdSelectionPage:252 - EE 1 product 14 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-16 05:26:22,756  INFO [main] Login_till_ProdSelectionPage:224 - EE 1 product 15 started for product -->null
+2020-11-16 05:26:22,757  INFO [main] Login_till_ProdSelectionPage:249 - null pointer break

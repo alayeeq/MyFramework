@@ -304,11 +304,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 						try
 						{
 							wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']")));
-							Actions act = new Actions(driver);
-							WebElement container = driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']"));
-							act.moveToElement(container);
-							System.out.println("--------------------------moved to item container-------------------------------");
-							Thread.sleep(5000);
+							
 							
 							//Item warning check
 									Boolean multi_warning_Present=false;
@@ -352,8 +348,15 @@ public class Login_till_ProdSelectionPage extends TestBase {
 									//if(driver.findElement(By.xpath("//div[@id='section' and @class='item line-item-container-"+i+"']//child::span[.='SHI Supplier Policy']")).isDisplayed())
 									{
 									System.out.println("--------------------------entered SHI supplier check warning check-------------------------------");
+									Actions act = new Actions(driver);
+									WebElement shi_check = driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::div/button[@aria-label='  Required' and @class='dropdown-toggle invalid']/i"));
+									act.moveToElement(shi_check);
+									System.out.println("--------------------------moved to shi warning drop down-------------------------------");
+									Thread.sleep(3000);
+									act.moveToElement(driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::div/button[@aria-label='  Required' and @class='dropdown-toggle invalid']/i"))).click().perform();
 									
-									driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::div/button[@aria-label='  Required' and @class='dropdown-toggle invalid']")).click();
+									
+									//driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::div/button[@aria-label='  Required' and @class='dropdown-toggle invalid']")).click();
 									System.out.println("--------------------------clicked SHI supplier check warning drop down-------------------------------");
 									wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::a[normalize-space(.)=\"I confirm that I have shared phone number in 'Comments' section with the supplier\"]")));
 									System.out.println("--------------------------clicked SHI supplier check warning drop down - wait completed-------------------------------");
