@@ -11,6 +11,7 @@ import javax.swing.JOptionPane;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -255,7 +256,8 @@ public class Login_till_ProdSelectionPage extends TestBase {
 				//checkout to be added.
 				//if(false)
 				//{
-			//Devesh_ checkout page
+	
+	//Devesh_ checkout page
 				System.out.println("total no of items: " + item_counter);
 				driver.findElement(By.xpath("//*[@id=\"shoppingCart\"]/div/div/div[1]/button")).click();//click on cart button
 				driver.findElement(By.xpath("//*[@id=\"shopping-cart-submit-button\"]")).click();//click on checkout button
@@ -303,9 +305,9 @@ public class Login_till_ProdSelectionPage extends TestBase {
 						System.out.println("--------------------------****entered checkout page for loop for item: " +i+ "****-------------------------------");
 						try
 						{
-							wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']")));
-							
-							
+							//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']")));
+							String item_name= driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']/div[2]/div[3]/div[1]/p[2]")).getText();
+							System.out.println("--------------------------****entered checkout page for loop for item: "+item_name+"****-------------------------------");
 							//Item warning check
 									Boolean multi_warning_Present=false;
 									try
@@ -348,19 +350,23 @@ public class Login_till_ProdSelectionPage extends TestBase {
 									//if(driver.findElement(By.xpath("//div[@id='section' and @class='item line-item-container-"+i+"']//child::span[.='SHI Supplier Policy']")).isDisplayed())
 									{
 									System.out.println("--------------------------entered SHI supplier check warning check-------------------------------");
-									Actions act = new Actions(driver);
+									/*Actions act = new Actions(driver);
 									WebElement shi_check = driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::div/button[@aria-label='  Required' and @class='dropdown-toggle invalid']/i"));
 									act.moveToElement(shi_check);
 									System.out.println("--------------------------moved to shi warning drop down-------------------------------");
 									Thread.sleep(3000);
 									act.moveToElement(driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::div/button[@aria-label='  Required' and @class='dropdown-toggle invalid']/i"))).click().perform();
+									*/
+									wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='form-group error']//button")));									
+									System.out.println("--------------------------wait completed for SHI supplier check warning clickable check-------------------------------");
+									//driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::div/button[@aria-label='  Required' and @class='dropdown-toggle invalid']/i")).click();
 									
-									
-									//driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::div/button[@aria-label='  Required' and @class='dropdown-toggle invalid']")).click();
+									driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='form-group error']//button")).sendKeys(Keys.RETURN);
 									System.out.println("--------------------------clicked SHI supplier check warning drop down-------------------------------");
-									wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::a[normalize-space(.)=\"I confirm that I have shared phone number in 'Comments' section with the supplier\"]")));
+									//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='form-group error']//a[contains(text(),'I confirm')]")));
+									Thread.sleep(7000);
 									System.out.println("--------------------------clicked SHI supplier check warning drop down - wait completed-------------------------------");
-									driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::a[normalize-space(.)=\"I confirm that I have shared phone number in 'Comments' section with the supplier\"]")).click();
+									driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='form-group error']//a[contains(text(),'I confirm')]")).click();
 									System.out.println("--------------------------clicked 'I confirm' SHI supplier check warning-------------------------------");
 									}
 
@@ -480,50 +486,50 @@ public class Login_till_ProdSelectionPage extends TestBase {
 									*/
 							//create new address
 										System.out.println("--------------------------address not present, create new one-------------------------------");
-										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::div[1]/button[@type='button' and @class='dropdown-chooser dropdown-toggle invalid']")).click();
+										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]//button/i")).click();
 										System.out.println("--------------------------clicked address drop down-------------------------------");
 										Thread.sleep(5000);
-										wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::div[@id='LineItemsFi3lD-iNd3x-0p3n1Fi3lD-iNd3x-Cl0s3D0Tt3d-Fi3lD-pAtHShipTo']//child::div/a[contains(text(),'Browse')]")));
+										wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]//a[contains(text(),'Browse')]")));
 										System.out.println("--------------------------address drop down - wait completed-------------------------------");
 										//driver.findElement(By.xpath("//*[@id='LineItemsFi3lD-iNd3x-0p3n1Fi3lD-iNd3x-Cl0s3D0Tt3d-Fi3lD-pAtHShipTo']//child::div/a[contains(text(),'Browse')]")).click();//Click browse all
-										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::div[@id='LineItemsFi3lD-iNd3x-0p3n1Fi3lD-iNd3x-Cl0s3D0Tt3d-Fi3lD-pAtHShipTo']//child::div/a[contains(text(),'Browse')]")).click();//Click browse all
+										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]//a[contains(text(),'Browse')]")).click();//Click browse all
 										
 										System.out.println("--------------------------clicked Browse all from address drop down-------------------------------");
 										//Thread.sleep(5000);
 									
 									
 									//System.out.println("new address sleep - 1 ");
-									wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='chooser_modalLineItemsFi3lD-iNd3x-0p3n1Fi3lD-iNd3x-Cl0s3D0Tt3d-Fi3lD-pAtHShipTo']/div/div/div/div[1]/h3")));
+									wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//h3[text()='Ship To Address']")));
 									System.out.println("wait for new address list pop up ");
-									driver.findElement(By.xpath("//*[@id='chooser_modalLineItemsFi3lD-iNd3x-0p3n1Fi3lD-iNd3x-Cl0s3D0Tt3d-Fi3lD-pAtHShipTo']/div/div/div/div[2]/div/div[1]/button")).click();//Ship to address---> Click new
+									driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//button[@class='btn-medium btn-inverse add-new-address']")).click();//Ship to address---> Click new
 									
 									//Thread.sleep(3000);
 									//System.out.println("new address sleep - 2 ");
-									wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='full-name']")));
+									wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//input[@id='full-name']")));
 									System.out.println("wait for new address form to populate");
 									
 									driver.switchTo().defaultContent();
-									driver.findElement(By.xpath("//*[@id='full-name']")).sendKeys(r1[user_counter][4]);//name
-									driver.findElement(By.xpath("//*[@id='streetline1']")).sendKeys(r1[user_counter][5]);//streetline1
+									driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//input[@id='full-name']")).sendKeys(r1[user_counter][4]);//name
+									driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//input[@id='streetline1']")).sendKeys(r1[user_counter][5]);//streetline1
 									//driver.findElement(By.xpath("//*[@id='streetline2']")).sendKeys(r1[user_counter][6]);//streetline2
 									//driver.findElement(By.xpath("//*[@id='streetline3']")).sendKeys(r1[user_counter][4]);//streetline3
-									driver.findElement(By.xpath("//*[@id='city']")).sendKeys(r1[user_counter][6]);//city
-									driver.findElement(By.xpath("//*[@id='region']")).sendKeys(r1[user_counter][7]);//region
-									driver.findElement(By.xpath("//*[@id='postal-code']")).sendKeys(r1[user_counter][8]);//postal-code
+									driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//input[@id='city']")).sendKeys(r1[user_counter][6]);//city
+									driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//input[@id='region']")).sendKeys(r1[user_counter][7]);//region
+									driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//input[@id='postal-code']")).sendKeys(r1[user_counter][8]);//postal-code
 									//driver.findElement(By.xpath("//select[@id='country']/option[235]"));//country
-									Select select = new Select(driver.findElement(By.id("country")));
+									Select select = new Select(driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//select[@id='country']")));
 									select.selectByVisibleText("United States");//country
 									
-									driver.findElement(By.xpath("//*[@id='phone']")).sendKeys(r1[user_counter][10]);//phone
+									driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//input[@id='phone']")).sendKeys(r1[user_counter][10]);//phone
 									//driver.findElement(By.xpath("//*[@id='fax']")).sendKeys(r1[user_counter][11]); //FAX
-									driver.findElement(By.xpath("//*[@id='email']")).sendKeys(r1[user_counter][9]);//email
+									driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//input[@id='email']")).sendKeys(r1[user_counter][9]);//email
 									
-									driver.findElement(By.xpath("//*[@id='addressForm']/div[12]/button[2]")).click();
+									driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//div[12]/button[text()='Save']")).click();
 									
 									Boolean isaddress_Submitted=false;
 									try
 									{
-										isaddress_Submitted = driver.findElements(By.xpath("//*[@id='chooser_modalLineItemsFi3lD-iNd3x-0p3n1Fi3lD-iNd3x-Cl0s3D0Tt3d-Fi3lD-pAtHShipTo']//child::*[@id='fieldChoice-header-notification']//child::i[@class='icon-message-warning']")).size()>0;
+										isaddress_Submitted = driver.findElements(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//*[@id='fieldChoice-header-notification']//i[@class='icon-message-warning']")).size()>0;
 											System.out.println("--------------------------value of address_present: " +isaddress_Submitted+ "-------------------------------");
 											
 									}
@@ -554,6 +560,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 					//Deliver to name:
 									System.out.println("--------------------------Deliver to: "+r1[user_counter][4]+ "-------------------------------");
 									driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"'] //div[@class='ship-section']//field[2]//input[@name='DeliverTo']")).clear();
+									
 									Thread.sleep(4000);
 									wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"'] //div[@class='ship-section']//field[2]//span[@id='error-code' and text()='Deliver To Attention must be set.']")));
 									driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"'] //div[@class='ship-section']//field[2]//input[@name='DeliverTo']")).sendKeys(r1[user_counter][4]);
@@ -590,12 +597,15 @@ public class Login_till_ProdSelectionPage extends TestBase {
 				driver.findElement(By.xpath("//*[@id='checkbox-header-comments']")).click();
 				driver.findElement(By.xpath("//*[@id='header-comments-commentButton']")).click();
 				System.out.println("Comment added for User "+user_counter+" : " +r1[user_counter][4]);
+				System.out.println("--------------------------Comment added with phone number-------------------------------");
 				Thread.sleep(5000);
 				
 		//Submit		
-				if(driver.findElement(By.xpath("//*[@id='gbsection']/div[1]/gb-action-bar/div/div/div/div[2]/div[1]/div[2]/div/button[text()='Submit']")).isEnabled())
+				if(driver.findElement(By.xpath("//*[@id='gbsection']//button[text()='Submit']")).isEnabled())
 				{
-					//driver.findElement(By.xpath("//*[@id='gbsection']/div[1]/gb-action-bar/div/div/div/div[2]/div[1]/div[2]/div/button[text()='Submit']")).click();
+					driver.findElement(By.xpath("//*[@id='gbsection']//button[text()='Submit']")).click();//click submit button
+					System.out.println("--------------------------Submit button clicked-------------------------------");
+					Thread.sleep(7000);
 					Boolean is_submitted=false;
 					try
 					{
@@ -632,7 +642,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 					else
 					{
 					  
-					driver.findElement(By.xpath("//*[@id='gbsection']/div[4]/gb-comment/div/div[2]/div/div[2]/ul/li/div/div[4]/span[text()='Remove']")).click();
+					driver.findElement(By.xpath("//*[@id='gbsection']//span[@data-jhitranslate-for-automation='COMMENT_REMOVE' and text()='Remove']")).click();
 					//go for next employee
 					bl.statusUpdate(row, "Failed - Submission");
 					if(row!=(r1.length-1))
@@ -653,7 +663,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 				
 				else
 				{
-					driver.findElement(By.xpath("//*[@id='gbsection']/div[4]/gb-comment/div/div[2]/div/div[2]/ul/li/div/div[4]/span[text()='Remove']")).click();
+					driver.findElement(By.xpath("//*[@id='gbsection']//span[@data-jhitranslate-for-automation='COMMENT_REMOVE' and text()='Remove']")).click();
 					
 					bl.statusUpdate(row, "Failed - Submission");
 					if(row!=(r1.length-1))
