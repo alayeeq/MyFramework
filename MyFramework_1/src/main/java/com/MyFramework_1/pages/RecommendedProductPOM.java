@@ -16,7 +16,7 @@ public class RecommendedProductPOM extends TestBase{
 		PageFactory.initElements(driver, this);
 	}
 	
-	
+	//public String RECPROD = "//*[@id=\"popular\"]/div/div/div[2]/div/div[1]/img";
 	@FindBy (xpath = "//*[@id=\"popular\"]/div/div/div[2]/div/div[1]/img") public WebElement RECPROD;
 
 }

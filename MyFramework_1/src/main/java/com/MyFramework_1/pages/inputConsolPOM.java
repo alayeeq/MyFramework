@@ -42,6 +42,7 @@ public class inputConsolPOM extends TestBase{
 	String errPath=null;
 	String tdPath=null;
 	String archieveTD=null;
+	ProductPagePOM p = new ProductPagePOM(driver);
 	
 	public void initPath()
 	{
@@ -462,6 +463,38 @@ public class inputConsolPOM extends TestBase{
 		}
 	}
 	
+	//Asif code for records processed
+		public void nofRecords(int row, String msg)
+		{
+			String tdPathAbs=tdPath+"\\TD.xlsx";
+			
+			
+			int a = p.numberOfCols();
+			
+			int status_Col = a+4;
+			try {
+				File fil=new File(tdPathAbs);
+				FileInputStream fis=new FileInputStream(fil);
+				XSSFWorkbook wb = new XSSFWorkbook(fis);
+				XSSFSheet sh=wb.getSheet("Sheet1");
+
+				Row rw=sh.getRow(row);
+				
+				
+				Cell seq=rw.createCell(status_Col);
+				seq.setCellValue(msg);
+				
+				fis.close();
+				FileOutputStream fos=new FileOutputStream(fil);
+				wb.write(fos);
+				fos.close();
+				wb.close();
+				
+			}catch(Exception e)
+			{
+				e.printStackTrace();
+			}
+		}
 	
 	public void xlwrite()
 	{
