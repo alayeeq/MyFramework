@@ -95,7 +95,6 @@ public class inputConsolPOM extends TestBase{
          	//td_Set[row][col]=cl.getStringCellValue();
         } 
 		
-		cellValue.trim();
 		return cellValue;
 		
 	}
@@ -496,7 +495,6 @@ public class inputConsolPOM extends TestBase{
 				XSSFSheet sh=wb.getSheet("Sheet1");
 
 				Row rw=sh.getRow(row);
-				
 				
 				Cell seq=rw.createCell(status_Col);
 				seq.setCellValue(msg);

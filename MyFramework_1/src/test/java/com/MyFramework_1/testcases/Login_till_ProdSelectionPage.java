@@ -170,7 +170,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		
 		Thread.sleep(10000);
 		bl.initPath();
-		//bl.clearTD();
+		bl.clearTD();
 		String[] ipFiles=bl.getIPFiles();
 		bl.WeedOut(ipFiles);
 		bl.xlwrite();
@@ -179,7 +179,6 @@ public class Login_till_ProdSelectionPage extends TestBase {
 	
 	@Test (priority = 5,dependsOnMethods= {"ipConsolidation"})
 	public void Product_addition() throws InterruptedException {
-		
 		ProductPagePOM p1=new ProductPagePOM(driver);
 		inputConsolPOM bl=new inputConsolPOM(driver);
 		
@@ -192,7 +191,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		int NumberofRows = r1.length-1;
 		logger.info(NumberofRows);
 		
-		bl.nofRecords(4, "Total No records in input : " +NumberofRows);
+		bl.nofRecords(0, "Total No records in input : " +NumberofRows);
 		
 		driver.manage().window().maximize();
 		Thread.sleep(5000);
@@ -296,15 +295,14 @@ public class Login_till_ProdSelectionPage extends TestBase {
 							System.out.println("--------------------------Row count: "+row+" and Total no of users in datasheet: "+(r1.length-1)+"--(else)-------------------------------");
 							break Employee_loop;
 						}
-					
 					}
-				
+			try
+				{
 				//Item check loop
 				for(i=1;i<=item_counter;i++)
 					{
 						System.out.println("--------------------------****entered checkout page for loop for item: " +i+ "****-------------------------------");
-						try
-						{
+						
 							//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']")));
 							String item_name= driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']/div[2]/div[3]/div[1]/p[2]")).getText();
 							System.out.println("--------------------------****entered checkout page for loop for item: "+item_name+"****-------------------------------");
@@ -375,6 +373,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 										System.out.println("--------------------------No warning present-------------------------------");
 										
 									}
+									
 						//item expansion check
 									Boolean item_expanded=false;
 									try
@@ -392,14 +391,38 @@ public class Login_till_ProdSelectionPage extends TestBase {
 										System.out.println("--------------------------Item needs to be expanded-------------------------------");
 										//driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::div[@class='content-group item-toggle-section']//child::i[@class='icon-slim-arrow-right']")).click();
 										Thread.sleep(5000);
+										
 										Actions actions = new Actions(driver);
 										WebElement item_expansion = driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='line-item-content']/div/button[@aria-label='Toggle item details ']"));
 										actions.moveToElement(item_expansion);
+										actions.build().perform();
+										
 										System.out.println("--------------------------moved to item expansion drop down-------------------------------");
 										Thread.sleep(3000);
-										actions.moveToElement(driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='line-item-content']/div/button[@aria-label='Toggle item details ']"))).click().perform();
 										
+										//actions.moveToElement(driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='line-item-content']/div/button[@aria-label='Toggle item details ']"))).click().perform();
+										wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='line-item-content']/div/button[@aria-label='Toggle item details ']")));
+										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='line-item-content']/div/button[@aria-label='Toggle item details ']")).sendKeys(Keys.RETURN);
 										//driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='line-item-content']/div/button[@aria-label='Toggle item details ']")).click();
+
+										Boolean item_expanded1=false;
+										try
+										{
+											item_expanded1 = driver.findElements(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::div[@class='content-group item-toggle-section']//child::i[@class='icon-slim-arrow-down']")).size()>0;
+												System.out.println("--------------------------item is not expanded : " +item_expanded1+ "-------------------------------");
+										}
+										catch(Throwable e) {}
+										
+										if(item_expanded1==true)
+										{
+											System.out.println("--------------------------Item expanded (IF)-------------------------------");
+										}
+										else 
+										{
+											driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='line-item-content']/div/button[@aria-label='Toggle item details ']")).sendKeys(Keys.RETURN);
+										}
+										
+										
 										System.out.println("--------------------------Item expanded-------------------------------");
 										Thread.sleep(3000);
 									}
@@ -568,8 +591,21 @@ public class Login_till_ProdSelectionPage extends TestBase {
 									
 								System.out.println("--------------------------Item " +i+ " is done-------------------------------");
 									
-							}
-						catch(Throwable e)
+								}//forloop ends here
+				
+							//Comment section
+							driver.findElement(By.xpath("//*[@id='header-comments-comment']/div/div[1]/textarea")).sendKeys("My Phone number is: "+ r1[user_counter][8]);
+							Thread.sleep(2000);
+							wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='checkbox-header-comments']")));
+							driver.findElement(By.xpath("//*[@id='checkbox-header-comments']")).click();
+							wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='header-comments-commentButton']")));
+							driver.findElement(By.xpath("//*[@id='header-comments-commentButton']")).click();
+							System.out.println("Comment added for User "+user_counter+" : " +r1[user_counter][4]);
+							System.out.println("--------------------------Comment added with phone number-------------------------------");
+							Thread.sleep(5000);
+				
+					}
+				catch(Throwable e)
 						{
 							//go for next employee
 							bl.statusUpdate(row, "Failed - Error occurred while Submission");
@@ -589,16 +625,9 @@ public class Login_till_ProdSelectionPage extends TestBase {
 							}
 						}
 					
-					}
+					
 				
-		//Comment section
-				driver.findElement(By.xpath("//*[@id='header-comments-comment']/div/div[1]/textarea")).sendKeys("My Phone number is: "+ r1[user_counter][8]);
-				Thread.sleep(2000);
-				driver.findElement(By.xpath("//*[@id='checkbox-header-comments']")).click();
-				driver.findElement(By.xpath("//*[@id='header-comments-commentButton']")).click();
-				System.out.println("Comment added for User "+user_counter+" : " +r1[user_counter][4]);
-				System.out.println("--------------------------Comment added with phone number-------------------------------");
-				Thread.sleep(5000);
+	
 				
 		//Submit		
 				if(driver.findElement(By.xpath("//*[@id='gbsection']//button[text()='Submit']")).isEnabled())
@@ -686,14 +715,10 @@ public class Login_till_ProdSelectionPage extends TestBase {
 				logger.info("EE "+row+" Skipped");
 			}
 		 }
-		
-		
-		bl.nofRecords(5, "Total number of Records processed : " +user_counter);
-		bl.nofRecords(6, "Total number of Records submitted successfully: " +success);
+		bl.nofRecords(1, "Total number of Records processed : " +user_counter);
+		bl.nofRecords(2, "Total number of Records submitted successfully: " +success);
 		
 		//Archieving TD sheet with Timestamp
-		//bl.archieveTD();
+		bl.archieveTD();
 	}
-	
-	
 }
