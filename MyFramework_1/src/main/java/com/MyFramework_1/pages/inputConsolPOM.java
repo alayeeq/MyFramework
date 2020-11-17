@@ -95,6 +95,7 @@ public class inputConsolPOM extends TestBase{
          	//td_Set[row][col]=cl.getStringCellValue();
         } 
 		
+		cellValue.trim();
 		return cellValue;
 		
 	}
@@ -138,17 +139,31 @@ public class inputConsolPOM extends TestBase{
 				
 			//Requistion sheet check 
 			String dummy=sh.getSheetName();
-			
+			String cel_Type=null;
 			//ip_Date
 			{
 				XSSFRow rw=sh.getRow(ip_Date_Row);
 				XSSFCell cl=rw.getCell(1);
+
+				CellType type = cl.getCellType();
 				
-				Date date=cl.getDateCellValue();
-				DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");  
-				ip_val[0]=dateFormat.format(date);
+	            if ((type == CellType.STRING) ||(type == CellType.BLANK))
+	            {					
+	            	String cellValue=cl.getStringCellValue();
+	            	ip_val[0]=cellValue;
+	            
+	            }
+	            else if (type == CellType.NUMERIC)  
+	            {
+					Date date=cl.getDateCellValue();
+					DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");  
+					ip_val[0]=dateFormat.format(date);
+	            }
+				
+				
 				logger.info(ip_val[0]);
-				logger.info(this.readCell(cl));
+				//logger.info("experiment");
+				//logger.info(this.readCell(cl));
 			}
 			
 			//ip_Emp_No
@@ -288,6 +303,7 @@ public class inputConsolPOM extends TestBase{
 			logger.info("Sheet --> Requistion tab is missing" );
 			ip_val[0]="false";
 		}catch (java.lang.IllegalStateException e) {
+			e.printStackTrace();
 			logger.info("Sheet --> Data is inconsistent" );
 			ip_val[0]="false";
 		}catch (java.lang.StringIndexOutOfBoundsException e) {

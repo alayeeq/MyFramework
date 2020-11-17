@@ -124,7 +124,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		 
 	}
 	
-	@Test (priority = 3, dependsOnMethods= {"LoginLinkTest"})
+	@Test (priority = 3, dependsOnMethods= {"LoginLinkTest"},enabled=false)
 	 public void selectRecomProd() throws InterruptedException {
 		ProductPagePOM p1=new ProductPagePOM(driver);
 		
@@ -162,7 +162,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 	}
 	
 	
-	@Test (priority = 4,dependsOnMethods= {"selectRecomProd"})
+	@Test (priority = 4,dependsOnMethods= {"LoginLinkTest"})
 	public void ipConsolidation() throws InterruptedException {
 		
 		inputConsolPOM bl=new inputConsolPOM(driver);
@@ -177,15 +177,15 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		
 	}
 	
-	@Test (priority = 5,dependsOnMethods= {"ipConsolidation"},enabled=false)
+	@Test (priority = 5,dependsOnMethods= {"ipConsolidation"})
 	public void Product_addition() throws InterruptedException {
 		
 		ProductPagePOM p1=new ProductPagePOM(driver);
 		inputConsolPOM bl=new inputConsolPOM(driver);
 		
-/*		driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
-		String genericProdXpth="//div[@class='product-name']";
-		p1.waitMod(driver, genericProdXpth);*/
+		driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
+		//String genericProdXpth="//div[@class='product-name']";
+		//p1.waitMod(driver, genericProdXpth);
 		
 		bl.initPath();
 		String r1[][]=p1.xlread();
