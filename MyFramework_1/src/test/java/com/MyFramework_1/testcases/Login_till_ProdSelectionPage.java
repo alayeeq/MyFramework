@@ -112,7 +112,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 			System.out.println("Multi Factor Autentication is NOT requested - Batch continues");
 		}
 		
-		Thread.sleep(10000);
+		Thread.sleep(3000);
 		driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
 		
 		
