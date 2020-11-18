@@ -72,7 +72,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 	@AfterClass (alwaysRun = true)
 	public void teardown()   {
 		
-		driver.quit();
+		//driver.quit();
 		JOptionPane.showMessageDialog(null, "BatchComplete");
 		
 	}
@@ -98,7 +98,24 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		logger.info("LoginButton is clicked");
 		//screenshot("LoginLinkTest");
 		//test = report.createTest("LoginLinkTest");
+		
+		try {
+			String mfaXpth="//h3[text()='Authorize this device']";
+			WebElement mfaEle = wait_base(mfaXpth);
+		
+			if(mfaEle.isDisplayed()) 
+				{
+				System.out.println("Multi Factor Autentication is requested - Wait time increased 20+ Secs");
+				Thread.sleep(20000);
+				}
+		}catch(Exception e) {
+			System.out.println("Multi Factor Autentication is NOT requested - Batch continues");
+		}
+		
+		Thread.sleep(10000);
 		driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
+		
+		
 		
 		try {
 		String genericProdXpth="//div[@class='product-name']";
@@ -189,7 +206,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		inputConsolPOM bl=new inputConsolPOM(driver);
 		ProductPagePOM p1=new ProductPagePOM(driver);
 		
-		Thread.sleep(10000);
+		Thread.sleep(3000);
 		bl.initPath();
 		bl.clearTD();
 		String[] ipFiles=bl.getIPFiles();
@@ -771,5 +788,6 @@ public class Login_till_ProdSelectionPage extends TestBase {
 			//Archieving TD sheet with Timestamp
 			bl.archieveTD();
 		}
+		else System.out.println("code is here");
 	}
 }
