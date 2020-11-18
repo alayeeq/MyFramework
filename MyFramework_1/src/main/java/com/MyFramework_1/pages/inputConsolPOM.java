@@ -470,9 +470,8 @@ public class inputConsolPOM extends TestBase{
 			fis.close();
 			FileOutputStream fos=new FileOutputStream(fil);
 			wb.write(fos);
-			fos.close();
 			wb.close();
-			
+			fos.close();
 		}catch(Exception e)
 		{
 			e.printStackTrace();

@@ -45,7 +45,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 	LaunchPOM launchPOM;
 	RecommendedProductPOM recommendedProductPOM;
 	//public Logger logger;
-	boolean criticalFlag=false;
+	boolean criticalFlag=true;
 	public Actions act;
 	
 	
@@ -73,6 +73,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 	public void teardown()   {
 		
 		//driver.quit();
+		System.out.println("After class initiated");
 		JOptionPane.showMessageDialog(null, "BatchComplete");
 		
 	}
@@ -99,6 +100,8 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		//screenshot("LoginLinkTest");
 		//test = report.createTest("LoginLinkTest");
 		
+		
+		//NK MFA Code
 		try {
 			String mfaXpth="//h3[text()='Authorize this device']";
 			WebElement mfaEle = wait_base(mfaXpth);
@@ -112,89 +115,116 @@ public class Login_till_ProdSelectionPage extends TestBase {
 			System.out.println("Multi Factor Autentication is NOT requested - Batch continues");
 		}
 		
-		Thread.sleep(3000);
-		driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
 		
-		
-		
-		try {
-		String genericProdXpth="//div[@class='product-name']";
-		WebElement genericProdEle = wait_base(genericProdXpth);
-
-		if(genericProdEle.isDisplayed())
-		{
-			System.out.println("Site properly displayed");
-			criticalFlag=true;
-		}
-		
-		}catch(Exception e)
-		 {
-			e.printStackTrace();
-			System.out.println("Site is NOT properly displayed");
-		}
+		//Thread.sleep(3000);
+		//driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
 		
 	}
 	
 	
-	@Test (priority = 2, enabled=false)
+	@Test (priority = 2,dependsOnMethods= {"LoginLinkTest"}, enabled=false)
 	 public void LaunchBOUT() throws InterruptedException {
-		ProductPagePOM p1=new ProductPagePOM(driver);
 
-		Thread.sleep(50000);
-		driver.manage().window().maximize();
-		driver.switchTo().defaultContent();
-		//wait.until(ExpectedConditions.elementToBeSelected(launchPOM.LaunchButton));
-			
-		System.out.println("Loginbutton is Visible");
-		//p1.waitMod(driver, "//a[@id='lunchbutton']");
 		
-		//WebElement LB = wait_base(launchPOM.LaunchButton);
-		
-		 //WebElement LB = wait_base_click(launchPOM.LaunchButton);
-		
-		//LB.click();
-				
-		launchPOM.LaunchButton.click();
-		logger.info("Launch button is clicked");
-		//screenshot("LaunchBOUT");
-		 
-	}
-	
-	@Test (priority = 3, dependsOnMethods= {"LoginLinkTest"},enabled=false)
-	 public void selectRecomProd() throws InterruptedException {
-		ProductPagePOM p1=new ProductPagePOM(driver);
-		
-		Thread.sleep(10000);
-		//driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
-		String HomeWindow = driver.getWindowHandle();
-		Set <String> Windows = driver.getWindowHandles();
-		
-		Iterator<String> itr = Windows.iterator();
-		
-		while (itr.hasNext())
+		//Optimized Wait logic
+		boolean flag=true;
+		int i=1;
+		while((i<2) &&(flag) )
 		{
-			String wind =  itr.next();
+			Thread.sleep(50000);
+			try {
+				String launchXpth="//a[@id='lunchbutton']";
+				WebElement launchEle = wait_base(launchXpth);
 			
-			if(!HomeWindow.equals(wind))
-				
-			{
-				driver.switchTo().window(wind);
+				if(launchEle.isDisplayed()) 
+					{
+					System.out.println("BoND Site Landing Page displayed - Wait#"+i+"/6");
+					flag=false;
+					}
+			}catch(Exception e) {
+				System.out.println("Waiting for BoND Site Landing Page displayed - Wait#"+i+"/6");
+				flag=true;
 			}
 		}
-		System.out.println("sleep2 is executed");
 		
-		//act.moveToElement(recommendedProductPOM.RECPROD).click();
-		Thread.sleep(5000);
-		//WebElement w2=wait.until(ExpectedConditions.visibilityOf(recommendedProductPOM.RECPROD));
-		//System.out.println("Sleep is complete");
-		//p1.waitMod(driver, "//*[@id=\"popular\"]/div/div/div[2]/div/div[1]/img");
 		
-		//WebElement RP = wait_base(recommendedProductPOM.RECPROD);
-		//RP.click();
-		recommendedProductPOM.RECPROD.click();
-		//recommendedProductPOM.RECPROD.click();
-		logger.info("RECPROD button is clicked");
-		//screenshot("selectRecomProd");
+		//NK Site check
+		try {
+			String launchXpth="//a[@id='lunchbutton']";
+			WebElement launchEle = wait_base(launchXpth);
+		
+			if(launchEle.isDisplayed()) 
+				{
+				System.out.println("BoND Site Landing Page displayed");
+				}
+		}catch(Exception e) {
+			System.out.println("BoND Site Landing Page NOT displayed - Critical Flag Set to False Batch Skips");
+			criticalFlag=false;
+		}
+		
+		
+		if(criticalFlag)
+			{
+			ProductPagePOM p1=new ProductPagePOM(driver);
+	
+			driver.manage().window().maximize();
+			driver.switchTo().defaultContent();
+			//wait.until(ExpectedConditions.elementToBeSelected(launchPOM.LaunchButton));
+				
+			System.out.println("Loginbutton is Visible");
+			//p1.waitMod(driver, "//a[@id='lunchbutton']");
+			
+			//WebElement LB = wait_base(launchPOM.LaunchButton);
+			
+			 //WebElement LB = wait_base_click(launchPOM.LaunchButton);
+			
+			//LB.click();
+					
+			launchPOM.LaunchButton.click();
+			logger.info("Launch button is clicked");
+			//screenshot("LaunchBOUT");
+			}
+	}
+	
+	@Test (priority = 3, dependsOnMethods= {"LaunchBOUT"},enabled=false)
+	 public void selectRecomProd() throws InterruptedException {
+
+		if(criticalFlag)
+		{
+			ProductPagePOM p1=new ProductPagePOM(driver);
+			
+			Thread.sleep(10000);
+			//driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
+			String HomeWindow = driver.getWindowHandle();
+			Set <String> Windows = driver.getWindowHandles();
+			
+			Iterator<String> itr = Windows.iterator();
+			
+			while (itr.hasNext())
+			{
+				String wind =  itr.next();
+				
+				if(!HomeWindow.equals(wind))
+					
+				{
+					driver.switchTo().window(wind);
+				}
+			}
+			System.out.println("sleep2 is executed");
+			
+			//act.moveToElement(recommendedProductPOM.RECPROD).click();
+			Thread.sleep(5000);
+			//WebElement w2=wait.until(ExpectedConditions.visibilityOf(recommendedProductPOM.RECPROD));
+			//System.out.println("Sleep is complete");
+			//p1.waitMod(driver, "//*[@id=\"popular\"]/div/div/div[2]/div/div[1]/img");
+			
+			//WebElement RP = wait_base(recommendedProductPOM.RECPROD);
+			//RP.click();
+			recommendedProductPOM.RECPROD.click();
+			//recommendedProductPOM.RECPROD.click();
+			logger.info("RECPROD button is clicked");
+			//screenshot("selectRecomProd");
+		}
 	}
 	
 	
@@ -203,17 +233,21 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		
 		if(criticalFlag)
 		{
-		inputConsolPOM bl=new inputConsolPOM(driver);
-		ProductPagePOM p1=new ProductPagePOM(driver);
-		
-		Thread.sleep(3000);
-		bl.initPath();
-		bl.clearTD();
-		String[] ipFiles=bl.getIPFiles();
-		bl.WeedOut(ipFiles);
-		bl.xlwrite();
+			Thread.sleep(3000);
+			driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
+			Thread.sleep(40000);
+			
+			System.out.println("MSG - IP Consolidation method initiated");
+			inputConsolPOM bl=new inputConsolPOM(driver);
+			ProductPagePOM p1=new ProductPagePOM(driver);
+			
+			Thread.sleep(3000);
+			bl.initPath();
+			//bl.clearTD();
+			String[] ipFiles=bl.getIPFiles();
+			bl.WeedOut(ipFiles);
+			bl.xlwrite();
 		}
-		
 	}
 	
 	@Test (priority = 5,dependsOnMethods= {"ipConsolidation"})
@@ -234,6 +268,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 			Thread.sleep(5000);
 			int user_counter=0;//user_counter 
 			String status="";
+			
 			
 			Employee_loop:
 			for (int row=1;row<r1.length;row++)//Employee	
@@ -258,7 +293,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 					Product_Loop:
 					for (int col=13;col<23;col++)//Column
 						{
-							logger.info("EE "+row+" product "+col+" started for product -->"+(r1[row][col]));
+							logger.info("EE "+row+" product "+(col-12)+" started for product -->"+(r1[row][col]));
 							try {
 							if((!(r1[row][col].isEmpty())))
 							{
@@ -286,7 +321,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 								logger.info("null pointer break");	
 								break;
 							}
-							logger.info("EE "+row+" product "+col+" ended for product -->"+(r1[row][col]));
+							logger.info("EE "+row+" product "+(col-12)+" ended for product -->"+(r1[row][col]));
 						}
 					
 					//checkout to be added.
@@ -782,8 +817,9 @@ public class Login_till_ProdSelectionPage extends TestBase {
 					logger.info("EE "+row+" Skipped");
 				}
 			 }
-			bl.nofRecords(1, "Total number of Records processed : " +user_counter);
-			bl.nofRecords(2, "Total number of Records submitted successfully: " +success);
+			
+			//bl.nofRecords(1, "Total number of Records processed : " +user_counter);
+			//bl.nofRecords(2, "Total number of Records submitted successfully: " +success);
 			
 			//Archieving TD sheet with Timestamp
 			bl.archieveTD();

@@ -229,51 +229,105 @@ public class ProductPagePOM extends TestBase{
 			String tmp="(//div[@class='product-name' and text()='"+prdName+"'])[1]";
 			
 			
+			boolean siteChck=false;
 			
-			Thread.sleep(5000);
+			//site check
 			try {
-				 WebElement prod = driver.findElement(By.xpath(tmp));
-				 //WebElement prod = wait_base(tmp);
-				 builder.moveToElement(prod).build().perform();
-				 prod.click();
-				 flag=true;
-				 //System.out.println(flag);
-			}
-			catch(org.openqa.selenium.NoSuchElementException nse){
-			    //return false;
-				System.out.println("invalid Product selection : "+prdName);
-				flag=false;
-			}
-			catch(org.openqa.selenium.ElementNotInteractableException ese) {
-				System.out.println("Element not interacctable - "+tmp);
-				flag=false;
-			}
+				String prodPageXpth="//h3[@class='req-id title']";
+				WebElement prodPageEle = wait_base(prodPageXpth);
 			
-			if(flag) {
-				Thread.sleep(5000);
-				try{
-					WebElement ibmEntName = driver.findElement(By.xpath(ibmEntNamXpth));
-					//WebElement ibmEntName = wait_base(ibmEntNamXpth);
-					 ibmEntName.click();
-				    }
-				    catch(org.openqa.selenium.NoSuchElementException nse){
-				        //return false;
+				if(prodPageEle.isDisplayed()) 
+					{
+					System.out.println("Product Page is loaded");
+					Thread.sleep(1000);
+					siteChck=true;
+					}
+				}catch(Exception e) 
+				{
+					System.out.println("Product Page is NOT properly loaded");
 				}
-	
-				 catch(org.openqa.selenium.TimeoutException nse){
-				        //return false;
-				}
-				 WebElement selectAddCart=driver.findElement(By.xpath(selectAddCartXpth1));
+			
+			
+			if(siteChck)
+			{
+				//Step 1 - Click search box
+				//Step 2 - Enter product name
+				//Step 3 - Click Enter
 				
-			     //WebElement selectAddCart = wait_base(selectAddCartXpth1);
-				 selectAddCart.click();
-				 
-				 Thread.sleep(5000);
-				 driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-				 WebElement selectGoBack=driver.findElement(By.xpath(selectGoBackXpth));
-				 //WebElement selectGoBack = wait_base(selectGoBackXpth);
-				 selectGoBack.click();
+				String srchXpth="//input[@class='fd-input']";
+				String srchButtonXpth="//button[@class='sap-icon--search fd-button--shell']";
+				
+				WebElement srchEle=driver.findElement(By.xpath(srchXpth));
+				WebElement srchButtonEle=driver.findElement(By.xpath(srchButtonXpth));
+				
+				srchEle.click();
+				srchEle.clear();
+				srchEle.sendKeys(prdName);
+				srchButtonEle.click();
+			
+				Thread.sleep(5000);
+				
+				try {
+					System.out.println("place 1");
+					 WebElement prod = driver.findElement(By.xpath(tmp));
+					 //WebElement prod = wait_base(tmp);
+					 builder.moveToElement(prod).build().perform();
+					 prod.click();
+					 flag=true;
+					 //System.out.println(flag);
+				}
+				catch(org.openqa.selenium.NoSuchElementException nse){
+				    //return false;
+					System.out.println("invalid Product selection : "+prdName);
+					flag=false;
+				}
+				catch(org.openqa.selenium.ElementNotInteractableException ese) {
+					System.out.println("Element not interacctable - "+tmp);
+					flag=false;
+				}
+				
+				if(flag) {
+					Thread.sleep(5000);
+					try{
+						System.out.println("place 2");
+						WebElement ibmEntName = driver.findElement(By.xpath(ibmEntNamXpth));
+						//WebElement ibmEntName = wait_base(ibmEntNamXpth);
+						 ibmEntName.click();
+					    }
+					    catch(org.openqa.selenium.NoSuchElementException nse){
+					        //return false;
+					}
+		
+					 catch(org.openqa.selenium.TimeoutException nse){
+					        //return false;
+					}
+					
+					System.out.println("place 3");
+					 WebElement selectAddCart=driver.findElement(By.xpath(selectAddCartXpth1));
+				     //WebElement selectAddCart = wait_base(selectAddCartXpth1);
+					 selectAddCart.click();
+					 
+					 System.out.println("place 4");
+					 Thread.sleep(5000);
+					 driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+					 WebElement selectGoBack=driver.findElement(By.xpath(selectGoBackXpth));
+					 //WebElement selectGoBack = wait_base(selectGoBackXpth);
+					 selectGoBack.click();
+					 System.out.println("place 5");
+
+					 try {
+					 srchEle.clear();
+					 System.out.println("place 6");
+					srchButtonEle.click();
+					System.out.println("place 7");
+					 }catch(Exception e) {
+						 System.out.println("place 8");
+						 //e.printStackTrace();
+					 }
+					
+				}
 			}
 			return flag;
 		}
+		
 }

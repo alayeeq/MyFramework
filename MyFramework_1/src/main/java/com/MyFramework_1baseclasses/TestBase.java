@@ -15,6 +15,9 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 //import org.testng.ITestResult;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -74,24 +77,39 @@ public class TestBase {
 			
 		}
 	
+		@SuppressWarnings("deprecation")
 		public static void initializaiton() {
 			
 			String Browsername = prop.getProperty("browser");
 			String BaseURL = prop.getProperty("URL");
 			
+			System.out.println("Browser Selected is -->"+Browsername);
 			
 			if(Browsername.equalsIgnoreCase("Chrome")) {
-			
-			System.setProperty("webdriver.chrome.driver", CurrentDirectory + "\\Driver2\\chromedriver.exe");	
-			driver = new ChromeDriver();
-			
-			//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-			
-			 //wait = new WebDriverWait(driver,40);
+				System.setProperty("webdriver.chrome.driver", CurrentDirectory + "\\Driver2\\chromedriver.exe");
+				System.out.println("Chrome Browser Initiated ");
+				driver = new ChromeDriver();
 			}
+			else if(Browsername.equalsIgnoreCase("FireFox")) 
+			{
+				
+				System.setProperty("webdriver.gecko.driver", CurrentDirectory + "\\Driver2\\GeckoDriver.exe");
+				System.out.println("Firefox Browser Initiated ");
+		        DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+		        capabilities.setCapability("marionette", true);
+		        driver = new FirefoxDriver(capabilities);
+			}
+			else if(Browsername.equalsIgnoreCase("IE")) 
+			{
+				
+				//System.setProperty("webdriver.ie.driver", "\\Driver2\\IEDriverServer.exe");
+				System.out.println("IE Browser Initiated ");
+				System.setProperty("webdriver.ie.driver","C:\\Users\\NagarajaK\\Desktop\\LP4\\SleniumIDE\\IE Driver_Win32\\IEDriverServer.exe");
+				driver = new InternetExplorerDriver();
+			}
+			
+			
 			driver.get(BaseURL);
-			
-			
 			logger = Logger.getLogger("Login_till_ProdSelectionPage");
 			PropertyConfigurator.configure("log4j.properties");
 			

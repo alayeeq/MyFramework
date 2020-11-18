@@ -4160,3 +4160,1005 @@
 2020-11-17 22:26:17,900  INFO [main] Login_till_ProdSelectionPage:90 - UserID is enterrerd
 2020-11-17 22:26:17,991  INFO [main] Login_till_ProdSelectionPage:96 - Pwd is enterrerd
 2020-11-17 22:26:20,522  INFO [main] Login_till_ProdSelectionPage:98 - LoginButton is clicked
+2020-11-18 10:22:36,096  INFO [main] Login_till_ProdSelectionPage:90 - UserID is enterrerd
+2020-11-18 10:22:36,227  INFO [main] Login_till_ProdSelectionPage:96 - Pwd is enterrerd
+2020-11-18 10:22:38,799  INFO [main] Login_till_ProdSelectionPage:98 - LoginButton is clicked
+2020-11-18 12:04:17,246  INFO [main] Login_till_ProdSelectionPage:90 - UserID is enterrerd
+2020-11-18 12:04:17,345  INFO [main] Login_till_ProdSelectionPage:96 - Pwd is enterrerd
+2020-11-18 12:04:20,144  INFO [main] Login_till_ProdSelectionPage:98 - LoginButton is clicked
+2020-11-18 12:34:20,904  INFO [main] Login_till_ProdSelectionPage:90 - UserID is enterrerd
+2020-11-18 12:34:20,955  INFO [main] Login_till_ProdSelectionPage:96 - Pwd is enterrerd
+2020-11-18 12:34:24,802  INFO [main] Login_till_ProdSelectionPage:98 - LoginButton is clicked
+2020-11-18 12:59:46,106  INFO [main] Login_till_ProdSelectionPage:90 - UserID is enterrerd
+2020-11-18 12:59:46,168  INFO [main] Login_till_ProdSelectionPage:96 - Pwd is enterrerd
+2020-11-18 12:59:48,359  INFO [main] Login_till_ProdSelectionPage:98 - LoginButton is clicked
+2020-11-18 13:01:17,659  INFO [main] Login_till_ProdSelectionPage:90 - UserID is enterrerd
+2020-11-18 13:01:17,722  INFO [main] Login_till_ProdSelectionPage:96 - Pwd is enterrerd
+2020-11-18 13:01:19,792  INFO [main] Login_till_ProdSelectionPage:98 - LoginButton is clicked
+2020-11-18 13:02:40,120  INFO [main] Login_till_ProdSelectionPage:146 - Launch button is clicked
+2020-11-18 13:02:55,499  INFO [main] Login_till_ProdSelectionPage:188 - RECPROD button is clicked
+2020-11-18 13:02:58,509  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 13:02:58,509  INFO [main] Login_till_ProdSelectionPage:801 - Test Data Template creation
+2020-11-18 13:02:58,509  INFO [main] Login_till_ProdSelectionPage:755 - Copy File Method init
+2020-11-18 13:02:58,516  INFO [main] Login_till_ProdSelectionPage:764 - File Copy successfull Source C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD_GC.xlsx destination :C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 13:02:58,516  INFO [main] Login_till_ProdSelectionPage:816 - GET IP File method call init
+2020-11-18 13:02:58,517  INFO [main] Login_till_ProdSelectionPage:818 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 13:02:58,517  INFO [main] Login_till_ProdSelectionPage:825 - 05322B - Rahul Yadav.xlsx
+2020-11-18 13:02:58,517  INFO [main] Login_till_ProdSelectionPage:825 - Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 13:02:58,518  INFO [main] Login_till_ProdSelectionPage:825 - Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-18 13:02:58,518  INFO [main] Login_till_ProdSelectionPage:708 - Weed out method init 
+2020-11-18 13:02:58,518  INFO [main] Login_till_ProdSelectionPage:518 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 13:02:58,524  INFO [main] Login_till_ProdSelectionPage:558 - 11/18/2020 13:02:58
+2020-11-18 13:02:58,524  INFO [main] Login_till_ProdSelectionPage:816 - GET IP File method call init
+2020-11-18 13:02:58,524  INFO [main] Login_till_ProdSelectionPage:818 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 13:02:58,524  INFO [main] Login_till_ProdSelectionPage:825 - 05322B - Rahul Yadav.xlsx
+2020-11-18 13:02:58,524  INFO [main] Login_till_ProdSelectionPage:825 - Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 13:02:58,525  INFO [main] Login_till_ProdSelectionPage:825 - Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-18 13:02:59,459  INFO [main] Login_till_ProdSelectionPage:575 - ROW COUNT 0
+2020-11-18 13:02:59,912  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-18 13:02:59,914  INFO [main] Login_till_ProdSelectionPage:173 - 05322B
+2020-11-18 13:02:59,915  INFO [main] Login_till_ProdSelectionPage:181 - Rahul Yadav
+2020-11-18 13:02:59,915  INFO [main] Login_till_ProdSelectionPage:189 - 5300 W Memorial Rd, APT 2Q
+2020-11-18 13:02:59,916  INFO [main] Login_till_ProdSelectionPage:198 - Oklahoma City
+2020-11-18 13:02:59,916  INFO [main] Login_till_ProdSelectionPage:206 - OK
+2020-11-18 13:02:59,917  INFO [main] Login_till_ProdSelectionPage:214 - 73142-2032
+2020-11-18 13:02:59,917  INFO [main] Login_till_ProdSelectionPage:238 - radyadav@in.ibm.com
+2020-11-18 13:02:59,918  INFO [main] Login_till_ProdSelectionPage:246 - 405-719-5046
+2020-11-18 13:02:59,918  INFO [main] Login_till_ProdSelectionPage:254 - Rohit Mehta
+2020-11-18 13:02:59,919  INFO [main] Login_till_ProdSelectionPage:262 - romehta1@in.ibm.com
+2020-11-18 13:02:59,919  INFO [main] Login_till_ProdSelectionPage:287 - Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-18 13:02:59,920  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-18 13:02:59,921  INFO [main] Login_till_ProdSelectionPage:287 - Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-18 13:02:59,949  INFO [main] Login_till_ProdSelectionPage:731 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\05322B - Rahul Yadav.xlsx
+2020-11-18 13:02:59,950  INFO [main] Login_till_ProdSelectionPage:733 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\05322B - Rahul Yadav.xlsx
+2020-11-18 13:02:59,952  INFO [main] Login_till_ProdSelectionPage:747 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\05322B - Rahul Yadav.xlsx
+2020-11-18 13:03:00,268  INFO [main] Login_till_ProdSelectionPage:575 - ROW COUNT 1
+2020-11-18 13:03:00,424  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-18 13:03:00,436  INFO [main] Login_till_ProdSelectionPage:173 - 915452
+2020-11-18 13:03:00,437  INFO [main] Login_till_ProdSelectionPage:181 - Mahendran Shanmugam
+2020-11-18 13:03:00,438  INFO [main] Login_till_ProdSelectionPage:189 - 4155 Essen Ln, Apt 180
+2020-11-18 13:03:00,439  INFO [main] Login_till_ProdSelectionPage:198 - Baton Rouge
+2020-11-18 13:03:00,439  INFO [main] Login_till_ProdSelectionPage:206 - LA
+2020-11-18 13:03:00,440  INFO [main] Login_till_ProdSelectionPage:214 - 70809-2143
+2020-11-18 13:03:00,440  INFO [main] Login_till_ProdSelectionPage:238 - smahendr@in.ibm.com
+2020-11-18 13:03:00,441  INFO [main] Login_till_ProdSelectionPage:246 - 9199866707
+2020-11-18 13:03:00,442  INFO [main] Login_till_ProdSelectionPage:254 - Nilotpal.Sengupta
+2020-11-18 13:03:00,443  INFO [main] Login_till_ProdSelectionPage:262 -  Nilotpal.sengupta@ibm.com
+2020-11-18 13:03:00,443  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 13:03:00,444  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-18 13:03:00,459  INFO [main] Login_till_ProdSelectionPage:731 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 13:03:00,460  INFO [main] Login_till_ProdSelectionPage:733 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 13:03:00,462  INFO [main] Login_till_ProdSelectionPage:747 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 13:03:00,583  INFO [main] Login_till_ProdSelectionPage:575 - ROW COUNT 2
+2020-11-18 13:03:00,830  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-18 13:03:00,831  INFO [main] Login_till_ProdSelectionPage:173 - 078641
+2020-11-18 13:03:00,832  INFO [main] Login_till_ProdSelectionPage:181 - Nabanita Choudhury
+2020-11-18 13:03:00,832  INFO [main] Login_till_ProdSelectionPage:189 - 2606 Society Drive
+2020-11-18 13:03:00,833  INFO [main] Login_till_ProdSelectionPage:198 - Claymont
+2020-11-18 13:03:00,834  INFO [main] Login_till_ProdSelectionPage:206 - DE
+2020-11-18 13:03:00,835  INFO [main] Login_till_ProdSelectionPage:214 - 19703-1709
+2020-11-18 13:03:00,836  INFO [main] Login_till_ProdSelectionPage:238 - nabanita.choudhury@in.ibm.com
+2020-11-18 13:03:00,837  INFO [main] Login_till_ProdSelectionPage:246 - +1-3023459079
+2020-11-18 13:03:00,838  INFO [main] Login_till_ProdSelectionPage:254 - Rajeev Gupta
+2020-11-18 13:03:00,838  INFO [main] Login_till_ProdSelectionPage:262 - rajeevgu@in.ibm.com
+2020-11-18 13:03:00,839  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 13:03:00,839  INFO [main] Login_till_ProdSelectionPage:287 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-18 13:03:00,851  INFO [main] Login_till_ProdSelectionPage:731 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-18 13:03:00,851  INFO [main] Login_till_ProdSelectionPage:733 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-18 13:03:00,854  INFO [main] Login_till_ProdSelectionPage:747 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-18 13:03:00,919  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 13:03:01,080  INFO [main] Login_till_ProdSelectionPage:221 - 3
+2020-11-18 13:03:06,461  INFO [main] Login_till_ProdSelectionPage:233 - EE 1 Started
+2020-11-18 13:03:06,494  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-18 13:03:06,524  INFO [main] Login_till_ProdSelectionPage:238 - EE 1 Started
+2020-11-18 13:03:12,533  INFO [main] Login_till_ProdSelectionPage:253 - EE 1 product 13 started for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-18 13:03:33,284  INFO [main] Login_till_ProdSelectionPage:281 - EE 1 product 13 ended for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-18 13:03:33,285  INFO [main] Login_till_ProdSelectionPage:253 - EE 1 product 14 started for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-18 13:03:48,294  INFO [main] Login_till_ProdSelectionPage:262 - invalid Product idetified during product selection :EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-18 13:03:48,379  INFO [main] Login_till_ProdSelectionPage:233 - EE 2 Started
+2020-11-18 13:03:48,423  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-18 13:03:48,459  INFO [main] Login_till_ProdSelectionPage:238 - EE 2 Started
+2020-11-18 13:04:14,082  INFO [main] Login_till_ProdSelectionPage:253 - EE 2 product 13 started for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 13:07:25,998  INFO [main] Login_till_ProdSelectionPage:90 - UserID is enterrerd
+2020-11-18 13:07:26,143  INFO [main] Login_till_ProdSelectionPage:96 - Pwd is enterrerd
+2020-11-18 13:07:28,917  INFO [main] Login_till_ProdSelectionPage:98 - LoginButton is clicked
+2020-11-18 13:08:51,537  INFO [main] Login_till_ProdSelectionPage:146 - Launch button is clicked
+2020-11-18 13:09:08,830  INFO [main] Login_till_ProdSelectionPage:188 - RECPROD button is clicked
+2020-11-18 13:09:11,846  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 13:09:11,846  INFO [main] Login_till_ProdSelectionPage:801 - Test Data Template creation
+2020-11-18 13:09:11,846  INFO [main] Login_till_ProdSelectionPage:755 - Copy File Method init
+2020-11-18 13:09:11,847  INFO [main] Login_till_ProdSelectionPage:768 - Desitination file Already Exist- Delete and Retry :C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 13:09:11,847  INFO [main] Login_till_ProdSelectionPage:785 - Archieve TD Method init
+2020-11-18 13:09:11,856  INFO [main] Login_till_ProdSelectionPage:747 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\ArchieveTD\TD_TS111820201309.xlsx
+2020-11-18 13:09:11,860  INFO [main] Login_till_ProdSelectionPage:771 - File Copy successfull Source C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD_GC.xlsx destination :C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 13:09:11,860  INFO [main] Login_till_ProdSelectionPage:816 - GET IP File method call init
+2020-11-18 13:09:11,860  INFO [main] Login_till_ProdSelectionPage:818 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 13:09:11,860  INFO [main] Login_till_ProdSelectionPage:708 - Weed out method init 
+2020-11-18 13:09:11,861  INFO [main] Login_till_ProdSelectionPage:518 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 13:09:11,862  INFO [main] Login_till_ProdSelectionPage:558 - 11/18/2020 13:09:11
+2020-11-18 13:09:11,862  INFO [main] Login_till_ProdSelectionPage:816 - GET IP File method call init
+2020-11-18 13:09:11,862  INFO [main] Login_till_ProdSelectionPage:818 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 13:09:11,865  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 13:09:12,680  INFO [main] Login_till_ProdSelectionPage:221 - 0
+2020-11-18 13:09:18,277  INFO [main] Login_till_ProdSelectionPage:785 - Archieve TD Method init
+2020-11-18 13:09:18,279  INFO [main] Login_till_ProdSelectionPage:744 - Exception while moving file: C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\ArchieveTD\TD_TS111820201309.xlsx
+2020-11-18 13:09:18,279  INFO [main] Login_till_ProdSelectionPage:749 - File movement failed.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\ArchieveTD\TD_TS111820201309.xlsx
+2020-11-18 13:46:36,395  INFO [main] Login_till_ProdSelectionPage:90 - UserID is enterrerd
+2020-11-18 13:46:36,900  INFO [main] Login_till_ProdSelectionPage:96 - Pwd is enterrerd
+2020-11-18 13:46:37,407  INFO [main] Login_till_ProdSelectionPage:98 - LoginButton is clicked
+2020-11-18 13:48:33,578  INFO [main] Login_till_ProdSelectionPage:146 - Launch button is clicked
+2020-11-18 14:04:54,929  INFO [main] Login_till_ProdSelectionPage:90 - UserID is enterrerd
+2020-11-18 14:04:55,007  INFO [main] Login_till_ProdSelectionPage:96 - Pwd is enterrerd
+2020-11-18 14:04:57,403  INFO [main] Login_till_ProdSelectionPage:98 - LoginButton is clicked
+2020-11-18 14:06:19,846  INFO [main] Login_till_ProdSelectionPage:146 - Launch button is clicked
+2020-11-18 14:08:28,241  INFO [main] Login_till_ProdSelectionPage:90 - UserID is enterrerd
+2020-11-18 14:08:28,324  INFO [main] Login_till_ProdSelectionPage:96 - Pwd is enterrerd
+2020-11-18 14:08:30,698  INFO [main] Login_till_ProdSelectionPage:98 - LoginButton is clicked
+2020-11-18 14:09:53,373  INFO [main] Login_till_ProdSelectionPage:146 - Launch button is clicked
+2020-11-18 14:13:41,632  INFO [main] Login_till_ProdSelectionPage:90 - UserID is enterrerd
+2020-11-18 14:13:41,712  INFO [main] Login_till_ProdSelectionPage:96 - Pwd is enterrerd
+2020-11-18 14:13:44,057  INFO [main] Login_till_ProdSelectionPage:98 - LoginButton is clicked
+2020-11-18 14:15:06,639  INFO [main] Login_till_ProdSelectionPage:148 - Launch button is clicked
+2020-11-18 14:15:23,901  INFO [main] Login_till_ProdSelectionPage:190 - RECPROD button is clicked
+2020-11-18 14:15:26,917  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 14:15:26,917  INFO [main] Login_till_ProdSelectionPage:801 - Test Data Template creation
+2020-11-18 14:15:26,917  INFO [main] Login_till_ProdSelectionPage:755 - Copy File Method init
+2020-11-18 14:15:26,918  INFO [main] Login_till_ProdSelectionPage:768 - Desitination file Already Exist- Delete and Retry :C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 14:15:26,918  INFO [main] Login_till_ProdSelectionPage:785 - Archieve TD Method init
+2020-11-18 14:15:26,922  INFO [main] Login_till_ProdSelectionPage:747 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\ArchieveTD\TD_TS111820201415.xlsx
+2020-11-18 14:15:26,926  INFO [main] Login_till_ProdSelectionPage:771 - File Copy successfull Source C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD_GC.xlsx destination :C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 14:15:26,927  INFO [main] Login_till_ProdSelectionPage:816 - GET IP File method call init
+2020-11-18 14:15:26,927  INFO [main] Login_till_ProdSelectionPage:818 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 14:15:26,927  INFO [main] Login_till_ProdSelectionPage:708 - Weed out method init 
+2020-11-18 14:15:26,928  INFO [main] Login_till_ProdSelectionPage:518 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 14:15:26,929  INFO [main] Login_till_ProdSelectionPage:558 - 11/18/2020 14:15:26
+2020-11-18 14:15:26,929  INFO [main] Login_till_ProdSelectionPage:816 - GET IP File method call init
+2020-11-18 14:15:26,929  INFO [main] Login_till_ProdSelectionPage:818 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 14:15:26,936  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 14:15:27,602  INFO [main] Login_till_ProdSelectionPage:224 - 0
+2020-11-18 14:15:32,919  INFO [main] Login_till_ProdSelectionPage:785 - Archieve TD Method init
+2020-11-18 14:15:32,920  INFO [main] Login_till_ProdSelectionPage:744 - Exception while moving file: C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\ArchieveTD\TD_TS111820201415.xlsx
+2020-11-18 14:15:32,921  INFO [main] Login_till_ProdSelectionPage:749 - File movement failed.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\ArchieveTD\TD_TS111820201415.xlsx
+2020-11-18 14:25:54,691  INFO [main] Login_till_ProdSelectionPage:90 - UserID is enterrerd
+2020-11-18 14:25:54,763  INFO [main] Login_till_ProdSelectionPage:96 - Pwd is enterrerd
+2020-11-18 14:25:57,279  INFO [main] Login_till_ProdSelectionPage:98 - LoginButton is clicked
+2020-11-18 14:27:26,992  INFO [main] Login_till_ProdSelectionPage:183 - Launch button is clicked
+2020-11-18 14:27:44,247  INFO [main] Login_till_ProdSelectionPage:225 - RECPROD button is clicked
+2020-11-18 14:27:47,260  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 14:27:47,260  INFO [main] Login_till_ProdSelectionPage:801 - Test Data Template creation
+2020-11-18 14:27:47,261  INFO [main] Login_till_ProdSelectionPage:755 - Copy File Method init
+2020-11-18 14:27:47,261  INFO [main] Login_till_ProdSelectionPage:768 - Desitination file Already Exist- Delete and Retry :C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 14:27:47,262  INFO [main] Login_till_ProdSelectionPage:785 - Archieve TD Method init
+2020-11-18 14:27:47,267  INFO [main] Login_till_ProdSelectionPage:744 - Exception while moving file: C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx -> C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\ArchieveTD\TD_TS111820201427.xlsx: The process cannot access the file because it is being used by another process
+2020-11-18 14:27:47,267  INFO [main] Login_till_ProdSelectionPage:749 - File movement failed.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\ArchieveTD\TD_TS111820201427.xlsx
+2020-11-18 14:27:47,269  INFO [main] Login_till_ProdSelectionPage:816 - GET IP File method call init
+2020-11-18 14:27:47,269  INFO [main] Login_till_ProdSelectionPage:818 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 14:27:47,270  INFO [main] Login_till_ProdSelectionPage:708 - Weed out method init 
+2020-11-18 14:27:47,270  INFO [main] Login_till_ProdSelectionPage:518 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 14:27:47,271  INFO [main] Login_till_ProdSelectionPage:558 - 11/18/2020 14:27:47
+2020-11-18 14:27:47,271  INFO [main] Login_till_ProdSelectionPage:816 - GET IP File method call init
+2020-11-18 14:27:47,272  INFO [main] Login_till_ProdSelectionPage:818 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 14:27:47,276  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 14:27:47,768  INFO [main] Login_till_ProdSelectionPage:259 - 0
+2020-11-18 14:27:53,095  INFO [main] Login_till_ProdSelectionPage:785 - Archieve TD Method init
+2020-11-18 14:27:53,096  INFO [main] Login_till_ProdSelectionPage:744 - Exception while moving file: C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx -> C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\ArchieveTD\TD_TS111820201427.xlsx: The process cannot access the file because it is being used by another process
+2020-11-18 14:27:53,096  INFO [main] Login_till_ProdSelectionPage:749 - File movement failed.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\ArchieveTD\TD_TS111820201427.xlsx
+2020-11-18 15:01:02,250  INFO [main] Login_till_ProdSelectionPage:90 - UserID is enterrerd
+2020-11-18 15:01:02,405  INFO [main] Login_till_ProdSelectionPage:96 - Pwd is enterrerd
+2020-11-18 15:01:05,255  INFO [main] Login_till_ProdSelectionPage:98 - LoginButton is clicked
+2020-11-18 15:01:45,039  INFO [main] Login_till_ProdSelectionPage:182 - Launch button is clicked
+2020-11-18 15:02:02,349  INFO [main] Login_till_ProdSelectionPage:224 - RECPROD button is clicked
+2020-11-18 15:02:05,373  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 15:02:05,374  INFO [main] Login_till_ProdSelectionPage:801 - Test Data Template creation
+2020-11-18 15:02:05,374  INFO [main] Login_till_ProdSelectionPage:755 - Copy File Method init
+2020-11-18 15:02:05,375  INFO [main] Login_till_ProdSelectionPage:768 - Desitination file Already Exist- Delete and Retry :C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 15:02:05,375  INFO [main] Login_till_ProdSelectionPage:785 - Archieve TD Method init
+2020-11-18 15:02:05,382  INFO [main] Login_till_ProdSelectionPage:744 - Exception while moving file: C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx -> C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\ArchieveTD\TD_TS111820201502.xlsx: The process cannot access the file because it is being used by another process
+2020-11-18 15:02:05,383  INFO [main] Login_till_ProdSelectionPage:749 - File movement failed.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\ArchieveTD\TD_TS111820201502.xlsx
+2020-11-18 15:02:05,388  INFO [main] Login_till_ProdSelectionPage:816 - GET IP File method call init
+2020-11-18 15:02:05,388  INFO [main] Login_till_ProdSelectionPage:818 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 15:02:05,389  INFO [main] Login_till_ProdSelectionPage:708 - Weed out method init 
+2020-11-18 15:02:05,390  INFO [main] Login_till_ProdSelectionPage:518 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 15:02:05,395  INFO [main] Login_till_ProdSelectionPage:558 - 11/18/2020 15:02:05
+2020-11-18 15:02:05,395  INFO [main] Login_till_ProdSelectionPage:816 - GET IP File method call init
+2020-11-18 15:02:05,395  INFO [main] Login_till_ProdSelectionPage:818 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 15:02:05,405  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 15:02:06,771  INFO [main] Login_till_ProdSelectionPage:258 - 0
+2020-11-18 15:02:12,467  INFO [main] Login_till_ProdSelectionPage:785 - Archieve TD Method init
+2020-11-18 15:02:12,468  INFO [main] Login_till_ProdSelectionPage:744 - Exception while moving file: C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx -> C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\ArchieveTD\TD_TS111820201502.xlsx: The process cannot access the file because it is being used by another process
+2020-11-18 15:02:12,468  INFO [main] Login_till_ProdSelectionPage:749 - File movement failed.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\ArchieveTD\TD_TS111820201502.xlsx
+2020-11-18 15:03:20,782  INFO [main] Login_till_ProdSelectionPage:90 - UserID is enterrerd
+2020-11-18 15:03:20,991  INFO [main] Login_till_ProdSelectionPage:96 - Pwd is enterrerd
+2020-11-18 15:03:24,015  INFO [main] Login_till_ProdSelectionPage:98 - LoginButton is clicked
+2020-11-18 15:04:03,928  INFO [main] Login_till_ProdSelectionPage:182 - Launch button is clicked
+2020-11-18 15:11:17,100  INFO [main] Login_till_ProdSelectionPage:90 - UserID is enterrerd
+2020-11-18 15:11:17,290  INFO [main] Login_till_ProdSelectionPage:96 - Pwd is enterrerd
+2020-11-18 15:11:20,091  INFO [main] Login_till_ProdSelectionPage:98 - LoginButton is clicked
+2020-11-18 15:12:42,812  INFO [main] Login_till_ProdSelectionPage:183 - Launch button is clicked
+2020-11-18 15:21:35,186  INFO [main] Login_till_ProdSelectionPage:90 - UserID is enterrerd
+2020-11-18 15:21:35,353  INFO [main] Login_till_ProdSelectionPage:96 - Pwd is enterrerd
+2020-11-18 15:21:38,447  INFO [main] Login_till_ProdSelectionPage:98 - LoginButton is clicked
+2020-11-18 15:23:01,435  INFO [main] Login_till_ProdSelectionPage:183 - Launch button is clicked
+2020-11-18 15:23:18,729  INFO [main] Login_till_ProdSelectionPage:224 - RECPROD button is clicked
+2020-11-18 15:23:21,752  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 15:23:21,753  INFO [main] Login_till_ProdSelectionPage:801 - Test Data Template creation
+2020-11-18 15:23:21,753  INFO [main] Login_till_ProdSelectionPage:755 - Copy File Method init
+2020-11-18 15:23:21,754  INFO [main] Login_till_ProdSelectionPage:768 - Desitination file Already Exist- Delete and Retry :C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 15:23:21,754  INFO [main] Login_till_ProdSelectionPage:785 - Archieve TD Method init
+2020-11-18 15:23:21,761  INFO [main] Login_till_ProdSelectionPage:744 - Exception while moving file: C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx -> C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\ArchieveTD\TD_TS111820201523.xlsx: The process cannot access the file because it is being used by another process
+2020-11-18 15:23:21,762  INFO [main] Login_till_ProdSelectionPage:749 - File movement failed.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\ArchieveTD\TD_TS111820201523.xlsx
+2020-11-18 15:23:21,765  INFO [main] Login_till_ProdSelectionPage:816 - GET IP File method call init
+2020-11-18 15:23:21,766  INFO [main] Login_till_ProdSelectionPage:818 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 15:23:21,767  INFO [main] Login_till_ProdSelectionPage:825 - 05322B - Rahul Yadav.xlsx
+2020-11-18 15:23:21,768  INFO [main] Login_till_ProdSelectionPage:825 - Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 15:23:21,770  INFO [main] Login_till_ProdSelectionPage:825 - Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-18 15:23:21,770  INFO [main] Login_till_ProdSelectionPage:708 - Weed out method init 
+2020-11-18 15:23:21,771  INFO [main] Login_till_ProdSelectionPage:518 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 15:23:21,771  INFO [main] Login_till_ProdSelectionPage:558 - 11/18/2020 15:23:21
+2020-11-18 15:23:21,771  INFO [main] Login_till_ProdSelectionPage:816 - GET IP File method call init
+2020-11-18 15:23:21,771  INFO [main] Login_till_ProdSelectionPage:818 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 15:23:21,772  INFO [main] Login_till_ProdSelectionPage:825 - 05322B - Rahul Yadav.xlsx
+2020-11-18 15:23:21,772  INFO [main] Login_till_ProdSelectionPage:825 - Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 15:23:21,772  INFO [main] Login_till_ProdSelectionPage:825 - Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-18 15:23:23,288  INFO [main] Login_till_ProdSelectionPage:575 - ROW COUNT 0
+2020-11-18 15:23:23,755  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-18 15:23:23,760  INFO [main] Login_till_ProdSelectionPage:173 - 05322B
+2020-11-18 15:23:23,760  INFO [main] Login_till_ProdSelectionPage:181 - Rahul Yadav
+2020-11-18 15:23:23,761  INFO [main] Login_till_ProdSelectionPage:189 - 5300 W Memorial Rd, APT 2Q
+2020-11-18 15:23:23,762  INFO [main] Login_till_ProdSelectionPage:198 - Oklahoma City
+2020-11-18 15:23:23,763  INFO [main] Login_till_ProdSelectionPage:206 - OK
+2020-11-18 15:23:23,764  INFO [main] Login_till_ProdSelectionPage:214 - 73142-2032
+2020-11-18 15:23:23,766  INFO [main] Login_till_ProdSelectionPage:238 - radyadav@in.ibm.com
+2020-11-18 15:23:23,768  INFO [main] Login_till_ProdSelectionPage:246 - 405-719-5046
+2020-11-18 15:23:23,769  INFO [main] Login_till_ProdSelectionPage:254 - Rohit Mehta
+2020-11-18 15:23:23,770  INFO [main] Login_till_ProdSelectionPage:262 - romehta1@in.ibm.com
+2020-11-18 15:23:23,770  INFO [main] Login_till_ProdSelectionPage:287 - Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-18 15:23:23,771  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-18 15:23:23,771  INFO [main] Login_till_ProdSelectionPage:287 - Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-18 15:23:23,800  INFO [main] Login_till_ProdSelectionPage:731 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\05322B - Rahul Yadav.xlsx
+2020-11-18 15:23:23,801  INFO [main] Login_till_ProdSelectionPage:733 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\05322B - Rahul Yadav.xlsx
+2020-11-18 15:23:23,804  INFO [main] Login_till_ProdSelectionPage:747 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\05322B - Rahul Yadav.xlsx
+2020-11-18 15:23:24,144  INFO [main] Login_till_ProdSelectionPage:575 - ROW COUNT 1
+2020-11-18 15:23:24,343  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-18 15:23:24,353  INFO [main] Login_till_ProdSelectionPage:173 - 915452
+2020-11-18 15:23:24,353  INFO [main] Login_till_ProdSelectionPage:181 - Mahendran Shanmugam
+2020-11-18 15:23:24,354  INFO [main] Login_till_ProdSelectionPage:189 - 4155 Essen Ln, Apt 180
+2020-11-18 15:23:24,355  INFO [main] Login_till_ProdSelectionPage:198 - Baton Rouge
+2020-11-18 15:23:24,355  INFO [main] Login_till_ProdSelectionPage:206 - LA
+2020-11-18 15:23:24,356  INFO [main] Login_till_ProdSelectionPage:214 - 70809-2143
+2020-11-18 15:23:24,357  INFO [main] Login_till_ProdSelectionPage:238 - smahendr@in.ibm.com
+2020-11-18 15:23:24,358  INFO [main] Login_till_ProdSelectionPage:246 - 9199866707
+2020-11-18 15:23:24,358  INFO [main] Login_till_ProdSelectionPage:254 - Nilotpal.Sengupta
+2020-11-18 15:23:24,359  INFO [main] Login_till_ProdSelectionPage:262 -  Nilotpal.sengupta@ibm.com
+2020-11-18 15:23:24,359  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 15:23:24,360  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-18 15:23:24,369  INFO [main] Login_till_ProdSelectionPage:731 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 15:23:24,370  INFO [main] Login_till_ProdSelectionPage:733 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 15:23:24,372  INFO [main] Login_till_ProdSelectionPage:747 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 15:23:24,485  INFO [main] Login_till_ProdSelectionPage:575 - ROW COUNT 2
+2020-11-18 15:23:24,683  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-18 15:23:24,684  INFO [main] Login_till_ProdSelectionPage:173 - 078641
+2020-11-18 15:23:24,684  INFO [main] Login_till_ProdSelectionPage:181 - Nabanita Choudhury
+2020-11-18 15:23:24,685  INFO [main] Login_till_ProdSelectionPage:189 - 2606 Society Drive
+2020-11-18 15:23:24,686  INFO [main] Login_till_ProdSelectionPage:198 - Claymont
+2020-11-18 15:23:24,686  INFO [main] Login_till_ProdSelectionPage:206 - DE
+2020-11-18 15:23:24,687  INFO [main] Login_till_ProdSelectionPage:214 - 19703-1709
+2020-11-18 15:23:24,688  INFO [main] Login_till_ProdSelectionPage:238 - nabanita.choudhury@in.ibm.com
+2020-11-18 15:23:24,688  INFO [main] Login_till_ProdSelectionPage:246 - +1-3023459079
+2020-11-18 15:23:24,689  INFO [main] Login_till_ProdSelectionPage:254 - Rajeev Gupta
+2020-11-18 15:23:24,689  INFO [main] Login_till_ProdSelectionPage:262 - rajeevgu@in.ibm.com
+2020-11-18 15:23:24,690  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 15:23:24,692  INFO [main] Login_till_ProdSelectionPage:287 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-18 15:23:24,701  INFO [main] Login_till_ProdSelectionPage:731 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-18 15:23:24,701  INFO [main] Login_till_ProdSelectionPage:733 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-18 15:23:24,704  INFO [main] Login_till_ProdSelectionPage:747 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-18 15:23:24,768  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 15:23:24,839  INFO [main] Login_till_ProdSelectionPage:258 - 3
+2020-11-18 15:23:30,069  INFO [main] Login_till_ProdSelectionPage:271 - EE 1 Started
+2020-11-18 15:23:30,110  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-18 15:23:30,141  INFO [main] Login_till_ProdSelectionPage:276 - EE 1 Started
+2020-11-18 15:23:39,301  INFO [main] Login_till_ProdSelectionPage:291 - EE 1 product 2 started for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-18 15:23:46,379  INFO [main] Login_till_ProdSelectionPage:300 - invalid Product idetified during product selection :Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-18 15:23:46,504  INFO [main] Login_till_ProdSelectionPage:271 - EE 2 Started
+2020-11-18 15:23:46,568  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-18 15:23:46,614  INFO [main] Login_till_ProdSelectionPage:276 - EE 2 Started
+2020-11-18 15:24:04,960  INFO [main] Login_till_ProdSelectionPage:291 - EE 2 product 2 started for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 15:24:12,368  INFO [main] Login_till_ProdSelectionPage:300 - invalid Product idetified during product selection :EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 15:24:12,468  INFO [main] Login_till_ProdSelectionPage:271 - EE 3 Started
+2020-11-18 15:24:12,537  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-18 15:24:12,585  INFO [main] Login_till_ProdSelectionPage:276 - EE 3 Started
+2020-11-18 15:24:18,621  INFO [main] Login_till_ProdSelectionPage:291 - EE 3 product 2 started for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 15:24:27,035  INFO [main] Login_till_ProdSelectionPage:300 - invalid Product idetified during product selection :EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 15:24:27,100  INFO [main] Login_till_ProdSelectionPage:785 - Archieve TD Method init
+2020-11-18 15:24:27,101  INFO [main] Login_till_ProdSelectionPage:744 - Exception while moving file: C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx -> C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\ArchieveTD\TD_TS111820201524.xlsx: The process cannot access the file because it is being used by another process
+2020-11-18 15:24:27,102  INFO [main] Login_till_ProdSelectionPage:749 - File movement failed.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\ArchieveTD\TD_TS111820201524.xlsx
+2020-11-18 15:34:57,420  INFO [main] Login_till_ProdSelectionPage:90 - UserID is enterrerd
+2020-11-18 15:34:57,575  INFO [main] Login_till_ProdSelectionPage:96 - Pwd is enterrerd
+2020-11-18 15:35:00,686  INFO [main] Login_till_ProdSelectionPage:98 - LoginButton is clicked
+2020-11-18 15:36:23,724  INFO [main] Login_till_ProdSelectionPage:183 - Launch button is clicked
+2020-11-18 15:44:41,365  INFO [main] Login_till_ProdSelectionPage:90 - UserID is enterrerd
+2020-11-18 15:44:41,520  INFO [main] Login_till_ProdSelectionPage:96 - Pwd is enterrerd
+2020-11-18 15:44:45,109  INFO [main] Login_till_ProdSelectionPage:98 - LoginButton is clicked
+2020-11-18 15:45:25,018  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 15:45:25,018  INFO [main] Login_till_ProdSelectionPage:800 - Test Data Template creation
+2020-11-18 15:45:25,018  INFO [main] Login_till_ProdSelectionPage:754 - Copy File Method init
+2020-11-18 15:45:25,019  INFO [main] Login_till_ProdSelectionPage:767 - Desitination file Already Exist- Delete and Retry :C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 15:45:25,019  INFO [main] Login_till_ProdSelectionPage:784 - Archieve TD Method init
+2020-11-18 15:45:25,023  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\ArchieveTD\TD_TS111820201545.xlsx
+2020-11-18 15:45:25,026  INFO [main] Login_till_ProdSelectionPage:770 - File Copy successfull Source C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD_GC.xlsx destination :C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 15:45:25,026  INFO [main] Login_till_ProdSelectionPage:815 - GET IP File method call init
+2020-11-18 15:45:25,027  INFO [main] Login_till_ProdSelectionPage:817 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 15:45:25,027  INFO [main] Login_till_ProdSelectionPage:707 - Weed out method init 
+2020-11-18 15:45:25,027  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 15:45:25,027  INFO [main] Login_till_ProdSelectionPage:557 - 11/18/2020 15:45:25
+2020-11-18 15:45:25,027  INFO [main] Login_till_ProdSelectionPage:815 - GET IP File method call init
+2020-11-18 15:45:25,029  INFO [main] Login_till_ProdSelectionPage:817 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 15:45:25,033  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 15:45:26,065  INFO [main] Login_till_ProdSelectionPage:262 - 0
+2020-11-18 15:45:33,874  INFO [main] Login_till_ProdSelectionPage:784 - Archieve TD Method init
+2020-11-18 15:45:33,875  INFO [main] Login_till_ProdSelectionPage:743 - Exception while moving file: C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\ArchieveTD\TD_TS111820201545.xlsx
+2020-11-18 15:45:33,875  INFO [main] Login_till_ProdSelectionPage:748 - File movement failed.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\ArchieveTD\TD_TS111820201545.xlsx
+2020-11-18 15:48:28,449  INFO [main] Login_till_ProdSelectionPage:91 - UserID is enterrerd
+2020-11-18 15:48:28,590  INFO [main] Login_till_ProdSelectionPage:97 - Pwd is enterrerd
+2020-11-18 15:48:31,454  INFO [main] Login_till_ProdSelectionPage:99 - LoginButton is clicked
+2020-11-18 15:49:12,375  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 15:49:12,375  INFO [main] Login_till_ProdSelectionPage:800 - Test Data Template creation
+2020-11-18 15:49:12,375  INFO [main] Login_till_ProdSelectionPage:754 - Copy File Method init
+2020-11-18 15:49:12,380  INFO [main] Login_till_ProdSelectionPage:763 - File Copy successfull Source C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD_GC.xlsx destination :C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 15:49:12,381  INFO [main] Login_till_ProdSelectionPage:815 - GET IP File method call init
+2020-11-18 15:49:12,381  INFO [main] Login_till_ProdSelectionPage:817 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 15:49:12,382  INFO [main] Login_till_ProdSelectionPage:824 - 05322B - Rahul Yadav.xlsx
+2020-11-18 15:49:12,382  INFO [main] Login_till_ProdSelectionPage:824 - Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 15:49:12,382  INFO [main] Login_till_ProdSelectionPage:824 - Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-18 15:49:12,383  INFO [main] Login_till_ProdSelectionPage:707 - Weed out method init 
+2020-11-18 15:49:12,383  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 15:49:12,385  INFO [main] Login_till_ProdSelectionPage:557 - 11/18/2020 15:49:12
+2020-11-18 15:49:12,386  INFO [main] Login_till_ProdSelectionPage:815 - GET IP File method call init
+2020-11-18 15:49:12,387  INFO [main] Login_till_ProdSelectionPage:817 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 15:49:12,387  INFO [main] Login_till_ProdSelectionPage:824 - 05322B - Rahul Yadav.xlsx
+2020-11-18 15:49:12,387  INFO [main] Login_till_ProdSelectionPage:824 - Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 15:49:12,387  INFO [main] Login_till_ProdSelectionPage:824 - Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-18 15:49:13,330  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 0
+2020-11-18 15:49:13,811  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-18 15:49:13,814  INFO [main] Login_till_ProdSelectionPage:173 - 05322B
+2020-11-18 15:49:13,814  INFO [main] Login_till_ProdSelectionPage:181 - Rahul Yadav
+2020-11-18 15:49:13,814  INFO [main] Login_till_ProdSelectionPage:189 - 5300 W Memorial Rd, APT 2Q
+2020-11-18 15:49:13,815  INFO [main] Login_till_ProdSelectionPage:198 - Oklahoma City
+2020-11-18 15:49:13,816  INFO [main] Login_till_ProdSelectionPage:206 - OK
+2020-11-18 15:49:13,816  INFO [main] Login_till_ProdSelectionPage:214 - 73142-2032
+2020-11-18 15:49:13,816  INFO [main] Login_till_ProdSelectionPage:238 - radyadav@in.ibm.com
+2020-11-18 15:49:13,817  INFO [main] Login_till_ProdSelectionPage:246 - 405-719-5046
+2020-11-18 15:49:13,817  INFO [main] Login_till_ProdSelectionPage:254 - Rohit Mehta
+2020-11-18 15:49:13,817  INFO [main] Login_till_ProdSelectionPage:262 - romehta1@in.ibm.com
+2020-11-18 15:49:13,818  INFO [main] Login_till_ProdSelectionPage:287 - Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-18 15:49:13,818  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-18 15:49:13,818  INFO [main] Login_till_ProdSelectionPage:287 - Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-18 15:49:13,835  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\05322B - Rahul Yadav.xlsx
+2020-11-18 15:49:13,836  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\05322B - Rahul Yadav.xlsx
+2020-11-18 15:49:13,838  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\05322B - Rahul Yadav.xlsx
+2020-11-18 15:49:14,272  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 1
+2020-11-18 15:49:14,473  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-18 15:49:14,479  INFO [main] Login_till_ProdSelectionPage:173 - 915452
+2020-11-18 15:49:14,479  INFO [main] Login_till_ProdSelectionPage:181 - Mahendran Shanmugam
+2020-11-18 15:49:14,480  INFO [main] Login_till_ProdSelectionPage:189 - 4155 Essen Ln, Apt 180
+2020-11-18 15:49:14,480  INFO [main] Login_till_ProdSelectionPage:198 - Baton Rouge
+2020-11-18 15:49:14,481  INFO [main] Login_till_ProdSelectionPage:206 - LA
+2020-11-18 15:49:14,481  INFO [main] Login_till_ProdSelectionPage:214 - 70809-2143
+2020-11-18 15:49:14,481  INFO [main] Login_till_ProdSelectionPage:238 - smahendr@in.ibm.com
+2020-11-18 15:49:14,482  INFO [main] Login_till_ProdSelectionPage:246 - 9199866707
+2020-11-18 15:49:14,483  INFO [main] Login_till_ProdSelectionPage:254 - Nilotpal.Sengupta
+2020-11-18 15:49:14,484  INFO [main] Login_till_ProdSelectionPage:262 -  Nilotpal.sengupta@ibm.com
+2020-11-18 15:49:14,489  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 15:49:14,491  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-18 15:49:14,512  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 15:49:14,512  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 15:49:14,520  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 15:49:14,659  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 2
+2020-11-18 15:49:14,881  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-18 15:49:14,881  INFO [main] Login_till_ProdSelectionPage:173 - 078641
+2020-11-18 15:49:14,882  INFO [main] Login_till_ProdSelectionPage:181 - Nabanita Choudhury
+2020-11-18 15:49:14,884  INFO [main] Login_till_ProdSelectionPage:189 - 2606 Society Drive
+2020-11-18 15:49:14,887  INFO [main] Login_till_ProdSelectionPage:198 - Claymont
+2020-11-18 15:49:14,892  INFO [main] Login_till_ProdSelectionPage:206 - DE
+2020-11-18 15:49:14,893  INFO [main] Login_till_ProdSelectionPage:214 - 19703-1709
+2020-11-18 15:49:14,894  INFO [main] Login_till_ProdSelectionPage:238 - nabanita.choudhury@in.ibm.com
+2020-11-18 15:49:14,894  INFO [main] Login_till_ProdSelectionPage:246 - +1-3023459079
+2020-11-18 15:49:14,894  INFO [main] Login_till_ProdSelectionPage:254 - Rajeev Gupta
+2020-11-18 15:49:14,895  INFO [main] Login_till_ProdSelectionPage:262 - rajeevgu@in.ibm.com
+2020-11-18 15:49:14,895  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 15:49:14,896  INFO [main] Login_till_ProdSelectionPage:287 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-18 15:49:14,909  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-18 15:49:14,910  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-18 15:49:14,913  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-18 15:49:14,969  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 15:49:15,042  INFO [main] Login_till_ProdSelectionPage:263 - 3
+2020-11-18 15:49:22,398  INFO [main] Login_till_ProdSelectionPage:276 - EE 1 Started
+2020-11-18 15:49:22,430  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-18 15:49:22,462  INFO [main] Login_till_ProdSelectionPage:281 - EE 1 Started
+2020-11-18 15:49:28,557  INFO [main] Login_till_ProdSelectionPage:296 - EE 1 product 2 started for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-18 15:49:42,308  INFO [main] Login_till_ProdSelectionPage:305 - invalid Product idetified during product selection :Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-18 15:49:42,389  INFO [main] Login_till_ProdSelectionPage:276 - EE 2 Started
+2020-11-18 15:49:42,447  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-18 15:49:42,498  INFO [main] Login_till_ProdSelectionPage:281 - EE 2 Started
+2020-11-18 15:49:57,765  INFO [main] Login_till_ProdSelectionPage:296 - EE 2 product 2 started for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 15:50:20,612  INFO [main] Login_till_ProdSelectionPage:324 - EE 2 product 13 ended for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 15:50:20,613  INFO [main] Login_till_ProdSelectionPage:296 - EE 2 product 3 started for product -->StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-18 15:50:49,909  INFO [main] Login_till_ProdSelectionPage:324 - EE 2 product 14 ended for product -->StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-18 15:50:49,909  INFO [main] Login_till_ProdSelectionPage:296 - EE 2 product 4 started for product -->
+2020-11-18 15:50:49,910  INFO [main] Login_till_ProdSelectionPage:316 - blank break
+2020-11-18 15:52:59,797  INFO [main] Login_till_ProdSelectionPage:91 - UserID is enterrerd
+2020-11-18 15:52:59,948  INFO [main] Login_till_ProdSelectionPage:97 - Pwd is enterrerd
+2020-11-18 15:53:03,030  INFO [main] Login_till_ProdSelectionPage:99 - LoginButton is clicked
+2020-11-18 15:53:56,752  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 15:53:56,752  INFO [main] Login_till_ProdSelectionPage:800 - Test Data Template creation
+2020-11-18 15:53:56,752  INFO [main] Login_till_ProdSelectionPage:754 - Copy File Method init
+2020-11-18 15:53:56,753  INFO [main] Login_till_ProdSelectionPage:767 - Desitination file Already Exist- Delete and Retry :C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 15:53:56,753  INFO [main] Login_till_ProdSelectionPage:784 - Archieve TD Method init
+2020-11-18 15:53:56,759  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\ArchieveTD\TD_TS111820201553.xlsx
+2020-11-18 15:53:56,763  INFO [main] Login_till_ProdSelectionPage:770 - File Copy successfull Source C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD_GC.xlsx destination :C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 15:53:56,763  INFO [main] Login_till_ProdSelectionPage:815 - GET IP File method call init
+2020-11-18 15:53:56,764  INFO [main] Login_till_ProdSelectionPage:817 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 15:53:56,764  INFO [main] Login_till_ProdSelectionPage:707 - Weed out method init 
+2020-11-18 15:53:56,765  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 15:53:56,765  INFO [main] Login_till_ProdSelectionPage:557 - 11/18/2020 15:53:56
+2020-11-18 15:53:56,765  INFO [main] Login_till_ProdSelectionPage:815 - GET IP File method call init
+2020-11-18 15:53:56,766  INFO [main] Login_till_ProdSelectionPage:817 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 15:53:56,772  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 15:53:57,808  INFO [main] Login_till_ProdSelectionPage:263 - 0
+2020-11-18 15:55:35,033  INFO [main] Login_till_ProdSelectionPage:91 - UserID is enterrerd
+2020-11-18 15:55:35,208  INFO [main] Login_till_ProdSelectionPage:97 - Pwd is enterrerd
+2020-11-18 15:55:38,460  INFO [main] Login_till_ProdSelectionPage:99 - LoginButton is clicked
+2020-11-18 15:56:57,298  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 15:56:57,298  INFO [main] Login_till_ProdSelectionPage:800 - Test Data Template creation
+2020-11-18 15:56:57,298  INFO [main] Login_till_ProdSelectionPage:754 - Copy File Method init
+2020-11-18 15:56:57,302  INFO [main] Login_till_ProdSelectionPage:763 - File Copy successfull Source C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD_GC.xlsx destination :C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 15:56:57,302  INFO [main] Login_till_ProdSelectionPage:815 - GET IP File method call init
+2020-11-18 15:56:57,303  INFO [main] Login_till_ProdSelectionPage:817 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 15:56:57,303  INFO [main] Login_till_ProdSelectionPage:824 - 05322B - Rahul Yadav.xlsx
+2020-11-18 15:56:57,304  INFO [main] Login_till_ProdSelectionPage:824 - Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 15:56:57,304  INFO [main] Login_till_ProdSelectionPage:824 - Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-18 15:56:57,304  INFO [main] Login_till_ProdSelectionPage:707 - Weed out method init 
+2020-11-18 15:56:57,304  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 15:56:57,306  INFO [main] Login_till_ProdSelectionPage:557 - 11/18/2020 15:56:57
+2020-11-18 15:56:57,306  INFO [main] Login_till_ProdSelectionPage:815 - GET IP File method call init
+2020-11-18 15:56:57,307  INFO [main] Login_till_ProdSelectionPage:817 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 15:56:57,308  INFO [main] Login_till_ProdSelectionPage:824 - 05322B - Rahul Yadav.xlsx
+2020-11-18 15:56:57,308  INFO [main] Login_till_ProdSelectionPage:824 - Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 15:56:57,308  INFO [main] Login_till_ProdSelectionPage:824 - Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-18 15:56:58,120  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 0
+2020-11-18 15:56:58,509  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-18 15:56:58,511  INFO [main] Login_till_ProdSelectionPage:173 - 05322B
+2020-11-18 15:56:58,512  INFO [main] Login_till_ProdSelectionPage:181 - Rahul Yadav
+2020-11-18 15:56:58,512  INFO [main] Login_till_ProdSelectionPage:189 - 5300 W Memorial Rd, APT 2Q
+2020-11-18 15:56:58,513  INFO [main] Login_till_ProdSelectionPage:198 - Oklahoma City
+2020-11-18 15:56:58,513  INFO [main] Login_till_ProdSelectionPage:206 - OK
+2020-11-18 15:56:58,513  INFO [main] Login_till_ProdSelectionPage:214 - 73142-2032
+2020-11-18 15:56:58,514  INFO [main] Login_till_ProdSelectionPage:238 - radyadav@in.ibm.com
+2020-11-18 15:56:58,514  INFO [main] Login_till_ProdSelectionPage:246 - 405-719-5046
+2020-11-18 15:56:58,515  INFO [main] Login_till_ProdSelectionPage:254 - Rohit Mehta
+2020-11-18 15:56:58,515  INFO [main] Login_till_ProdSelectionPage:262 - romehta1@in.ibm.com
+2020-11-18 15:56:58,516  INFO [main] Login_till_ProdSelectionPage:287 - Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-18 15:56:58,516  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-18 15:56:58,517  INFO [main] Login_till_ProdSelectionPage:287 - Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-18 15:56:58,540  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\05322B - Rahul Yadav.xlsx
+2020-11-18 15:56:58,541  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\05322B - Rahul Yadav.xlsx
+2020-11-18 15:56:58,544  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\05322B - Rahul Yadav.xlsx
+2020-11-18 15:56:58,903  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 1
+2020-11-18 15:56:59,144  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-18 15:56:59,158  INFO [main] Login_till_ProdSelectionPage:173 - 915452
+2020-11-18 15:56:59,161  INFO [main] Login_till_ProdSelectionPage:181 - Mahendran Shanmugam
+2020-11-18 15:56:59,162  INFO [main] Login_till_ProdSelectionPage:189 - 4155 Essen Ln, Apt 180
+2020-11-18 15:56:59,165  INFO [main] Login_till_ProdSelectionPage:198 - Baton Rouge
+2020-11-18 15:56:59,165  INFO [main] Login_till_ProdSelectionPage:206 - LA
+2020-11-18 15:56:59,166  INFO [main] Login_till_ProdSelectionPage:214 - 70809-2143
+2020-11-18 15:56:59,166  INFO [main] Login_till_ProdSelectionPage:238 - smahendr@in.ibm.com
+2020-11-18 15:56:59,167  INFO [main] Login_till_ProdSelectionPage:246 - 9199866707
+2020-11-18 15:56:59,168  INFO [main] Login_till_ProdSelectionPage:254 - Nilotpal.Sengupta
+2020-11-18 15:56:59,170  INFO [main] Login_till_ProdSelectionPage:262 -  Nilotpal.sengupta@ibm.com
+2020-11-18 15:56:59,170  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 15:56:59,171  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-18 15:56:59,189  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 15:56:59,190  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 15:56:59,192  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 15:56:59,341  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 2
+2020-11-18 15:56:59,584  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-18 15:56:59,585  INFO [main] Login_till_ProdSelectionPage:173 - 078641
+2020-11-18 15:56:59,585  INFO [main] Login_till_ProdSelectionPage:181 - Nabanita Choudhury
+2020-11-18 15:56:59,586  INFO [main] Login_till_ProdSelectionPage:189 - 2606 Society Drive
+2020-11-18 15:56:59,586  INFO [main] Login_till_ProdSelectionPage:198 - Claymont
+2020-11-18 15:56:59,587  INFO [main] Login_till_ProdSelectionPage:206 - DE
+2020-11-18 15:56:59,588  INFO [main] Login_till_ProdSelectionPage:214 - 19703-1709
+2020-11-18 15:56:59,588  INFO [main] Login_till_ProdSelectionPage:238 - nabanita.choudhury@in.ibm.com
+2020-11-18 15:56:59,589  INFO [main] Login_till_ProdSelectionPage:246 - +1-3023459079
+2020-11-18 15:56:59,591  INFO [main] Login_till_ProdSelectionPage:254 - Rajeev Gupta
+2020-11-18 15:56:59,592  INFO [main] Login_till_ProdSelectionPage:262 - rajeevgu@in.ibm.com
+2020-11-18 15:56:59,593  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 15:56:59,594  INFO [main] Login_till_ProdSelectionPage:287 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-18 15:56:59,622  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-18 15:56:59,623  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-18 15:56:59,626  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Template v2.0-4_078641_Nabanita_Choudhury.xlsx
+2020-11-18 15:56:59,683  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 15:56:59,768  INFO [main] Login_till_ProdSelectionPage:263 - 3
+2020-11-18 15:57:07,141  INFO [main] Login_till_ProdSelectionPage:276 - EE 1 Started
+2020-11-18 15:57:07,159  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-18 15:57:07,187  INFO [main] Login_till_ProdSelectionPage:281 - EE 1 Started
+2020-11-18 15:57:25,512  INFO [main] Login_till_ProdSelectionPage:296 - EE 1 product 2 started for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-18 15:57:48,306  INFO [main] Login_till_ProdSelectionPage:324 - EE 1 product 13 ended for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-18 15:57:48,306  INFO [main] Login_till_ProdSelectionPage:296 - EE 1 product 3 started for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-18 15:58:16,065  INFO [main] Login_till_ProdSelectionPage:324 - EE 1 product 14 ended for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-18 15:58:16,067  INFO [main] Login_till_ProdSelectionPage:296 - EE 1 product 4 started for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-18 15:58:43,789  INFO [main] Login_till_ProdSelectionPage:324 - EE 1 product 15 ended for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-18 15:58:43,790  INFO [main] Login_till_ProdSelectionPage:296 - EE 1 product 5 started for product -->
+2020-11-18 15:58:43,791  INFO [main] Login_till_ProdSelectionPage:316 - blank break
+2020-11-18 16:08:33,355  INFO [main] Login_till_ProdSelectionPage:91 - UserID is enterrerd
+2020-11-18 16:08:33,499  INFO [main] Login_till_ProdSelectionPage:97 - Pwd is enterrerd
+2020-11-18 16:08:36,797  INFO [main] Login_till_ProdSelectionPage:99 - LoginButton is clicked
+2020-11-18 16:09:55,645  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 16:09:55,646  INFO [main] Login_till_ProdSelectionPage:815 - GET IP File method call init
+2020-11-18 16:09:55,646  INFO [main] Login_till_ProdSelectionPage:817 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 16:09:55,646  INFO [main] Login_till_ProdSelectionPage:707 - Weed out method init 
+2020-11-18 16:09:55,647  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 16:09:55,650  INFO [main] Login_till_ProdSelectionPage:557 - 11/18/2020 16:09:55
+2020-11-18 16:09:55,650  INFO [main] Login_till_ProdSelectionPage:815 - GET IP File method call init
+2020-11-18 16:09:55,651  INFO [main] Login_till_ProdSelectionPage:817 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 16:09:55,660  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 16:09:56,513  INFO [main] Login_till_ProdSelectionPage:263 - 3
+2020-11-18 16:10:04,173  INFO [main] Login_till_ProdSelectionPage:276 - EE 1 Started
+2020-11-18 16:10:04,214  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-18 16:10:04,242  INFO [main] Login_till_ProdSelectionPage:281 - EE 1 Started
+2020-11-18 16:10:25,652  INFO [main] Login_till_ProdSelectionPage:296 - EE 1 product 1 started for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-18 16:10:49,264  INFO [main] Login_till_ProdSelectionPage:324 - EE 1 product 1 ended for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-18 16:10:49,264  INFO [main] Login_till_ProdSelectionPage:296 - EE 1 product 2 started for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-18 16:11:18,047  INFO [main] Login_till_ProdSelectionPage:324 - EE 1 product 2 ended for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-18 16:11:18,047  INFO [main] Login_till_ProdSelectionPage:296 - EE 1 product 3 started for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-18 16:11:46,537  INFO [main] Login_till_ProdSelectionPage:324 - EE 1 product 3 ended for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-18 16:11:46,538  INFO [main] Login_till_ProdSelectionPage:296 - EE 1 product 4 started for product -->
+2020-11-18 16:11:46,539  INFO [main] Login_till_ProdSelectionPage:316 - blank break
+2020-11-18 16:15:43,289  INFO [main] Login_till_ProdSelectionPage:276 - EE 2 Started
+2020-11-18 16:15:43,321  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-18 16:15:43,345  INFO [main] Login_till_ProdSelectionPage:281 - EE 2 Started
+2020-11-18 16:15:54,402  INFO [main] Login_till_ProdSelectionPage:296 - EE 2 product 1 started for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 16:16:23,221  INFO [main] Login_till_ProdSelectionPage:324 - EE 2 product 1 ended for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 16:16:23,221  INFO [main] Login_till_ProdSelectionPage:296 - EE 2 product 2 started for product -->StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-18 16:16:52,814  INFO [main] Login_till_ProdSelectionPage:324 - EE 2 product 2 ended for product -->StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-18 16:16:52,815  INFO [main] Login_till_ProdSelectionPage:296 - EE 2 product 3 started for product -->
+2020-11-18 16:16:52,815  INFO [main] Login_till_ProdSelectionPage:316 - blank break
+2020-11-18 16:19:37,920  INFO [main] Login_till_ProdSelectionPage:276 - EE 3 Started
+2020-11-18 16:19:37,941  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-18 16:19:37,975  INFO [main] Login_till_ProdSelectionPage:281 - EE 3 Started
+2020-11-18 16:19:49,007  INFO [main] Login_till_ProdSelectionPage:296 - EE 3 product 1 started for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 16:20:17,424  INFO [main] Login_till_ProdSelectionPage:324 - EE 3 product 1 ended for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 16:20:17,425  INFO [main] Login_till_ProdSelectionPage:296 - EE 3 product 2 started for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-18 16:28:43,955  INFO [main] Login_till_ProdSelectionPage:91 - UserID is enterrerd
+2020-11-18 16:28:44,099  INFO [main] Login_till_ProdSelectionPage:97 - Pwd is enterrerd
+2020-11-18 16:28:47,112  INFO [main] Login_till_ProdSelectionPage:99 - LoginButton is clicked
+2020-11-18 16:30:06,275  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 16:30:06,275  INFO [main] Login_till_ProdSelectionPage:815 - GET IP File method call init
+2020-11-18 16:30:06,275  INFO [main] Login_till_ProdSelectionPage:817 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 16:30:06,275  INFO [main] Login_till_ProdSelectionPage:707 - Weed out method init 
+2020-11-18 16:30:06,275  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 16:30:06,278  INFO [main] Login_till_ProdSelectionPage:557 - 11/18/2020 16:30:06
+2020-11-18 16:30:06,279  INFO [main] Login_till_ProdSelectionPage:815 - GET IP File method call init
+2020-11-18 16:30:06,279  INFO [main] Login_till_ProdSelectionPage:817 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 16:30:06,285  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 16:30:07,149  INFO [main] Login_till_ProdSelectionPage:263 - 3
+2020-11-18 16:30:14,769  INFO [main] Login_till_ProdSelectionPage:276 - EE 1 Started
+2020-11-18 16:30:14,814  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR466388
+2020-11-18 16:30:14,854  INFO [main] Login_till_ProdSelectionPage:817 - EE 1 Skipped
+2020-11-18 16:30:14,856  INFO [main] Login_till_ProdSelectionPage:276 - EE 2 Started
+2020-11-18 16:30:14,909  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR466395
+2020-11-18 16:30:14,942  INFO [main] Login_till_ProdSelectionPage:817 - EE 2 Skipped
+2020-11-18 16:30:14,943  INFO [main] Login_till_ProdSelectionPage:276 - EE 3 Started
+2020-11-18 16:30:14,984  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-18 16:30:15,035  INFO [main] Login_till_ProdSelectionPage:281 - EE 3 Started
+2020-11-18 16:30:33,373  INFO [main] Login_till_ProdSelectionPage:296 - EE 3 product 1 started for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 16:30:57,091  INFO [main] Login_till_ProdSelectionPage:324 - EE 3 product 1 ended for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 16:30:57,092  INFO [main] Login_till_ProdSelectionPage:296 - EE 3 product 2 started for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-18 16:36:22,969  INFO [main] Login_till_ProdSelectionPage:91 - UserID is enterrerd
+2020-11-18 16:36:23,125  INFO [main] Login_till_ProdSelectionPage:97 - Pwd is enterrerd
+2020-11-18 16:36:26,053  INFO [main] Login_till_ProdSelectionPage:99 - LoginButton is clicked
+2020-11-18 16:37:45,364  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 16:37:45,364  INFO [main] Login_till_ProdSelectionPage:815 - GET IP File method call init
+2020-11-18 16:37:45,365  INFO [main] Login_till_ProdSelectionPage:817 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 16:37:45,365  INFO [main] Login_till_ProdSelectionPage:707 - Weed out method init 
+2020-11-18 16:37:45,366  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 16:37:45,372  INFO [main] Login_till_ProdSelectionPage:557 - 11/18/2020 16:37:45
+2020-11-18 16:37:45,373  INFO [main] Login_till_ProdSelectionPage:815 - GET IP File method call init
+2020-11-18 16:37:45,373  INFO [main] Login_till_ProdSelectionPage:817 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 16:37:45,378  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 16:37:46,261  INFO [main] Login_till_ProdSelectionPage:263 - 3
+2020-11-18 16:37:53,903  INFO [main] Login_till_ProdSelectionPage:276 - EE 1 Started
+2020-11-18 16:37:53,952  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR466388
+2020-11-18 16:37:53,995  INFO [main] Login_till_ProdSelectionPage:817 - EE 1 Skipped
+2020-11-18 16:37:53,998  INFO [main] Login_till_ProdSelectionPage:276 - EE 2 Started
+2020-11-18 16:37:54,035  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR466395
+2020-11-18 16:37:54,082  INFO [main] Login_till_ProdSelectionPage:817 - EE 2 Skipped
+2020-11-18 16:37:54,082  INFO [main] Login_till_ProdSelectionPage:276 - EE 3 Started
+2020-11-18 16:37:54,128  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-18 16:37:54,169  INFO [main] Login_till_ProdSelectionPage:281 - EE 3 Started
+2020-11-18 16:38:12,513  INFO [main] Login_till_ProdSelectionPage:296 - EE 3 product 1 started for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 16:38:36,137  INFO [main] Login_till_ProdSelectionPage:324 - EE 3 product 1 ended for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 16:38:36,138  INFO [main] Login_till_ProdSelectionPage:296 - EE 3 product 2 started for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-18 16:39:05,724  INFO [main] Login_till_ProdSelectionPage:324 - EE 3 product 2 ended for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-18 16:39:05,724  INFO [main] Login_till_ProdSelectionPage:296 - EE 3 product 3 started for product -->
+2020-11-18 16:39:05,724  INFO [main] Login_till_ProdSelectionPage:316 - blank break
+2020-11-18 16:57:49,320  INFO [main] Login_till_ProdSelectionPage:91 - UserID is enterrerd
+2020-11-18 16:57:49,481  INFO [main] Login_till_ProdSelectionPage:97 - Pwd is enterrerd
+2020-11-18 16:57:52,642  INFO [main] Login_till_ProdSelectionPage:99 - LoginButton is clicked
+2020-11-18 16:59:11,802  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 16:59:11,803  INFO [main] Login_till_ProdSelectionPage:800 - Test Data Template creation
+2020-11-18 16:59:11,803  INFO [main] Login_till_ProdSelectionPage:754 - Copy File Method init
+2020-11-18 16:59:11,807  INFO [main] Login_till_ProdSelectionPage:763 - File Copy successfull Source C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD_GC.xlsx destination :C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 16:59:11,807  INFO [main] Login_till_ProdSelectionPage:815 - GET IP File method call init
+2020-11-18 16:59:11,807  INFO [main] Login_till_ProdSelectionPage:817 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 16:59:11,808  INFO [main] Login_till_ProdSelectionPage:824 - 02736R Yuvraj Chaudhari.xlsx
+2020-11-18 16:59:11,808  INFO [main] Login_till_ProdSelectionPage:824 - 03038L Vinodhkumar K Pathayapura.xlsx
+2020-11-18 16:59:11,808  INFO [main] Login_till_ProdSelectionPage:824 - 03279K Snigdha Pradip.xlsx
+2020-11-18 16:59:11,808  INFO [main] Login_till_ProdSelectionPage:824 - 05150F, Amit Rasal.xlsx
+2020-11-18 16:59:11,808  INFO [main] Login_till_ProdSelectionPage:824 - 05322B - Rahul Yadav.xlsx
+2020-11-18 16:59:11,808  INFO [main] Login_till_ProdSelectionPage:824 - 053969 NIRAJ KUMAR.xlsx
+2020-11-18 16:59:11,808  INFO [main] Login_till_ProdSelectionPage:824 - 05722Q, Saurabh Gupta.xlsx
+2020-11-18 16:59:11,809  INFO [main] Login_till_ProdSelectionPage:824 - 05902E, Vikas Jadon.xlsx
+2020-11-18 16:59:11,810  INFO [main] Login_till_ProdSelectionPage:824 - 066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-18 16:59:11,810  INFO [main] Login_till_ProdSelectionPage:824 - 6. Branch - Office Supplies Requisiton_07224N.xlsx
+2020-11-18 16:59:11,810  INFO [main] Login_till_ProdSelectionPage:824 - 641538 - Tapas Saha.xlsx
+2020-11-18 16:59:11,810  INFO [main] Login_till_ProdSelectionPage:824 - 7. Branch - Office Supplies Requisiton_34275.xlsx
+2020-11-18 16:59:11,810  INFO [main] Login_till_ProdSelectionPage:824 - 8. Branch - Office Supplies Requisiton_01045E.xlsx
+2020-11-18 16:59:11,810  INFO [main] Login_till_ProdSelectionPage:824 - Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-18 16:59:11,810  INFO [main] Login_till_ProdSelectionPage:824 - Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 16:59:11,810  INFO [main] Login_till_ProdSelectionPage:824 - Girish Deshmukh.xlsx
+2020-11-18 16:59:11,811  INFO [main] Login_till_ProdSelectionPage:824 - Gouse Basha Shaik Mohammed.xlsx
+2020-11-18 16:59:11,811  INFO [main] Login_till_ProdSelectionPage:824 - Habibulla Kutagolla.xlsx
+2020-11-18 16:59:11,811  INFO [main] Login_till_ProdSelectionPage:707 - Weed out method init 
+2020-11-18 16:59:11,811  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-18 16:59:11,814  INFO [main] Login_till_ProdSelectionPage:557 - 11/18/2020 16:59:11
+2020-11-18 16:59:11,814  INFO [main] Login_till_ProdSelectionPage:815 - GET IP File method call init
+2020-11-18 16:59:11,814  INFO [main] Login_till_ProdSelectionPage:817 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-18 16:59:11,815  INFO [main] Login_till_ProdSelectionPage:824 - 02736R Yuvraj Chaudhari.xlsx
+2020-11-18 16:59:11,815  INFO [main] Login_till_ProdSelectionPage:824 - 03038L Vinodhkumar K Pathayapura.xlsx
+2020-11-18 16:59:11,815  INFO [main] Login_till_ProdSelectionPage:824 - 03279K Snigdha Pradip.xlsx
+2020-11-18 16:59:11,815  INFO [main] Login_till_ProdSelectionPage:824 - 05150F, Amit Rasal.xlsx
+2020-11-18 16:59:11,815  INFO [main] Login_till_ProdSelectionPage:824 - 05322B - Rahul Yadav.xlsx
+2020-11-18 16:59:11,815  INFO [main] Login_till_ProdSelectionPage:824 - 053969 NIRAJ KUMAR.xlsx
+2020-11-18 16:59:11,815  INFO [main] Login_till_ProdSelectionPage:824 - 05722Q, Saurabh Gupta.xlsx
+2020-11-18 16:59:11,816  INFO [main] Login_till_ProdSelectionPage:824 - 05902E, Vikas Jadon.xlsx
+2020-11-18 16:59:11,816  INFO [main] Login_till_ProdSelectionPage:824 - 066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-18 16:59:11,816  INFO [main] Login_till_ProdSelectionPage:824 - 6. Branch - Office Supplies Requisiton_07224N.xlsx
+2020-11-18 16:59:11,816  INFO [main] Login_till_ProdSelectionPage:824 - 641538 - Tapas Saha.xlsx
+2020-11-18 16:59:11,816  INFO [main] Login_till_ProdSelectionPage:824 - 7. Branch - Office Supplies Requisiton_34275.xlsx
+2020-11-18 16:59:11,816  INFO [main] Login_till_ProdSelectionPage:824 - 8. Branch - Office Supplies Requisiton_01045E.xlsx
+2020-11-18 16:59:11,817  INFO [main] Login_till_ProdSelectionPage:824 - Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-18 16:59:11,817  INFO [main] Login_till_ProdSelectionPage:824 - Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 16:59:11,817  INFO [main] Login_till_ProdSelectionPage:824 - Girish Deshmukh.xlsx
+2020-11-18 16:59:11,817  INFO [main] Login_till_ProdSelectionPage:824 - Gouse Basha Shaik Mohammed.xlsx
+2020-11-18 16:59:11,818  INFO [main] Login_till_ProdSelectionPage:824 - Habibulla Kutagolla.xlsx
+2020-11-18 16:59:12,614  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 0
+2020-11-18 16:59:13,012  INFO [main] Login_till_ProdSelectionPage:163 - 10/26/2020
+2020-11-18 16:59:13,015  INFO [main] Login_till_ProdSelectionPage:173 - 02736R
+2020-11-18 16:59:13,018  INFO [main] Login_till_ProdSelectionPage:181 - Yuvraj Chaudhari
+2020-11-18 16:59:13,019  INFO [main] Login_till_ProdSelectionPage:189 - 2651 County Road H2 , Apt 209
+2020-11-18 16:59:13,020  INFO [main] Login_till_ProdSelectionPage:198 - Saint Paul
+2020-11-18 16:59:13,021  INFO [main] Login_till_ProdSelectionPage:206 - MN
+2020-11-18 16:59:13,021  INFO [main] Login_till_ProdSelectionPage:214 - 55112-0008
+2020-11-18 16:59:13,021  INFO [main] Login_till_ProdSelectionPage:238 - yuvchaud@in.ibm.com
+2020-11-18 16:59:13,022  INFO [main] Login_till_ProdSelectionPage:246 - 646 203 5419
+2020-11-18 16:59:13,022  INFO [main] Login_till_ProdSelectionPage:254 - Abhijit Sen
+2020-11-18 16:59:13,022  INFO [main] Login_till_ProdSelectionPage:262 - sen.abhijit@in.ibm.com
+2020-11-18 16:59:13,022  INFO [main] Login_till_ProdSelectionPage:287 - Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-18 16:59:13,023  INFO [main] Login_till_ProdSelectionPage:287 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-18 16:59:13,038  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\02736R Yuvraj Chaudhari.xlsx
+2020-11-18 16:59:13,039  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\02736R Yuvraj Chaudhari.xlsx
+2020-11-18 16:59:13,042  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\02736R Yuvraj Chaudhari.xlsx
+2020-11-18 16:59:13,390  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 1
+2020-11-18 16:59:13,585  INFO [main] Login_till_ProdSelectionPage:163 - 11/03/2020
+2020-11-18 16:59:13,586  INFO [main] Login_till_ProdSelectionPage:173 - 03038L
+2020-11-18 16:59:13,586  INFO [main] Login_till_ProdSelectionPage:181 - Vinodhkumar K Pathayapura
+2020-11-18 16:59:13,587  INFO [main] Login_till_ProdSelectionPage:189 - APT E, 3302 Forest Edge CT 
+2020-11-18 16:59:13,587  INFO [main] Login_till_ProdSelectionPage:198 - Richmond
+2020-11-18 16:59:13,588  INFO [main] Login_till_ProdSelectionPage:206 - VA
+2020-11-18 16:59:13,588  INFO [main] Login_till_ProdSelectionPage:214 - 23294-5117
+2020-11-18 16:59:13,588  INFO [main] Login_till_ProdSelectionPage:238 - vpathaya@in.ibm.com
+2020-11-18 16:59:13,588  INFO [main] Login_till_ProdSelectionPage:246 - 804 300 7167
+2020-11-18 16:59:13,589  INFO [main] Login_till_ProdSelectionPage:254 - Deepak D Sunke
+2020-11-18 16:59:13,589  INFO [main] Login_till_ProdSelectionPage:262 - deepak.sunke@in.ibm.com
+2020-11-18 16:59:13,589  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 16:59:13,590  INFO [main] Login_till_ProdSelectionPage:287 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-18 16:59:13,602  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\03038L Vinodhkumar K Pathayapura.xlsx
+2020-11-18 16:59:13,602  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\03038L Vinodhkumar K Pathayapura.xlsx
+2020-11-18 16:59:13,605  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\03038L Vinodhkumar K Pathayapura.xlsx
+2020-11-18 16:59:13,715  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 2
+2020-11-18 16:59:13,863  INFO [main] Login_till_ProdSelectionPage:163 - 10/26/2020
+2020-11-18 16:59:13,864  INFO [main] Login_till_ProdSelectionPage:173 - 03279K
+2020-11-18 16:59:13,867  INFO [main] Login_till_ProdSelectionPage:181 - Snigdha Pradip
+2020-11-18 16:59:13,868  INFO [main] Login_till_ProdSelectionPage:189 - 513 Aspen Lane
+2020-11-18 16:59:13,870  INFO [main] Login_till_ProdSelectionPage:198 - Phillipsburg
+2020-11-18 16:59:13,870  INFO [main] Login_till_ProdSelectionPage:206 - NJ
+2020-11-18 16:59:13,871  INFO [main] Login_till_ProdSelectionPage:214 - 08865-4384
+2020-11-18 16:59:13,871  INFO [main] Login_till_ProdSelectionPage:238 - snpradip@in.ibm.com
+2020-11-18 16:59:13,871  INFO [main] Login_till_ProdSelectionPage:246 - 614 767 8970
+2020-11-18 16:59:13,872  INFO [main] Login_till_ProdSelectionPage:254 - Rakhahari Pramanik
+2020-11-18 16:59:13,872  INFO [main] Login_till_ProdSelectionPage:262 - Rakhahari.Pramanik@in.ibm.com
+2020-11-18 16:59:13,873  INFO [main] Login_till_ProdSelectionPage:287 - T24i-20(A20238FT0)23.8 inch Monitor-HDMI
+2020-11-18 16:59:13,873  INFO [main] Login_till_ProdSelectionPage:287 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-18 16:59:13,885  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\03279K Snigdha Pradip.xlsx
+2020-11-18 16:59:13,896  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\03279K Snigdha Pradip.xlsx
+2020-11-18 16:59:13,899  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\03279K Snigdha Pradip.xlsx
+2020-11-18 16:59:13,986  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 3
+2020-11-18 16:59:14,189  INFO [main] Login_till_ProdSelectionPage:163 - 10/30/2020
+2020-11-18 16:59:14,190  INFO [main] Login_till_ProdSelectionPage:173 - 05150F
+2020-11-18 16:59:14,190  INFO [main] Login_till_ProdSelectionPage:181 - Amit Rasal
+2020-11-18 16:59:14,191  INFO [main] Login_till_ProdSelectionPage:189 - Apt#H104, 4970 ,S Meadow Park Ln
+2020-11-18 16:59:14,191  INFO [main] Login_till_ProdSelectionPage:198 - Greenfield, Wisconsin
+2020-11-18 16:59:14,191  INFO [main] Login_till_ProdSelectionPage:206 - WI
+2020-11-18 16:59:14,191  INFO [main] Login_till_ProdSelectionPage:214 - 53220-5335
+2020-11-18 16:59:14,192  INFO [main] Login_till_ProdSelectionPage:238 - amirasal@in.ibm.com
+2020-11-18 16:59:14,192  INFO [main] Login_till_ProdSelectionPage:246 - 414 336 4721
+2020-11-18 16:59:14,193  INFO [main] Login_till_ProdSelectionPage:254 - Niraj Kumar
+2020-11-18 16:59:14,193  INFO [main] Login_till_ProdSelectionPage:262 - nirajkum@in.ibm.com
+2020-11-18 16:59:14,194  INFO [main] Login_till_ProdSelectionPage:287 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-18 16:59:14,194  INFO [main] Login_till_ProdSelectionPage:287 - Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-18 16:59:14,202  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\05150F, Amit Rasal.xlsx
+2020-11-18 16:59:14,202  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\05150F, Amit Rasal.xlsx
+2020-11-18 16:59:14,204  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\05150F, Amit Rasal.xlsx
+2020-11-18 16:59:14,301  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 4
+2020-11-18 16:59:14,459  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-18 16:59:14,460  INFO [main] Login_till_ProdSelectionPage:173 - 05322B
+2020-11-18 16:59:14,460  INFO [main] Login_till_ProdSelectionPage:181 - Rahul Yadav
+2020-11-18 16:59:14,461  INFO [main] Login_till_ProdSelectionPage:189 - 5300 W Memorial Rd, APT 2Q
+2020-11-18 16:59:14,461  INFO [main] Login_till_ProdSelectionPage:198 - Oklahoma City
+2020-11-18 16:59:14,461  INFO [main] Login_till_ProdSelectionPage:206 - OK
+2020-11-18 16:59:14,462  INFO [main] Login_till_ProdSelectionPage:214 - 73142-2032
+2020-11-18 16:59:14,462  INFO [main] Login_till_ProdSelectionPage:238 - radyadav@in.ibm.com
+2020-11-18 16:59:14,462  INFO [main] Login_till_ProdSelectionPage:246 - 405-719-5046
+2020-11-18 16:59:14,472  INFO [main] Login_till_ProdSelectionPage:254 - Rohit Mehta
+2020-11-18 16:59:14,473  INFO [main] Login_till_ProdSelectionPage:262 - romehta1@in.ibm.com
+2020-11-18 16:59:14,474  INFO [main] Login_till_ProdSelectionPage:287 - Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-18 16:59:14,474  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-18 16:59:14,475  INFO [main] Login_till_ProdSelectionPage:287 - Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-18 16:59:14,481  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\05322B - Rahul Yadav.xlsx
+2020-11-18 16:59:14,481  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\05322B - Rahul Yadav.xlsx
+2020-11-18 16:59:14,483  INFO [main] Login_till_ProdSelectionPage:743 - Exception while moving file: C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\05322B - Rahul Yadav.xlsx
+2020-11-18 16:59:14,483  INFO [main] Login_till_ProdSelectionPage:748 - File movement failed.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\05322B - Rahul Yadav.xlsx
+2020-11-18 16:59:14,560  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 5
+2020-11-18 16:59:14,752  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-18 16:59:14,754  INFO [main] Login_till_ProdSelectionPage:173 - 053969
+2020-11-18 16:59:14,756  INFO [main] Login_till_ProdSelectionPage:181 - NIRAJ KUMAR
+2020-11-18 16:59:14,758  INFO [main] Login_till_ProdSelectionPage:189 - 14504 BRIAR FOREST DR APT 715
+2020-11-18 16:59:14,758  INFO [main] Login_till_ProdSelectionPage:198 - HOUSTON
+2020-11-18 16:59:14,759  INFO [main] Login_till_ProdSelectionPage:206 - TX
+2020-11-18 16:59:14,759  INFO [main] Login_till_ProdSelectionPage:214 - 77077-1742
+2020-11-18 16:59:14,759  INFO [main] Login_till_ProdSelectionPage:238 - nirajlohani@in.ibm.com
+2020-11-18 16:59:14,760  INFO [main] Login_till_ProdSelectionPage:246 - 248 839 9305
+2020-11-18 16:59:14,760  INFO [main] Login_till_ProdSelectionPage:254 - Gorakshanath Thube
+2020-11-18 16:59:14,761  INFO [main] Login_till_ProdSelectionPage:262 - gorthube@in.ibm.com
+2020-11-18 16:59:14,761  INFO [main] Login_till_ProdSelectionPage:287 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-18 16:59:14,762  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BLUETOOTH SINGLE EAR HEADSET
+2020-11-18 16:59:14,769  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\053969 NIRAJ KUMAR.xlsx
+2020-11-18 16:59:14,769  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\053969 NIRAJ KUMAR.xlsx
+2020-11-18 16:59:14,771  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\053969 NIRAJ KUMAR.xlsx
+2020-11-18 16:59:14,888  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 6
+2020-11-18 16:59:15,043  INFO [main] Login_till_ProdSelectionPage:163 - 10/30/2020
+2020-11-18 16:59:15,044  INFO [main] Login_till_ProdSelectionPage:173 - 05722Q
+2020-11-18 16:59:15,044  INFO [main] Login_till_ProdSelectionPage:181 - Saurabh Gupta
+2020-11-18 16:59:15,045  INFO [main] Login_till_ProdSelectionPage:189 - 158 Wolfsnare Lane
+2020-11-18 16:59:15,045  INFO [main] Login_till_ProdSelectionPage:198 - Morrisville, NC
+2020-11-18 16:59:15,046  INFO [main] Login_till_ProdSelectionPage:206 - NC
+2020-11-18 16:59:15,046  INFO [main] Login_till_ProdSelectionPage:214 - 27560-0005
+2020-11-18 16:59:15,046  INFO [main] Login_till_ProdSelectionPage:238 - sgupta38@in.ibm.com
+2020-11-18 16:59:15,047  INFO [main] Login_till_ProdSelectionPage:246 - +1-919-986-7797
+2020-11-18 16:59:15,047  INFO [main] Login_till_ProdSelectionPage:254 - Mathangi C Shanmugam
+2020-11-18 16:59:15,048  INFO [main] Login_till_ProdSelectionPage:262 - mathshan@in.ibm.com
+2020-11-18 16:59:15,048  INFO [main] Login_till_ProdSelectionPage:287 - T24i-20(A20238FT0)23.8 inch Monitor-HDMI
+2020-11-18 16:59:15,048  INFO [main] Login_till_ProdSelectionPage:287 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-18 16:59:15,053  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\05722Q, Saurabh Gupta.xlsx
+2020-11-18 16:59:15,054  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\05722Q, Saurabh Gupta.xlsx
+2020-11-18 16:59:15,056  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\05722Q, Saurabh Gupta.xlsx
+2020-11-18 16:59:15,146  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 7
+2020-11-18 16:59:15,300  INFO [main] Login_till_ProdSelectionPage:163 - 10/29/2020
+2020-11-18 16:59:15,301  INFO [main] Login_till_ProdSelectionPage:173 - 05902E
+2020-11-18 16:59:15,301  INFO [main] Login_till_ProdSelectionPage:181 - Vikas Jadon
+2020-11-18 16:59:15,301  INFO [main] Login_till_ProdSelectionPage:189 - 1328 Farmstead Ln
+2020-11-18 16:59:15,301  INFO [main] Login_till_ProdSelectionPage:198 - Bolingbrook
+2020-11-18 16:59:15,301  INFO [main] Login_till_ProdSelectionPage:206 - IL
+2020-11-18 16:59:15,302  INFO [main] Login_till_ProdSelectionPage:214 - 60490-5478
+2020-11-18 16:59:15,302  INFO [main] Login_till_ProdSelectionPage:238 - vikjadon@in.ibm.com
+2020-11-18 16:59:15,302  INFO [main] Login_till_ProdSelectionPage:246 - 423 320 8442
+2020-11-18 16:59:15,303  INFO [main] Login_till_ProdSelectionPage:254 - Chandra S Kasthala
+2020-11-18 16:59:15,304  INFO [main] Login_till_ProdSelectionPage:262 - chandra.kasthala@in.ibm.com
+2020-11-18 16:59:15,305  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 16:59:15,306  INFO [main] Login_till_ProdSelectionPage:287 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-18 16:59:15,314  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\05902E, Vikas Jadon.xlsx
+2020-11-18 16:59:15,317  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\05902E, Vikas Jadon.xlsx
+2020-11-18 16:59:15,324  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\05902E, Vikas Jadon.xlsx
+2020-11-18 16:59:15,417  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 8
+2020-11-18 16:59:15,525  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-18 16:59:15,535  INFO [main] Login_till_ProdSelectionPage:173 - 66504
+2020-11-18 16:59:15,536  INFO [main] Login_till_ProdSelectionPage:181 - JAIKUMAR KOCHI RAMMOHAN
+2020-11-18 16:59:15,536  INFO [main] Login_till_ProdSelectionPage:189 - 8809 RODEO DR APT 213
+2020-11-18 16:59:15,537  INFO [main] Login_till_ProdSelectionPage:198 - IRVING
+2020-11-18 16:59:15,537  INFO [main] Login_till_ProdSelectionPage:206 - TX
+2020-11-18 16:59:15,537  INFO [main] Login_till_ProdSelectionPage:214 - 75063-6352
+2020-11-18 16:59:15,538  INFO [main] Login_till_ProdSelectionPage:238 - JAIKUMAR.KR@IN.IBM.COM
+2020-11-18 16:59:15,538  INFO [main] Login_till_ProdSelectionPage:246 - 214-714-5719
+2020-11-18 16:59:15,538  INFO [main] Login_till_ProdSelectionPage:254 - Shebeen Usman
+2020-11-18 16:59:15,539  INFO [main] Login_till_ProdSelectionPage:262 - ushebeen@in.ibm.com
+2020-11-18 16:59:15,539  INFO [main] Login_till_ProdSelectionPage:287 - T24i-20(A20238FT0)23.8 inch Monitor-HDMI
+2020-11-18 16:59:15,544  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-18 16:59:15,545  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-18 16:59:15,548  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\066504-JAIKUMAR KOCHI-Office Supplies Requisiton Template v2.0-4.xlsx
+2020-11-18 16:59:15,614  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 9
+2020-11-18 16:59:15,729  INFO [main] Login_till_ProdSelectionPage:163 - 11/04/2020
+2020-11-18 16:59:15,730  INFO [main] Login_till_ProdSelectionPage:173 - 07224N
+2020-11-18 16:59:15,730  INFO [main] Login_till_ProdSelectionPage:181 - Amruta Mohanty
+2020-11-18 16:59:15,730  INFO [main] Login_till_ProdSelectionPage:189 - 1506 Tri Park Way, #8
+2020-11-18 16:59:15,731  INFO [main] Login_till_ProdSelectionPage:198 - Appleton
+2020-11-18 16:59:15,731  INFO [main] Login_till_ProdSelectionPage:206 - WI
+2020-11-18 16:59:15,731  INFO [main] Login_till_ProdSelectionPage:214 - 54914-6428
+2020-11-18 16:59:15,731  INFO [main] Login_till_ProdSelectionPage:238 - amrumoha@in.ibm.com
+2020-11-18 16:59:15,732  INFO [main] Login_till_ProdSelectionPage:246 - 920 939 4343
+2020-11-18 16:59:15,732  INFO [main] Login_till_ProdSelectionPage:254 - Bala Murali Bandaru
+2020-11-18 16:59:15,732  INFO [main] Login_till_ProdSelectionPage:262 - muralibandaru@in.ibm.com
+2020-11-18 16:59:15,733  INFO [main] Login_till_ProdSelectionPage:287 - Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-18 16:59:15,733  INFO [main] Login_till_ProdSelectionPage:287 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-18 16:59:15,737  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\6. Branch - Office Supplies Requisiton_07224N.xlsx
+2020-11-18 16:59:15,738  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\6. Branch - Office Supplies Requisiton_07224N.xlsx
+2020-11-18 16:59:15,740  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\6. Branch - Office Supplies Requisiton_07224N.xlsx
+2020-11-18 16:59:15,796  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 10
+2020-11-18 16:59:15,914  INFO [main] Login_till_ProdSelectionPage:163 - 12/12/2020
+2020-11-18 16:59:15,915  INFO [main] Login_till_ProdSelectionPage:173 - 641538
+2020-11-18 16:59:15,916  INFO [main] Login_till_ProdSelectionPage:181 - Tapas K Saha
+2020-11-18 16:59:15,916  INFO [main] Login_till_ProdSelectionPage:189 - 587 Lakehurst Road, APT - GL
+2020-11-18 16:59:15,916  INFO [main] Login_till_ProdSelectionPage:198 - Waukegan
+2020-11-18 16:59:15,916  INFO [main] Login_till_ProdSelectionPage:206 - IL
+2020-11-18 16:59:15,917  INFO [main] Login_till_ProdSelectionPage:214 - 60085-6627
+2020-11-18 16:59:15,917  INFO [main] Login_till_ProdSelectionPage:238 - tapas.saha@in.ibm.com
+2020-11-18 16:59:15,917  INFO [main] Login_till_ProdSelectionPage:246 - 224-413-7948
+2020-11-18 16:59:15,917  INFO [main] Login_till_ProdSelectionPage:254 - Sachin B Kulkarni
+2020-11-18 16:59:15,918  INFO [main] Login_till_ProdSelectionPage:262 - sachin.kulkarni@in.ibm.com
+2020-11-18 16:59:15,918  INFO [main] Login_till_ProdSelectionPage:287 - Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-18 16:59:15,918  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-18 16:59:15,919  INFO [main] Login_till_ProdSelectionPage:287 - Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-18 16:59:15,922  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\641538 - Tapas Saha.xlsx
+2020-11-18 16:59:15,923  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\641538 - Tapas Saha.xlsx
+2020-11-18 16:59:15,925  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\641538 - Tapas Saha.xlsx
+2020-11-18 16:59:16,004  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 11
+2020-11-18 16:59:16,143  INFO [main] Login_till_ProdSelectionPage:163 - 11/03/2020
+2020-11-18 16:59:16,143  INFO [main] Login_till_ProdSelectionPage:173 - 34275
+2020-11-18 16:59:16,144  INFO [main] Login_till_ProdSelectionPage:181 - Gokulakrishnan Govindarajulu
+2020-11-18 16:59:16,144  INFO [main] Login_till_ProdSelectionPage:189 - 414 Bencer CT
+2020-11-18 16:59:16,145  INFO [main] Login_till_ProdSelectionPage:198 - Raritan
+2020-11-18 16:59:16,145  INFO [main] Login_till_ProdSelectionPage:206 - NJ
+2020-11-18 16:59:16,145  INFO [main] Login_till_ProdSelectionPage:214 - 08869-0241
+2020-11-18 16:59:16,145  INFO [main] Login_till_ProdSelectionPage:238 - gokkrish@in.ibm.com
+2020-11-18 16:59:16,146  INFO [main] Login_till_ProdSelectionPage:246 - 908-952-7766
+2020-11-18 16:59:16,146  INFO [main] Login_till_ProdSelectionPage:254 - Bodhisatta Das
+2020-11-18 16:59:16,146  INFO [main] Login_till_ProdSelectionPage:262 - bodhisda@in.ibm.com
+2020-11-18 16:59:16,146  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 16:59:16,147  INFO [main] Login_till_ProdSelectionPage:287 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-18 16:59:16,150  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\7. Branch - Office Supplies Requisiton_34275.xlsx
+2020-11-18 16:59:16,150  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\7. Branch - Office Supplies Requisiton_34275.xlsx
+2020-11-18 16:59:16,152  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\7. Branch - Office Supplies Requisiton_34275.xlsx
+2020-11-18 16:59:16,225  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 12
+2020-11-18 16:59:16,332  INFO [main] Login_till_ProdSelectionPage:163 - 11/01/2020
+2020-11-18 16:59:16,332  INFO [main] Login_till_ProdSelectionPage:173 - 01045E
+2020-11-18 16:59:16,333  INFO [main] Login_till_ProdSelectionPage:181 - Gopalakrishnan Ponnusamy
+2020-11-18 16:59:16,333  INFO [main] Login_till_ProdSelectionPage:189 - 2205 Woodleaf Rd, Apt 10H
+2020-11-18 16:59:16,333  INFO [main] Login_till_ProdSelectionPage:198 - Salisbury 
+2020-11-18 16:59:16,333  INFO [main] Login_till_ProdSelectionPage:206 - NC
+2020-11-18 16:59:16,334  INFO [main] Login_till_ProdSelectionPage:214 - 28147-1179
+2020-11-18 16:59:16,334  INFO [main] Login_till_ProdSelectionPage:238 - gopalakrishnan@in.ibm.com
+2020-11-18 16:59:16,334  INFO [main] Login_till_ProdSelectionPage:246 - 747-263-6177
+2020-11-18 16:59:16,334  INFO [main] Login_till_ProdSelectionPage:254 - Narendra Shikaripur
+2020-11-18 16:59:16,334  INFO [main] Login_till_ProdSelectionPage:262 - nashikar@in.ibm.com
+2020-11-18 16:59:16,335  INFO [main] Login_till_ProdSelectionPage:287 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-18 16:59:16,335  INFO [main] Login_till_ProdSelectionPage:287 - Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-18 16:59:16,339  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\8. Branch - Office Supplies Requisiton_01045E.xlsx
+2020-11-18 16:59:16,339  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\8. Branch - Office Supplies Requisiton_01045E.xlsx
+2020-11-18 16:59:16,346  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\8. Branch - Office Supplies Requisiton_01045E.xlsx
+2020-11-18 16:59:16,405  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 13
+2020-11-18 16:59:16,511  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-18 16:59:16,512  INFO [main] Login_till_ProdSelectionPage:173 - 08350F
+2020-11-18 16:59:16,512  INFO [main] Login_till_ProdSelectionPage:181 - RAGHAVENDER BITTLY
+2020-11-18 16:59:16,512  INFO [main] Login_till_ProdSelectionPage:189 - 3980 OLD STERLINGTON RD APT#1502
+2020-11-18 16:59:16,512  INFO [main] Login_till_ProdSelectionPage:198 - MONROE
+2020-11-18 16:59:16,512  INFO [main] Login_till_ProdSelectionPage:206 - LA
+2020-11-18 16:59:16,513  INFO [main] Login_till_ProdSelectionPage:214 - 71203-2601
+2020-11-18 16:59:16,513  INFO [main] Login_till_ProdSelectionPage:238 - rabittly@in.ibm.com
+2020-11-18 16:59:16,513  INFO [main] Login_till_ProdSelectionPage:246 - 318-509-9999
+2020-11-18 16:59:16,513  INFO [main] Login_till_ProdSelectionPage:254 - Jiby Joseph
+2020-11-18 16:59:16,514  INFO [main] Login_till_ProdSelectionPage:262 - jiby.joseph@in.ibm.com
+2020-11-18 16:59:16,514  INFO [main] Login_till_ProdSelectionPage:287 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-18 16:59:16,514  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 40 UC USB-A CORDED MONAURAL HEADSET
+2020-11-18 16:59:16,514  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-18 16:59:16,514  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com USB C to Gigabit Ethernet Adapter - Black - USB 3.1 to RJ45 LAN Net
+2020-11-18 16:59:16,518  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-18 16:59:16,518  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-18 16:59:16,521  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Bittley v2.0-4.xlsx
+2020-11-18 16:59:16,589  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 14
+2020-11-18 16:59:16,718  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-18 16:59:16,719  INFO [main] Login_till_ProdSelectionPage:173 - 915452
+2020-11-18 16:59:16,719  INFO [main] Login_till_ProdSelectionPage:181 - Mahendran Shanmugam
+2020-11-18 16:59:16,719  INFO [main] Login_till_ProdSelectionPage:189 - 4155 Essen Ln, Apt 180
+2020-11-18 16:59:16,720  INFO [main] Login_till_ProdSelectionPage:198 - Baton Rouge
+2020-11-18 16:59:16,720  INFO [main] Login_till_ProdSelectionPage:206 - LA
+2020-11-18 16:59:16,720  INFO [main] Login_till_ProdSelectionPage:214 - 70809-2143
+2020-11-18 16:59:16,721  INFO [main] Login_till_ProdSelectionPage:238 - smahendr@in.ibm.com
+2020-11-18 16:59:16,721  INFO [main] Login_till_ProdSelectionPage:246 - 9199866707
+2020-11-18 16:59:16,721  INFO [main] Login_till_ProdSelectionPage:254 - Nilotpal.Sengupta
+2020-11-18 16:59:16,721  INFO [main] Login_till_ProdSelectionPage:262 -  Nilotpal.sengupta@ibm.com
+2020-11-18 16:59:16,722  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 16:59:16,722  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-18 16:59:16,744  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 16:59:16,745  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 16:59:16,746  INFO [main] Login_till_ProdSelectionPage:743 - Exception while moving file: C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 16:59:16,747  INFO [main] Login_till_ProdSelectionPage:748 - File movement failed.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Branch - Office Supplies Requisiton Mahendran shanmugam - 915452v2.0-4.xlsx
+2020-11-18 16:59:16,826  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 15
+2020-11-18 16:59:16,947  INFO [main] Login_till_ProdSelectionPage:163 - 11/02/2020
+2020-11-18 16:59:16,948  INFO [main] Login_till_ProdSelectionPage:173 - 38838
+2020-11-18 16:59:16,948  INFO [main] Login_till_ProdSelectionPage:181 - Girish Deshmukh
+2020-11-18 16:59:16,949  INFO [main] Login_till_ProdSelectionPage:189 - 6850 Peacthree Dunwoody Dr, Apt# 620
+2020-11-18 16:59:16,949  INFO [main] Login_till_ProdSelectionPage:198 - Atlanta, GA 30328-6727
+2020-11-18 16:59:16,949  INFO [main] Login_till_ProdSelectionPage:206 - GA
+2020-11-18 16:59:16,949  INFO [main] Login_till_ProdSelectionPage:214 - 30328-6727
+2020-11-18 16:59:16,949  INFO [main] Login_till_ProdSelectionPage:238 - deshmukh.gk@in.ibm.com
+2020-11-18 16:59:16,950  INFO [main] Login_till_ProdSelectionPage:246 - 4049606645
+2020-11-18 16:59:16,950  INFO [main] Login_till_ProdSelectionPage:254 - Sanjay Perni
+2020-11-18 16:59:16,952  INFO [main] Login_till_ProdSelectionPage:262 - sanperni@in.ibm.com
+2020-11-18 16:59:16,953  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 16:59:16,956  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\Girish Deshmukh.xlsx
+2020-11-18 16:59:16,957  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Girish Deshmukh.xlsx
+2020-11-18 16:59:16,959  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Girish Deshmukh.xlsx
+2020-11-18 16:59:17,035  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 16
+2020-11-18 16:59:17,141  INFO [main] Login_till_ProdSelectionPage:163 - 10/26/2020
+2020-11-18 16:59:17,142  INFO [main] Login_till_ProdSelectionPage:173 - 099114
+2020-11-18 16:59:17,142  INFO [main] Login_till_ProdSelectionPage:181 - Gouse Basha Shaik Mohammed
+2020-11-18 16:59:17,142  INFO [main] Login_till_ProdSelectionPage:189 - 1021 Alex Drive
+2020-11-18 16:59:17,142  INFO [main] Login_till_ProdSelectionPage:198 - North  Brunswick, New Jersey 08902-5700
+2020-11-18 16:59:17,142  INFO [main] Login_till_ProdSelectionPage:206 - NJ
+2020-11-18 16:59:17,142  INFO [main] Login_till_ProdSelectionPage:214 - 08902-5700
+2020-11-18 16:59:17,143  INFO [main] Login_till_ProdSelectionPage:238 - shaik-mohammed.gouse-basha@in.ibm.com
+2020-11-18 16:59:17,143  INFO [main] Login_till_ProdSelectionPage:246 - 848 252 9688
+2020-11-18 16:59:17,143  INFO [main] Login_till_ProdSelectionPage:254 - Abhishek Randev
+2020-11-18 16:59:17,143  INFO [main] Login_till_ProdSelectionPage:262 - abrandev@in.ibm.com
+2020-11-18 16:59:17,144  INFO [main] Login_till_ProdSelectionPage:287 - Apple Magic Keyboard - keyboard - US
+2020-11-18 16:59:17,144  INFO [main] Login_till_ProdSelectionPage:287 - Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-18 16:59:17,151  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\Gouse Basha Shaik Mohammed.xlsx
+2020-11-18 16:59:17,152  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Gouse Basha Shaik Mohammed.xlsx
+2020-11-18 16:59:17,154  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Gouse Basha Shaik Mohammed.xlsx
+2020-11-18 16:59:17,222  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 17
+2020-11-18 16:59:17,323  INFO [main] Login_till_ProdSelectionPage:163 - 11/02/2020
+2020-11-18 16:59:17,324  INFO [main] Login_till_ProdSelectionPage:173 - 08812e
+2020-11-18 16:59:17,324  INFO [main] Login_till_ProdSelectionPage:181 - habibulla kutagolla
+2020-11-18 16:59:17,325  INFO [main] Login_till_ProdSelectionPage:189 - 308 C Murray Drive
+2020-11-18 16:59:17,325  INFO [main] Login_till_ProdSelectionPage:198 - King of Prussia,
+2020-11-18 16:59:17,325  INFO [main] Login_till_ProdSelectionPage:206 - PA
+2020-11-18 16:59:17,326  INFO [main] Login_till_ProdSelectionPage:214 - 19406-3422
+2020-11-18 16:59:17,326  INFO [main] Login_till_ProdSelectionPage:238 - khabibul@in.ibm.com
+2020-11-18 16:59:17,327  INFO [main] Login_till_ProdSelectionPage:246 - 484 904 8960
+2020-11-18 16:59:17,327  INFO [main] Login_till_ProdSelectionPage:254 - Ravindrababu Addepalli
+2020-11-18 16:59:17,328  INFO [main] Login_till_ProdSelectionPage:262 - ravindra.addepalli@in.ibm.com
+2020-11-18 16:59:17,328  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 16:59:17,328  INFO [main] Login_till_ProdSelectionPage:287 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-18 16:59:17,333  INFO [main] Login_till_ProdSelectionPage:730 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\Habibulla Kutagolla.xlsx
+2020-11-18 16:59:17,333  INFO [main] Login_till_ProdSelectionPage:732 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Habibulla Kutagolla.xlsx
+2020-11-18 16:59:17,337  INFO [main] Login_till_ProdSelectionPage:746 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Habibulla Kutagolla.xlsx
+2020-11-18 16:59:17,416  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-18 16:59:17,497  INFO [main] Login_till_ProdSelectionPage:263 - 18
+2020-11-18 16:59:24,819  INFO [main] Login_till_ProdSelectionPage:276 - EE 1 Started
+2020-11-18 16:59:24,836  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-18 16:59:24,852  INFO [main] Login_till_ProdSelectionPage:281 - EE 1 Started
+2020-11-18 16:59:43,179  INFO [main] Login_till_ProdSelectionPage:296 - EE 1 product 1 started for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-18 17:00:06,517  INFO [main] Login_till_ProdSelectionPage:324 - EE 1 product 1 ended for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-18 17:00:06,517  INFO [main] Login_till_ProdSelectionPage:296 - EE 1 product 2 started for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-18 17:00:35,283  INFO [main] Login_till_ProdSelectionPage:324 - EE 1 product 2 ended for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-18 17:00:35,283  INFO [main] Login_till_ProdSelectionPage:296 - EE 1 product 3 started for product -->
+2020-11-18 17:00:35,284  INFO [main] Login_till_ProdSelectionPage:316 - blank break
+2020-11-18 17:03:06,116  INFO [main] Login_till_ProdSelectionPage:276 - EE 2 Started
+2020-11-18 17:03:06,127  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-18 17:03:06,139  INFO [main] Login_till_ProdSelectionPage:281 - EE 2 Started
+2020-11-18 17:03:34,482  INFO [main] Login_till_ProdSelectionPage:296 - EE 2 product 1 started for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 17:04:02,842  INFO [main] Login_till_ProdSelectionPage:324 - EE 2 product 1 ended for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-18 17:04:02,842  INFO [main] Login_till_ProdSelectionPage:296 - EE 2 product 2 started for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-18 17:04:31,458  INFO [main] Login_till_ProdSelectionPage:324 - EE 2 product 2 ended for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-18 17:04:31,458  INFO [main] Login_till_ProdSelectionPage:296 - EE 2 product 3 started for product -->
+2020-11-18 17:04:31,459  INFO [main] Login_till_ProdSelectionPage:316 - blank break
