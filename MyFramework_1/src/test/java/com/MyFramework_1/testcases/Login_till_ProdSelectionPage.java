@@ -290,7 +290,6 @@ public class Login_till_ProdSelectionPage extends TestBase {
 			logger.info(NumberofRows);
 			
 			//bl.nofRecords(0, "Total No records in input : " +NumberofRows);
-			
 
 			String status="";
 			boolean prod_flag=false;
@@ -298,8 +297,6 @@ public class Login_till_ProdSelectionPage extends TestBase {
 			//Wait for Product page to load max 60 Sec
 			driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
 			Thread.sleep(40000);
-			
-			
 			
 			Employee_loop:
 			for (int row=1;row<r1.length;row++)//Employee	
@@ -317,8 +314,6 @@ public class Login_till_ProdSelectionPage extends TestBase {
 					int i=0; //Item container counter
 					int item_counter=0;//item_counter
 					
-					
-					
 					//chck cart and if any item exist empty it
 					boolean cartChck=p1.waitMod(driver, "//button[@title='Shopping Cart']");
 					if(!(cartChck))
@@ -328,7 +323,6 @@ public class Login_till_ProdSelectionPage extends TestBase {
 						break;
 					}
 						prod_flag=p1.chckCart(driver);
-						System.out.println("block 1");
 					
 					//in case of any failure with clearing product cart, quit 
 					if(!(prod_flag)) {
@@ -336,8 +330,6 @@ public class Login_till_ProdSelectionPage extends TestBase {
 						criticalFlag=false;
 						break;
 					}
-					
-					System.out.println("block 2");
 					
 					Product_Loop:
 					for (int col=13;col<23;col++)//Column
@@ -352,7 +344,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 								if(!(flag))
 								{
 									logger.info("invalid Product idetified during product selection :"+r1[row][col]);
-									bl.statusUpdate(row, "Failed -Invalid Product exist :"+r1[row][col]);
+									//bl.statusUpdate(row, "Failed -Invalid Product exist :"+r1[row][col]);
 									/*if(!p1.chckCart(driver));
 									{
 										System.out.println("Unalbe to empty cart");
@@ -901,14 +893,6 @@ public class Login_till_ProdSelectionPage extends TestBase {
 				}
 				else {
 					logger.info("EE "+row+" Skipped");
-				}
-				
-				//If status is left blank --> Critical Flag is set to False to re-trigger execution at end
-				String EEstatus=bl.statusChck(row);
-				if(EEstatus==null)
-				{
-					criticalFlag=false;
-					logger.info("Critical Flag is set to False");
 				}
 				
 			 }//Employee Loop ends here

@@ -797,3 +797,299 @@
 2020-11-19 15:23:26,261  INFO [main] Login_till_ProdSelectionPage:357 - EE 5 product 4 ended for product -->StarTech.com USB C to Gigabit Ethernet Adapter - Black - USB 3.1 to RJ45 LAN Net
 2020-11-19 15:23:26,261  INFO [main] Login_till_ProdSelectionPage:329 - EE 5 product 5 started for product -->
 2020-11-19 15:23:26,261  INFO [main] Login_till_ProdSelectionPage:349 - blank break
+2020-11-19 16:03:01,044  INFO [main] Login_till_ProdSelectionPage:100 - UserID is enterrerd
+2020-11-19 16:03:01,347  INFO [main] Login_till_ProdSelectionPage:106 - Pwd is enterrerd
+2020-11-19 16:03:04,703  INFO [main] Login_till_ProdSelectionPage:108 - LoginButton is clicked
+2020-11-19 16:03:34,998  INFO [main] Login_till_ProdSelectionPage:124 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-19 16:04:20,412  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-19 16:04:20,414  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-19 16:04:20,416  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-19 16:04:20,418  INFO [main] Login_till_ProdSelectionPage:854 - 06761M Syed Yaseen.xlsx
+2020-11-19 16:04:20,419  INFO [main] Login_till_ProdSelectionPage:854 - 06771F Raghabendra Das.xlsx
+2020-11-19 16:04:20,420  INFO [main] Login_till_ProdSelectionPage:854 - 07020C Deepa Banthia.xlsx
+2020-11-19 16:04:20,420  INFO [main] Login_till_ProdSelectionPage:854 - 340804, Swarnalata Patel.xlsx
+2020-11-19 16:04:20,421  INFO [main] Login_till_ProdSelectionPage:854 - 537762, Parikshit Bagade.xlsx
+2020-11-19 16:04:20,422  INFO [main] Login_till_ProdSelectionPage:854 - 640721, Anil k Nataru.xlsx
+2020-11-19 16:04:20,422  INFO [main] Login_till_ProdSelectionPage:854 - 816898, Subbareddy Bheemireddy.xlsx
+2020-11-19 16:04:20,423  INFO [main] Login_till_ProdSelectionPage:854 - 982368, Nanda K Reddy.xlsx
+2020-11-19 16:04:20,425  INFO [main] Login_till_ProdSelectionPage:854 - Jenith Xavier.xlsx
+2020-11-19 16:04:20,429  INFO [main] Login_till_ProdSelectionPage:854 - Johnson Singh Samuel.xlsx
+2020-11-19 16:04:20,434  INFO [main] Login_till_ProdSelectionPage:710 - Weed out method init 
+2020-11-19 16:04:20,435  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-19 16:04:20,458  INFO [main] Login_till_ProdSelectionPage:557 - 11/19/2020 16:04:20
+2020-11-19 16:04:20,460  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-19 16:04:20,462  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-19 16:04:20,464  INFO [main] Login_till_ProdSelectionPage:854 - 06761M Syed Yaseen.xlsx
+2020-11-19 16:04:20,466  INFO [main] Login_till_ProdSelectionPage:854 - 06771F Raghabendra Das.xlsx
+2020-11-19 16:04:20,467  INFO [main] Login_till_ProdSelectionPage:854 - 07020C Deepa Banthia.xlsx
+2020-11-19 16:04:20,469  INFO [main] Login_till_ProdSelectionPage:854 - 340804, Swarnalata Patel.xlsx
+2020-11-19 16:04:20,470  INFO [main] Login_till_ProdSelectionPage:854 - 537762, Parikshit Bagade.xlsx
+2020-11-19 16:04:20,470  INFO [main] Login_till_ProdSelectionPage:854 - 640721, Anil k Nataru.xlsx
+2020-11-19 16:04:20,471  INFO [main] Login_till_ProdSelectionPage:854 - 816898, Subbareddy Bheemireddy.xlsx
+2020-11-19 16:04:20,473  INFO [main] Login_till_ProdSelectionPage:854 - 982368, Nanda K Reddy.xlsx
+2020-11-19 16:04:20,474  INFO [main] Login_till_ProdSelectionPage:854 - Jenith Xavier.xlsx
+2020-11-19 16:04:20,474  INFO [main] Login_till_ProdSelectionPage:854 - Johnson Singh Samuel.xlsx
+2020-11-19 16:04:21,974  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 0
+2020-11-19 16:04:22,579  INFO [main] Login_till_ProdSelectionPage:163 - 11/04/2020
+2020-11-19 16:04:22,581  INFO [main] Login_till_ProdSelectionPage:173 - 06761M
+2020-11-19 16:04:22,582  INFO [main] Login_till_ProdSelectionPage:181 - Syed Yaseen
+2020-11-19 16:04:22,582  INFO [main] Login_till_ProdSelectionPage:189 - 1047 Southern Artery
+2020-11-19 16:04:22,583  INFO [main] Login_till_ProdSelectionPage:198 - Quincy
+2020-11-19 16:04:22,583  INFO [main] Login_till_ProdSelectionPage:206 - MA
+2020-11-19 16:04:22,584  INFO [main] Login_till_ProdSelectionPage:214 - 02169-8314
+2020-11-19 16:04:22,586  INFO [main] Login_till_ProdSelectionPage:238 - Syed.Yaseen@in.ibm.com
+2020-11-19 16:04:22,605  INFO [main] Login_till_ProdSelectionPage:246 - 7816008640
+2020-11-19 16:04:22,606  INFO [main] Login_till_ProdSelectionPage:254 - Dhananjay U Ingale 
+2020-11-19 16:04:22,607  INFO [main] Login_till_ProdSelectionPage:262 - dhingale@in.bim.com
+2020-11-19 16:04:22,608  INFO [main] Login_till_ProdSelectionPage:287 - Apple Magic Keyboard - keyboard - US
+2020-11-19 16:04:22,608  INFO [main] Login_till_ProdSelectionPage:287 - Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-19 16:04:22,644  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\06761M Syed Yaseen.xlsx
+2020-11-19 16:04:22,644  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\06761M Syed Yaseen.xlsx
+2020-11-19 16:04:22,648  INFO [main] Login_till_ProdSelectionPage:776 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\06761M Syed Yaseen.xlsx
+2020-11-19 16:04:23,187  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 1
+2020-11-19 16:04:23,615  INFO [main] Login_till_ProdSelectionPage:163 - 11/04/2020
+2020-11-19 16:04:23,615  INFO [main] Login_till_ProdSelectionPage:173 - 06771F
+2020-11-19 16:04:23,616  INFO [main] Login_till_ProdSelectionPage:181 - Raghabendra Das
+2020-11-19 16:04:23,616  INFO [main] Login_till_ProdSelectionPage:189 - 308 CINDER RD
+2020-11-19 16:04:23,619  INFO [main] Login_till_ProdSelectionPage:198 - Edison
+2020-11-19 16:04:23,619  INFO [main] Login_till_ProdSelectionPage:206 - NJ
+2020-11-19 16:04:23,621  INFO [main] Login_till_ProdSelectionPage:214 - 08820-3355
+2020-11-19 16:04:23,622  INFO [main] Login_till_ProdSelectionPage:238 - raghabendra_das@in.ibm.com
+2020-11-19 16:04:23,622  INFO [main] Login_till_ProdSelectionPage:246 - 848 259 6790
+2020-11-19 16:04:23,624  INFO [main] Login_till_ProdSelectionPage:254 - Pradeep J
+2020-11-19 16:04:23,624  INFO [main] Login_till_ProdSelectionPage:262 - pjothees@in.ibm.com
+2020-11-19 16:04:23,625  INFO [main] Login_till_ProdSelectionPage:287 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-19 16:04:23,641  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\06771F Raghabendra Das.xlsx
+2020-11-19 16:04:23,642  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\06771F Raghabendra Das.xlsx
+2020-11-19 16:04:23,647  INFO [main] Login_till_ProdSelectionPage:776 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\06771F Raghabendra Das.xlsx
+2020-11-19 16:04:23,945  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 2
+2020-11-19 16:04:24,248  INFO [main] Login_till_ProdSelectionPage:163 - 11/03/2020
+2020-11-19 16:04:24,249  INFO [main] Login_till_ProdSelectionPage:173 - 07020C
+2020-11-19 16:04:24,249  INFO [main] Login_till_ProdSelectionPage:181 - Deepa Banthia
+2020-11-19 16:04:24,253  INFO [main] Login_till_ProdSelectionPage:189 - APT #1083, 19645 N 31ST AVENUE
+2020-11-19 16:04:24,254  INFO [main] Login_till_ProdSelectionPage:198 - PHOENIX
+2020-11-19 16:04:24,255  INFO [main] Login_till_ProdSelectionPage:206 - AZ
+2020-11-19 16:04:24,256  INFO [main] Login_till_ProdSelectionPage:214 - 85027-3989
+2020-11-19 16:04:24,257  INFO [main] Login_till_ProdSelectionPage:238 - dbanthia@in.ibm.com
+2020-11-19 16:04:24,258  INFO [main] Login_till_ProdSelectionPage:246 - 602 632 1587
+2020-11-19 16:04:24,258  INFO [main] Login_till_ProdSelectionPage:254 - Nitin Mathur
+2020-11-19 16:04:24,259  INFO [main] Login_till_ProdSelectionPage:262 - nitin.mathur@in.ibm.com
+2020-11-19 16:04:24,259  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-19 16:04:24,264  INFO [main] Login_till_ProdSelectionPage:287 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-19 16:04:24,274  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\07020C Deepa Banthia.xlsx
+2020-11-19 16:04:24,275  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\07020C Deepa Banthia.xlsx
+2020-11-19 16:04:24,279  INFO [main] Login_till_ProdSelectionPage:776 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\07020C Deepa Banthia.xlsx
+2020-11-19 16:04:24,460  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 3
+2020-11-19 16:04:24,725  INFO [main] Login_till_ProdSelectionPage:163 - 10/30/2020
+2020-11-19 16:04:24,726  INFO [main] Login_till_ProdSelectionPage:173 - 340804
+2020-11-19 16:04:24,727  INFO [main] Login_till_ProdSelectionPage:181 - Swarnalata Patel
+2020-11-19 16:04:24,728  INFO [main] Login_till_ProdSelectionPage:189 - 538, Writers Way
+2020-11-19 16:04:24,728  INFO [main] Login_till_ProdSelectionPage:198 - Morrisville, NC
+2020-11-19 16:04:24,728  INFO [main] Login_till_ProdSelectionPage:206 - NC
+2020-11-19 16:04:24,730  INFO [main] Login_till_ProdSelectionPage:214 - 27560-5777
+2020-11-19 16:04:24,731  INFO [main] Login_till_ProdSelectionPage:238 - swapatel@in.ibm.com
+2020-11-19 16:04:24,732  INFO [main] Login_till_ProdSelectionPage:246 - 919 961 6707
+2020-11-19 16:04:24,732  INFO [main] Login_till_ProdSelectionPage:254 - Rama Munagala
+2020-11-19 16:04:24,733  INFO [main] Login_till_ProdSelectionPage:262 - RAMA.PRASAD.REDDY.MUNAGALA@ibm.com
+2020-11-19 16:04:24,733  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-19 16:04:24,734  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com USB C to Gigabit Ethernet Adapter - Black - USB 3.1 to RJ45 LAN Net
+2020-11-19 16:04:24,743  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\340804, Swarnalata Patel.xlsx
+2020-11-19 16:04:24,748  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\340804, Swarnalata Patel.xlsx
+2020-11-19 16:04:24,750  INFO [main] Login_till_ProdSelectionPage:776 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\340804, Swarnalata Patel.xlsx
+2020-11-19 16:04:24,965  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 4
+2020-11-19 16:04:25,254  INFO [main] Login_till_ProdSelectionPage:163 - 10/30/2020
+2020-11-19 16:04:25,257  INFO [main] Login_till_ProdSelectionPage:173 - 537762
+2020-11-19 16:04:25,258  INFO [main] Login_till_ProdSelectionPage:181 - Parikshit Bagade
+2020-11-19 16:04:25,260  INFO [main] Login_till_ProdSelectionPage:189 - #302, 355 West Side Drive
+2020-11-19 16:04:25,262  INFO [main] Login_till_ProdSelectionPage:198 - Gaithersburg, Maryland
+2020-11-19 16:04:25,263  INFO [main] Login_till_ProdSelectionPage:206 - MD
+2020-11-19 16:04:25,264  INFO [main] Login_till_ProdSelectionPage:214 - 20878-00301
+2020-11-19 16:04:25,264  INFO [main] Login_till_ProdSelectionPage:238 - pabagade@in.ibm.com
+2020-11-19 16:04:25,265  INFO [main] Login_till_ProdSelectionPage:246 - 240 686 9181
+2020-11-19 16:04:25,265  INFO [main] Login_till_ProdSelectionPage:254 - Vinod Mehta
+2020-11-19 16:04:25,268  INFO [main] Login_till_ProdSelectionPage:262 - Vinod.mehta@in.ibm.com
+2020-11-19 16:04:25,272  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-19 16:04:25,286  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\537762, Parikshit Bagade.xlsx
+2020-11-19 16:04:25,288  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\537762, Parikshit Bagade.xlsx
+2020-11-19 16:04:25,297  INFO [main] Login_till_ProdSelectionPage:776 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\537762, Parikshit Bagade.xlsx
+2020-11-19 16:04:25,487  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 5
+2020-11-19 16:04:25,782  INFO [main] Login_till_ProdSelectionPage:163 - 10/30/2020
+2020-11-19 16:04:25,783  INFO [main] Login_till_ProdSelectionPage:173 - 640721
+2020-11-19 16:04:25,784  INFO [main] Login_till_ProdSelectionPage:181 - Anil k Nataru
+2020-11-19 16:04:25,785  INFO [main] Login_till_ProdSelectionPage:189 - APT 608, 6115 ABBOTTS BRIDGE RD
+2020-11-19 16:04:25,786  INFO [main] Login_till_ProdSelectionPage:198 - Duluth
+2020-11-19 16:04:25,786  INFO [main] Login_till_ProdSelectionPage:206 - GA
+2020-11-19 16:04:25,787  INFO [main] Login_till_ProdSelectionPage:214 - 30097-5754
+2020-11-19 16:04:25,787  INFO [main] Login_till_ProdSelectionPage:238 - anil.kumar@in.ibm.com
+2020-11-19 16:04:25,788  INFO [main] Login_till_ProdSelectionPage:246 - 678-579-4678
+2020-11-19 16:04:25,788  INFO [main] Login_till_ProdSelectionPage:254 - Neetu Gupta
+2020-11-19 16:04:25,789  INFO [main] Login_till_ProdSelectionPage:262 - Neetu.Gupta@in.ibm.com
+2020-11-19 16:04:25,789  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-19 16:04:25,789  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com Portable USB C Multiport Video Adapter - 4k HDMI or VGA, USB 3.0
+2020-11-19 16:04:25,790  INFO [main] Login_till_ProdSelectionPage:287 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-19 16:04:25,816  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\640721, Anil k Nataru.xlsx
+2020-11-19 16:04:25,817  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\640721, Anil k Nataru.xlsx
+2020-11-19 16:04:25,824  INFO [main] Login_till_ProdSelectionPage:776 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\640721, Anil k Nataru.xlsx
+2020-11-19 16:04:25,945  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 6
+2020-11-19 16:04:26,228  INFO [main] Login_till_ProdSelectionPage:163 - 10/30/2020
+2020-11-19 16:04:26,229  INFO [main] Login_till_ProdSelectionPage:173 - 816898
+2020-11-19 16:04:26,230  INFO [main] Login_till_ProdSelectionPage:181 - Subbareddy Bheemireddy
+2020-11-19 16:04:26,231  INFO [main] Login_till_ProdSelectionPage:189 - 4155, Essen Lane
+2020-11-19 16:04:26,234  INFO [main] Login_till_ProdSelectionPage:198 - Baton Rouge
+2020-11-19 16:04:26,234  INFO [main] Login_till_ProdSelectionPage:206 - LA
+2020-11-19 16:04:26,235  INFO [main] Login_till_ProdSelectionPage:214 - 70809-2147
+2020-11-19 16:04:26,236  INFO [main] Login_till_ProdSelectionPage:238 - subba_reddy@in.ibm.com
+2020-11-19 16:04:26,237  INFO [main] Login_till_ProdSelectionPage:246 - 225 715 7732
+2020-11-19 16:04:26,239  INFO [main] Login_till_ProdSelectionPage:254 - Mukesh Agrawal
+2020-11-19 16:04:26,240  INFO [main] Login_till_ProdSelectionPage:262 - mukesh.agrawal@in.ibm.com
+2020-11-19 16:04:26,240  INFO [main] Login_till_ProdSelectionPage:287 - T24i-20(A20238FT0)23.8 inch Monitor-HDMI
+2020-11-19 16:04:26,241  INFO [main] Login_till_ProdSelectionPage:287 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-19 16:04:26,247  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\816898, Subbareddy Bheemireddy.xlsx
+2020-11-19 16:04:26,248  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\816898, Subbareddy Bheemireddy.xlsx
+2020-11-19 16:04:26,256  INFO [main] Login_till_ProdSelectionPage:776 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\816898, Subbareddy Bheemireddy.xlsx
+2020-11-19 16:04:26,424  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 7
+2020-11-19 16:04:26,691  INFO [main] Login_till_ProdSelectionPage:163 - 10/30/2020
+2020-11-19 16:04:26,693  INFO [main] Login_till_ProdSelectionPage:173 - 982368
+2020-11-19 16:04:26,693  INFO [main] Login_till_ProdSelectionPage:181 - Nanda K Reddy
+2020-11-19 16:04:26,694  INFO [main] Login_till_ProdSelectionPage:189 - 56 Chatsworth Ct
+2020-11-19 16:04:26,694  INFO [main] Login_till_ProdSelectionPage:198 - Edison NJ
+2020-11-19 16:04:26,695  INFO [main] Login_till_ProdSelectionPage:206 - NJ
+2020-11-19 16:04:26,695  INFO [main] Login_till_ProdSelectionPage:214 - 08820-4048
+2020-11-19 16:04:26,695  INFO [main] Login_till_ProdSelectionPage:238 - nanda.reddy@in.ibm.com
+2020-11-19 16:04:26,695  INFO [main] Login_till_ProdSelectionPage:246 - 973-722-5828
+2020-11-19 16:04:26,696  INFO [main] Login_till_ProdSelectionPage:254 - Chitralekha Datta
+2020-11-19 16:04:26,696  INFO [main] Login_till_ProdSelectionPage:262 - Chitralekha.Dutta@in.ibm.com
+2020-11-19 16:04:26,696  INFO [main] Login_till_ProdSelectionPage:287 - Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-19 16:04:26,697  INFO [main] Login_till_ProdSelectionPage:287 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-19 16:04:26,705  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\982368, Nanda K Reddy.xlsx
+2020-11-19 16:04:26,705  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\982368, Nanda K Reddy.xlsx
+2020-11-19 16:04:26,708  INFO [main] Login_till_ProdSelectionPage:776 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\982368, Nanda K Reddy.xlsx
+2020-11-19 16:04:26,838  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 8
+2020-11-19 16:04:27,138  INFO [main] Login_till_ProdSelectionPage:163 - 10/30/2020
+2020-11-19 16:04:27,138  INFO [main] Login_till_ProdSelectionPage:173 - 09552G
+2020-11-19 16:04:27,139  INFO [main] Login_till_ProdSelectionPage:181 - Jenith Xavier
+2020-11-19 16:04:27,139  INFO [main] Login_till_ProdSelectionPage:189 - 3922 Emerald St, Apt #135
+2020-11-19 16:04:27,140  INFO [main] Login_till_ProdSelectionPage:198 - Torrance
+2020-11-19 16:04:27,140  INFO [main] Login_till_ProdSelectionPage:206 - CA
+2020-11-19 16:04:27,140  INFO [main] Login_till_ProdSelectionPage:214 - 90503-0001
+2020-11-19 16:04:27,140  INFO [main] Login_till_ProdSelectionPage:238 - jenith.xavier@in.ibm.com
+2020-11-19 16:04:27,141  INFO [main] Login_till_ProdSelectionPage:246 - 424-376-8595
+2020-11-19 16:04:27,141  INFO [main] Login_till_ProdSelectionPage:254 - Nilmadhab Laha
+2020-11-19 16:04:27,141  INFO [main] Login_till_ProdSelectionPage:262 - nilmadhab.laha@in.ibm.com
+2020-11-19 16:04:27,142  INFO [main] Login_till_ProdSelectionPage:287 - Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-19 16:04:27,142  INFO [main] Login_till_ProdSelectionPage:287 - Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-19 16:04:27,142  INFO [main] Login_till_ProdSelectionPage:287 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-19 16:04:27,143  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com USB C to Gigabit Ethernet Adapter - Black - USB 3.1 to RJ45 LAN Net
+2020-11-19 16:04:27,150  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\Jenith Xavier.xlsx
+2020-11-19 16:04:27,152  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Jenith Xavier.xlsx
+2020-11-19 16:04:27,155  INFO [main] Login_till_ProdSelectionPage:776 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Jenith Xavier.xlsx
+2020-11-19 16:04:27,312  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 9
+2020-11-19 16:04:27,480  INFO [main] Login_till_ProdSelectionPage:163 - 11/05/2020
+2020-11-19 16:04:27,486  INFO [main] Login_till_ProdSelectionPage:173 - 000VLJ
+2020-11-19 16:04:27,487  INFO [main] Login_till_ProdSelectionPage:181 - Johnson Singh Samuel
+2020-11-19 16:04:27,488  INFO [main] Login_till_ProdSelectionPage:189 - 1279 S Dayton Ct Apt 226
+2020-11-19 16:04:27,490  INFO [main] Login_till_ProdSelectionPage:198 - Aurora, Colorado 80247-6329
+2020-11-19 16:04:27,491  INFO [main] Login_till_ProdSelectionPage:206 - CO
+2020-11-19 16:04:27,493  INFO [main] Login_till_ProdSelectionPage:214 - 80247-6329
+2020-11-19 16:04:27,493  INFO [main] Login_till_ProdSelectionPage:238 - johnson.ss1@ibm.com
+2020-11-19 16:04:27,494  INFO [main] Login_till_ProdSelectionPage:246 - 720 917 5741
+2020-11-19 16:04:27,494  INFO [main] Login_till_ProdSelectionPage:254 - Aruljothi Ramakrishnan
+2020-11-19 16:04:27,495  INFO [main] Login_till_ProdSelectionPage:262 - ramakrar@us.ibm.com
+2020-11-19 16:04:27,495  INFO [main] Login_till_ProdSelectionPage:287 - Apple Magic Mouse 2 - mouse - Bluetooth
+2020-11-19 16:04:27,496  INFO [main] Login_till_ProdSelectionPage:287 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-19 16:04:27,496  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com USB C to Gigabit Ethernet Adapter - Black - USB 3.1 to RJ45 LAN Net
+2020-11-19 16:04:27,506  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\Johnson Singh Samuel.xlsx
+2020-11-19 16:04:27,507  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Johnson Singh Samuel.xlsx
+2020-11-19 16:04:27,512  INFO [main] Login_till_ProdSelectionPage:776 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\Johnson Singh Samuel.xlsx
+2020-11-19 16:04:27,579  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-19 16:04:27,723  INFO [main] Login_till_ProdSelectionPage:290 - 10
+2020-11-19 16:05:07,731  INFO [main] Login_till_ProdSelectionPage:307 - EE 1 Started
+2020-11-19 16:05:07,749  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-19 16:05:07,769  INFO [main] Login_till_ProdSelectionPage:312 - EE 1 Started
+2020-11-19 16:06:24,607  INFO [main] Login_till_ProdSelectionPage:345 - EE 1 product 1 started for product -->Apple Magic Keyboard - keyboard - US
+2020-11-19 16:06:49,217  INFO [main] Login_till_ProdSelectionPage:373 - EE 1 product 1 ended for product -->Apple Magic Keyboard - keyboard - US
+2020-11-19 16:06:49,218  INFO [main] Login_till_ProdSelectionPage:345 - EE 1 product 2 started for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-19 16:07:24,023  INFO [main] Login_till_ProdSelectionPage:373 - EE 1 product 2 ended for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-19 16:07:24,023  INFO [main] Login_till_ProdSelectionPage:345 - EE 1 product 3 started for product -->
+2020-11-19 16:07:24,023  INFO [main] Login_till_ProdSelectionPage:365 - blank break
+2020-11-19 16:10:54,537  INFO [main] Login_till_ProdSelectionPage:307 - EE 2 Started
+2020-11-19 16:10:54,551  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-19 16:10:54,586  INFO [main] Login_till_ProdSelectionPage:312 - EE 2 Started
+2020-11-19 16:11:05,676  INFO [main] Login_till_ProdSelectionPage:345 - EE 2 product 1 started for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-19 16:11:43,583  INFO [main] Login_till_ProdSelectionPage:373 - EE 2 product 1 ended for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-19 16:11:43,584  INFO [main] Login_till_ProdSelectionPage:345 - EE 2 product 2 started for product -->
+2020-11-19 16:11:43,584  INFO [main] Login_till_ProdSelectionPage:365 - blank break
+2020-11-19 16:13:37,695  INFO [main] Login_till_ProdSelectionPage:307 - EE 3 Started
+2020-11-19 16:13:37,708  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-19 16:13:37,735  INFO [main] Login_till_ProdSelectionPage:312 - EE 3 Started
+2020-11-19 16:13:48,857  INFO [main] Login_till_ProdSelectionPage:345 - EE 3 product 1 started for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-19 16:14:21,098  INFO [main] Login_till_ProdSelectionPage:373 - EE 3 product 1 ended for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-19 16:14:21,098  INFO [main] Login_till_ProdSelectionPage:345 - EE 3 product 2 started for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-19 16:14:56,873  INFO [main] Login_till_ProdSelectionPage:373 - EE 3 product 2 ended for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-19 16:14:56,874  INFO [main] Login_till_ProdSelectionPage:345 - EE 3 product 3 started for product -->
+2020-11-19 16:14:56,874  INFO [main] Login_till_ProdSelectionPage:365 - blank break
+2020-11-19 16:16:33,292  INFO [main] Login_till_ProdSelectionPage:307 - EE 4 Started
+2020-11-19 16:16:33,317  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-19 16:16:33,343  INFO [main] Login_till_ProdSelectionPage:312 - EE 4 Started
+2020-11-19 16:17:02,011  INFO [main] Login_till_ProdSelectionPage:345 - EE 4 product 1 started for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-19 16:17:36,643  INFO [main] Login_till_ProdSelectionPage:373 - EE 4 product 1 ended for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-19 16:17:36,643  INFO [main] Login_till_ProdSelectionPage:345 - EE 4 product 2 started for product -->StarTech.com USB C to Gigabit Ethernet Adapter - Black - USB 3.1 to RJ45 LAN Net
+2020-11-19 16:18:12,441  INFO [main] Login_till_ProdSelectionPage:373 - EE 4 product 2 ended for product -->StarTech.com USB C to Gigabit Ethernet Adapter - Black - USB 3.1 to RJ45 LAN Net
+2020-11-19 16:18:12,441  INFO [main] Login_till_ProdSelectionPage:345 - EE 4 product 3 started for product -->
+2020-11-19 16:18:12,441  INFO [main] Login_till_ProdSelectionPage:365 - blank break
+2020-11-19 16:21:37,301  INFO [main] Login_till_ProdSelectionPage:307 - EE 5 Started
+2020-11-19 16:21:37,319  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-19 16:21:37,333  INFO [main] Login_till_ProdSelectionPage:312 - EE 5 Started
+2020-11-19 16:21:48,421  INFO [main] Login_till_ProdSelectionPage:345 - EE 5 product 1 started for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-19 16:22:17,639  INFO [main] Login_till_ProdSelectionPage:373 - EE 5 product 1 ended for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-19 16:22:17,640  INFO [main] Login_till_ProdSelectionPage:345 - EE 5 product 2 started for product -->
+2020-11-19 16:22:17,640  INFO [main] Login_till_ProdSelectionPage:365 - blank break
+2020-11-19 16:23:14,763  INFO [main] Login_till_ProdSelectionPage:307 - EE 6 Started
+2020-11-19 16:23:14,779  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-19 16:23:14,794  INFO [main] Login_till_ProdSelectionPage:312 - EE 6 Started
+2020-11-19 16:23:40,189  INFO [main] Login_till_ProdSelectionPage:345 - EE 6 product 1 started for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-19 16:24:09,707  INFO [main] Login_till_ProdSelectionPage:373 - EE 6 product 1 ended for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-19 16:24:09,707  INFO [main] Login_till_ProdSelectionPage:345 - EE 6 product 2 started for product -->StarTech.com Portable USB C Multiport Video Adapter - 4k HDMI or VGA, USB 3.0
+2020-11-19 16:24:27,782  INFO [main] Login_till_ProdSelectionPage:354 - invalid Product idetified during product selection :StarTech.com Portable USB C Multiport Video Adapter - 4k HDMI or VGA, USB 3.0
+2020-11-19 16:24:27,823  INFO [main] Login_till_ProdSelectionPage:307 - EE 7 Started
+2020-11-19 16:24:27,846  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-19 16:24:27,864  INFO [main] Login_till_ProdSelectionPage:312 - EE 7 Started
+2020-11-19 16:24:53,286  INFO [main] Login_till_ProdSelectionPage:345 - EE 7 product 1 started for product -->T24i-20(A20238FT0)23.8 inch Monitor-HDMI
+2020-11-19 16:25:22,808  INFO [main] Login_till_ProdSelectionPage:373 - EE 7 product 1 ended for product -->T24i-20(A20238FT0)23.8 inch Monitor-HDMI
+2020-11-19 16:25:22,809  INFO [main] Login_till_ProdSelectionPage:345 - EE 7 product 2 started for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-19 16:25:51,724  INFO [main] Login_till_ProdSelectionPage:373 - EE 7 product 2 ended for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-19 16:25:51,724  INFO [main] Login_till_ProdSelectionPage:345 - EE 7 product 3 started for product -->
+2020-11-19 16:25:51,724  INFO [main] Login_till_ProdSelectionPage:365 - blank break
+2020-11-19 16:28:28,168  INFO [main] Login_till_ProdSelectionPage:307 - EE 8 Started
+2020-11-19 16:28:28,184  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-19 16:28:28,197  INFO [main] Login_till_ProdSelectionPage:312 - EE 8 Started
+2020-11-19 16:28:56,674  INFO [main] Login_till_ProdSelectionPage:345 - EE 8 product 1 started for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-19 16:29:30,924  INFO [main] Login_till_ProdSelectionPage:373 - EE 8 product 1 ended for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-19 16:29:30,925  INFO [main] Login_till_ProdSelectionPage:345 - EE 8 product 2 started for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-19 16:30:06,170  INFO [main] Login_till_ProdSelectionPage:373 - EE 8 product 2 ended for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-19 16:30:06,170  INFO [main] Login_till_ProdSelectionPage:345 - EE 8 product 3 started for product -->
+2020-11-19 16:30:06,170  INFO [main] Login_till_ProdSelectionPage:365 - blank break
+2020-11-19 16:33:41,004  INFO [main] Login_till_ProdSelectionPage:307 - EE 9 Started
+2020-11-19 16:33:41,017  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-19 16:33:41,042  INFO [main] Login_till_ProdSelectionPage:312 - EE 9 Started
+2020-11-19 16:33:52,147  INFO [main] Login_till_ProdSelectionPage:345 - EE 9 product 1 started for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-19 16:34:26,707  INFO [main] Login_till_ProdSelectionPage:373 - EE 9 product 1 ended for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-19 16:34:26,707  INFO [main] Login_till_ProdSelectionPage:345 - EE 9 product 2 started for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-19 16:35:00,989  INFO [main] Login_till_ProdSelectionPage:373 - EE 9 product 2 ended for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-19 16:35:00,990  INFO [main] Login_till_ProdSelectionPage:345 - EE 9 product 3 started for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-19 16:35:36,579  INFO [main] Login_till_ProdSelectionPage:373 - EE 9 product 3 ended for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-19 16:35:36,580  INFO [main] Login_till_ProdSelectionPage:345 - EE 9 product 4 started for product -->StarTech.com USB C to Gigabit Ethernet Adapter - Black - USB 3.1 to RJ45 LAN Net
+2020-11-19 16:36:12,307  INFO [main] Login_till_ProdSelectionPage:373 - EE 9 product 4 ended for product -->StarTech.com USB C to Gigabit Ethernet Adapter - Black - USB 3.1 to RJ45 LAN Net
+2020-11-19 16:36:12,307  INFO [main] Login_till_ProdSelectionPage:345 - EE 9 product 5 started for product -->
+2020-11-19 16:36:12,307  INFO [main] Login_till_ProdSelectionPage:365 - blank break
+2020-11-19 16:43:06,437  INFO [main] Login_till_ProdSelectionPage:307 - EE 10 Started
+2020-11-19 16:43:06,450  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-19 16:43:06,462  INFO [main] Login_till_ProdSelectionPage:312 - EE 10 Started
+2020-11-19 16:43:17,535  INFO [main] Login_till_ProdSelectionPage:345 - EE 10 product 1 started for product -->Apple Magic Mouse 2 - mouse - Bluetooth
+2020-11-19 16:43:46,003  INFO [main] Login_till_ProdSelectionPage:373 - EE 10 product 1 ended for product -->Apple Magic Mouse 2 - mouse - Bluetooth
+2020-11-19 16:43:46,004  INFO [main] Login_till_ProdSelectionPage:345 - EE 10 product 2 started for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-19 16:44:19,950  INFO [main] Login_till_ProdSelectionPage:373 - EE 10 product 2 ended for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-19 16:44:19,950  INFO [main] Login_till_ProdSelectionPage:345 - EE 10 product 3 started for product -->StarTech.com USB C to Gigabit Ethernet Adapter - Black - USB 3.1 to RJ45 LAN Net
+2020-11-19 16:44:54,358  INFO [main] Login_till_ProdSelectionPage:373 - EE 10 product 3 ended for product -->StarTech.com USB C to Gigabit Ethernet Adapter - Black - USB 3.1 to RJ45 LAN Net
+2020-11-19 16:44:54,358  INFO [main] Login_till_ProdSelectionPage:345 - EE 10 product 4 started for product -->
+2020-11-19 16:44:54,358  INFO [main] Login_till_ProdSelectionPage:365 - blank break

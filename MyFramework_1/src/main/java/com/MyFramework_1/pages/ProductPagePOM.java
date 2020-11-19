@@ -71,6 +71,7 @@ public class ProductPagePOM extends TestBase{
 		{
 			System.out.println("chck cart starts ");
 			boolean FL_flag=false;
+			boolean cartExpandChck=false;
 			
 			String cartPth="//span[@class='fd-counter fd-counter--notification']";
 			String cartitemsPth="//div[@class='col-xs-2 delete-cart-item']";
@@ -84,43 +85,59 @@ public class ProductPagePOM extends TestBase{
 				
 				WebElement cart=driver.findElement(By.xpath(cartPth));
 				System.out.println("Items exist in Cart - need to delete");
+				
 				cart.click();
+				System.out.println("Cart icon clicked");
 				
-				boolean dlist=true;
-				int refresh_Counter=1;
+				//check whether cart got Expanded 
+				cartExpandChck=this.waitMod(driver, cartitemsPth);
+				//If cart is NOT expanded click again
+				if(!(cartExpandChck))
+					{
+					cart.click();
+					System.out.println("Cart icon clicked again");
+					}
+				//check whether cart expanded again IF NOT exit with return flag as false.
+				cartExpandChck=this.waitMod(driver, cartitemsPth);
 				
-				while(dlist)
+				if(cartExpandChck)
 				{
-					try {
-						Thread.sleep(3000);
-						WebElement dartList=driver.findElement(By.xpath(cartitemsPth));
-						dartList.click();
-					}catch(org.openqa.selenium.NoSuchElementException nse) {
-						System.out.println("Cart deletion completed");
-						dlist=false;
-						//break;
-					}catch(ElementNotInteractableException nse){
-						System.out.println("Page unResponsive - Refresh page");
-						
-						if(refresh_Counter<=3)
-						{
-							driver.navigate().refresh();
-							Thread.sleep(20000);
-							System.out.println("Refresh :"+refresh_Counter);
-							refresh_Counter++;
-						}
-						else {
-							System.out.println("Maxium refresh reached Batch to Terminate");
+					boolean dlist=true;
+					int refresh_Counter=1;
+					
+					while(dlist)
+					{
+						try {
+							Thread.sleep(3000);
+							WebElement dartList=driver.findElement(By.xpath(cartitemsPth));
+							dartList.click();
+						}catch(org.openqa.selenium.NoSuchElementException nse) {
+							System.out.println("Cart deletion completed");
 							dlist=false;
 							//break;
+						}catch(ElementNotInteractableException nse){
+							System.out.println("Page unResponsive - Refresh page");
+							
+							if(refresh_Counter<=3)
+							{
+								driver.navigate().refresh();
+								Thread.sleep(20000);
+								System.out.println("Refresh :"+refresh_Counter);
+								refresh_Counter++;
+							}
+							else {
+								System.out.println("Maxium refresh reached Batch to Terminate");
+								dlist=false;
+								//break;
+							}
 						}
 					}
-				}
-				
-				if(refresh_Counter<=3)
-				{
-					System.out.println("Items Deleted rechecking Cart....");
-					FL_flag=this.chckCart(driver);
+					
+					if(refresh_Counter<=3)
+					{
+						System.out.println("Items Deleted rechecking Cart....");
+						FL_flag=this.chckCart(driver);
+					}
 				}
 				
 			}catch(org.openqa.selenium.NoSuchElementException nse) {
@@ -239,7 +256,6 @@ public class ProductPagePOM extends TestBase{
 					fis.close();
 					wb.close();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			return td_Set;
@@ -308,16 +324,12 @@ public class ProductPagePOM extends TestBase{
 				Thread.sleep(5000);
 				
 				try {
-					System.out.println("place 1");
 					 WebElement prod = driver.findElement(By.xpath(tmp));
-					 //WebElement prod = wait_base(tmp);
 					 builder.moveToElement(prod).build().perform();
 					 prod.click();
 					 flag=true;
-					 //System.out.println(flag);
 				}
 				catch(org.openqa.selenium.NoSuchElementException nse){
-				    //return false;
 					System.out.println("invalid Product selection : "+prdName);
 					flag=false;
 				}
@@ -329,40 +341,27 @@ public class ProductPagePOM extends TestBase{
 				if(flag) {
 					Thread.sleep(5000);
 					try{
-						System.out.println("place 2");
 						WebElement ibmEntName = driver.findElement(By.xpath(ibmEntNamXpth));
-						//WebElement ibmEntName = wait_base(ibmEntNamXpth);
 						 ibmEntName.click();
 					    }
 					    catch(org.openqa.selenium.NoSuchElementException nse){
-					        //return false;
 					}
 		
 					 catch(org.openqa.selenium.TimeoutException nse){
-					        //return false;
 					}
 					
-					System.out.println("place 3");
 					 WebElement selectAddCart=driver.findElement(By.xpath(selectAddCartXpth1));
-				     //WebElement selectAddCart = wait_base(selectAddCartXpth1);
 					 selectAddCart.click();
 					 
-					 System.out.println("place 4");
 					 Thread.sleep(5000);
 					 driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 					 WebElement selectGoBack=driver.findElement(By.xpath(selectGoBackXpth));
-					 //WebElement selectGoBack = wait_base(selectGoBackXpth);
 					 selectGoBack.click();
-					 System.out.println("place 5");
 
 					 try {
 					 srchEle.clear();
-					 System.out.println("place 6");
 					srchButtonEle.click();
-					System.out.println("place 7");
 					 }catch(Exception e) {
-						 System.out.println("place 8");
-						 //e.printStackTrace();
 					 }
 					
 				}
