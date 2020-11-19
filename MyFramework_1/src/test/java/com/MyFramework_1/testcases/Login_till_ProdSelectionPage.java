@@ -36,6 +36,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 public class Login_till_ProdSelectionPage extends TestBase {
 	
+	int global_Counter=1;
 
 	public static ExtentTest test;
 	public static ExtentHtmlReporter Hreporter;
@@ -72,7 +73,15 @@ public class Login_till_ProdSelectionPage extends TestBase {
 	@AfterClass (alwaysRun = true)
 	public void teardown()   {
 		
-		//driver.quit();
+		if(criticalFlag==false)
+		{
+			driver.quit();
+			TestRunner.main(null);
+		}
+		else
+		{
+			driver.quit();
+		}
 		System.out.println("After class initiated");
 		JOptionPane.showMessageDialog(null, "BatchComplete");
 		
@@ -108,11 +117,11 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		
 			if(mfaEle.isDisplayed()) 
 				{
-				System.out.println("Multi Factor Autentication is requested - Wait time increased 20+ Secs");
+				logger.info("Multi Factor Autentication is requested - Wait time increased 20+ Secs");
 				Thread.sleep(20000);
 				}
 		}catch(Exception e) {
-			System.out.println("Multi Factor Autentication is NOT requested - Batch continues");
+			logger.info("Multi Factor Autentication is NOT requested - Batch continues");
 		}
 		
 		
@@ -146,8 +155,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 				flag=true;
 			}
 		}
-		
-		
+
 		//NK Site check
 		try {
 			String launchXpth="//a[@id='lunchbutton']";
@@ -231,17 +239,36 @@ public class Login_till_ProdSelectionPage extends TestBase {
 	@Test (priority = 4,dependsOnMethods= {"LoginLinkTest"})
 	public void ipConsolidation() throws InterruptedException {
 		
+		//Wait for Landing page to load max 60 Sec
+		driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+		Thread.sleep(40000);
+		
+		//NK Site check
+		try {
+			String launchXpth="//a[@id='lunchbutton']";
+			WebElement launchEle = wait_base(launchXpth);
+		
+			if(launchEle.isDisplayed()) 
+				{
+				System.out.println("BoND Site Landing Page displayed");
+				}
+		}catch(Exception e) {
+			System.out.println("BoND Site Landing Page NOT displayed - Critical Flag Set to False Batch Skips");
+			criticalFlag=false;
+		}
+		
 		if(criticalFlag)
 		{
-			Thread.sleep(3000);
-			driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
-			Thread.sleep(40000);
-			
 			System.out.println("MSG - IP Consolidation method initiated");
+			
 			inputConsolPOM bl=new inputConsolPOM(driver);
 			ProductPagePOM p1=new ProductPagePOM(driver);
 			
-			Thread.sleep(3000);
+			
+			//Navigate to Direct URL
+			driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
+			driver.manage().window().maximize();
+			
 			bl.initPath();
 			//bl.clearTD();
 			String[] ipFiles=bl.getIPFiles();
@@ -262,12 +289,16 @@ public class Login_till_ProdSelectionPage extends TestBase {
 			int NumberofRows = r1.length-1;
 			logger.info(NumberofRows);
 			
-			bl.nofRecords(0, "Total No records in input : " +NumberofRows);
+			//bl.nofRecords(0, "Total No records in input : " +NumberofRows);
 			
-			driver.manage().window().maximize();
-			Thread.sleep(5000);
-			int user_counter=0;//user_counter 
+
 			String status="";
+			boolean prod_flag=false;
+			
+			//Wait for Product page to load max 60 Sec
+			driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+			Thread.sleep(40000);
+			
 			
 			
 			Employee_loop:
@@ -282,13 +313,31 @@ public class Login_till_ProdSelectionPage extends TestBase {
 					Thread.sleep(3000);
 					boolean flag=true;
 					
-					++user_counter;
-					int i=0; //Item container counter
 					
+					int i=0; //Item container counter
 					int item_counter=0;//item_counter
 					
+					
+					
 					//chck cart and if any item exist empty it
-					flag=p1.chckCart(driver);
+					boolean cartChck=p1.waitMod(driver, "//button[@title='Shopping Cart']");
+					if(!(cartChck))
+					{
+						System.out.println("Page NOT loaded properly");
+						criticalFlag=false;
+						break;
+					}
+						prod_flag=p1.chckCart(driver);
+						System.out.println("block 1");
+					
+					//in case of any failure with clearing product cart, quit 
+					if(!(prod_flag)) {
+						System.out.println("Page un responsive break EE loop");
+						criticalFlag=false;
+						break;
+					}
+					
+					System.out.println("block 2");
 					
 					Product_Loop:
 					for (int col=13;col<23;col++)//Column
@@ -322,7 +371,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 								break;
 							}
 							logger.info("EE "+row+" product "+(col-12)+" ended for product -->"+(r1[row][col]));
-						}
+						}//Product Loop ends here
 					
 					//checkout to be added.
 					//if(false)
@@ -330,10 +379,16 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		
 		//Devesh_ checkout page
 					System.out.println("total no of items: " + item_counter);
+					Thread.sleep(2000);
+					try {
 					driver.findElement(By.xpath("//*[@id=\"shoppingCart\"]/div/div/div[1]/button")).click();//click on cart button
 					driver.findElement(By.xpath("//*[@id=\"shopping-cart-submit-button\"]")).click();//click on checkout button
 					//Thread.sleep(15000);
 					//driver.switchTo().defaultContent();
+					}catch(Exception e) {
+						e.printStackTrace();
+						System.out.println("place 9");
+					}
 					System.out.println("--------------------------entered checkout page-------------------------------");
 					
 					WebDriverWait wait = new WebDriverWait(driver, 30);
@@ -560,7 +615,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 										Boolean isaddress_Present=false;
 										try
 										{
-											isaddress_Present = driver.findElements(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::a[normalize-space(.)='"+r1[user_counter][4]+"']")).size()>0;
+											isaddress_Present = driver.findElements(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::a[normalize-space(.)='"+r1[row][4]+"']")).size()>0;
 												System.out.println("--------------------------value of address_present: " +isaddress_Present+ "-------------------------------");
 												
 										}
@@ -571,7 +626,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 										{	
 											
 											System.out.println("--------------------------address present-------------------------------");
-											driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::a[normalize-space(.)='"+r1[user_counter][4]+"']")).click();//Click existing address
+											driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//child::a[normalize-space(.)='"+r1[row][4]+"']")).click();//Click existing address
 										Thread.sleep(10000);
 										//System.out.println("--------------------------Item " +i+ " is done-------------------------------");
 										
@@ -604,20 +659,20 @@ public class Login_till_ProdSelectionPage extends TestBase {
 										System.out.println("wait for new address form to populate");
 										
 										driver.switchTo().defaultContent();
-										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//input[@id='full-name']")).sendKeys(r1[user_counter][4]);//name
-										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//input[@id='streetline1']")).sendKeys(r1[user_counter][5]);//streetline1
-										//driver.findElement(By.xpath("//*[@id='streetline2']")).sendKeys(r1[user_counter][6]);//streetline2
-										//driver.findElement(By.xpath("//*[@id='streetline3']")).sendKeys(r1[user_counter][4]);//streetline3
-										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//input[@id='city']")).sendKeys(r1[user_counter][6]);//city
-										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//input[@id='region']")).sendKeys(r1[user_counter][7]);//region
-										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//input[@id='postal-code']")).sendKeys(r1[user_counter][8]);//postal-code
+										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//input[@id='full-name']")).sendKeys(r1[row][4]);//name
+										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//input[@id='streetline1']")).sendKeys(r1[row][5]);//streetline1
+										//driver.findElement(By.xpath("//*[@id='streetline2']")).sendKeys(r1[row][6]);//streetline2
+										//driver.findElement(By.xpath("//*[@id='streetline3']")).sendKeys(r1[row][4]);//streetline3
+										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//input[@id='city']")).sendKeys(r1[row][6]);//city
+										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//input[@id='region']")).sendKeys(r1[row][7]);//region
+										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//input[@id='postal-code']")).sendKeys(r1[row][8]);//postal-code
 										//driver.findElement(By.xpath("//select[@id='country']/option[235]"));//country
 										Select select = new Select(driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//select[@id='country']")));
 										select.selectByVisibleText("United States");//country
 										
-										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//input[@id='phone']")).sendKeys(r1[user_counter][10]);//phone
-										//driver.findElement(By.xpath("//*[@id='fax']")).sendKeys(r1[user_counter][11]); //FAX
-										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//input[@id='email']")).sendKeys(r1[user_counter][9]);//email
+										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//input[@id='phone']")).sendKeys(r1[row][10]);//phone
+										//driver.findElement(By.xpath("//*[@id='fax']")).sendKeys(r1[row][11]); //FAX
+										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//input[@id='email']")).sendKeys(r1[row][9]);//email
 										
 										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"']//div[@class='ship-section']//field[1]/div//div[12]/button[text()='Save']")).click();
 										
@@ -652,45 +707,56 @@ public class Login_till_ProdSelectionPage extends TestBase {
 										Thread.sleep(5000);
 										//}
 							
-						//Deliver to name:
-										System.out.println("--------------------------Deliver to: "+r1[user_counter][4]+ "-------------------------------");
+								//Deliver to name:
+										System.out.println("--------------------------Deliver to: "+r1[row][4]+ "-------------------------------");
 										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"'] //div[@class='ship-section']//field[2]//input[@name='DeliverTo']")).clear();
 										
-										Thread.sleep(4000);
+										Thread.sleep(5000);
 										
 										Boolean error_present=false;
 										try
 										{
 											error_present = driver.findElements(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"'] //div[@class='ship-section']//field[2]//span[@id='error-code' and text()='Deliver To Attention must be set.']")).size()>0;
-												System.out.println("--------------------------item is not expanded : " +error_present+ "-------------------------------");
+												System.out.println("--------------------------Deliver to warning present check : " +error_present+ "-------------------------------");
 										}
 										catch(Throwable e) {}
 										if(error_present==true)
 										{
-											System.out.println("--------------------------error present (IF)-------------------------------");
+											System.out.println("--------------------------Deliver to warning present (IF)-------------------------------");
 										}
 										else 
 										{
-											driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"'] //div[@class='ship-section']//field[2]//input[@name='DeliverTo']")).clear();
+											System.out.println("--------------------------Deliver to warning not present (else)-------------------------------");
+											driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"'] //div[@class='ship-section']//field[2]//i[@class='sap-ariba-new icon-info']")).click();//click on info label to change focus
+											Thread.sleep(2000);
+											System.out.println("--------------------------Deliver to warning not present (else)-------------------------------");
+											driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"'] //div[@class='ship-section']//field[2]//input[@name='DeliverTo']")).click();
+											Thread.sleep(2000);
 										}
 										
 										wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"'] //div[@class='ship-section']//field[2]//span[@id='error-code' and text()='Deliver To Attention must be set.']")));
-										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"'] //div[@class='ship-section']//field[2]//input[@name='DeliverTo']")).sendKeys(r1[user_counter][4]);
-										
+										driver.findElement(By.xpath("//*[@id='section' and @class='item line-item-container-"+i+"'] //div[@class='ship-section']//field[2]//input[@name='DeliverTo']")).sendKeys(r1[row][4]);
+									
+										Thread.sleep(4000);
 									System.out.println("--------------------------Item " +i+ " is done-------------------------------");
-										
+									
 									}//forloop ends here
 					
-								//Comment section
-								driver.findElement(By.xpath("//*[@id='header-comments-comment']/div/div[1]/textarea")).sendKeys("My Phone number is: "+ r1[user_counter][8]);
+					//Comment section
+								driver.findElement(By.xpath("//*[@id='header-comments-comment']/div/div[1]/textarea")).sendKeys("My Phone number is: "+ r1[row][10]);
 								Thread.sleep(2000);
+								//wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='checkbox-header-comments']")));
+								driver.findElement(By.xpath("//*[@id='checkbox-header-comments']")).click();
 								
-								
+								//wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='header-comments-commentButton']")));
+								driver.findElement(By.xpath("//*[@id='header-comments-commentButton']")).click();
+
+
 								Boolean is_checked=false;
 	                            try
 	                            {
 	                                is_checked = driver.findElement(By.xpath("//*[@id='checkbox-header-comments']")).isSelected();
-	                                    System.out.println("--------------------------item is not expanded : " +is_checked+ "-------------------------------");
+	                                    System.out.println("-------------------------- Checkbox is checked : " +is_checked+ "-------------------------------");
 	                            }
 	                            catch(Throwable e) {}
 	                            if(is_checked==true)
@@ -702,19 +768,14 @@ public class Login_till_ProdSelectionPage extends TestBase {
 	                                driver.findElement(By.xpath("//*[@id='checkbox-header-comments']")).click();
 	                            }
 								
-								//wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='checkbox-header-comments']")));
-								driver.findElement(By.xpath("//*[@id='checkbox-header-comments']")).click();
-								
-								wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='header-comments-commentButton']")));
-								driver.findElement(By.xpath("//*[@id='header-comments-commentButton']")).click();
-								System.out.println("Comment added for User "+user_counter+" : " +r1[user_counter][4]);
+								System.out.println("Comment added for User "+row+" : " +r1[row][4]);
 								System.out.println("--------------------------Comment added with phone number-------------------------------");
 								Thread.sleep(5000);
 						}
 					catch(Throwable e)
 							{
 								//go for next employee
-								bl.statusUpdate(row, "Failed - Error occurred while Submission");
+								//bl.statusUpdate(row, "Failed - Error occurred while Submission");
 								System.out.println("--------------------------Error occurred while Submission-------------------------------");
 								if(row!=(r1.length-1))
 								{
@@ -731,12 +792,17 @@ public class Login_till_ProdSelectionPage extends TestBase {
 								}
 							}
 					
-			//Submit		
+				//Submit
+				try
+				{
+					wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='gbsection']//span[@data-jhitranslate-for-automation='COMMENT_REMOVE' and text()='Remove']")));
+					
 					if(driver.findElement(By.xpath("//*[@id='gbsection']//button[text()='Submit']")).isEnabled())
 					{
 						driver.findElement(By.xpath("//*[@id='gbsection']//button[text()='Submit']")).click();//click submit button
 						System.out.println("--------------------------Submit button clicked-------------------------------");
 						Thread.sleep(7000);
+						wait.until(ExpectedConditions.visibilityOfElementLocated((By.xpath("(//span[text()='Success'])[3]"))));
 						Boolean is_submitted=false;
 						try
 						{
@@ -750,8 +816,8 @@ public class Login_till_ProdSelectionPage extends TestBase {
 						//check if it is submitted 
 						if(is_submitted == true)
 						{	
-							wait.until(ExpectedConditions.visibilityOfElementLocated((By.xpath("(//span[text()='Success'])[3]"))));
-							System.out.println("Request Submitted for User "+user_counter+" : " +r1[user_counter][4]);
+							
+							System.out.println("Request Submitted for User "+row+" : " +r1[row][4]);
 							driver.findElement(By.xpath("(//button[@translate='actionButton2_button_View_Requisition'])[3]")).click();
 							WebElement element = driver.findElement(By.xpath("//div[@class='fd-action-bar__description']"));
 							String elementval = element.getText();
@@ -775,7 +841,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 						  
 						driver.findElement(By.xpath("//*[@id='gbsection']//span[@data-jhitranslate-for-automation='COMMENT_REMOVE' and text()='Remove']")).click();
 						//go for next employee
-						bl.statusUpdate(row, "Failed - Submission");
+						bl.statusUpdate(row, "Failed - Submission. Manual check is required");
 						if(row!=(r1.length-1))
 						{
 							System.out.println("--------------------------Row count: "+row+" and Total no of users in datasheet: "+(r1.length-1)+"--(IF)-------------------------------");
@@ -796,7 +862,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 					{
 						driver.findElement(By.xpath("//*[@id='gbsection']//span[@data-jhitranslate-for-automation='COMMENT_REMOVE' and text()='Remove']")).click();
 						
-						bl.statusUpdate(row, "Failed - Submission");
+						bl.statusUpdate(row, "Failed - Submission. Please check if an entry is submitted");
 						if(row!=(r1.length-1))
 						{
 							System.out.println("--------------------------Row count: "+row+" and Total no of users in datasheet: "+(r1.length-1)+"--(IF)-------------------------------");
@@ -811,18 +877,50 @@ public class Login_till_ProdSelectionPage extends TestBase {
 							break Employee_loop;
 						}
 					}
-					//}//
+				}
+				catch(Throwable e)
+				{
+					System.out.println("--------------------------Row count: "+row+" and Total no of users in datasheet: "+(r1.length-1)+"--(else)-------------------------------");
+					bl.statusUpdate(row, "Failed - Submission. Please check if an entry is submitted");
+					if(row!=(r1.length-1))
+					{
+						System.out.println("--------------------------Row count: "+row+" and Total no of users in datasheet: "+(r1.length-1)+"--(IF)-------------------------------");
+					driver.get("https://s1.ariba.com/gb/landingPage?id=97ae59a8-91d9-4e38-b0f6-6da107a60fe6&realm=IBM-GP0");
+					Thread.sleep(5000);
+					driver.switchTo().defaultContent();
+					continue Employee_loop;
+					}
+					else
+					{ 
+						System.out.println("--------------------------Row count: "+row+" and Total no of users in datasheet: "+(r1.length-1)+"--(else)-------------------------------");
+						break Employee_loop;
+					}
+				}
+				
+				//}//
 				}
 				else {
 					logger.info("EE "+row+" Skipped");
 				}
-			 }
+				
+				//If status is left blank --> Critical Flag is set to False to re-trigger execution at end
+				String EEstatus=bl.statusChck(row);
+				if(EEstatus==null)
+				{
+					criticalFlag=false;
+					logger.info("Critical Flag is set to False");
+				}
+				
+			 }//Employee Loop ends here
 			
-			//bl.nofRecords(1, "Total number of Records processed : " +user_counter);
+			//bl.nofRecords(1, "Total number of Records processed : " +row);
 			//bl.nofRecords(2, "Total number of Records submitted successfully: " +success);
 			
 			//Archieving TD sheet with Timestamp
-			bl.archieveTD();
+			if(!(prod_flag))
+			{
+				//bl.archieveTD();
+			}
 		}
 		else System.out.println("code is here");
 	}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]">
+  <test thread-count="5" name="Command line test(failed)">
+    <classes>
+      <class name="com.MyFramework_1.testcases.Login_till_ProdSelectionPage">
+        <methods>
+          <include name="ipConsolidation"/>
+          <include name="teardown"/>
+          <include name="Setup"/>
+          <include name="Product_addition"/>
+          <include name="LoginLinkTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.MyFramework_1.testcases.Login_till_ProdSelectionPage -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

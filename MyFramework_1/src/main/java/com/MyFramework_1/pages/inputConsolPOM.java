@@ -696,6 +696,9 @@ public class inputConsolPOM extends TestBase{
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 	}
 	
@@ -724,14 +727,35 @@ public class inputConsolPOM extends TestBase{
 		}
 	}
 	
-	public void archieve(String file)
+	public String timeStamp()
+	{
+		
+		String dt=null;
+		   DateTimeFormatter dtf = DateTimeFormatter.ofPattern("MMdd HHmm");  
+		   LocalDateTime now = LocalDateTime.now(); 
+		   dt=dtf.format(now);
+		   System.out.println(dt);  
+		return dt;
+		
+	}
+	
+	public void archieve(String file) throws InterruptedException
 	{
 		String ipPathAbs=ipPath+"\\"+file;
 		logger.info(ipPathAbs);
 		String arrPathAbs=archievePath+"\\"+file;
 		logger.info(arrPathAbs);
 		
+		//If File already Exist in Destination then add Timestamp to end of file name and move to Archieve
+		File dst=new File(arrPathAbs);
+		if(dst.exists())
+		{
+			String tmp=arrPathAbs.substring(0, arrPathAbs.length()-5);
+			arrPathAbs=tmp+"_D"+this.timeStamp()+".xlsx";
+			System.out.println("New path --"+arrPathAbs);
+		}
 		this.moveFile(ipPathAbs, arrPathAbs);
+		
 	}
 	
 	   private void moveFile(String src, String dest ) {
@@ -739,9 +763,15 @@ public class inputConsolPOM extends TestBase{
 		      Path result = null;
 		      try {
 		         result = Files.move(Paths.get(src), Paths.get(dest));
+		         
+		      } catch (java.nio.file.FileAlreadyExistsException e) {
+		         logger.info("File Move Error - File already Exist in Destination path: " + e.getMessage());
+		         e.printStackTrace();
 		      } catch (IOException e) {
-		         logger.info("Exception while moving file: " + e.getMessage());
-		      }
+			         logger.info("Exception while moving file: " + e.getMessage());
+			         e.printStackTrace();
+			  }
+		      
 		      if(result != null) {
 		         logger.info("File moved successfully." + dest);
 		      }else{

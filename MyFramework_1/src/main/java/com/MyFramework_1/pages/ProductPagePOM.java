@@ -18,6 +18,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -40,10 +41,17 @@ public class ProductPagePOM extends TestBase{
 		
 		@FindBy(xpath="//input[@name='username']") public WebElement UserID;
 
-		public void waitMod(WebDriver driver, String xpth) {
-			WebDriverWait wait = new WebDriverWait(driver, 15);
-			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpth)));
-			System.out.println("wait implemented");
+		public boolean waitMod(WebDriver driver, String xpth) {
+			boolean itemFound=false;
+			try {
+				WebDriverWait wait = new WebDriverWait(driver, 15);
+				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpth)));
+				System.out.println("wait implemented for xpath "+xpth);
+				itemFound=true;
+			}catch(Exception e) {
+				System.out.println("Element NOT found");
+			}
+			return itemFound;
 		}
 		
 		public boolean webElementWaitAndCheck(WebDriver driver, String xpth) {
@@ -62,7 +70,8 @@ public class ProductPagePOM extends TestBase{
 		public boolean chckCart(WebDriver driver)
 		{
 			System.out.println("chck cart starts ");
-			boolean flag=false;
+			boolean FL_flag=false;
+			
 			String cartPth="//span[@class='fd-counter fd-counter--notification']";
 			String cartitemsPth="//div[@class='col-xs-2 delete-cart-item']";
 			String closeCartPth="//button[@class='icon-decline close-cart-button']";
@@ -78,6 +87,8 @@ public class ProductPagePOM extends TestBase{
 				cart.click();
 				
 				boolean dlist=true;
+				int refresh_Counter=1;
+				
 				while(dlist)
 				{
 					try {
@@ -85,39 +96,68 @@ public class ProductPagePOM extends TestBase{
 						WebElement dartList=driver.findElement(By.xpath(cartitemsPth));
 						dartList.click();
 					}catch(org.openqa.selenium.NoSuchElementException nse) {
+						System.out.println("Cart deletion completed");
 						dlist=false;
-						break;
+						//break;
+					}catch(ElementNotInteractableException nse){
+						System.out.println("Page unResponsive - Refresh page");
+						
+						if(refresh_Counter<=3)
+						{
+							driver.navigate().refresh();
+							Thread.sleep(20000);
+							System.out.println("Refresh :"+refresh_Counter);
+							refresh_Counter++;
+						}
+						else {
+							System.out.println("Maxium refresh reached Batch to Terminate");
+							dlist=false;
+							//break;
+						}
 					}
 				}
 				
-				
-/*				Thread.sleep(3000);
-				WebElement closeCart=driver.findElement(By.xpath(closeCartPth));
-				closeCart.click();*/
-				
-				System.out.println("Items Deleted rechecking Cart....");
-				this.chckCart(driver);
+				if(refresh_Counter<=3)
+				{
+					System.out.println("Items Deleted rechecking Cart....");
+					FL_flag=this.chckCart(driver);
+				}
 				
 			}catch(org.openqa.selenium.NoSuchElementException nse) {
 				System.out.println("Cart Empty");
-				flag=true;
+				FL_flag=true;
 			}catch(org.openqa.selenium.StaleElementReferenceException e) {
 				System.out.println("stale element");
 				e.printStackTrace();
-			}catch(org.openqa.selenium.ElementNotInteractableException e) {
+			}catch (InterruptedException e) {
+				e.printStackTrace();
+			}/*catch(org.openqa.selenium.ElementNotInteractableException e) {
 				System.out.println("Element Not Interactable");
 				e.printStackTrace();
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			}*/
 			
-			System.out.println("return cart flag"+flag);
-			return flag;
+			System.out.println("return cart flag : "+FL_flag);
+			System.out.println("chck cart ends ");
+			
+			return FL_flag;
 		}
 		
 		
-		
+/*		public boolean refresh()
+		{
+			if(refresh_Counter<=3)
+			{
+				driver.navigate().refresh();
+				Thread.sleep(20000);
+				System.out.println("Refresh :"+refresh_Counter);
+				refresh_Counter++;
+			}
+			else {
+				System.out.println("Maxium refresh reached Batch to Terminate");
+				dlist=false;
+				//break;
+			}
+		}*/
 		
 		@SuppressWarnings("deprecation")
 		public String[][] xlread()
