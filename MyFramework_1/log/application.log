@@ -1093,3 +1093,283 @@
 2020-11-19 16:44:54,358  INFO [main] Login_till_ProdSelectionPage:373 - EE 10 product 3 ended for product -->StarTech.com USB C to Gigabit Ethernet Adapter - Black - USB 3.1 to RJ45 LAN Net
 2020-11-19 16:44:54,358  INFO [main] Login_till_ProdSelectionPage:345 - EE 10 product 4 started for product -->
 2020-11-19 16:44:54,358  INFO [main] Login_till_ProdSelectionPage:365 - blank break
+2020-11-19 18:10:22,915  INFO [main] Login_till_ProdSelectionPage:100 - UserID is enterrerd
+2020-11-19 18:10:22,999  INFO [main] Login_till_ProdSelectionPage:106 - Pwd is enterrerd
+2020-11-19 18:10:25,617  INFO [main] Login_till_ProdSelectionPage:108 - LoginButton is clicked
+2020-11-19 18:10:55,962  INFO [main] Login_till_ProdSelectionPage:124 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-19 18:11:41,287  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-19 18:11:41,288  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-19 18:11:41,289  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-19 18:11:41,289  INFO [main] Login_till_ProdSelectionPage:854 - 1. Branch - Office Supplies Requisiton_02445C .xlsx
+2020-11-19 18:11:41,290  INFO [main] Login_till_ProdSelectionPage:854 - 2. Branch - Office Supplies Requisiton _03824C.xlsx
+2020-11-19 18:11:41,292  INFO [main] Login_till_ProdSelectionPage:854 - 3. Branch - Office Supplies Requisiton _00055D.xlsx
+2020-11-19 18:11:41,293  INFO [main] Login_till_ProdSelectionPage:710 - Weed out method init 
+2020-11-19 18:11:41,296  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-19 18:11:41,299  INFO [main] Login_till_ProdSelectionPage:557 - 11/19/2020 18:11:41
+2020-11-19 18:11:41,300  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-19 18:11:41,300  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-19 18:11:41,300  INFO [main] Login_till_ProdSelectionPage:854 - 1. Branch - Office Supplies Requisiton_02445C .xlsx
+2020-11-19 18:11:41,301  INFO [main] Login_till_ProdSelectionPage:854 - 2. Branch - Office Supplies Requisiton _03824C.xlsx
+2020-11-19 18:11:41,302  INFO [main] Login_till_ProdSelectionPage:854 - 3. Branch - Office Supplies Requisiton _00055D.xlsx
+2020-11-19 18:11:42,100  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 0
+2020-11-19 18:11:42,520  INFO [main] Login_till_ProdSelectionPage:163 - 10/27/2020
+2020-11-19 18:11:42,526  INFO [main] Login_till_ProdSelectionPage:173 - 02445C
+2020-11-19 18:11:42,527  INFO [main] Login_till_ProdSelectionPage:181 - Nageswara Reddy Gajji
+2020-11-19 18:11:42,528  INFO [main] Login_till_ProdSelectionPage:189 - 293 Turnpike Rd, Apt # 118
+2020-11-19 18:11:42,529  INFO [main] Login_till_ProdSelectionPage:198 - Westborough
+2020-11-19 18:11:42,530  INFO [main] Login_till_ProdSelectionPage:206 - MA
+2020-11-19 18:11:42,531  INFO [main] Login_till_ProdSelectionPage:214 - 01581-2814
+2020-11-19 18:11:42,532  INFO [main] Login_till_ProdSelectionPage:238 - nagesh.reddy@in.ibm.com
+2020-11-19 18:11:42,533  INFO [main] Login_till_ProdSelectionPage:246 - 267 367 9622
+2020-11-19 18:11:42,534  INFO [main] Login_till_ProdSelectionPage:254 - Nihar R Pattnaik
+2020-11-19 18:11:42,534  INFO [main] Login_till_ProdSelectionPage:262 - niharpattnaik@in.ibm.com
+2020-11-19 18:11:42,535  INFO [main] Login_till_ProdSelectionPage:287 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-19 18:11:42,536  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-19 18:11:42,561  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\1. Branch - Office Supplies Requisiton_02445C .xlsx
+2020-11-19 18:11:42,561  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\1. Branch - Office Supplies Requisiton_02445C .xlsx
+2020-11-19 18:11:42,564  INFO [main] Login_till_ProdSelectionPage:776 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\1. Branch - Office Supplies Requisiton_02445C .xlsx
+2020-11-19 18:11:42,949  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 1
+2020-11-19 18:11:43,204  INFO [main] Login_till_ProdSelectionPage:163 - 11/02/2020
+2020-11-19 18:11:43,205  INFO [main] Login_till_ProdSelectionPage:173 - 03824C
+2020-11-19 18:11:43,207  INFO [main] Login_till_ProdSelectionPage:181 - Gopinath Thyagarajan
+2020-11-19 18:11:43,207  INFO [main] Login_till_ProdSelectionPage:189 - 29649 N Waukegan Road, Apt 305
+2020-11-19 18:11:43,208  INFO [main] Login_till_ProdSelectionPage:198 - Lake Bluff
+2020-11-19 18:11:43,209  INFO [main] Login_till_ProdSelectionPage:206 - IL
+2020-11-19 18:11:43,209  INFO [main] Login_till_ProdSelectionPage:214 - 60044-0121
+2020-11-19 18:11:43,210  INFO [main] Login_till_ProdSelectionPage:238 - gothyaga@in.ibm.com
+2020-11-19 18:11:43,212  INFO [main] Login_till_ProdSelectionPage:246 - 224 551 0832
+2020-11-19 18:11:43,212  INFO [main] Login_till_ProdSelectionPage:254 - Madhusudan Kapai
+2020-11-19 18:11:43,218  INFO [main] Login_till_ProdSelectionPage:262 - Madhusudan.kapai@in.ibm.com
+2020-11-19 18:11:43,219  INFO [main] Login_till_ProdSelectionPage:287 - T24i-20(A20238FT0)23.8 inch Monitor-HDMI
+2020-11-19 18:11:43,220  INFO [main] Login_till_ProdSelectionPage:287 - Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-19 18:11:43,241  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\2. Branch - Office Supplies Requisiton _03824C.xlsx
+2020-11-19 18:11:43,242  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\2. Branch - Office Supplies Requisiton _03824C.xlsx
+2020-11-19 18:11:43,247  INFO [main] Login_till_ProdSelectionPage:776 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\2. Branch - Office Supplies Requisiton _03824C.xlsx
+2020-11-19 18:11:43,386  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 2
+2020-11-19 18:11:43,659  INFO [main] Login_till_ProdSelectionPage:163 - 11/02/2020
+2020-11-19 18:11:43,660  INFO [main] Login_till_ProdSelectionPage:173 - 00055D
+2020-11-19 18:11:43,661  INFO [main] Login_till_ProdSelectionPage:181 - Sunil Matta
+2020-11-19 18:11:43,662  INFO [main] Login_till_ProdSelectionPage:189 - 439 WEST SIDE DR, APT 103
+2020-11-19 18:11:43,662  INFO [main] Login_till_ProdSelectionPage:198 - Gaithersburg
+2020-11-19 18:11:43,663  INFO [main] Login_till_ProdSelectionPage:206 - MD
+2020-11-19 18:11:43,663  INFO [main] Login_till_ProdSelectionPage:214 - 20878-3115
+2020-11-19 18:11:43,664  INFO [main] Login_till_ProdSelectionPage:238 - sunmatta@in.ibm.com
+2020-11-19 18:11:43,664  INFO [main] Login_till_ProdSelectionPage:246 - 240 751 6989
+2020-11-19 18:11:43,665  INFO [main] Login_till_ProdSelectionPage:254 - Sujit Pati
+2020-11-19 18:11:43,665  INFO [main] Login_till_ProdSelectionPage:262 - sujipati@in.ibm.com
+2020-11-19 18:11:43,666  INFO [main] Login_till_ProdSelectionPage:287 - Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-19 18:11:43,666  INFO [main] Login_till_ProdSelectionPage:287 - PWR ADP_BO Type-C 65W Adapter
+2020-11-19 18:11:43,667  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com Portable USB C Multiport Video Adapter - 4k HDMI or VGA, USB 3.0
+2020-11-19 18:11:43,681  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input\3. Branch - Office Supplies Requisiton _00055D.xlsx
+2020-11-19 18:11:43,682  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\3. Branch - Office Supplies Requisiton _00055D.xlsx
+2020-11-19 18:11:43,685  INFO [main] Login_till_ProdSelectionPage:776 - File moved successfully.C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Archieve\3. Branch - Office Supplies Requisiton _00055D.xlsx
+2020-11-19 18:11:43,752  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-19 18:11:43,830  INFO [main] Login_till_ProdSelectionPage:290 - 3
+2020-11-19 18:12:23,837  INFO [main] Login_till_ProdSelectionPage:304 - EE 1 Started
+2020-11-19 18:12:23,859  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-19 18:12:23,882  INFO [main] Login_till_ProdSelectionPage:309 - EE 1 Started
+2020-11-19 18:12:39,238  INFO [main] Login_till_ProdSelectionPage:337 - EE 1 product 1 started for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-19 18:13:02,792  INFO [main] Login_till_ProdSelectionPage:365 - EE 1 product 1 ended for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-19 18:13:02,793  INFO [main] Login_till_ProdSelectionPage:337 - EE 1 product 2 started for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-19 18:13:31,297  INFO [main] Login_till_ProdSelectionPage:365 - EE 1 product 2 ended for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-19 18:13:31,298  INFO [main] Login_till_ProdSelectionPage:337 - EE 1 product 3 started for product -->
+2020-11-19 18:13:31,298  INFO [main] Login_till_ProdSelectionPage:357 - blank break
+2020-11-19 18:15:17,657  INFO [main] Login_till_ProdSelectionPage:304 - EE 2 Started
+2020-11-19 18:15:17,672  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-19 18:15:17,689  INFO [main] Login_till_ProdSelectionPage:309 - EE 2 Started
+2020-11-19 18:15:46,116  INFO [main] Login_till_ProdSelectionPage:337 - EE 2 product 1 started for product -->T24i-20(A20238FT0)23.8 inch Monitor-HDMI
+2020-11-19 18:16:14,526  INFO [main] Login_till_ProdSelectionPage:365 - EE 2 product 1 ended for product -->T24i-20(A20238FT0)23.8 inch Monitor-HDMI
+2020-11-19 18:16:14,527  INFO [main] Login_till_ProdSelectionPage:337 - EE 2 product 2 started for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-19 18:16:42,751  INFO [main] Login_till_ProdSelectionPage:365 - EE 2 product 2 ended for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-19 18:16:42,751  INFO [main] Login_till_ProdSelectionPage:337 - EE 2 product 3 started for product -->
+2020-11-19 18:16:42,751  INFO [main] Login_till_ProdSelectionPage:357 - blank break
+2020-11-19 18:19:56,249  INFO [main] Login_till_ProdSelectionPage:304 - EE 3 Started
+2020-11-19 18:19:56,261  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-19 18:19:56,274  INFO [main] Login_till_ProdSelectionPage:309 - EE 3 Started
+2020-11-19 18:20:24,686  INFO [main] Login_till_ProdSelectionPage:337 - EE 3 product 1 started for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-19 18:20:52,744  INFO [main] Login_till_ProdSelectionPage:365 - EE 3 product 1 ended for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-19 18:20:52,745  INFO [main] Login_till_ProdSelectionPage:337 - EE 3 product 2 started for product -->PWR ADP_BO Type-C 65W Adapter
+2020-11-19 18:21:20,807  INFO [main] Login_till_ProdSelectionPage:365 - EE 3 product 2 ended for product -->PWR ADP_BO Type-C 65W Adapter
+2020-11-19 18:21:20,808  INFO [main] Login_till_ProdSelectionPage:337 - EE 3 product 3 started for product -->StarTech.com Portable USB C Multiport Video Adapter - 4k HDMI or VGA, USB 3.0
+2020-11-19 18:21:37,606  INFO [main] Login_till_ProdSelectionPage:346 - invalid Product idetified during product selection :StarTech.com Portable USB C Multiport Video Adapter - 4k HDMI or VGA, USB 3.0
+2020-11-19 18:42:29,221  INFO [main] Login_till_ProdSelectionPage:100 - UserID is enterrerd
+2020-11-19 18:42:29,339  INFO [main] Login_till_ProdSelectionPage:106 - Pwd is enterrerd
+2020-11-19 18:42:32,601  INFO [main] Login_till_ProdSelectionPage:108 - LoginButton is clicked
+2020-11-19 18:43:02,656  INFO [main] Login_till_ProdSelectionPage:124 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-19 18:43:47,898  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-19 18:43:47,898  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-19 18:43:47,899  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-19 18:43:47,902  INFO [main] Login_till_ProdSelectionPage:710 - Weed out method init 
+2020-11-19 18:43:47,902  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-19 18:43:47,905  INFO [main] Login_till_ProdSelectionPage:557 - 11/19/2020 18:43:47
+2020-11-19 18:43:47,905  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-19 18:43:47,906  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-19 18:43:47,912  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-19 18:43:48,599  INFO [main] Login_till_ProdSelectionPage:290 - 3
+2020-11-19 18:44:28,606  INFO [main] Login_till_ProdSelectionPage:304 - EE 1 Started
+2020-11-19 18:44:28,650  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-19 18:44:28,765  INFO [main] Login_till_ProdSelectionPage:309 - EE 1 Started
+2020-11-19 18:45:14,159  INFO [main] Login_till_ProdSelectionPage:100 - UserID is enterrerd
+2020-11-19 18:45:14,246  INFO [main] Login_till_ProdSelectionPage:106 - Pwd is enterrerd
+2020-11-19 18:45:16,700  INFO [main] Login_till_ProdSelectionPage:108 - LoginButton is clicked
+2020-11-19 18:45:46,849  INFO [main] Login_till_ProdSelectionPage:124 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-19 18:46:32,417  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-19 18:46:32,417  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-19 18:46:32,418  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-19 18:46:32,418  INFO [main] Login_till_ProdSelectionPage:710 - Weed out method init 
+2020-11-19 18:46:32,419  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-19 18:46:32,419  INFO [main] Login_till_ProdSelectionPage:557 - 11/19/2020 18:46:32
+2020-11-19 18:46:32,419  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-19 18:46:32,420  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-19 18:46:32,433  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-19 18:46:32,493  INFO [main] Login_till_ProdSelectionPage:290 - 3
+2020-11-19 18:47:12,499  INFO [main] Login_till_ProdSelectionPage:304 - EE 1 Started
+2020-11-19 18:47:12,529  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-19 18:47:12,548  INFO [main] Login_till_ProdSelectionPage:309 - EE 1 Started
+2020-11-19 18:47:30,957  INFO [main] Login_till_ProdSelectionPage:337 - EE 1 product 1 started for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-19 18:47:42,621  INFO [main] Login_till_ProdSelectionPage:346 - invalid Product idetified during product selection :VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-19 18:47:42,621  INFO [main] Login_till_ProdSelectionPage:304 - EE 2 Started
+2020-11-19 18:47:42,646  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-19 18:47:42,666  INFO [main] Login_till_ProdSelectionPage:309 - EE 2 Started
+2020-11-19 18:47:48,713  INFO [main] Login_till_ProdSelectionPage:337 - EE 2 product 1 started for product -->T24i-20(A20238FT0)23.8 inch Monitor-HDMI
+2020-11-19 18:48:11,948  INFO [main] Login_till_ProdSelectionPage:365 - EE 2 product 1 ended for product -->T24i-20(A20238FT0)23.8 inch Monitor-HDMI
+2020-11-19 18:48:11,949  INFO [main] Login_till_ProdSelectionPage:337 - EE 2 product 2 started for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-19 18:48:41,036  INFO [main] Login_till_ProdSelectionPage:365 - EE 2 product 2 ended for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-19 18:48:41,037  INFO [main] Login_till_ProdSelectionPage:337 - EE 2 product 3 started for product -->null
+2020-11-19 18:48:41,038  INFO [main] Login_till_ProdSelectionPage:362 - null pointer break
+2020-11-19 18:51:56,997  INFO [main] Login_till_ProdSelectionPage:304 - EE 3 Started
+2020-11-19 18:51:57,019  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-19 18:51:57,042  INFO [main] Login_till_ProdSelectionPage:309 - EE 3 Started
+2020-11-19 18:52:25,929  INFO [main] Login_till_ProdSelectionPage:337 - EE 3 product 1 started for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-19 18:52:54,162  INFO [main] Login_till_ProdSelectionPage:365 - EE 3 product 1 ended for product -->Logitech Triathlon M720 - mouse - Bluetooth, 2.4 GHz
+2020-11-19 18:52:54,163  INFO [main] Login_till_ProdSelectionPage:337 - EE 3 product 2 started for product -->PWR ADP_BO Type-C 65W Adapter
+2020-11-19 18:53:22,317  INFO [main] Login_till_ProdSelectionPage:365 - EE 3 product 2 ended for product -->PWR ADP_BO Type-C 65W Adapter
+2020-11-19 18:53:22,318  INFO [main] Login_till_ProdSelectionPage:337 - EE 3 product 3 started for product -->StarTech.com Portable USB C Multiport Video Adapter - 4k HDMI or VGA, USB 3.0
+2020-11-19 18:53:39,126  INFO [main] Login_till_ProdSelectionPage:346 - invalid Product idetified during product selection :StarTech.com Portable USB C Multiport Video Adapter - 4k HDMI or VGA, USB 3.0
+2020-11-20 14:52:47,838  INFO [main] Login_till_ProdSelectionPage:100 - UserID is enterrerd
+2020-11-20 14:52:47,921  INFO [main] Login_till_ProdSelectionPage:106 - Pwd is enterrerd
+2020-11-20 14:52:50,388  INFO [main] Login_till_ProdSelectionPage:108 - LoginButton is clicked
+2020-11-20 14:53:20,750  INFO [main] Login_till_ProdSelectionPage:124 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-20 14:54:05,824  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-20 14:54:05,824  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-20 14:54:05,825  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-20 14:54:05,825  INFO [main] Login_till_ProdSelectionPage:710 - Weed out method init 
+2020-11-20 14:54:05,826  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-20 14:54:05,831  INFO [main] Login_till_ProdSelectionPage:557 - 11/20/2020 14:54:05
+2020-11-20 14:54:05,831  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-20 14:54:05,831  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-20 14:54:05,840  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-20 14:54:06,699  INFO [main] Login_till_ProdSelectionPage:286 - 35
+2020-11-20 14:54:46,704  INFO [main] Login_till_ProdSelectionPage:300 - EE 1 Started
+2020-11-20 14:54:46,763  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-20 14:54:46,950  INFO [main] Login_till_ProdSelectionPage:305 - EE 1 Started
+2020-11-20 14:55:33,193  INFO [main] Login_till_ProdSelectionPage:100 - UserID is enterrerd
+2020-11-20 14:55:33,266  INFO [main] Login_till_ProdSelectionPage:106 - Pwd is enterrerd
+2020-11-20 14:55:35,766  INFO [main] Login_till_ProdSelectionPage:108 - LoginButton is clicked
+2020-11-20 14:56:05,821  INFO [main] Login_till_ProdSelectionPage:124 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-20 14:56:50,785  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-20 14:56:50,785  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-20 14:56:50,785  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-20 14:56:50,786  INFO [main] Login_till_ProdSelectionPage:710 - Weed out method init 
+2020-11-20 14:56:50,786  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-20 14:56:50,786  INFO [main] Login_till_ProdSelectionPage:557 - 11/20/2020 14:56:50
+2020-11-20 14:56:50,786  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-20 14:56:50,786  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-20 14:56:50,789  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-20 14:56:50,869  INFO [main] Login_till_ProdSelectionPage:286 - 35
+2020-11-20 14:57:30,874  INFO [main] Login_till_ProdSelectionPage:300 - EE 1 Started
+2020-11-20 14:57:30,922  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-20 14:57:30,960  INFO [main] Login_till_ProdSelectionPage:305 - EE 1 Started
+2020-11-20 18:32:39,471  INFO [main] Login_till_ProdSelectionPage:107 - W3 sign On Method is requested - w3id Credentials method is selected
+2020-11-20 18:32:39,580  INFO [main] Login_till_ProdSelectionPage:126 - UserID is enterrerd
+2020-11-20 18:32:39,658  INFO [main] Login_till_ProdSelectionPage:132 - Pwd is enterrerd
+2020-11-20 18:32:42,096  INFO [main] Login_till_ProdSelectionPage:134 - LoginButton is clicked
+2020-11-20 18:33:12,161  INFO [main] Login_till_ProdSelectionPage:150 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-20 18:37:09,548  INFO [main] Login_till_ProdSelectionPage:107 - W3 sign On Method is requested - w3id Credentials method is selected
+2020-11-20 18:37:51,935  INFO [main] Login_till_ProdSelectionPage:107 - W3 sign On Method is requested - w3id Credentials method is selected
+2020-11-20 18:39:49,838  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-20 18:39:54,738  INFO [main] Login_till_ProdSelectionPage:108 - W3 sign On Method is requested - w3id Credentials method is selected
+2020-11-20 18:39:54,830  INFO [main] Login_till_ProdSelectionPage:127 - UserID is enterrerd
+2020-11-20 18:39:54,902  INFO [main] Login_till_ProdSelectionPage:133 - Pwd is enterrerd
+2020-11-20 18:39:57,300  INFO [main] Login_till_ProdSelectionPage:135 - LoginButton is clicked
+2020-11-20 18:40:27,521  INFO [main] Login_till_ProdSelectionPage:151 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-20 18:40:27,537  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-20 18:40:30,552  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-20 18:40:33,569  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-20 18:40:36,575  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-20 18:40:39,592  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-20 18:40:42,602  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-20 18:40:45,617  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-20 18:40:48,631  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-20 18:40:51,647  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-20 18:40:54,658  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-20 18:40:57,674  INFO [main] Login_till_ProdSelectionPage:81 - Page Loaded
+2020-11-20 18:41:02,656  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-20 18:41:02,656  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-20 18:41:02,656  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-20 18:41:02,657  INFO [main] Login_till_ProdSelectionPage:710 - Weed out method init 
+2020-11-20 18:41:02,657  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-20 18:41:02,667  INFO [main] Login_till_ProdSelectionPage:557 - 11/20/2020 18:41:02
+2020-11-20 18:41:02,667  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-20 18:41:02,667  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-20 18:41:02,681  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-20 18:41:05,827  INFO [main] Login_till_ProdSelectionPage:81 - Page Loaded
+2020-11-20 18:41:08,618  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-20 18:41:09,377  INFO [main] Login_till_ProdSelectionPage:336 - 35
+2020-11-20 19:25:36,376  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-20 19:25:40,452  INFO [main] Login_till_ProdSelectionPage:96 - W3 sign On Method is requested - w3id Credentials method is selected
+2020-11-20 19:25:40,549  INFO [main] Login_till_ProdSelectionPage:113 - UserID is enterrerd
+2020-11-20 19:25:40,624  INFO [main] Login_till_ProdSelectionPage:117 - Pwd is enterrerd
+2020-11-20 19:25:42,993  INFO [main] Login_till_ProdSelectionPage:119 - LoginButton is clicked
+2020-11-20 19:26:13,513  INFO [main] Login_till_ProdSelectionPage:133 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-20 19:26:13,535  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-20 19:26:18,797  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-20 19:26:18,798  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-20 19:26:18,798  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-20 19:26:18,799  INFO [main] Login_till_ProdSelectionPage:710 - Weed out method init 
+2020-11-20 19:26:18,799  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-20 19:26:18,801  INFO [main] Login_till_ProdSelectionPage:557 - 11/20/2020 19:26:18
+2020-11-20 19:26:18,801  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-20 19:26:18,802  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-20 19:26:18,811  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-20 19:26:22,674  INFO [main] Login_till_ProdSelectionPage:81 - Page Loaded
+2020-11-20 19:26:22,799  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-20 19:26:23,446  INFO [main] Login_till_ProdSelectionPage:302 - 35
+2020-11-20 19:26:23,446  INFO [main] Login_till_ProdSelectionPage:311 - EE 1 Started
+2020-11-20 19:26:23,536  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-20 19:26:23,727  INFO [main] Login_till_ProdSelectionPage:315 - EE 1 Started
+2020-11-20 19:26:26,763  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-20 19:26:41,332  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-20 19:26:45,380  INFO [main] Login_till_ProdSelectionPage:96 - W3 sign On Method is requested - w3id Credentials method is selected
+2020-11-20 19:26:45,477  INFO [main] Login_till_ProdSelectionPage:113 - UserID is enterrerd
+2020-11-20 19:26:45,558  INFO [main] Login_till_ProdSelectionPage:117 - Pwd is enterrerd
+2020-11-20 19:26:47,883  INFO [main] Login_till_ProdSelectionPage:119 - LoginButton is clicked
+2020-11-20 19:29:36,256  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-20 19:29:40,293  INFO [main] Login_till_ProdSelectionPage:100 - W3 sign On Method is requested - w3id Credentials method is selected
+2020-11-20 19:29:40,391  INFO [main] Login_till_ProdSelectionPage:117 - UserID is enterrerd
+2020-11-20 19:29:40,463  INFO [main] Login_till_ProdSelectionPage:121 - Pwd is enterrerd
+2020-11-20 19:29:42,822  INFO [main] Login_till_ProdSelectionPage:123 - LoginButton is clicked
+2020-11-20 19:30:13,068  INFO [main] Login_till_ProdSelectionPage:137 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-20 19:30:13,085  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-20 19:30:17,917  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-20 19:30:17,917  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-20 19:30:17,917  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-20 19:30:17,918  INFO [main] Login_till_ProdSelectionPage:710 - Weed out method init 
+2020-11-20 19:30:17,918  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-20 19:30:17,921  INFO [main] Login_till_ProdSelectionPage:557 - 11/20/2020 19:30:17
+2020-11-20 19:30:17,921  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-20 19:30:17,921  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\NagarajaK\eclipse-workspace\Git_Buckt1\MyFramework_1\TestData\Input
+2020-11-20 19:30:17,932  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-20 19:30:20,962  INFO [main] Login_till_ProdSelectionPage:81 - Page Loaded
+2020-11-20 19:30:22,535  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-20 19:30:23,239  INFO [main] Login_till_ProdSelectionPage:306 - 35
+2020-11-20 19:30:23,239  INFO [main] Login_till_ProdSelectionPage:315 - EE 1 Started
+2020-11-20 19:30:23,330  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-20 19:30:23,502  INFO [main] Login_till_ProdSelectionPage:319 - EE 1 Started
+2020-11-20 19:30:26,531  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-20 19:31:26,958  INFO [main] Login_till_ProdSelectionPage:344 - EE 1 product 1 started for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-20 19:32:25,588  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-20 19:32:25,691  INFO [main] Login_till_ProdSelectionPage:100 - W3 sign On Method is requested - w3id Credentials method is selected
+2020-11-20 19:32:55,956  INFO [main] Login_till_ProdSelectionPage:72 - After class starts
+2020-11-20 19:32:55,957  INFO [main] Login_till_ProdSelectionPage:73 - Critical Flag -->true
+2020-11-20 19:32:55,957  INFO [main] Login_till_ProdSelectionPage:80 - Batch Completed

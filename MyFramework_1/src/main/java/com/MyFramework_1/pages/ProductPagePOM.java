@@ -19,6 +19,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotInteractableException;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -37,14 +38,12 @@ public class ProductPagePOM extends TestBase{
 		 PageFactory.initElements(driver, this);
 		}
 		
-		
-		
 		@FindBy(xpath="//input[@name='username']") public WebElement UserID;
 
 		public boolean waitMod(WebDriver driver, String xpth) {
 			boolean itemFound=false;
 			try {
-				WebDriverWait wait = new WebDriverWait(driver, 15);
+				WebDriverWait wait = new WebDriverWait(driver, 60);
 				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpth)));
 				System.out.println("wait implemented for xpath "+xpth);
 				itemFound=true;
@@ -54,35 +53,55 @@ public class ProductPagePOM extends TestBase{
 			return itemFound;
 		}
 		
-		public boolean webElementWaitAndCheck(WebDriver driver, String xpth) {
-			boolean isPresent=false;
+		public boolean webPageChck(WebDriver driver) {
+			boolean isLoaded=false;
 			
-			WebDriverWait wait = new WebDriverWait(driver, 15);
-			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpth)));
-			//System.out.println("wait implemented");
-			
-			isPresent=driver.findElements(By.xpath(xpth)).size()>0;
-			
-			
-			return isPresent;
+			  JavascriptExecutor js = (JavascriptExecutor)driver;
+			  
+			  
+			  //Initially bellow given if condition will check ready state of page.
+			  if (js.executeScript("return document.readyState").toString().equals("complete")){ 
+				  logger.info("Page Is loaded.");
+			   isLoaded=true;
+			   return isLoaded; 
+			  } 
+			  
+			  //This loop will rotate for 20 times to check If page Is ready after every 3 second.
+			  //You can replace your value with 20 If you wants to Increase or decrease wait time.
+			  for (int i=0; i<20; i++)
+			  	{ 
+				try 
+				   {
+						logger.info("Batch wait +3 Sec");
+					   Thread.sleep(3000);
+				    }catch (InterruptedException e) {}
+				//To check page ready state.
+			   if (js.executeScript("return document.readyState").toString().equals("complete"))
+			   {
+				   logger.info("Page Loaded");
+				   isLoaded=true;
+				   break;
+			   }
+			  }
+			   
+			return isLoaded;
 		}
 		
 		public boolean chckCart(WebDriver driver)
 		{
-			System.out.println("chck cart starts ");
+			logger.info("chck cart starts ");
 			boolean FL_flag=false;
 			boolean cartExpandChck=false;
 			
-			String cartPth="//span[@class='fd-counter fd-counter--notification']";
+			String cartPth="//button[@aria-label='Shopping Cart']//span[@class='fd-counter fd-counter--notification']";
 			String cartitemsPth="//div[@class='col-xs-2 delete-cart-item']";
 			String closeCartPth="//button[@class='icon-decline close-cart-button']";
 			String closeCrtButton="//button[@title='Close cart']";
-			
+			//123
 			try {
-				Thread.sleep(3000);
+				//Thread.sleep(3000);
 				
-				//WebElement cart = wait_base(cartPth);
-				
+				cartExpandChck = this.waitMod(driver,cartPth);
 				WebElement cart=driver.findElement(By.xpath(cartPth));
 				System.out.println("Items exist in Cart - need to delete");
 				
@@ -103,14 +122,18 @@ public class ProductPagePOM extends TestBase{
 				if(cartExpandChck)
 				{
 					boolean dlist=true;
+					boolean cartRef=false;
 					int refresh_Counter=1;
 					
 					while(dlist)
 					{
 						try {
-							Thread.sleep(3000);
-							WebElement dartList=driver.findElement(By.xpath(cartitemsPth));
-							dartList.click();
+							//Thread.sleep(3000);
+							if(this.waitMod(driver, cartitemsPth));
+								{
+								WebElement dartList=driver.findElement(By.xpath(cartitemsPth));
+								dartList.click();
+								}
 						}catch(org.openqa.selenium.NoSuchElementException nse) {
 							System.out.println("Cart deletion completed");
 							dlist=false;

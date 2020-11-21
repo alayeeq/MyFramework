@@ -1,33 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+<testng-results ignored="2" total="5" passed="0" failed="1" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-19T14:59:01 EST" name="Default suite" finished-at="2020-11-19T15:30:31 EST" duration-ms="1889871">
+  <suite started-at="2020-11-20T19:32:11 EST" name="Default suite" finished-at="2020-11-20T19:33:48 EST" duration-ms="97135">
     <groups>
     </groups>
-    <test started-at="2020-11-19T14:59:01 EST" name="Default test" finished-at="2020-11-19T15:30:31 EST" duration-ms="1889871">
+    <test started-at="2020-11-20T19:32:11 EST" name="Default test" finished-at="2020-11-20T19:33:48 EST" duration-ms="97135">
       <class name="com.MyFramework_1.testcases.Login_till_ProdSelectionPage">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@63a65a25]" started-at="2020-11-19T14:59:01 EST" name="Setup" finished-at="2020-11-19T14:59:01 EST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@1afd44cb]" started-at="2020-11-20T19:32:11 EST" name="Setup" finished-at="2020-11-20T19:32:11 EST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@63a65a25]" started-at="2020-11-19T14:59:01 EST" name="setup" finished-at="2020-11-19T14:59:11 EST" duration-ms="9755" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@1afd44cb]" started-at="2020-11-20T19:32:11 EST" name="setup" finished-at="2020-11-20T19:32:25 EST" duration-ms="13699" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginLinkTest()[pri:1, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@63a65a25]" started-at="2020-11-19T14:59:11 EST" name="LoginLinkTest" finished-at="2020-11-19T14:59:45 EST" duration-ms="33892" status="PASS">
+        <test-method signature="LoginLinkTest()[pri:1, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@1afd44cb]" started-at="2020-11-20T19:32:25 EST" name="LoginLinkTest" finished-at="2020-11-20T19:32:55 EST" duration-ms="30368" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='username'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-A4T63ADS', ip: '9.102.38.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\NAGARA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63701}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a84c47c93b0f3129cc0fb9b2f6b32d81]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='username'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-A4T63ADS', ip: '9.102.38.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\NAGARA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63701}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a84c47c93b0f3129cc0fb9b2f6b32d81
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.MyFramework_1baseclasses.TestBase.wait_base(TestBase.java:140)
+at com.MyFramework_1.testcases.Login_till_ProdSelectionPage.LoginLinkTest(Login_till_ProdSelectionPage.java:115)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginLinkTest -->
-        <test-method signature="ipConsolidation()[pri:4, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@63a65a25]" started-at="2020-11-19T14:59:45 EST" name="ipConsolidation" finished-at="2020-11-19T15:00:28 EST" depends-on-methods="com.MyFramework_1.testcases.Login_till_ProdSelectionPage.LoginLinkTest" duration-ms="43010" status="PASS">
+        <test-method signature="ipConsolidation()[pri:4, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@1afd44cb]" started-at="2020-11-20T19:32:55 EST" name="ipConsolidation" finished-at="2020-11-20T19:32:55 EST" depends-on-methods="com.MyFramework_1.testcases.Login_till_ProdSelectionPage.LoginLinkTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Login_till_ProdSelectionPage.ipConsolidation()[pri:4, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@1afd44cb] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Login_till_ProdSelectionPage.ipConsolidation()[pri:4, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@1afd44cb] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ipConsolidation -->
-        <test-method signature="Product_addition()[pri:5, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@63a65a25]" started-at="2020-11-19T15:00:28 EST" name="Product_addition" finished-at="2020-11-19T15:30:28 EST" depends-on-methods="com.MyFramework_1.testcases.Login_till_ProdSelectionPage.ipConsolidation" duration-ms="1799970" status="PASS">
+        <test-method signature="Product_addition()[pri:5, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@1afd44cb]" started-at="2020-11-20T19:32:55 EST" name="Product_addition" finished-at="2020-11-20T19:32:55 EST" depends-on-methods="com.MyFramework_1.testcases.Login_till_ProdSelectionPage.ipConsolidation" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Login_till_ProdSelectionPage.Product_addition()[pri:5, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@1afd44cb] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Login_till_ProdSelectionPage.Product_addition()[pri:5, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@1afd44cb] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Product_addition -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@63a65a25]" started-at="2020-11-19T15:30:28 EST" name="teardown" finished-at="2020-11-19T15:30:31 EST" duration-ms="3157" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@1afd44cb]" started-at="2020-11-20T19:32:55 EST" name="teardown" finished-at="2020-11-20T19:33:48 EST" duration-ms="53026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
