@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/2</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Nov 20 19:32:11 EST 2020</td>
+<td>Started on:</td><td>Sat Nov 21 17:12:25 EST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>97 seconds (97135 ms)</td>
+<tr><td>Total time:</td><td>49 seconds (49874 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,17 +75,10 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.MyFramework_1.testcases.Login_till_ProdSelectionPage.LoginLinkTest()'><b>LoginLinkTest</b><br>Test class: com.MyFramework_1.testcases.Login_till_ProdSelectionPage</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name=&apos;username&apos;] (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-A4T63ADS&apos;, ip: &apos;9.102.38.180&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\NAGARA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63701}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: a84c47c93b0f3129cc0fb9b2f6b32d81
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.MyFramework_1baseclasses.TestBase.wait_base(TestBase.java:140)
-	at com.MyFramework_1.testcases.Login_till_ProdSelectionPage.LoginLinkTest(Login_till_ProdSelectionPage.java:115)
+<td title='com.MyFramework_1.testcases.Login_till_ProdSelectionPage.ipConsolidation()'><b>ipConsolidation</b><br>Test class: com.MyFramework_1.testcases.Login_till_ProdSelectionPage</td>
+<td><div><pre>java.lang.NullPointerException: Cannot read the array length because &quot;ipFiles&quot; is null
+	at com.MyFramework_1.pages.inputConsolPOM.WeedOut(inputConsolPOM.java:711)
+	at com.MyFramework_1.testcases.Login_till_ProdSelectionPage.ipConsolidation(Login_till_ProdSelectionPage.java:281)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -114,17 +107,10 @@ Session ID: a84c47c93b0f3129cc0fb9b2f6b32d81
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1441410416", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1441410416'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name=&apos;username&apos;] (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-A4T63ADS&apos;, ip: &apos;9.102.38.180&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\NAGARA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63701}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: a84c47c93b0f3129cc0fb9b2f6b32d81
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.MyFramework_1baseclasses.TestBase.wait_base(TestBase.java:140)
-	at com.MyFramework_1.testcases.Login_till_ProdSelectionPage.LoginLinkTest(Login_till_ProdSelectionPage.java:115)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1921012072", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1921012072'><pre>java.lang.NullPointerException: Cannot read the array length because &quot;ipFiles&quot; is null
+	at com.MyFramework_1.pages.inputConsolPOM.WeedOut(inputConsolPOM.java:711)
+	at com.MyFramework_1.testcases.Login_till_ProdSelectionPage.ipConsolidation(Login_till_ProdSelectionPage.java:281)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -154,8 +140,21 @@ Session ID: a84c47c93b0f3129cc0fb9b2f6b32d81
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>30</td>
-<td>com.MyFramework_1.testcases.Login_till_ProdSelectionPage@1afd44cb</td></tr>
+<td>5</td>
+<td>com.MyFramework_1.testcases.Login_till_ProdSelectionPage@1b1426f4</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.MyFramework_1.testcases.Login_till_ProdSelectionPage.LoginLinkTest()'><b>LoginLinkTest</b><br>Test class: com.MyFramework_1.testcases.Login_till_ProdSelectionPage</td>
+<td></td>
+<td>33</td>
+<td>com.MyFramework_1.testcases.Login_till_ProdSelectionPage@1b1426f4</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -166,7 +165,7 @@ Session ID: a84c47c93b0f3129cc0fb9b2f6b32d81
 </tr>
 <tr>
 <td title='com.MyFramework_1.testcases.Login_till_ProdSelectionPage.Product_addition()'><b>Product_addition</b><br>Test class: com.MyFramework_1.testcases.Login_till_ProdSelectionPage</td>
-<td><div><pre>java.lang.Throwable: Method Login_till_ProdSelectionPage.Product_addition()[pri:5, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@1afd44cb] depends on not successfully finished methods
+<td><div><pre>java.lang.Throwable: Method Login_till_ProdSelectionPage.Product_addition()[pri:5, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@1b1426f4] depends on not successfully finished methods
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -186,54 +185,8 @@ Session ID: a84c47c93b0f3129cc0fb9b2f6b32d81
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1275011461", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1275011461'><pre>java.lang.Throwable: Method Login_till_ProdSelectionPage.Product_addition()[pri:5, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@1afd44cb] depends on not successfully finished methods
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-	at org.testng.TestNG.runSuites(TestNG.java:1039)
-	at org.testng.TestNG.run(TestNG.java:1007)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.MyFramework_1.testcases.Login_till_ProdSelectionPage@1afd44cb</td></tr>
-<tr>
-<td title='com.MyFramework_1.testcases.Login_till_ProdSelectionPage.ipConsolidation()'><b>ipConsolidation</b><br>Test class: com.MyFramework_1.testcases.Login_till_ProdSelectionPage</td>
-<td><div><pre>java.lang.Throwable: Method Login_till_ProdSelectionPage.ipConsolidation()[pri:4, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@1afd44cb] depends on not successfully finished methods
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-	at org.testng.TestNG.runSuites(TestNG.java:1039)
-	at org.testng.TestNG.run(TestNG.java:1007)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1862900975", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1862900975'><pre>java.lang.Throwable: Method Login_till_ProdSelectionPage.ipConsolidation()[pri:4, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@1afd44cb] depends on not successfully finished methods
+</pre></div><a href='#' onClick='toggleBox("stack-trace670153696", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace670153696'><pre>java.lang.Throwable: Method Login_till_ProdSelectionPage.Product_addition()[pri:5, instance:com.MyFramework_1.testcases.Login_till_ProdSelectionPage@1b1426f4] depends on not successfully finished methods
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -255,7 +208,7 @@ Session ID: a84c47c93b0f3129cc0fb9b2f6b32d81
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.MyFramework_1.testcases.Login_till_ProdSelectionPage@1afd44cb</td></tr>
+<td>com.MyFramework_1.testcases.Login_till_ProdSelectionPage@1b1426f4</td></tr>
 </table><p>
 </body>
 </html>

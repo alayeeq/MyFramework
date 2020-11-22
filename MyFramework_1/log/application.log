@@ -1373,3 +1373,1414 @@
 2020-11-20 19:32:55,956  INFO [main] Login_till_ProdSelectionPage:72 - After class starts
 2020-11-20 19:32:55,957  INFO [main] Login_till_ProdSelectionPage:73 - Critical Flag -->true
 2020-11-20 19:32:55,957  INFO [main] Login_till_ProdSelectionPage:80 - Batch Completed
+2020-11-21 17:12:33,199  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 17:12:34,777  INFO [main] Login_till_ProdSelectionPage:100 - W3 sign On Method is requested - w3id Credentials method is selected
+2020-11-21 17:12:34,891  INFO [main] Login_till_ProdSelectionPage:118 - UserID is enterrerd
+2020-11-21 17:12:34,975  INFO [main] Login_till_ProdSelectionPage:122 - Pwd is enterrerd
+2020-11-21 17:12:36,464  INFO [main] Login_till_ProdSelectionPage:124 - LoginButton is clicked
+2020-11-21 17:13:06,586  INFO [main] Login_till_ProdSelectionPage:142 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-21 17:13:06,603  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 17:13:12,288  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 17:13:12,288  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 17:13:12,288  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 17:13:12,289  INFO [main] Login_till_ProdSelectionPage:857 - Input Folder does NOT Exist :C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 17:13:12,289  INFO [main] Login_till_ProdSelectionPage:710 - Weed out method init 
+2020-11-21 17:13:12,296  INFO [main] Login_till_ProdSelectionPage:72 - After class starts
+2020-11-21 17:13:12,297  INFO [main] Login_till_ProdSelectionPage:73 - Critical Flag -->true
+2020-11-21 17:13:12,297  INFO [main] Login_till_ProdSelectionPage:80 - Batch Completed
+2020-11-21 17:14:44,860  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 17:14:46,609  INFO [main] Login_till_ProdSelectionPage:100 - W3 sign On Method is requested - w3id Credentials method is selected
+2020-11-21 17:14:46,697  INFO [main] Login_till_ProdSelectionPage:118 - UserID is enterrerd
+2020-11-21 17:14:46,759  INFO [main] Login_till_ProdSelectionPage:122 - Pwd is enterrerd
+2020-11-21 17:14:48,533  INFO [main] Login_till_ProdSelectionPage:124 - LoginButton is clicked
+2020-11-21 17:15:18,736  INFO [main] Login_till_ProdSelectionPage:142 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-21 17:15:18,748  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 17:15:24,594  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 17:15:24,594  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 17:15:24,594  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 17:15:24,595  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:15:24,595  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:15:24,595  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:15:24,595  INFO [main] Login_till_ProdSelectionPage:710 - Weed out method init 
+2020-11-21 17:15:24,595  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-21 17:15:24,601  INFO [main] Login_till_ProdSelectionPage:557 - 11/21/2020 17:15:24
+2020-11-21 17:15:24,603  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 17:15:24,604  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 17:15:24,605  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:15:24,606  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:15:24,606  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:15:25,239  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 35
+2020-11-21 17:15:25,436  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 17:15:25,438  INFO [main] Login_till_ProdSelectionPage:173 - 01205Q
+2020-11-21 17:15:25,439  INFO [main] Login_till_ProdSelectionPage:181 - Rajasekaran Periasamy
+2020-11-21 17:15:25,439  INFO [main] Login_till_ProdSelectionPage:189 - Apt # 204, 144 Galway Drive
+2020-11-21 17:15:25,440  INFO [main] Login_till_ProdSelectionPage:198 - Mooresville
+2020-11-21 17:15:25,440  INFO [main] Login_till_ProdSelectionPage:206 - NC
+2020-11-21 17:15:25,441  INFO [main] Login_till_ProdSelectionPage:214 - 28117-5558
+2020-11-21 17:15:25,441  INFO [main] Login_till_ProdSelectionPage:238 - raperias@in.ibm.com
+2020-11-21 17:15:25,447  INFO [main] Login_till_ProdSelectionPage:246 - 4693860871
+2020-11-21 17:15:25,448  INFO [main] Login_till_ProdSelectionPage:254 - Vamsi M Thirumala
+2020-11-21 17:15:25,449  INFO [main] Login_till_ProdSelectionPage:262 - Vamsi M Thirumala1/India/IBM
+2020-11-21 17:15:25,449  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-21 17:15:25,450  INFO [main] Login_till_ProdSelectionPage:287 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 17:15:25,460  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:15:25,460  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:15:25,461  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:15:25,462  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:15:25,708  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 36
+2020-11-21 17:15:25,807  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 17:15:25,807  INFO [main] Login_till_ProdSelectionPage:173 - 073574
+2020-11-21 17:15:25,807  INFO [main] Login_till_ProdSelectionPage:181 - Farid Ahmad
+2020-11-21 17:15:25,808  INFO [main] Login_till_ProdSelectionPage:189 - 2106 Lakeview Drive
+2020-11-21 17:15:25,808  INFO [main] Login_till_ProdSelectionPage:198 - Parlin
+2020-11-21 17:15:25,808  INFO [main] Login_till_ProdSelectionPage:206 - NJ
+2020-11-21 17:15:25,808  INFO [main] Login_till_ProdSelectionPage:214 - 08859-2252
+2020-11-21 17:15:25,808  INFO [main] Login_till_ProdSelectionPage:238 - fariahma@in.ibm.com
+2020-11-21 17:15:25,809  INFO [main] Login_till_ProdSelectionPage:246 - 732 397 3266
+2020-11-21 17:15:25,809  INFO [main] Login_till_ProdSelectionPage:254 - Phani Kiran
+2020-11-21 17:15:25,809  INFO [main] Login_till_ProdSelectionPage:262 - phanikiran@in.ibm.com
+2020-11-21 17:15:25,810  INFO [main] Login_till_ProdSelectionPage:287 - Apple Magic Keyboard - keyboard - US
+2020-11-21 17:15:25,813  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:15:25,813  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:15:25,814  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:15:25,814  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:15:25,927  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 37
+2020-11-21 17:15:26,033  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 17:15:26,033  INFO [main] Login_till_ProdSelectionPage:173 - 018594
+2020-11-21 17:15:26,034  INFO [main] Login_till_ProdSelectionPage:181 - HILLOL MUKHERJEE
+2020-11-21 17:15:26,034  INFO [main] Login_till_ProdSelectionPage:189 - 2330 Pleasant Hill Rd. Apt 20
+2020-11-21 17:15:26,034  INFO [main] Login_till_ProdSelectionPage:198 - Pleasant Hill
+2020-11-21 17:15:26,035  INFO [main] Login_till_ProdSelectionPage:206 - CA
+2020-11-21 17:15:26,036  INFO [main] Login_till_ProdSelectionPage:214 - 94523-3160
+2020-11-21 17:15:26,038  INFO [main] Login_till_ProdSelectionPage:238 - hilmukhe@in.ibm.com
+2020-11-21 17:15:26,039  INFO [main] Login_till_ProdSelectionPage:246 - 925-914-7904
+2020-11-21 17:15:26,040  INFO [main] Login_till_ProdSelectionPage:254 - JOYJIT BOSE
+2020-11-21 17:15:26,040  INFO [main] Login_till_ProdSelectionPage:262 - joyjbose@in.ibm.com
+2020-11-21 17:15:26,040  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-21 17:15:26,041  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-21 17:15:26,045  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:15:26,045  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:15:26,046  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:15:26,047  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:15:26,137  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-21 17:15:29,163  INFO [main] Login_till_ProdSelectionPage:81 - Page Loaded
+2020-11-21 17:15:29,831  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 17:15:29,912  INFO [main] Login_till_ProdSelectionPage:311 - 38
+2020-11-21 17:15:29,913  INFO [main] Login_till_ProdSelectionPage:320 - EE 1 Started
+2020-11-21 17:15:29,953  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-21 17:15:29,985  INFO [main] Login_till_ProdSelectionPage:324 - EE 1 Started
+2020-11-21 17:15:33,015  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 17:15:34,435  INFO [main] Login_till_ProdSelectionPage:72 - After class starts
+2020-11-21 17:15:34,435  INFO [main] Login_till_ProdSelectionPage:73 - Critical Flag -->false
+2020-11-21 17:15:34,435  INFO [main] Login_till_ProdSelectionPage:76 - Batch Restarts
+2020-11-21 17:15:41,280  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 17:15:42,836  INFO [main] Login_till_ProdSelectionPage:100 - W3 sign On Method is requested - w3id Credentials method is selected
+2020-11-21 17:15:42,914  INFO [main] Login_till_ProdSelectionPage:118 - UserID is enterrerd
+2020-11-21 17:15:42,975  INFO [main] Login_till_ProdSelectionPage:122 - Pwd is enterrerd
+2020-11-21 17:15:44,618  INFO [main] Login_till_ProdSelectionPage:124 - LoginButton is clicked
+2020-11-21 17:16:14,912  INFO [main] Login_till_ProdSelectionPage:142 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-21 17:16:14,919  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 17:16:20,264  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 17:16:20,264  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 17:16:20,264  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 17:16:20,265  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:16:20,265  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:16:20,265  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:16:20,265  INFO [main] Login_till_ProdSelectionPage:710 - Weed out method init 
+2020-11-21 17:16:20,265  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-21 17:16:20,265  INFO [main] Login_till_ProdSelectionPage:557 - 11/21/2020 17:16:20
+2020-11-21 17:16:20,265  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 17:16:20,265  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 17:16:20,266  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:16:20,266  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:16:20,266  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:16:20,297  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 38
+2020-11-21 17:16:20,350  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 17:16:20,351  INFO [main] Login_till_ProdSelectionPage:173 - 01205Q
+2020-11-21 17:16:20,351  INFO [main] Login_till_ProdSelectionPage:181 - Rajasekaran Periasamy
+2020-11-21 17:16:20,352  INFO [main] Login_till_ProdSelectionPage:189 - Apt # 204, 144 Galway Drive
+2020-11-21 17:16:20,352  INFO [main] Login_till_ProdSelectionPage:198 - Mooresville
+2020-11-21 17:16:20,352  INFO [main] Login_till_ProdSelectionPage:206 - NC
+2020-11-21 17:16:20,352  INFO [main] Login_till_ProdSelectionPage:214 - 28117-5558
+2020-11-21 17:16:20,352  INFO [main] Login_till_ProdSelectionPage:238 - raperias@in.ibm.com
+2020-11-21 17:16:20,352  INFO [main] Login_till_ProdSelectionPage:246 - 4693860871
+2020-11-21 17:16:20,353  INFO [main] Login_till_ProdSelectionPage:254 - Vamsi M Thirumala
+2020-11-21 17:16:20,353  INFO [main] Login_till_ProdSelectionPage:262 - Vamsi M Thirumala1/India/IBM
+2020-11-21 17:16:20,353  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-21 17:16:20,353  INFO [main] Login_till_ProdSelectionPage:287 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 17:16:20,355  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:16:20,356  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:16:20,356  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:16:20,360  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:16:20,414  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 39
+2020-11-21 17:16:20,463  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 17:16:20,464  INFO [main] Login_till_ProdSelectionPage:173 - 073574
+2020-11-21 17:16:20,464  INFO [main] Login_till_ProdSelectionPage:181 - Farid Ahmad
+2020-11-21 17:16:20,464  INFO [main] Login_till_ProdSelectionPage:189 - 2106 Lakeview Drive
+2020-11-21 17:16:20,464  INFO [main] Login_till_ProdSelectionPage:198 - Parlin
+2020-11-21 17:16:20,464  INFO [main] Login_till_ProdSelectionPage:206 - NJ
+2020-11-21 17:16:20,464  INFO [main] Login_till_ProdSelectionPage:214 - 08859-2252
+2020-11-21 17:16:20,464  INFO [main] Login_till_ProdSelectionPage:238 - fariahma@in.ibm.com
+2020-11-21 17:16:20,464  INFO [main] Login_till_ProdSelectionPage:246 - 732 397 3266
+2020-11-21 17:16:20,465  INFO [main] Login_till_ProdSelectionPage:254 - Phani Kiran
+2020-11-21 17:16:20,465  INFO [main] Login_till_ProdSelectionPage:262 - phanikiran@in.ibm.com
+2020-11-21 17:16:20,465  INFO [main] Login_till_ProdSelectionPage:287 - Apple Magic Keyboard - keyboard - US
+2020-11-21 17:16:20,468  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:16:20,468  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:16:20,469  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:16:20,470  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:16:20,523  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 40
+2020-11-21 17:16:20,578  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 17:16:20,579  INFO [main] Login_till_ProdSelectionPage:173 - 018594
+2020-11-21 17:16:20,579  INFO [main] Login_till_ProdSelectionPage:181 - HILLOL MUKHERJEE
+2020-11-21 17:16:20,579  INFO [main] Login_till_ProdSelectionPage:189 - 2330 Pleasant Hill Rd. Apt 20
+2020-11-21 17:16:20,579  INFO [main] Login_till_ProdSelectionPage:198 - Pleasant Hill
+2020-11-21 17:16:20,579  INFO [main] Login_till_ProdSelectionPage:206 - CA
+2020-11-21 17:16:20,579  INFO [main] Login_till_ProdSelectionPage:214 - 94523-3160
+2020-11-21 17:16:20,579  INFO [main] Login_till_ProdSelectionPage:238 - hilmukhe@in.ibm.com
+2020-11-21 17:16:20,579  INFO [main] Login_till_ProdSelectionPage:246 - 925-914-7904
+2020-11-21 17:16:20,579  INFO [main] Login_till_ProdSelectionPage:254 - JOYJIT BOSE
+2020-11-21 17:16:20,579  INFO [main] Login_till_ProdSelectionPage:262 - joyjbose@in.ibm.com
+2020-11-21 17:16:20,579  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-21 17:16:20,580  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-21 17:16:20,581  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:16:20,581  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:16:20,584  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:16:20,586  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:16:20,613  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-21 17:16:23,655  INFO [main] Login_till_ProdSelectionPage:81 - Page Loaded
+2020-11-21 17:16:24,273  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 17:16:24,316  INFO [main] Login_till_ProdSelectionPage:311 - 41
+2020-11-21 17:16:24,316  INFO [main] Login_till_ProdSelectionPage:320 - EE 1 Started
+2020-11-21 17:16:24,353  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-21 17:16:24,382  INFO [main] Login_till_ProdSelectionPage:324 - EE 1 Started
+2020-11-21 17:16:27,428  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 17:45:29,708  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 17:45:31,042  INFO [main] Login_till_ProdSelectionPage:100 - W3 sign On Method is requested - w3id Credentials method is selected
+2020-11-21 17:45:31,126  INFO [main] Login_till_ProdSelectionPage:118 - UserID is enterrerd
+2020-11-21 17:45:31,189  INFO [main] Login_till_ProdSelectionPage:122 - Pwd is enterrerd
+2020-11-21 17:45:32,471  INFO [main] Login_till_ProdSelectionPage:124 - LoginButton is clicked
+2020-11-21 17:46:02,519  INFO [main] Login_till_ProdSelectionPage:142 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-21 17:46:02,531  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 17:46:07,330  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 17:46:07,331  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 17:46:07,331  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 17:46:07,331  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:46:07,331  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:46:07,331  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:46:07,331  INFO [main] Login_till_ProdSelectionPage:710 - Weed out method init 
+2020-11-21 17:46:07,332  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-21 17:46:07,341  INFO [main] Login_till_ProdSelectionPage:557 - 11/21/2020 17:46:07
+2020-11-21 17:46:07,341  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 17:46:07,342  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 17:46:07,342  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:46:07,342  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:46:07,342  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:46:07,832  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 41
+2020-11-21 17:46:08,076  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 17:46:08,078  INFO [main] Login_till_ProdSelectionPage:173 - 01205Q
+2020-11-21 17:46:08,078  INFO [main] Login_till_ProdSelectionPage:181 - Rajasekaran Periasamy
+2020-11-21 17:46:08,078  INFO [main] Login_till_ProdSelectionPage:189 - Apt # 204, 144 Galway Drive
+2020-11-21 17:46:08,079  INFO [main] Login_till_ProdSelectionPage:198 - Mooresville
+2020-11-21 17:46:08,080  INFO [main] Login_till_ProdSelectionPage:206 - NC
+2020-11-21 17:46:08,080  INFO [main] Login_till_ProdSelectionPage:214 - 28117-5558
+2020-11-21 17:46:08,080  INFO [main] Login_till_ProdSelectionPage:238 - raperias@in.ibm.com
+2020-11-21 17:46:08,085  INFO [main] Login_till_ProdSelectionPage:246 - 4693860871
+2020-11-21 17:46:08,085  INFO [main] Login_till_ProdSelectionPage:254 - Vamsi M Thirumala
+2020-11-21 17:46:08,086  INFO [main] Login_till_ProdSelectionPage:262 - Vamsi M Thirumala1/India/IBM
+2020-11-21 17:46:08,086  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-21 17:46:08,086  INFO [main] Login_till_ProdSelectionPage:287 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 17:46:08,093  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:46:08,093  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:46:08,095  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:46:08,096  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:46:08,296  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 42
+2020-11-21 17:46:08,401  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 17:46:08,401  INFO [main] Login_till_ProdSelectionPage:173 - 073574
+2020-11-21 17:46:08,402  INFO [main] Login_till_ProdSelectionPage:181 - Farid Ahmad
+2020-11-21 17:46:08,402  INFO [main] Login_till_ProdSelectionPage:189 - 2106 Lakeview Drive
+2020-11-21 17:46:08,402  INFO [main] Login_till_ProdSelectionPage:198 - Parlin
+2020-11-21 17:46:08,402  INFO [main] Login_till_ProdSelectionPage:206 - NJ
+2020-11-21 17:46:08,403  INFO [main] Login_till_ProdSelectionPage:214 - 08859-2252
+2020-11-21 17:46:08,403  INFO [main] Login_till_ProdSelectionPage:238 - fariahma@in.ibm.com
+2020-11-21 17:46:08,403  INFO [main] Login_till_ProdSelectionPage:246 - 732 397 3266
+2020-11-21 17:46:08,403  INFO [main] Login_till_ProdSelectionPage:254 - Phani Kiran
+2020-11-21 17:46:08,404  INFO [main] Login_till_ProdSelectionPage:262 - phanikiran@in.ibm.com
+2020-11-21 17:46:08,404  INFO [main] Login_till_ProdSelectionPage:287 - Apple Magic Keyboard - keyboard - US
+2020-11-21 17:46:08,408  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:46:08,409  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:46:08,409  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:46:08,410  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:46:08,477  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 43
+2020-11-21 17:46:08,551  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 17:46:08,551  INFO [main] Login_till_ProdSelectionPage:173 - 018594
+2020-11-21 17:46:08,551  INFO [main] Login_till_ProdSelectionPage:181 - HILLOL MUKHERJEE
+2020-11-21 17:46:08,552  INFO [main] Login_till_ProdSelectionPage:189 - 2330 Pleasant Hill Rd. Apt 20
+2020-11-21 17:46:08,552  INFO [main] Login_till_ProdSelectionPage:198 - Pleasant Hill
+2020-11-21 17:46:08,552  INFO [main] Login_till_ProdSelectionPage:206 - CA
+2020-11-21 17:46:08,552  INFO [main] Login_till_ProdSelectionPage:214 - 94523-3160
+2020-11-21 17:46:08,552  INFO [main] Login_till_ProdSelectionPage:238 - hilmukhe@in.ibm.com
+2020-11-21 17:46:08,552  INFO [main] Login_till_ProdSelectionPage:246 - 925-914-7904
+2020-11-21 17:46:08,553  INFO [main] Login_till_ProdSelectionPage:254 - JOYJIT BOSE
+2020-11-21 17:46:08,553  INFO [main] Login_till_ProdSelectionPage:262 - joyjbose@in.ibm.com
+2020-11-21 17:46:08,553  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-21 17:46:08,553  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-21 17:46:08,556  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:46:08,556  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:46:08,557  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:46:08,558  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:46:08,592  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-21 17:46:11,700  INFO [main] Login_till_ProdSelectionPage:81 - Page Loaded
+2020-11-21 17:46:13,549  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 17:46:13,633  INFO [main] Login_till_ProdSelectionPage:311 - 44
+2020-11-21 17:46:13,634  INFO [main] Login_till_ProdSelectionPage:320 - EE 1 Started
+2020-11-21 17:46:13,670  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-21 17:46:13,718  INFO [main] Login_till_ProdSelectionPage:324 - EE 1 Started
+2020-11-21 17:46:16,748  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 17:46:18,165  INFO [main] Login_till_ProdSelectionPage:72 - After class starts
+2020-11-21 17:46:18,165  INFO [main] Login_till_ProdSelectionPage:73 - Critical Flag -->false
+2020-11-21 17:46:18,165  INFO [main] Login_till_ProdSelectionPage:76 - Batch Restarts
+2020-11-21 17:46:26,094  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 17:46:27,689  INFO [main] Login_till_ProdSelectionPage:100 - W3 sign On Method is requested - w3id Credentials method is selected
+2020-11-21 17:46:27,772  INFO [main] Login_till_ProdSelectionPage:118 - UserID is enterrerd
+2020-11-21 17:46:27,834  INFO [main] Login_till_ProdSelectionPage:122 - Pwd is enterrerd
+2020-11-21 17:46:29,353  INFO [main] Login_till_ProdSelectionPage:124 - LoginButton is clicked
+2020-11-21 17:46:59,473  INFO [main] Login_till_ProdSelectionPage:142 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-21 17:46:59,482  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 17:47:04,192  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 17:47:04,192  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 17:47:04,192  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 17:47:04,192  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:47:04,192  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:47:04,192  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:47:04,192  INFO [main] Login_till_ProdSelectionPage:710 - Weed out method init 
+2020-11-21 17:47:04,192  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-21 17:47:04,193  INFO [main] Login_till_ProdSelectionPage:557 - 11/21/2020 17:47:04
+2020-11-21 17:47:04,193  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 17:47:04,193  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 17:47:04,193  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:47:04,193  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:47:04,193  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:47:04,226  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 44
+2020-11-21 17:47:04,280  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 17:47:04,281  INFO [main] Login_till_ProdSelectionPage:173 - 01205Q
+2020-11-21 17:47:04,281  INFO [main] Login_till_ProdSelectionPage:181 - Rajasekaran Periasamy
+2020-11-21 17:47:04,281  INFO [main] Login_till_ProdSelectionPage:189 - Apt # 204, 144 Galway Drive
+2020-11-21 17:47:04,281  INFO [main] Login_till_ProdSelectionPage:198 - Mooresville
+2020-11-21 17:47:04,281  INFO [main] Login_till_ProdSelectionPage:206 - NC
+2020-11-21 17:47:04,281  INFO [main] Login_till_ProdSelectionPage:214 - 28117-5558
+2020-11-21 17:47:04,281  INFO [main] Login_till_ProdSelectionPage:238 - raperias@in.ibm.com
+2020-11-21 17:47:04,282  INFO [main] Login_till_ProdSelectionPage:246 - 4693860871
+2020-11-21 17:47:04,282  INFO [main] Login_till_ProdSelectionPage:254 - Vamsi M Thirumala
+2020-11-21 17:47:04,282  INFO [main] Login_till_ProdSelectionPage:262 - Vamsi M Thirumala1/India/IBM
+2020-11-21 17:47:04,282  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-21 17:47:04,282  INFO [main] Login_till_ProdSelectionPage:287 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 17:47:04,284  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:47:04,284  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:47:04,284  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:47:04,287  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:47:04,346  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 45
+2020-11-21 17:47:04,395  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 17:47:04,395  INFO [main] Login_till_ProdSelectionPage:173 - 073574
+2020-11-21 17:47:04,396  INFO [main] Login_till_ProdSelectionPage:181 - Farid Ahmad
+2020-11-21 17:47:04,396  INFO [main] Login_till_ProdSelectionPage:189 - 2106 Lakeview Drive
+2020-11-21 17:47:04,396  INFO [main] Login_till_ProdSelectionPage:198 - Parlin
+2020-11-21 17:47:04,396  INFO [main] Login_till_ProdSelectionPage:206 - NJ
+2020-11-21 17:47:04,396  INFO [main] Login_till_ProdSelectionPage:214 - 08859-2252
+2020-11-21 17:47:04,396  INFO [main] Login_till_ProdSelectionPage:238 - fariahma@in.ibm.com
+2020-11-21 17:47:04,396  INFO [main] Login_till_ProdSelectionPage:246 - 732 397 3266
+2020-11-21 17:47:04,396  INFO [main] Login_till_ProdSelectionPage:254 - Phani Kiran
+2020-11-21 17:47:04,397  INFO [main] Login_till_ProdSelectionPage:262 - phanikiran@in.ibm.com
+2020-11-21 17:47:04,397  INFO [main] Login_till_ProdSelectionPage:287 - Apple Magic Keyboard - keyboard - US
+2020-11-21 17:47:04,399  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:47:04,399  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:47:04,400  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:47:04,400  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:47:04,454  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 46
+2020-11-21 17:47:04,508  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 17:47:04,508  INFO [main] Login_till_ProdSelectionPage:173 - 018594
+2020-11-21 17:47:04,508  INFO [main] Login_till_ProdSelectionPage:181 - HILLOL MUKHERJEE
+2020-11-21 17:47:04,509  INFO [main] Login_till_ProdSelectionPage:189 - 2330 Pleasant Hill Rd. Apt 20
+2020-11-21 17:47:04,509  INFO [main] Login_till_ProdSelectionPage:198 - Pleasant Hill
+2020-11-21 17:47:04,509  INFO [main] Login_till_ProdSelectionPage:206 - CA
+2020-11-21 17:47:04,509  INFO [main] Login_till_ProdSelectionPage:214 - 94523-3160
+2020-11-21 17:47:04,509  INFO [main] Login_till_ProdSelectionPage:238 - hilmukhe@in.ibm.com
+2020-11-21 17:47:04,509  INFO [main] Login_till_ProdSelectionPage:246 - 925-914-7904
+2020-11-21 17:47:04,509  INFO [main] Login_till_ProdSelectionPage:254 - JOYJIT BOSE
+2020-11-21 17:47:04,510  INFO [main] Login_till_ProdSelectionPage:262 - joyjbose@in.ibm.com
+2020-11-21 17:47:04,510  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-21 17:47:04,510  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-21 17:47:04,511  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:47:04,512  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:47:04,512  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:47:04,513  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:47:04,589  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-21 17:47:07,610  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-21 17:47:10,632  INFO [main] Login_till_ProdSelectionPage:81 - Page Loaded
+2020-11-21 17:47:10,682  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 17:47:10,729  INFO [main] Login_till_ProdSelectionPage:311 - 47
+2020-11-21 17:47:10,730  INFO [main] Login_till_ProdSelectionPage:320 - EE 1 Started
+2020-11-21 17:47:10,760  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-21 17:47:10,781  INFO [main] Login_till_ProdSelectionPage:324 - EE 1 Started
+2020-11-21 17:47:13,817  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 17:48:13,959  INFO [main] Login_till_ProdSelectionPage:349 - EE 1 product 1 started for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-21 17:48:37,037  INFO [main] Login_till_ProdSelectionPage:375 - EE 1 product 1 ended for product -->EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-21 17:48:37,037  INFO [main] Login_till_ProdSelectionPage:349 - EE 1 product 2 started for product -->null
+2020-11-21 17:48:37,038  INFO [main] Login_till_ProdSelectionPage:372 - null pointer break
+2020-11-21 17:50:54,303  INFO [main] Login_till_ProdSelectionPage:320 - EE 2 Started
+2020-11-21 17:50:54,326  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467978
+2020-11-21 17:50:54,342  INFO [main] Login_till_ProdSelectionPage:1129 - EE 2 Skipped
+2020-11-21 17:50:54,342  INFO [main] Login_till_ProdSelectionPage:320 - EE 3 Started
+2020-11-21 17:50:54,368  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467984
+2020-11-21 17:50:54,387  INFO [main] Login_till_ProdSelectionPage:1129 - EE 3 Skipped
+2020-11-21 17:50:54,388  INFO [main] Login_till_ProdSelectionPage:320 - EE 4 Started
+2020-11-21 17:50:54,413  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467988
+2020-11-21 17:50:54,427  INFO [main] Login_till_ProdSelectionPage:1129 - EE 4 Skipped
+2020-11-21 17:50:54,427  INFO [main] Login_till_ProdSelectionPage:320 - EE 5 Started
+2020-11-21 17:50:54,455  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467990
+2020-11-21 17:50:54,469  INFO [main] Login_till_ProdSelectionPage:1129 - EE 5 Skipped
+2020-11-21 17:50:54,469  INFO [main] Login_till_ProdSelectionPage:320 - EE 6 Started
+2020-11-21 17:50:54,497  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467998
+2020-11-21 17:50:54,511  INFO [main] Login_till_ProdSelectionPage:1129 - EE 6 Skipped
+2020-11-21 17:50:54,511  INFO [main] Login_till_ProdSelectionPage:320 - EE 7 Started
+2020-11-21 17:50:54,533  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468004
+2020-11-21 17:50:54,546  INFO [main] Login_till_ProdSelectionPage:1129 - EE 7 Skipped
+2020-11-21 17:50:54,547  INFO [main] Login_till_ProdSelectionPage:320 - EE 8 Started
+2020-11-21 17:50:54,566  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468008
+2020-11-21 17:50:54,578  INFO [main] Login_till_ProdSelectionPage:1129 - EE 8 Skipped
+2020-11-21 17:50:54,578  INFO [main] Login_till_ProdSelectionPage:320 - EE 9 Started
+2020-11-21 17:50:54,600  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468012
+2020-11-21 17:50:54,612  INFO [main] Login_till_ProdSelectionPage:1129 - EE 9 Skipped
+2020-11-21 17:50:54,612  INFO [main] Login_till_ProdSelectionPage:320 - EE 10 Started
+2020-11-21 17:50:54,636  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468017
+2020-11-21 17:50:54,648  INFO [main] Login_till_ProdSelectionPage:1129 - EE 10 Skipped
+2020-11-21 17:50:54,648  INFO [main] Login_till_ProdSelectionPage:320 - EE 11 Started
+2020-11-21 17:50:54,668  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-21 17:50:54,679  INFO [main] Login_till_ProdSelectionPage:324 - EE 11 Started
+2020-11-21 17:50:57,739  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 17:50:58,677  INFO [main] Login_till_ProdSelectionPage:72 - After class starts
+2020-11-21 17:50:58,677  INFO [main] Login_till_ProdSelectionPage:73 - Critical Flag -->false
+2020-11-21 17:50:58,678  INFO [main] Login_till_ProdSelectionPage:76 - Batch Restarts
+2020-11-21 17:51:04,843  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 17:51:06,282  INFO [main] Login_till_ProdSelectionPage:100 - W3 sign On Method is requested - w3id Credentials method is selected
+2020-11-21 17:51:06,358  INFO [main] Login_till_ProdSelectionPage:118 - UserID is enterrerd
+2020-11-21 17:51:06,418  INFO [main] Login_till_ProdSelectionPage:122 - Pwd is enterrerd
+2020-11-21 17:51:07,886  INFO [main] Login_till_ProdSelectionPage:124 - LoginButton is clicked
+2020-11-21 17:51:38,159  INFO [main] Login_till_ProdSelectionPage:142 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-21 17:51:38,166  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 17:51:43,580  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 17:51:43,580  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 17:51:43,581  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 17:51:43,581  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:51:43,581  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:51:43,581  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:51:43,581  INFO [main] Login_till_ProdSelectionPage:710 - Weed out method init 
+2020-11-21 17:51:43,581  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-21 17:51:43,581  INFO [main] Login_till_ProdSelectionPage:557 - 11/21/2020 17:51:43
+2020-11-21 17:51:43,581  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 17:51:43,581  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 17:51:43,581  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:51:43,582  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:51:43,582  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:51:43,602  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 47
+2020-11-21 17:51:43,641  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 17:51:43,641  INFO [main] Login_till_ProdSelectionPage:173 - 01205Q
+2020-11-21 17:51:43,642  INFO [main] Login_till_ProdSelectionPage:181 - Rajasekaran Periasamy
+2020-11-21 17:51:43,642  INFO [main] Login_till_ProdSelectionPage:189 - Apt # 204, 144 Galway Drive
+2020-11-21 17:51:43,642  INFO [main] Login_till_ProdSelectionPage:198 - Mooresville
+2020-11-21 17:51:43,642  INFO [main] Login_till_ProdSelectionPage:206 - NC
+2020-11-21 17:51:43,642  INFO [main] Login_till_ProdSelectionPage:214 - 28117-5558
+2020-11-21 17:51:43,642  INFO [main] Login_till_ProdSelectionPage:238 - raperias@in.ibm.com
+2020-11-21 17:51:43,642  INFO [main] Login_till_ProdSelectionPage:246 - 4693860871
+2020-11-21 17:51:43,642  INFO [main] Login_till_ProdSelectionPage:254 - Vamsi M Thirumala
+2020-11-21 17:51:43,642  INFO [main] Login_till_ProdSelectionPage:262 - Vamsi M Thirumala1/India/IBM
+2020-11-21 17:51:43,642  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-21 17:51:43,643  INFO [main] Login_till_ProdSelectionPage:287 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 17:51:43,644  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:51:43,645  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:51:43,645  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:51:43,647  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:51:43,684  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 48
+2020-11-21 17:51:43,722  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 17:51:43,723  INFO [main] Login_till_ProdSelectionPage:173 - 073574
+2020-11-21 17:51:43,723  INFO [main] Login_till_ProdSelectionPage:181 - Farid Ahmad
+2020-11-21 17:51:43,723  INFO [main] Login_till_ProdSelectionPage:189 - 2106 Lakeview Drive
+2020-11-21 17:51:43,723  INFO [main] Login_till_ProdSelectionPage:198 - Parlin
+2020-11-21 17:51:43,723  INFO [main] Login_till_ProdSelectionPage:206 - NJ
+2020-11-21 17:51:43,723  INFO [main] Login_till_ProdSelectionPage:214 - 08859-2252
+2020-11-21 17:51:43,723  INFO [main] Login_till_ProdSelectionPage:238 - fariahma@in.ibm.com
+2020-11-21 17:51:43,723  INFO [main] Login_till_ProdSelectionPage:246 - 732 397 3266
+2020-11-21 17:51:43,723  INFO [main] Login_till_ProdSelectionPage:254 - Phani Kiran
+2020-11-21 17:51:43,723  INFO [main] Login_till_ProdSelectionPage:262 - phanikiran@in.ibm.com
+2020-11-21 17:51:43,723  INFO [main] Login_till_ProdSelectionPage:287 - Apple Magic Keyboard - keyboard - US
+2020-11-21 17:51:43,724  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:51:43,724  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:51:43,725  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:51:43,725  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:51:43,762  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 49
+2020-11-21 17:51:43,794  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 17:51:43,795  INFO [main] Login_till_ProdSelectionPage:173 - 018594
+2020-11-21 17:51:43,795  INFO [main] Login_till_ProdSelectionPage:181 - HILLOL MUKHERJEE
+2020-11-21 17:51:43,795  INFO [main] Login_till_ProdSelectionPage:189 - 2330 Pleasant Hill Rd. Apt 20
+2020-11-21 17:51:43,795  INFO [main] Login_till_ProdSelectionPage:198 - Pleasant Hill
+2020-11-21 17:51:43,795  INFO [main] Login_till_ProdSelectionPage:206 - CA
+2020-11-21 17:51:43,795  INFO [main] Login_till_ProdSelectionPage:214 - 94523-3160
+2020-11-21 17:51:43,795  INFO [main] Login_till_ProdSelectionPage:238 - hilmukhe@in.ibm.com
+2020-11-21 17:51:43,795  INFO [main] Login_till_ProdSelectionPage:246 - 925-914-7904
+2020-11-21 17:51:43,795  INFO [main] Login_till_ProdSelectionPage:254 - JOYJIT BOSE
+2020-11-21 17:51:43,795  INFO [main] Login_till_ProdSelectionPage:262 - joyjbose@in.ibm.com
+2020-11-21 17:51:43,795  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-21 17:51:43,795  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-21 17:51:43,796  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:51:43,797  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:51:43,797  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:51:43,798  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:51:43,819  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-21 17:51:46,843  INFO [main] Login_till_ProdSelectionPage:81 - Page Loaded
+2020-11-21 17:51:47,466  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 17:51:47,516  INFO [main] Login_till_ProdSelectionPage:311 - 50
+2020-11-21 17:51:47,516  INFO [main] Login_till_ProdSelectionPage:320 - EE 1 Started
+2020-11-21 17:51:47,537  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Failed - Submission. Please check if an entry is submitted
+2020-11-21 17:51:47,551  INFO [main] Login_till_ProdSelectionPage:1129 - EE 1 Skipped
+2020-11-21 17:51:47,551  INFO [main] Login_till_ProdSelectionPage:320 - EE 2 Started
+2020-11-21 17:51:47,573  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467978
+2020-11-21 17:51:47,588  INFO [main] Login_till_ProdSelectionPage:1129 - EE 2 Skipped
+2020-11-21 17:51:47,588  INFO [main] Login_till_ProdSelectionPage:320 - EE 3 Started
+2020-11-21 17:51:47,610  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467984
+2020-11-21 17:51:47,622  INFO [main] Login_till_ProdSelectionPage:1129 - EE 3 Skipped
+2020-11-21 17:51:47,622  INFO [main] Login_till_ProdSelectionPage:320 - EE 4 Started
+2020-11-21 17:51:47,640  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467988
+2020-11-21 17:51:47,652  INFO [main] Login_till_ProdSelectionPage:1129 - EE 4 Skipped
+2020-11-21 17:51:47,652  INFO [main] Login_till_ProdSelectionPage:320 - EE 5 Started
+2020-11-21 17:51:47,671  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467990
+2020-11-21 17:51:47,686  INFO [main] Login_till_ProdSelectionPage:1129 - EE 5 Skipped
+2020-11-21 17:51:47,686  INFO [main] Login_till_ProdSelectionPage:320 - EE 6 Started
+2020-11-21 17:51:47,706  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467998
+2020-11-21 17:51:47,719  INFO [main] Login_till_ProdSelectionPage:1129 - EE 6 Skipped
+2020-11-21 17:51:47,719  INFO [main] Login_till_ProdSelectionPage:320 - EE 7 Started
+2020-11-21 17:51:47,741  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468004
+2020-11-21 17:51:47,753  INFO [main] Login_till_ProdSelectionPage:1129 - EE 7 Skipped
+2020-11-21 17:51:47,753  INFO [main] Login_till_ProdSelectionPage:320 - EE 8 Started
+2020-11-21 17:51:47,773  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468008
+2020-11-21 17:51:47,789  INFO [main] Login_till_ProdSelectionPage:1129 - EE 8 Skipped
+2020-11-21 17:51:47,789  INFO [main] Login_till_ProdSelectionPage:320 - EE 9 Started
+2020-11-21 17:51:47,809  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468012
+2020-11-21 17:51:47,821  INFO [main] Login_till_ProdSelectionPage:1129 - EE 9 Skipped
+2020-11-21 17:51:47,821  INFO [main] Login_till_ProdSelectionPage:320 - EE 10 Started
+2020-11-21 17:51:47,845  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468017
+2020-11-21 17:51:47,857  INFO [main] Login_till_ProdSelectionPage:1129 - EE 10 Skipped
+2020-11-21 17:51:47,857  INFO [main] Login_till_ProdSelectionPage:320 - EE 11 Started
+2020-11-21 17:51:47,876  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-21 17:51:47,887  INFO [main] Login_till_ProdSelectionPage:324 - EE 11 Started
+2020-11-21 17:51:50,956  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 17:52:51,483  INFO [main] Login_till_ProdSelectionPage:349 - EE 11 product 1 started for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 17:53:14,657  INFO [main] Login_till_ProdSelectionPage:375 - EE 11 product 1 ended for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 17:53:14,657  INFO [main] Login_till_ProdSelectionPage:349 - EE 11 product 2 started for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-21 17:53:43,010  INFO [main] Login_till_ProdSelectionPage:375 - EE 11 product 2 ended for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-21 17:53:43,011  INFO [main] Login_till_ProdSelectionPage:349 - EE 11 product 3 started for product -->null
+2020-11-21 17:53:43,011  INFO [main] Login_till_ProdSelectionPage:372 - null pointer break
+2020-11-21 17:55:08,711  INFO [main] Login_till_ProdSelectionPage:320 - EE 12 Started
+2020-11-21 17:55:08,745  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468026
+2020-11-21 17:55:08,757  INFO [main] Login_till_ProdSelectionPage:1129 - EE 12 Skipped
+2020-11-21 17:55:08,757  INFO [main] Login_till_ProdSelectionPage:320 - EE 13 Started
+2020-11-21 17:55:08,776  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-21 17:55:08,786  INFO [main] Login_till_ProdSelectionPage:324 - EE 13 Started
+2020-11-21 17:55:11,828  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 17:57:12,565  INFO [main] Login_till_ProdSelectionPage:72 - After class starts
+2020-11-21 17:57:12,565  INFO [main] Login_till_ProdSelectionPage:73 - Critical Flag -->false
+2020-11-21 17:57:12,565  INFO [main] Login_till_ProdSelectionPage:76 - Batch Restarts
+2020-11-21 17:57:21,072  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 17:57:22,276  INFO [main] Login_till_ProdSelectionPage:100 - W3 sign On Method is requested - w3id Credentials method is selected
+2020-11-21 17:57:22,354  INFO [main] Login_till_ProdSelectionPage:118 - UserID is enterrerd
+2020-11-21 17:57:22,413  INFO [main] Login_till_ProdSelectionPage:122 - Pwd is enterrerd
+2020-11-21 17:57:23,641  INFO [main] Login_till_ProdSelectionPage:124 - LoginButton is clicked
+2020-11-21 17:57:53,668  INFO [main] Login_till_ProdSelectionPage:142 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-21 17:57:53,677  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 17:57:58,115  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 17:57:58,115  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 17:57:58,116  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 17:57:58,116  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:57:58,116  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:57:58,116  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:57:58,116  INFO [main] Login_till_ProdSelectionPage:710 - Weed out method init 
+2020-11-21 17:57:58,116  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-21 17:57:58,116  INFO [main] Login_till_ProdSelectionPage:557 - 11/21/2020 17:57:58
+2020-11-21 17:57:58,117  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 17:57:58,117  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 17:57:58,117  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:57:58,117  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:57:58,117  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:57:58,136  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 50
+2020-11-21 17:57:58,174  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 17:57:58,174  INFO [main] Login_till_ProdSelectionPage:173 - 01205Q
+2020-11-21 17:57:58,174  INFO [main] Login_till_ProdSelectionPage:181 - Rajasekaran Periasamy
+2020-11-21 17:57:58,174  INFO [main] Login_till_ProdSelectionPage:189 - Apt # 204, 144 Galway Drive
+2020-11-21 17:57:58,174  INFO [main] Login_till_ProdSelectionPage:198 - Mooresville
+2020-11-21 17:57:58,174  INFO [main] Login_till_ProdSelectionPage:206 - NC
+2020-11-21 17:57:58,174  INFO [main] Login_till_ProdSelectionPage:214 - 28117-5558
+2020-11-21 17:57:58,175  INFO [main] Login_till_ProdSelectionPage:238 - raperias@in.ibm.com
+2020-11-21 17:57:58,175  INFO [main] Login_till_ProdSelectionPage:246 - 4693860871
+2020-11-21 17:57:58,175  INFO [main] Login_till_ProdSelectionPage:254 - Vamsi M Thirumala
+2020-11-21 17:57:58,175  INFO [main] Login_till_ProdSelectionPage:262 - Vamsi M Thirumala1/India/IBM
+2020-11-21 17:57:58,175  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-21 17:57:58,175  INFO [main] Login_till_ProdSelectionPage:287 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 17:57:58,176  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:57:58,176  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:57:58,177  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:57:58,179  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:57:58,209  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 51
+2020-11-21 17:57:58,248  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 17:57:58,248  INFO [main] Login_till_ProdSelectionPage:173 - 073574
+2020-11-21 17:57:58,248  INFO [main] Login_till_ProdSelectionPage:181 - Farid Ahmad
+2020-11-21 17:57:58,249  INFO [main] Login_till_ProdSelectionPage:189 - 2106 Lakeview Drive
+2020-11-21 17:57:58,249  INFO [main] Login_till_ProdSelectionPage:198 - Parlin
+2020-11-21 17:57:58,249  INFO [main] Login_till_ProdSelectionPage:206 - NJ
+2020-11-21 17:57:58,249  INFO [main] Login_till_ProdSelectionPage:214 - 08859-2252
+2020-11-21 17:57:58,249  INFO [main] Login_till_ProdSelectionPage:238 - fariahma@in.ibm.com
+2020-11-21 17:57:58,249  INFO [main] Login_till_ProdSelectionPage:246 - 732 397 3266
+2020-11-21 17:57:58,249  INFO [main] Login_till_ProdSelectionPage:254 - Phani Kiran
+2020-11-21 17:57:58,249  INFO [main] Login_till_ProdSelectionPage:262 - phanikiran@in.ibm.com
+2020-11-21 17:57:58,249  INFO [main] Login_till_ProdSelectionPage:287 - Apple Magic Keyboard - keyboard - US
+2020-11-21 17:57:58,250  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:57:58,250  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:57:58,251  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:57:58,251  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:57:58,280  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 52
+2020-11-21 17:57:58,316  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 17:57:58,316  INFO [main] Login_till_ProdSelectionPage:173 - 018594
+2020-11-21 17:57:58,316  INFO [main] Login_till_ProdSelectionPage:181 - HILLOL MUKHERJEE
+2020-11-21 17:57:58,316  INFO [main] Login_till_ProdSelectionPage:189 - 2330 Pleasant Hill Rd. Apt 20
+2020-11-21 17:57:58,316  INFO [main] Login_till_ProdSelectionPage:198 - Pleasant Hill
+2020-11-21 17:57:58,317  INFO [main] Login_till_ProdSelectionPage:206 - CA
+2020-11-21 17:57:58,317  INFO [main] Login_till_ProdSelectionPage:214 - 94523-3160
+2020-11-21 17:57:58,317  INFO [main] Login_till_ProdSelectionPage:238 - hilmukhe@in.ibm.com
+2020-11-21 17:57:58,317  INFO [main] Login_till_ProdSelectionPage:246 - 925-914-7904
+2020-11-21 17:57:58,317  INFO [main] Login_till_ProdSelectionPage:254 - JOYJIT BOSE
+2020-11-21 17:57:58,317  INFO [main] Login_till_ProdSelectionPage:262 - joyjbose@in.ibm.com
+2020-11-21 17:57:58,318  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-21 17:57:58,318  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-21 17:57:58,319  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:57:58,319  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:57:58,319  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:57:58,320  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:57:58,339  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-21 17:58:01,442  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-21 17:58:04,459  INFO [main] Login_till_ProdSelectionPage:81 - Page Loaded
+2020-11-21 17:58:04,510  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 17:58:04,543  INFO [main] Login_till_ProdSelectionPage:311 - 53
+2020-11-21 17:58:04,543  INFO [main] Login_till_ProdSelectionPage:320 - EE 1 Started
+2020-11-21 17:58:04,561  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Failed - Submission. Please check if an entry is submitted
+2020-11-21 17:58:04,574  INFO [main] Login_till_ProdSelectionPage:1129 - EE 1 Skipped
+2020-11-21 17:58:04,574  INFO [main] Login_till_ProdSelectionPage:320 - EE 2 Started
+2020-11-21 17:58:04,594  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467978
+2020-11-21 17:58:04,612  INFO [main] Login_till_ProdSelectionPage:1129 - EE 2 Skipped
+2020-11-21 17:58:04,613  INFO [main] Login_till_ProdSelectionPage:320 - EE 3 Started
+2020-11-21 17:58:04,631  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467984
+2020-11-21 17:58:04,642  INFO [main] Login_till_ProdSelectionPage:1129 - EE 3 Skipped
+2020-11-21 17:58:04,642  INFO [main] Login_till_ProdSelectionPage:320 - EE 4 Started
+2020-11-21 17:58:04,661  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467988
+2020-11-21 17:58:04,675  INFO [main] Login_till_ProdSelectionPage:1129 - EE 4 Skipped
+2020-11-21 17:58:04,675  INFO [main] Login_till_ProdSelectionPage:320 - EE 5 Started
+2020-11-21 17:58:04,695  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467990
+2020-11-21 17:58:04,708  INFO [main] Login_till_ProdSelectionPage:1129 - EE 5 Skipped
+2020-11-21 17:58:04,708  INFO [main] Login_till_ProdSelectionPage:320 - EE 6 Started
+2020-11-21 17:58:04,729  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467998
+2020-11-21 17:58:04,739  INFO [main] Login_till_ProdSelectionPage:1129 - EE 6 Skipped
+2020-11-21 17:58:04,740  INFO [main] Login_till_ProdSelectionPage:320 - EE 7 Started
+2020-11-21 17:58:04,757  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468004
+2020-11-21 17:58:04,769  INFO [main] Login_till_ProdSelectionPage:1129 - EE 7 Skipped
+2020-11-21 17:58:04,769  INFO [main] Login_till_ProdSelectionPage:320 - EE 8 Started
+2020-11-21 17:58:04,787  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468008
+2020-11-21 17:58:04,800  INFO [main] Login_till_ProdSelectionPage:1129 - EE 8 Skipped
+2020-11-21 17:58:04,801  INFO [main] Login_till_ProdSelectionPage:320 - EE 9 Started
+2020-11-21 17:58:04,820  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468012
+2020-11-21 17:58:04,831  INFO [main] Login_till_ProdSelectionPage:1129 - EE 9 Skipped
+2020-11-21 17:58:04,831  INFO [main] Login_till_ProdSelectionPage:320 - EE 10 Started
+2020-11-21 17:58:04,852  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468017
+2020-11-21 17:58:04,862  INFO [main] Login_till_ProdSelectionPage:1129 - EE 10 Skipped
+2020-11-21 17:58:04,863  INFO [main] Login_till_ProdSelectionPage:320 - EE 11 Started
+2020-11-21 17:58:04,883  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-21 17:58:04,897  INFO [main] Login_till_ProdSelectionPage:324 - EE 11 Started
+2020-11-21 17:58:07,943  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 17:58:09,498  INFO [main] Login_till_ProdSelectionPage:72 - After class starts
+2020-11-21 17:58:09,498  INFO [main] Login_till_ProdSelectionPage:73 - Critical Flag -->false
+2020-11-21 17:58:09,498  INFO [main] Login_till_ProdSelectionPage:76 - Batch Restarts
+2020-11-21 17:58:16,567  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 17:58:18,442  INFO [main] Login_till_ProdSelectionPage:100 - W3 sign On Method is requested - w3id Credentials method is selected
+2020-11-21 17:58:18,547  INFO [main] Login_till_ProdSelectionPage:118 - UserID is enterrerd
+2020-11-21 17:58:18,632  INFO [main] Login_till_ProdSelectionPage:122 - Pwd is enterrerd
+2020-11-21 17:58:20,033  INFO [main] Login_till_ProdSelectionPage:124 - LoginButton is clicked
+2020-11-21 17:58:50,090  INFO [main] Login_till_ProdSelectionPage:142 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-21 17:58:50,106  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 17:58:55,131  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 17:58:55,131  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 17:58:55,131  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 17:58:55,132  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:58:55,132  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:58:55,132  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:58:55,132  INFO [main] Login_till_ProdSelectionPage:710 - Weed out method init 
+2020-11-21 17:58:55,132  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-21 17:58:55,132  INFO [main] Login_till_ProdSelectionPage:557 - 11/21/2020 17:58:55
+2020-11-21 17:58:55,132  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 17:58:55,132  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 17:58:55,133  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:58:55,133  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:58:55,133  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:58:55,155  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 53
+2020-11-21 17:58:55,197  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 17:58:55,197  INFO [main] Login_till_ProdSelectionPage:173 - 01205Q
+2020-11-21 17:58:55,197  INFO [main] Login_till_ProdSelectionPage:181 - Rajasekaran Periasamy
+2020-11-21 17:58:55,197  INFO [main] Login_till_ProdSelectionPage:189 - Apt # 204, 144 Galway Drive
+2020-11-21 17:58:55,198  INFO [main] Login_till_ProdSelectionPage:198 - Mooresville
+2020-11-21 17:58:55,198  INFO [main] Login_till_ProdSelectionPage:206 - NC
+2020-11-21 17:58:55,198  INFO [main] Login_till_ProdSelectionPage:214 - 28117-5558
+2020-11-21 17:58:55,198  INFO [main] Login_till_ProdSelectionPage:238 - raperias@in.ibm.com
+2020-11-21 17:58:55,198  INFO [main] Login_till_ProdSelectionPage:246 - 4693860871
+2020-11-21 17:58:55,198  INFO [main] Login_till_ProdSelectionPage:254 - Vamsi M Thirumala
+2020-11-21 17:58:55,198  INFO [main] Login_till_ProdSelectionPage:262 - Vamsi M Thirumala1/India/IBM
+2020-11-21 17:58:55,198  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-21 17:58:55,199  INFO [main] Login_till_ProdSelectionPage:287 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 17:58:55,200  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:58:55,200  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:58:55,200  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:58:55,204  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 17:58:55,236  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 54
+2020-11-21 17:58:55,280  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 17:58:55,280  INFO [main] Login_till_ProdSelectionPage:173 - 073574
+2020-11-21 17:58:55,280  INFO [main] Login_till_ProdSelectionPage:181 - Farid Ahmad
+2020-11-21 17:58:55,280  INFO [main] Login_till_ProdSelectionPage:189 - 2106 Lakeview Drive
+2020-11-21 17:58:55,280  INFO [main] Login_till_ProdSelectionPage:198 - Parlin
+2020-11-21 17:58:55,280  INFO [main] Login_till_ProdSelectionPage:206 - NJ
+2020-11-21 17:58:55,281  INFO [main] Login_till_ProdSelectionPage:214 - 08859-2252
+2020-11-21 17:58:55,281  INFO [main] Login_till_ProdSelectionPage:238 - fariahma@in.ibm.com
+2020-11-21 17:58:55,281  INFO [main] Login_till_ProdSelectionPage:246 - 732 397 3266
+2020-11-21 17:58:55,281  INFO [main] Login_till_ProdSelectionPage:254 - Phani Kiran
+2020-11-21 17:58:55,281  INFO [main] Login_till_ProdSelectionPage:262 - phanikiran@in.ibm.com
+2020-11-21 17:58:55,281  INFO [main] Login_till_ProdSelectionPage:287 - Apple Magic Keyboard - keyboard - US
+2020-11-21 17:58:55,282  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:58:55,282  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:58:55,282  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:58:55,283  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 17:58:55,323  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 55
+2020-11-21 17:58:55,362  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 17:58:55,362  INFO [main] Login_till_ProdSelectionPage:173 - 018594
+2020-11-21 17:58:55,362  INFO [main] Login_till_ProdSelectionPage:181 - HILLOL MUKHERJEE
+2020-11-21 17:58:55,362  INFO [main] Login_till_ProdSelectionPage:189 - 2330 Pleasant Hill Rd. Apt 20
+2020-11-21 17:58:55,362  INFO [main] Login_till_ProdSelectionPage:198 - Pleasant Hill
+2020-11-21 17:58:55,363  INFO [main] Login_till_ProdSelectionPage:206 - CA
+2020-11-21 17:58:55,363  INFO [main] Login_till_ProdSelectionPage:214 - 94523-3160
+2020-11-21 17:58:55,363  INFO [main] Login_till_ProdSelectionPage:238 - hilmukhe@in.ibm.com
+2020-11-21 17:58:55,363  INFO [main] Login_till_ProdSelectionPage:246 - 925-914-7904
+2020-11-21 17:58:55,363  INFO [main] Login_till_ProdSelectionPage:254 - JOYJIT BOSE
+2020-11-21 17:58:55,363  INFO [main] Login_till_ProdSelectionPage:262 - joyjbose@in.ibm.com
+2020-11-21 17:58:55,363  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-21 17:58:55,363  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-21 17:58:55,364  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:58:55,364  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:58:55,365  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:58:55,365  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 17:58:55,383  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-21 17:58:58,490  INFO [main] Login_till_ProdSelectionPage:81 - Page Loaded
+2020-11-21 17:59:00,272  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 17:59:00,317  INFO [main] Login_till_ProdSelectionPage:311 - 56
+2020-11-21 17:59:00,317  INFO [main] Login_till_ProdSelectionPage:320 - EE 1 Started
+2020-11-21 17:59:00,333  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Failed - Submission. Please check if an entry is submitted
+2020-11-21 17:59:00,348  INFO [main] Login_till_ProdSelectionPage:1129 - EE 1 Skipped
+2020-11-21 17:59:00,349  INFO [main] Login_till_ProdSelectionPage:320 - EE 2 Started
+2020-11-21 17:59:00,370  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467978
+2020-11-21 17:59:00,383  INFO [main] Login_till_ProdSelectionPage:1129 - EE 2 Skipped
+2020-11-21 17:59:00,383  INFO [main] Login_till_ProdSelectionPage:320 - EE 3 Started
+2020-11-21 17:59:00,405  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467984
+2020-11-21 17:59:00,418  INFO [main] Login_till_ProdSelectionPage:1129 - EE 3 Skipped
+2020-11-21 17:59:00,418  INFO [main] Login_till_ProdSelectionPage:320 - EE 4 Started
+2020-11-21 17:59:00,437  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467988
+2020-11-21 17:59:00,449  INFO [main] Login_till_ProdSelectionPage:1129 - EE 4 Skipped
+2020-11-21 17:59:00,449  INFO [main] Login_till_ProdSelectionPage:320 - EE 5 Started
+2020-11-21 17:59:00,471  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467990
+2020-11-21 17:59:00,482  INFO [main] Login_till_ProdSelectionPage:1129 - EE 5 Skipped
+2020-11-21 17:59:00,482  INFO [main] Login_till_ProdSelectionPage:320 - EE 6 Started
+2020-11-21 17:59:00,503  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467998
+2020-11-21 17:59:00,517  INFO [main] Login_till_ProdSelectionPage:1129 - EE 6 Skipped
+2020-11-21 17:59:00,517  INFO [main] Login_till_ProdSelectionPage:320 - EE 7 Started
+2020-11-21 17:59:00,537  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468004
+2020-11-21 17:59:00,552  INFO [main] Login_till_ProdSelectionPage:1129 - EE 7 Skipped
+2020-11-21 17:59:00,552  INFO [main] Login_till_ProdSelectionPage:320 - EE 8 Started
+2020-11-21 17:59:00,581  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468008
+2020-11-21 17:59:00,598  INFO [main] Login_till_ProdSelectionPage:1129 - EE 8 Skipped
+2020-11-21 17:59:00,598  INFO [main] Login_till_ProdSelectionPage:320 - EE 9 Started
+2020-11-21 17:59:00,621  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468012
+2020-11-21 17:59:00,638  INFO [main] Login_till_ProdSelectionPage:1129 - EE 9 Skipped
+2020-11-21 17:59:00,639  INFO [main] Login_till_ProdSelectionPage:320 - EE 10 Started
+2020-11-21 17:59:00,662  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468017
+2020-11-21 17:59:00,673  INFO [main] Login_till_ProdSelectionPage:1129 - EE 10 Skipped
+2020-11-21 17:59:00,673  INFO [main] Login_till_ProdSelectionPage:320 - EE 11 Started
+2020-11-21 17:59:00,694  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-21 17:59:00,705  INFO [main] Login_till_ProdSelectionPage:324 - EE 11 Started
+2020-11-21 17:59:03,757  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 18:00:03,922  INFO [main] Login_till_ProdSelectionPage:349 - EE 11 product 1 started for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 18:00:27,023  INFO [main] Login_till_ProdSelectionPage:375 - EE 11 product 1 ended for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 18:00:27,023  INFO [main] Login_till_ProdSelectionPage:349 - EE 11 product 2 started for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-21 18:00:55,396  INFO [main] Login_till_ProdSelectionPage:375 - EE 11 product 2 ended for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-21 18:00:55,396  INFO [main] Login_till_ProdSelectionPage:349 - EE 11 product 3 started for product -->null
+2020-11-21 18:00:55,396  INFO [main] Login_till_ProdSelectionPage:372 - null pointer break
+2020-11-21 18:03:03,606  INFO [main] Login_till_ProdSelectionPage:320 - EE 12 Started
+2020-11-21 18:03:03,631  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468026
+2020-11-21 18:03:03,642  INFO [main] Login_till_ProdSelectionPage:1129 - EE 12 Skipped
+2020-11-21 18:03:03,642  INFO [main] Login_till_ProdSelectionPage:320 - EE 13 Started
+2020-11-21 18:03:03,669  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-21 18:03:03,682  INFO [main] Login_till_ProdSelectionPage:324 - EE 13 Started
+2020-11-21 18:03:06,722  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 18:03:07,952  INFO [main] Login_till_ProdSelectionPage:72 - After class starts
+2020-11-21 18:03:07,952  INFO [main] Login_till_ProdSelectionPage:73 - Critical Flag -->false
+2020-11-21 18:03:07,953  INFO [main] Login_till_ProdSelectionPage:76 - Batch Restarts
+2020-11-21 18:03:14,124  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 18:03:15,523  INFO [main] Login_till_ProdSelectionPage:100 - W3 sign On Method is requested - w3id Credentials method is selected
+2020-11-21 18:03:15,618  INFO [main] Login_till_ProdSelectionPage:118 - UserID is enterrerd
+2020-11-21 18:03:15,683  INFO [main] Login_till_ProdSelectionPage:122 - Pwd is enterrerd
+2020-11-21 18:03:17,080  INFO [main] Login_till_ProdSelectionPage:124 - LoginButton is clicked
+2020-11-21 18:03:47,468  INFO [main] Login_till_ProdSelectionPage:142 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-21 18:03:47,474  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 18:03:52,397  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 18:03:52,397  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 18:03:52,398  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 18:03:52,398  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:03:52,398  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:03:52,398  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:03:52,398  INFO [main] Login_till_ProdSelectionPage:710 - Weed out method init 
+2020-11-21 18:03:52,398  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-21 18:03:52,398  INFO [main] Login_till_ProdSelectionPage:557 - 11/21/2020 18:03:52
+2020-11-21 18:03:52,399  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 18:03:52,399  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 18:03:52,399  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:03:52,399  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:03:52,399  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:03:52,417  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 56
+2020-11-21 18:03:52,451  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 18:03:52,451  INFO [main] Login_till_ProdSelectionPage:173 - 01205Q
+2020-11-21 18:03:52,452  INFO [main] Login_till_ProdSelectionPage:181 - Rajasekaran Periasamy
+2020-11-21 18:03:52,452  INFO [main] Login_till_ProdSelectionPage:189 - Apt # 204, 144 Galway Drive
+2020-11-21 18:03:52,452  INFO [main] Login_till_ProdSelectionPage:198 - Mooresville
+2020-11-21 18:03:52,452  INFO [main] Login_till_ProdSelectionPage:206 - NC
+2020-11-21 18:03:52,452  INFO [main] Login_till_ProdSelectionPage:214 - 28117-5558
+2020-11-21 18:03:52,452  INFO [main] Login_till_ProdSelectionPage:238 - raperias@in.ibm.com
+2020-11-21 18:03:52,452  INFO [main] Login_till_ProdSelectionPage:246 - 4693860871
+2020-11-21 18:03:52,453  INFO [main] Login_till_ProdSelectionPage:254 - Vamsi M Thirumala
+2020-11-21 18:03:52,453  INFO [main] Login_till_ProdSelectionPage:262 - Vamsi M Thirumala1/India/IBM
+2020-11-21 18:03:52,453  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-21 18:03:52,453  INFO [main] Login_till_ProdSelectionPage:287 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 18:03:52,454  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:03:52,454  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:03:52,455  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:03:52,457  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:03:52,486  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 57
+2020-11-21 18:03:52,515  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 18:03:52,516  INFO [main] Login_till_ProdSelectionPage:173 - 073574
+2020-11-21 18:03:52,516  INFO [main] Login_till_ProdSelectionPage:181 - Farid Ahmad
+2020-11-21 18:03:52,516  INFO [main] Login_till_ProdSelectionPage:189 - 2106 Lakeview Drive
+2020-11-21 18:03:52,516  INFO [main] Login_till_ProdSelectionPage:198 - Parlin
+2020-11-21 18:03:52,516  INFO [main] Login_till_ProdSelectionPage:206 - NJ
+2020-11-21 18:03:52,516  INFO [main] Login_till_ProdSelectionPage:214 - 08859-2252
+2020-11-21 18:03:52,516  INFO [main] Login_till_ProdSelectionPage:238 - fariahma@in.ibm.com
+2020-11-21 18:03:52,516  INFO [main] Login_till_ProdSelectionPage:246 - 732 397 3266
+2020-11-21 18:03:52,517  INFO [main] Login_till_ProdSelectionPage:254 - Phani Kiran
+2020-11-21 18:03:52,517  INFO [main] Login_till_ProdSelectionPage:262 - phanikiran@in.ibm.com
+2020-11-21 18:03:52,517  INFO [main] Login_till_ProdSelectionPage:287 - Apple Magic Keyboard - keyboard - US
+2020-11-21 18:03:52,517  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:03:52,518  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:03:52,518  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:03:52,519  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:03:52,551  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 58
+2020-11-21 18:03:52,580  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 18:03:52,580  INFO [main] Login_till_ProdSelectionPage:173 - 018594
+2020-11-21 18:03:52,580  INFO [main] Login_till_ProdSelectionPage:181 - HILLOL MUKHERJEE
+2020-11-21 18:03:52,580  INFO [main] Login_till_ProdSelectionPage:189 - 2330 Pleasant Hill Rd. Apt 20
+2020-11-21 18:03:52,580  INFO [main] Login_till_ProdSelectionPage:198 - Pleasant Hill
+2020-11-21 18:03:52,581  INFO [main] Login_till_ProdSelectionPage:206 - CA
+2020-11-21 18:03:52,581  INFO [main] Login_till_ProdSelectionPage:214 - 94523-3160
+2020-11-21 18:03:52,581  INFO [main] Login_till_ProdSelectionPage:238 - hilmukhe@in.ibm.com
+2020-11-21 18:03:52,581  INFO [main] Login_till_ProdSelectionPage:246 - 925-914-7904
+2020-11-21 18:03:52,581  INFO [main] Login_till_ProdSelectionPage:254 - JOYJIT BOSE
+2020-11-21 18:03:52,581  INFO [main] Login_till_ProdSelectionPage:262 - joyjbose@in.ibm.com
+2020-11-21 18:03:52,581  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-21 18:03:52,581  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-21 18:03:52,582  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:03:52,582  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:03:52,583  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:03:52,584  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:03:52,600  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-21 18:03:55,620  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-21 18:03:58,642  INFO [main] Login_till_ProdSelectionPage:81 - Page Loaded
+2020-11-21 18:03:58,688  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 18:03:58,722  INFO [main] Login_till_ProdSelectionPage:311 - 59
+2020-11-21 18:03:58,722  INFO [main] Login_till_ProdSelectionPage:320 - EE 1 Started
+2020-11-21 18:03:58,734  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Failed - Submission. Please check if an entry is submitted
+2020-11-21 18:03:58,747  INFO [main] Login_till_ProdSelectionPage:1129 - EE 1 Skipped
+2020-11-21 18:03:58,747  INFO [main] Login_till_ProdSelectionPage:320 - EE 2 Started
+2020-11-21 18:03:58,774  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467978
+2020-11-21 18:03:58,785  INFO [main] Login_till_ProdSelectionPage:1129 - EE 2 Skipped
+2020-11-21 18:03:58,785  INFO [main] Login_till_ProdSelectionPage:320 - EE 3 Started
+2020-11-21 18:03:58,803  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467984
+2020-11-21 18:03:58,815  INFO [main] Login_till_ProdSelectionPage:1129 - EE 3 Skipped
+2020-11-21 18:03:58,815  INFO [main] Login_till_ProdSelectionPage:320 - EE 4 Started
+2020-11-21 18:03:58,833  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467988
+2020-11-21 18:03:58,844  INFO [main] Login_till_ProdSelectionPage:1129 - EE 4 Skipped
+2020-11-21 18:03:58,844  INFO [main] Login_till_ProdSelectionPage:320 - EE 5 Started
+2020-11-21 18:03:58,864  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467990
+2020-11-21 18:03:58,874  INFO [main] Login_till_ProdSelectionPage:1129 - EE 5 Skipped
+2020-11-21 18:03:58,874  INFO [main] Login_till_ProdSelectionPage:320 - EE 6 Started
+2020-11-21 18:03:58,895  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467998
+2020-11-21 18:03:58,905  INFO [main] Login_till_ProdSelectionPage:1129 - EE 6 Skipped
+2020-11-21 18:03:58,905  INFO [main] Login_till_ProdSelectionPage:320 - EE 7 Started
+2020-11-21 18:03:58,923  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468004
+2020-11-21 18:03:58,933  INFO [main] Login_till_ProdSelectionPage:1129 - EE 7 Skipped
+2020-11-21 18:03:58,934  INFO [main] Login_till_ProdSelectionPage:320 - EE 8 Started
+2020-11-21 18:03:58,953  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468008
+2020-11-21 18:03:58,967  INFO [main] Login_till_ProdSelectionPage:1129 - EE 8 Skipped
+2020-11-21 18:03:58,967  INFO [main] Login_till_ProdSelectionPage:320 - EE 9 Started
+2020-11-21 18:03:58,986  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468012
+2020-11-21 18:03:58,998  INFO [main] Login_till_ProdSelectionPage:1129 - EE 9 Skipped
+2020-11-21 18:03:58,998  INFO [main] Login_till_ProdSelectionPage:320 - EE 10 Started
+2020-11-21 18:03:59,015  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468017
+2020-11-21 18:03:59,026  INFO [main] Login_till_ProdSelectionPage:1129 - EE 10 Skipped
+2020-11-21 18:03:59,026  INFO [main] Login_till_ProdSelectionPage:320 - EE 11 Started
+2020-11-21 18:03:59,046  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-21 18:03:59,057  INFO [main] Login_till_ProdSelectionPage:324 - EE 11 Started
+2020-11-21 18:04:02,098  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 18:05:02,442  INFO [main] Login_till_ProdSelectionPage:349 - EE 11 product 1 started for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 18:05:25,655  INFO [main] Login_till_ProdSelectionPage:375 - EE 11 product 1 ended for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 18:05:25,656  INFO [main] Login_till_ProdSelectionPage:349 - EE 11 product 2 started for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-21 18:05:54,114  INFO [main] Login_till_ProdSelectionPage:375 - EE 11 product 2 ended for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-21 18:05:54,114  INFO [main] Login_till_ProdSelectionPage:349 - EE 11 product 3 started for product -->null
+2020-11-21 18:05:54,114  INFO [main] Login_till_ProdSelectionPage:372 - null pointer break
+2020-11-21 18:09:23,719  INFO [main] Login_till_ProdSelectionPage:320 - EE 12 Started
+2020-11-21 18:09:23,740  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468026
+2020-11-21 18:09:23,753  INFO [main] Login_till_ProdSelectionPage:1129 - EE 12 Skipped
+2020-11-21 18:09:23,753  INFO [main] Login_till_ProdSelectionPage:320 - EE 13 Started
+2020-11-21 18:09:23,772  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-21 18:09:23,783  INFO [main] Login_till_ProdSelectionPage:324 - EE 13 Started
+2020-11-21 18:09:26,849  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 18:09:27,892  INFO [main] Login_till_ProdSelectionPage:72 - After class starts
+2020-11-21 18:09:27,892  INFO [main] Login_till_ProdSelectionPage:73 - Critical Flag -->false
+2020-11-21 18:09:27,892  INFO [main] Login_till_ProdSelectionPage:76 - Batch Restarts
+2020-11-21 18:09:34,596  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 18:09:36,514  INFO [main] Login_till_ProdSelectionPage:100 - W3 sign On Method is requested - w3id Credentials method is selected
+2020-11-21 18:09:36,594  INFO [main] Login_till_ProdSelectionPage:118 - UserID is enterrerd
+2020-11-21 18:09:36,655  INFO [main] Login_till_ProdSelectionPage:122 - Pwd is enterrerd
+2020-11-21 18:09:38,047  INFO [main] Login_till_ProdSelectionPage:124 - LoginButton is clicked
+2020-11-21 18:10:08,211  INFO [main] Login_till_ProdSelectionPage:142 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-21 18:10:08,217  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 18:10:12,840  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 18:10:12,841  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 18:10:12,841  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 18:10:12,841  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:10:12,841  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:10:12,841  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:10:12,841  INFO [main] Login_till_ProdSelectionPage:710 - Weed out method init 
+2020-11-21 18:10:12,841  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-21 18:10:12,842  INFO [main] Login_till_ProdSelectionPage:557 - 11/21/2020 18:10:12
+2020-11-21 18:10:12,842  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 18:10:12,842  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 18:10:12,842  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:10:12,842  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:10:12,842  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:10:12,859  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 59
+2020-11-21 18:10:12,892  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 18:10:12,892  INFO [main] Login_till_ProdSelectionPage:173 - 01205Q
+2020-11-21 18:10:12,892  INFO [main] Login_till_ProdSelectionPage:181 - Rajasekaran Periasamy
+2020-11-21 18:10:12,892  INFO [main] Login_till_ProdSelectionPage:189 - Apt # 204, 144 Galway Drive
+2020-11-21 18:10:12,892  INFO [main] Login_till_ProdSelectionPage:198 - Mooresville
+2020-11-21 18:10:12,893  INFO [main] Login_till_ProdSelectionPage:206 - NC
+2020-11-21 18:10:12,893  INFO [main] Login_till_ProdSelectionPage:214 - 28117-5558
+2020-11-21 18:10:12,893  INFO [main] Login_till_ProdSelectionPage:238 - raperias@in.ibm.com
+2020-11-21 18:10:12,893  INFO [main] Login_till_ProdSelectionPage:246 - 4693860871
+2020-11-21 18:10:12,893  INFO [main] Login_till_ProdSelectionPage:254 - Vamsi M Thirumala
+2020-11-21 18:10:12,893  INFO [main] Login_till_ProdSelectionPage:262 - Vamsi M Thirumala1/India/IBM
+2020-11-21 18:10:12,893  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-21 18:10:12,893  INFO [main] Login_till_ProdSelectionPage:287 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 18:10:12,894  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:10:12,894  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:10:12,894  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:10:12,897  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:10:12,925  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 60
+2020-11-21 18:10:12,957  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 18:10:12,957  INFO [main] Login_till_ProdSelectionPage:173 - 073574
+2020-11-21 18:10:12,957  INFO [main] Login_till_ProdSelectionPage:181 - Farid Ahmad
+2020-11-21 18:10:12,957  INFO [main] Login_till_ProdSelectionPage:189 - 2106 Lakeview Drive
+2020-11-21 18:10:12,957  INFO [main] Login_till_ProdSelectionPage:198 - Parlin
+2020-11-21 18:10:12,957  INFO [main] Login_till_ProdSelectionPage:206 - NJ
+2020-11-21 18:10:12,957  INFO [main] Login_till_ProdSelectionPage:214 - 08859-2252
+2020-11-21 18:10:12,957  INFO [main] Login_till_ProdSelectionPage:238 - fariahma@in.ibm.com
+2020-11-21 18:10:12,958  INFO [main] Login_till_ProdSelectionPage:246 - 732 397 3266
+2020-11-21 18:10:12,958  INFO [main] Login_till_ProdSelectionPage:254 - Phani Kiran
+2020-11-21 18:10:12,958  INFO [main] Login_till_ProdSelectionPage:262 - phanikiran@in.ibm.com
+2020-11-21 18:10:12,958  INFO [main] Login_till_ProdSelectionPage:287 - Apple Magic Keyboard - keyboard - US
+2020-11-21 18:10:12,959  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:10:12,959  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:10:12,959  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:10:12,960  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:10:12,989  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 61
+2020-11-21 18:10:13,020  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 18:10:13,020  INFO [main] Login_till_ProdSelectionPage:173 - 018594
+2020-11-21 18:10:13,020  INFO [main] Login_till_ProdSelectionPage:181 - HILLOL MUKHERJEE
+2020-11-21 18:10:13,020  INFO [main] Login_till_ProdSelectionPage:189 - 2330 Pleasant Hill Rd. Apt 20
+2020-11-21 18:10:13,020  INFO [main] Login_till_ProdSelectionPage:198 - Pleasant Hill
+2020-11-21 18:10:13,020  INFO [main] Login_till_ProdSelectionPage:206 - CA
+2020-11-21 18:10:13,020  INFO [main] Login_till_ProdSelectionPage:214 - 94523-3160
+2020-11-21 18:10:13,020  INFO [main] Login_till_ProdSelectionPage:238 - hilmukhe@in.ibm.com
+2020-11-21 18:10:13,020  INFO [main] Login_till_ProdSelectionPage:246 - 925-914-7904
+2020-11-21 18:10:13,020  INFO [main] Login_till_ProdSelectionPage:254 - JOYJIT BOSE
+2020-11-21 18:10:13,021  INFO [main] Login_till_ProdSelectionPage:262 - joyjbose@in.ibm.com
+2020-11-21 18:10:13,021  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-21 18:10:13,021  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-21 18:10:13,021  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:10:13,022  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:10:13,022  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:10:13,023  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:10:13,042  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-21 18:10:16,088  INFO [main] Login_till_ProdSelectionPage:81 - Page Loaded
+2020-11-21 18:10:17,414  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 18:10:17,453  INFO [main] Login_till_ProdSelectionPage:311 - 62
+2020-11-21 18:10:17,454  INFO [main] Login_till_ProdSelectionPage:320 - EE 1 Started
+2020-11-21 18:10:17,468  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Failed - Submission. Please check if an entry is submitted
+2020-11-21 18:10:17,481  INFO [main] Login_till_ProdSelectionPage:1129 - EE 1 Skipped
+2020-11-21 18:10:17,481  INFO [main] Login_till_ProdSelectionPage:320 - EE 2 Started
+2020-11-21 18:10:17,504  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467978
+2020-11-21 18:10:17,516  INFO [main] Login_till_ProdSelectionPage:1129 - EE 2 Skipped
+2020-11-21 18:10:17,516  INFO [main] Login_till_ProdSelectionPage:320 - EE 3 Started
+2020-11-21 18:10:17,535  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467984
+2020-11-21 18:10:17,548  INFO [main] Login_till_ProdSelectionPage:1129 - EE 3 Skipped
+2020-11-21 18:10:17,549  INFO [main] Login_till_ProdSelectionPage:320 - EE 4 Started
+2020-11-21 18:10:17,568  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467988
+2020-11-21 18:10:17,584  INFO [main] Login_till_ProdSelectionPage:1129 - EE 4 Skipped
+2020-11-21 18:10:17,584  INFO [main] Login_till_ProdSelectionPage:320 - EE 5 Started
+2020-11-21 18:10:17,603  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467990
+2020-11-21 18:10:17,615  INFO [main] Login_till_ProdSelectionPage:1129 - EE 5 Skipped
+2020-11-21 18:10:17,615  INFO [main] Login_till_ProdSelectionPage:320 - EE 6 Started
+2020-11-21 18:10:17,636  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467998
+2020-11-21 18:10:17,648  INFO [main] Login_till_ProdSelectionPage:1129 - EE 6 Skipped
+2020-11-21 18:10:17,648  INFO [main] Login_till_ProdSelectionPage:320 - EE 7 Started
+2020-11-21 18:10:17,671  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468004
+2020-11-21 18:10:17,683  INFO [main] Login_till_ProdSelectionPage:1129 - EE 7 Skipped
+2020-11-21 18:10:17,684  INFO [main] Login_till_ProdSelectionPage:320 - EE 8 Started
+2020-11-21 18:10:17,702  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468008
+2020-11-21 18:10:17,713  INFO [main] Login_till_ProdSelectionPage:1129 - EE 8 Skipped
+2020-11-21 18:10:17,714  INFO [main] Login_till_ProdSelectionPage:320 - EE 9 Started
+2020-11-21 18:10:17,732  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468012
+2020-11-21 18:10:17,744  INFO [main] Login_till_ProdSelectionPage:1129 - EE 9 Skipped
+2020-11-21 18:10:17,744  INFO [main] Login_till_ProdSelectionPage:320 - EE 10 Started
+2020-11-21 18:10:17,766  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468017
+2020-11-21 18:10:17,781  INFO [main] Login_till_ProdSelectionPage:1129 - EE 10 Skipped
+2020-11-21 18:10:17,782  INFO [main] Login_till_ProdSelectionPage:320 - EE 11 Started
+2020-11-21 18:10:17,801  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Failed - Submission. Please check if an entry is submitted
+2020-11-21 18:10:17,812  INFO [main] Login_till_ProdSelectionPage:1129 - EE 11 Skipped
+2020-11-21 18:10:17,812  INFO [main] Login_till_ProdSelectionPage:320 - EE 12 Started
+2020-11-21 18:10:17,830  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468026
+2020-11-21 18:10:17,843  INFO [main] Login_till_ProdSelectionPage:1129 - EE 12 Skipped
+2020-11-21 18:10:17,843  INFO [main] Login_till_ProdSelectionPage:320 - EE 13 Started
+2020-11-21 18:10:17,861  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-21 18:10:17,876  INFO [main] Login_till_ProdSelectionPage:324 - EE 13 Started
+2020-11-21 18:10:20,904  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 18:11:21,385  INFO [main] Login_till_ProdSelectionPage:349 - EE 13 product 1 started for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 18:11:44,730  INFO [main] Login_till_ProdSelectionPage:375 - EE 13 product 1 ended for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 18:11:44,730  INFO [main] Login_till_ProdSelectionPage:349 - EE 13 product 2 started for product --> 
+2020-11-21 18:12:01,037  INFO [main] Login_till_ProdSelectionPage:357 - invalid Product idetified during product selection : 
+2020-11-21 18:12:01,037  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 18:12:01,749  INFO [main] Login_till_ProdSelectionPage:320 - EE 14 Started
+2020-11-21 18:12:01,766  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468031
+2020-11-21 18:12:01,776  INFO [main] Login_till_ProdSelectionPage:1129 - EE 14 Skipped
+2020-11-21 18:12:01,776  INFO [main] Login_till_ProdSelectionPage:320 - EE 15 Started
+2020-11-21 18:12:01,793  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-21 18:12:01,804  INFO [main] Login_till_ProdSelectionPage:324 - EE 15 Started
+2020-11-21 18:12:04,844  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 18:13:10,365  INFO [main] Login_till_ProdSelectionPage:349 - EE 15 product 1 started for product -->T24i-20(A20238FT0)23.8 inch Monitor-HDMI
+2020-11-21 18:13:38,745  INFO [main] Login_till_ProdSelectionPage:375 - EE 15 product 1 ended for product -->T24i-20(A20238FT0)23.8 inch Monitor-HDMI
+2020-11-21 18:13:38,745  INFO [main] Login_till_ProdSelectionPage:349 - EE 15 product 2 started for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-21 18:14:06,737  INFO [main] Login_till_ProdSelectionPage:375 - EE 15 product 2 ended for product -->Apple USB-C Charge Cable - USB-C cable - 2 m
+2020-11-21 18:14:06,738  INFO [main] Login_till_ProdSelectionPage:349 - EE 15 product 3 started for product -->null
+2020-11-21 18:14:06,738  INFO [main] Login_till_ProdSelectionPage:372 - null pointer break
+2020-11-21 18:17:37,272  INFO [main] Login_till_ProdSelectionPage:320 - EE 16 Started
+2020-11-21 18:17:37,290  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-21 18:17:37,300  INFO [main] Login_till_ProdSelectionPage:324 - EE 16 Started
+2020-11-21 18:17:40,342  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 18:17:41,547  INFO [main] Login_till_ProdSelectionPage:72 - After class starts
+2020-11-21 18:17:41,547  INFO [main] Login_till_ProdSelectionPage:73 - Critical Flag -->false
+2020-11-21 18:17:41,547  INFO [main] Login_till_ProdSelectionPage:76 - Batch Restarts
+2020-11-21 18:17:49,345  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 18:17:51,248  INFO [main] Login_till_ProdSelectionPage:100 - W3 sign On Method is requested - w3id Credentials method is selected
+2020-11-21 18:17:51,324  INFO [main] Login_till_ProdSelectionPage:118 - UserID is enterrerd
+2020-11-21 18:17:51,380  INFO [main] Login_till_ProdSelectionPage:122 - Pwd is enterrerd
+2020-11-21 18:17:53,141  INFO [main] Login_till_ProdSelectionPage:124 - LoginButton is clicked
+2020-11-21 18:18:23,654  INFO [main] Login_till_ProdSelectionPage:142 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-21 18:18:23,661  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 18:18:28,104  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 18:18:28,105  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 18:18:28,105  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 18:18:28,105  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:18:28,105  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:18:28,105  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:18:28,105  INFO [main] Login_till_ProdSelectionPage:710 - Weed out method init 
+2020-11-21 18:18:28,105  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-21 18:18:28,105  INFO [main] Login_till_ProdSelectionPage:557 - 11/21/2020 18:18:28
+2020-11-21 18:18:28,105  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 18:18:28,106  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 18:18:28,106  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:18:28,106  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:18:28,106  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:18:28,129  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 62
+2020-11-21 18:18:28,175  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 18:18:28,175  INFO [main] Login_till_ProdSelectionPage:173 - 01205Q
+2020-11-21 18:18:28,175  INFO [main] Login_till_ProdSelectionPage:181 - Rajasekaran Periasamy
+2020-11-21 18:18:28,175  INFO [main] Login_till_ProdSelectionPage:189 - Apt # 204, 144 Galway Drive
+2020-11-21 18:18:28,176  INFO [main] Login_till_ProdSelectionPage:198 - Mooresville
+2020-11-21 18:18:28,176  INFO [main] Login_till_ProdSelectionPage:206 - NC
+2020-11-21 18:18:28,176  INFO [main] Login_till_ProdSelectionPage:214 - 28117-5558
+2020-11-21 18:18:28,176  INFO [main] Login_till_ProdSelectionPage:238 - raperias@in.ibm.com
+2020-11-21 18:18:28,176  INFO [main] Login_till_ProdSelectionPage:246 - 4693860871
+2020-11-21 18:18:28,176  INFO [main] Login_till_ProdSelectionPage:254 - Vamsi M Thirumala
+2020-11-21 18:18:28,176  INFO [main] Login_till_ProdSelectionPage:262 - Vamsi M Thirumala1/India/IBM
+2020-11-21 18:18:28,177  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-21 18:18:28,177  INFO [main] Login_till_ProdSelectionPage:287 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 18:18:28,178  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:18:28,178  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:18:28,178  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:18:28,181  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:18:28,217  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 63
+2020-11-21 18:18:28,259  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 18:18:28,259  INFO [main] Login_till_ProdSelectionPage:173 - 073574
+2020-11-21 18:18:28,259  INFO [main] Login_till_ProdSelectionPage:181 - Farid Ahmad
+2020-11-21 18:18:28,259  INFO [main] Login_till_ProdSelectionPage:189 - 2106 Lakeview Drive
+2020-11-21 18:18:28,259  INFO [main] Login_till_ProdSelectionPage:198 - Parlin
+2020-11-21 18:18:28,259  INFO [main] Login_till_ProdSelectionPage:206 - NJ
+2020-11-21 18:18:28,259  INFO [main] Login_till_ProdSelectionPage:214 - 08859-2252
+2020-11-21 18:18:28,259  INFO [main] Login_till_ProdSelectionPage:238 - fariahma@in.ibm.com
+2020-11-21 18:18:28,260  INFO [main] Login_till_ProdSelectionPage:246 - 732 397 3266
+2020-11-21 18:18:28,260  INFO [main] Login_till_ProdSelectionPage:254 - Phani Kiran
+2020-11-21 18:18:28,260  INFO [main] Login_till_ProdSelectionPage:262 - phanikiran@in.ibm.com
+2020-11-21 18:18:28,260  INFO [main] Login_till_ProdSelectionPage:287 - Apple Magic Keyboard - keyboard - US
+2020-11-21 18:18:28,261  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:18:28,261  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:18:28,261  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:18:28,262  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:18:28,293  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 64
+2020-11-21 18:18:28,335  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 18:18:28,336  INFO [main] Login_till_ProdSelectionPage:173 - 018594
+2020-11-21 18:18:28,336  INFO [main] Login_till_ProdSelectionPage:181 - HILLOL MUKHERJEE
+2020-11-21 18:18:28,336  INFO [main] Login_till_ProdSelectionPage:189 - 2330 Pleasant Hill Rd. Apt 20
+2020-11-21 18:18:28,336  INFO [main] Login_till_ProdSelectionPage:198 - Pleasant Hill
+2020-11-21 18:18:28,336  INFO [main] Login_till_ProdSelectionPage:206 - CA
+2020-11-21 18:18:28,336  INFO [main] Login_till_ProdSelectionPage:214 - 94523-3160
+2020-11-21 18:18:28,336  INFO [main] Login_till_ProdSelectionPage:238 - hilmukhe@in.ibm.com
+2020-11-21 18:18:28,336  INFO [main] Login_till_ProdSelectionPage:246 - 925-914-7904
+2020-11-21 18:18:28,336  INFO [main] Login_till_ProdSelectionPage:254 - JOYJIT BOSE
+2020-11-21 18:18:28,337  INFO [main] Login_till_ProdSelectionPage:262 - joyjbose@in.ibm.com
+2020-11-21 18:18:28,337  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-21 18:18:28,337  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-21 18:18:28,337  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:18:28,338  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:18:28,338  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:18:28,339  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:18:28,360  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-21 18:18:31,376  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-21 18:18:34,673  INFO [main] Login_till_ProdSelectionPage:81 - Page Loaded
+2020-11-21 18:18:34,727  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 18:18:34,764  INFO [main] Login_till_ProdSelectionPage:311 - 65
+2020-11-21 18:18:34,764  INFO [main] Login_till_ProdSelectionPage:320 - EE 1 Started
+2020-11-21 18:18:34,776  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Failed - Submission. Please check if an entry is submitted
+2020-11-21 18:18:34,789  INFO [main] Login_till_ProdSelectionPage:1129 - EE 1 Skipped
+2020-11-21 18:18:34,790  INFO [main] Login_till_ProdSelectionPage:320 - EE 2 Started
+2020-11-21 18:18:34,814  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467978
+2020-11-21 18:18:34,828  INFO [main] Login_till_ProdSelectionPage:1129 - EE 2 Skipped
+2020-11-21 18:18:34,828  INFO [main] Login_till_ProdSelectionPage:320 - EE 3 Started
+2020-11-21 18:18:34,849  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467984
+2020-11-21 18:18:34,862  INFO [main] Login_till_ProdSelectionPage:1129 - EE 3 Skipped
+2020-11-21 18:18:34,862  INFO [main] Login_till_ProdSelectionPage:320 - EE 4 Started
+2020-11-21 18:18:34,882  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467988
+2020-11-21 18:18:34,899  INFO [main] Login_till_ProdSelectionPage:1129 - EE 4 Skipped
+2020-11-21 18:18:34,900  INFO [main] Login_till_ProdSelectionPage:320 - EE 5 Started
+2020-11-21 18:18:34,921  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467990
+2020-11-21 18:18:34,938  INFO [main] Login_till_ProdSelectionPage:1129 - EE 5 Skipped
+2020-11-21 18:18:34,938  INFO [main] Login_till_ProdSelectionPage:320 - EE 6 Started
+2020-11-21 18:18:34,960  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467998
+2020-11-21 18:18:34,972  INFO [main] Login_till_ProdSelectionPage:1129 - EE 6 Skipped
+2020-11-21 18:18:34,973  INFO [main] Login_till_ProdSelectionPage:320 - EE 7 Started
+2020-11-21 18:18:34,997  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468004
+2020-11-21 18:18:35,009  INFO [main] Login_till_ProdSelectionPage:1129 - EE 7 Skipped
+2020-11-21 18:18:35,009  INFO [main] Login_till_ProdSelectionPage:320 - EE 8 Started
+2020-11-21 18:18:35,030  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468008
+2020-11-21 18:18:35,040  INFO [main] Login_till_ProdSelectionPage:1129 - EE 8 Skipped
+2020-11-21 18:18:35,040  INFO [main] Login_till_ProdSelectionPage:320 - EE 9 Started
+2020-11-21 18:18:35,058  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468012
+2020-11-21 18:18:35,069  INFO [main] Login_till_ProdSelectionPage:1129 - EE 9 Skipped
+2020-11-21 18:18:35,070  INFO [main] Login_till_ProdSelectionPage:320 - EE 10 Started
+2020-11-21 18:18:35,087  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468017
+2020-11-21 18:18:35,097  INFO [main] Login_till_ProdSelectionPage:1129 - EE 10 Skipped
+2020-11-21 18:18:35,097  INFO [main] Login_till_ProdSelectionPage:320 - EE 11 Started
+2020-11-21 18:18:35,117  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Failed - Submission. Please check if an entry is submitted
+2020-11-21 18:18:35,130  INFO [main] Login_till_ProdSelectionPage:1129 - EE 11 Skipped
+2020-11-21 18:18:35,130  INFO [main] Login_till_ProdSelectionPage:320 - EE 12 Started
+2020-11-21 18:18:35,153  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468026
+2020-11-21 18:18:35,164  INFO [main] Login_till_ProdSelectionPage:1129 - EE 12 Skipped
+2020-11-21 18:18:35,164  INFO [main] Login_till_ProdSelectionPage:320 - EE 13 Started
+2020-11-21 18:18:35,188  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-21 18:18:35,201  INFO [main] Login_till_ProdSelectionPage:324 - EE 13 Started
+2020-11-21 18:18:38,262  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 18:19:38,807  INFO [main] Login_till_ProdSelectionPage:349 - EE 13 product 1 started for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 18:20:02,035  INFO [main] Login_till_ProdSelectionPage:375 - EE 13 product 1 ended for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 18:20:02,035  INFO [main] Login_till_ProdSelectionPage:349 - EE 13 product 2 started for product --> 
+2020-11-21 18:20:18,360  INFO [main] Login_till_ProdSelectionPage:357 - invalid Product idetified during product selection : 
+2020-11-21 18:20:18,361  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 18:20:19,030  INFO [main] Login_till_ProdSelectionPage:320 - EE 14 Started
+2020-11-21 18:20:19,047  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468031
+2020-11-21 18:20:19,057  INFO [main] Login_till_ProdSelectionPage:1129 - EE 14 Skipped
+2020-11-21 18:20:19,057  INFO [main] Login_till_ProdSelectionPage:320 - EE 15 Started
+2020-11-21 18:20:19,073  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Failed - Submission. Please check if an entry is submitted
+2020-11-21 18:20:19,085  INFO [main] Login_till_ProdSelectionPage:1129 - EE 15 Skipped
+2020-11-21 18:20:19,085  INFO [main] Login_till_ProdSelectionPage:320 - EE 16 Started
+2020-11-21 18:20:19,102  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-21 18:20:19,112  INFO [main] Login_till_ProdSelectionPage:324 - EE 16 Started
+2020-11-21 18:20:22,155  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 18:21:27,717  INFO [main] Login_till_ProdSelectionPage:349 - EE 16 product 1 started for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-21 18:21:56,034  INFO [main] Login_till_ProdSelectionPage:375 - EE 16 product 1 ended for product -->Lenovo Ultraslim Plus Wireless Keyboard & Mouse
+2020-11-21 18:21:56,034  INFO [main] Login_till_ProdSelectionPage:349 - EE 16 product 2 started for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 18:22:24,468  INFO [main] Login_till_ProdSelectionPage:375 - EE 16 product 2 ended for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 18:22:24,469  INFO [main] Login_till_ProdSelectionPage:349 - EE 16 product 3 started for product -->null
+2020-11-21 18:22:24,469  INFO [main] Login_till_ProdSelectionPage:372 - null pointer break
+2020-11-21 18:25:53,195  INFO [main] Login_till_ProdSelectionPage:320 - EE 17 Started
+2020-11-21 18:25:53,218  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-21 18:25:53,228  INFO [main] Login_till_ProdSelectionPage:324 - EE 17 Started
+2020-11-21 18:25:56,269  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 18:25:57,416  INFO [main] Login_till_ProdSelectionPage:72 - After class starts
+2020-11-21 18:25:57,417  INFO [main] Login_till_ProdSelectionPage:73 - Critical Flag -->false
+2020-11-21 18:25:57,417  INFO [main] Login_till_ProdSelectionPage:76 - Batch Restarts
+2020-11-21 18:26:04,683  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 18:26:05,878  INFO [main] Login_till_ProdSelectionPage:100 - W3 sign On Method is requested - w3id Credentials method is selected
+2020-11-21 18:26:05,958  INFO [main] Login_till_ProdSelectionPage:118 - UserID is enterrerd
+2020-11-21 18:26:06,014  INFO [main] Login_till_ProdSelectionPage:122 - Pwd is enterrerd
+2020-11-21 18:26:07,627  INFO [main] Login_till_ProdSelectionPage:124 - LoginButton is clicked
+2020-11-21 18:26:37,678  INFO [main] Login_till_ProdSelectionPage:142 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-21 18:26:37,685  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 18:26:42,103  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 18:26:42,104  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 18:26:42,104  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 18:26:42,105  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:26:42,105  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:26:42,106  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:26:42,106  INFO [main] Login_till_ProdSelectionPage:710 - Weed out method init 
+2020-11-21 18:26:42,106  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-21 18:26:42,107  INFO [main] Login_till_ProdSelectionPage:557 - 11/21/2020 18:26:42
+2020-11-21 18:26:42,107  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 18:26:42,107  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 18:26:42,108  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:26:42,108  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:26:42,109  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:26:42,127  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 65
+2020-11-21 18:26:42,152  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 18:26:42,152  INFO [main] Login_till_ProdSelectionPage:173 - 01205Q
+2020-11-21 18:26:42,152  INFO [main] Login_till_ProdSelectionPage:181 - Rajasekaran Periasamy
+2020-11-21 18:26:42,153  INFO [main] Login_till_ProdSelectionPage:189 - Apt # 204, 144 Galway Drive
+2020-11-21 18:26:42,153  INFO [main] Login_till_ProdSelectionPage:198 - Mooresville
+2020-11-21 18:26:42,156  INFO [main] Login_till_ProdSelectionPage:206 - NC
+2020-11-21 18:26:42,156  INFO [main] Login_till_ProdSelectionPage:214 - 28117-5558
+2020-11-21 18:26:42,157  INFO [main] Login_till_ProdSelectionPage:238 - raperias@in.ibm.com
+2020-11-21 18:26:42,157  INFO [main] Login_till_ProdSelectionPage:246 - 4693860871
+2020-11-21 18:26:42,157  INFO [main] Login_till_ProdSelectionPage:254 - Vamsi M Thirumala
+2020-11-21 18:26:42,157  INFO [main] Login_till_ProdSelectionPage:262 - Vamsi M Thirumala1/India/IBM
+2020-11-21 18:26:42,157  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-21 18:26:42,157  INFO [main] Login_till_ProdSelectionPage:287 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 18:26:42,158  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:26:42,158  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:26:42,159  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:26:42,162  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 18:26:42,190  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 66
+2020-11-21 18:26:42,220  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 18:26:42,221  INFO [main] Login_till_ProdSelectionPage:173 - 073574
+2020-11-21 18:26:42,221  INFO [main] Login_till_ProdSelectionPage:181 - Farid Ahmad
+2020-11-21 18:26:42,221  INFO [main] Login_till_ProdSelectionPage:189 - 2106 Lakeview Drive
+2020-11-21 18:26:42,221  INFO [main] Login_till_ProdSelectionPage:198 - Parlin
+2020-11-21 18:26:42,221  INFO [main] Login_till_ProdSelectionPage:206 - NJ
+2020-11-21 18:26:42,221  INFO [main] Login_till_ProdSelectionPage:214 - 08859-2252
+2020-11-21 18:26:42,221  INFO [main] Login_till_ProdSelectionPage:238 - fariahma@in.ibm.com
+2020-11-21 18:26:42,221  INFO [main] Login_till_ProdSelectionPage:246 - 732 397 3266
+2020-11-21 18:26:42,221  INFO [main] Login_till_ProdSelectionPage:254 - Phani Kiran
+2020-11-21 18:26:42,221  INFO [main] Login_till_ProdSelectionPage:262 - phanikiran@in.ibm.com
+2020-11-21 18:26:42,222  INFO [main] Login_till_ProdSelectionPage:287 - Apple Magic Keyboard - keyboard - US
+2020-11-21 18:26:42,222  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:26:42,222  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:26:42,223  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:26:42,224  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 18:26:42,252  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 67
+2020-11-21 18:26:42,280  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 18:26:42,280  INFO [main] Login_till_ProdSelectionPage:173 - 018594
+2020-11-21 18:26:42,280  INFO [main] Login_till_ProdSelectionPage:181 - HILLOL MUKHERJEE
+2020-11-21 18:26:42,280  INFO [main] Login_till_ProdSelectionPage:189 - 2330 Pleasant Hill Rd. Apt 20
+2020-11-21 18:26:42,280  INFO [main] Login_till_ProdSelectionPage:198 - Pleasant Hill
+2020-11-21 18:26:42,280  INFO [main] Login_till_ProdSelectionPage:206 - CA
+2020-11-21 18:26:42,280  INFO [main] Login_till_ProdSelectionPage:214 - 94523-3160
+2020-11-21 18:26:42,280  INFO [main] Login_till_ProdSelectionPage:238 - hilmukhe@in.ibm.com
+2020-11-21 18:26:42,281  INFO [main] Login_till_ProdSelectionPage:246 - 925-914-7904
+2020-11-21 18:26:42,281  INFO [main] Login_till_ProdSelectionPage:254 - JOYJIT BOSE
+2020-11-21 18:26:42,281  INFO [main] Login_till_ProdSelectionPage:262 - joyjbose@in.ibm.com
+2020-11-21 18:26:42,281  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-21 18:26:42,281  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-21 18:26:42,282  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:26:42,282  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:26:42,282  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:26:42,283  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 18:26:42,302  INFO [main] Login_till_ProdSelectionPage:75 - Batch wait +3 Sec
+2020-11-21 18:26:45,335  INFO [main] Login_till_ProdSelectionPage:81 - Page Loaded
+2020-11-21 18:26:47,181  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 18:26:47,222  INFO [main] Login_till_ProdSelectionPage:311 - 68
+2020-11-21 18:26:47,222  INFO [main] Login_till_ProdSelectionPage:320 - EE 1 Started
+2020-11-21 18:26:47,235  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Failed - Submission. Please check if an entry is submitted
+2020-11-21 18:26:47,251  INFO [main] Login_till_ProdSelectionPage:1129 - EE 1 Skipped
+2020-11-21 18:26:47,252  INFO [main] Login_till_ProdSelectionPage:320 - EE 2 Started
+2020-11-21 18:26:47,277  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467978
+2020-11-21 18:26:47,291  INFO [main] Login_till_ProdSelectionPage:1129 - EE 2 Skipped
+2020-11-21 18:26:47,291  INFO [main] Login_till_ProdSelectionPage:320 - EE 3 Started
+2020-11-21 18:26:47,314  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467984
+2020-11-21 18:26:47,326  INFO [main] Login_till_ProdSelectionPage:1129 - EE 3 Skipped
+2020-11-21 18:26:47,326  INFO [main] Login_till_ProdSelectionPage:320 - EE 4 Started
+2020-11-21 18:26:47,347  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467988
+2020-11-21 18:26:47,360  INFO [main] Login_till_ProdSelectionPage:1129 - EE 4 Skipped
+2020-11-21 18:26:47,360  INFO [main] Login_till_ProdSelectionPage:320 - EE 5 Started
+2020-11-21 18:26:47,379  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467990
+2020-11-21 18:26:47,391  INFO [main] Login_till_ProdSelectionPage:1129 - EE 5 Skipped
+2020-11-21 18:26:47,391  INFO [main] Login_till_ProdSelectionPage:320 - EE 6 Started
+2020-11-21 18:26:47,411  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR467998
+2020-11-21 18:26:47,423  INFO [main] Login_till_ProdSelectionPage:1129 - EE 6 Skipped
+2020-11-21 18:26:47,423  INFO [main] Login_till_ProdSelectionPage:320 - EE 7 Started
+2020-11-21 18:26:47,447  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468004
+2020-11-21 18:26:47,463  INFO [main] Login_till_ProdSelectionPage:1129 - EE 7 Skipped
+2020-11-21 18:26:47,463  INFO [main] Login_till_ProdSelectionPage:320 - EE 8 Started
+2020-11-21 18:26:47,481  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468008
+2020-11-21 18:26:47,497  INFO [main] Login_till_ProdSelectionPage:1129 - EE 8 Skipped
+2020-11-21 18:26:47,497  INFO [main] Login_till_ProdSelectionPage:320 - EE 9 Started
+2020-11-21 18:26:47,515  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468012
+2020-11-21 18:26:47,527  INFO [main] Login_till_ProdSelectionPage:1129 - EE 9 Skipped
+2020-11-21 18:26:47,527  INFO [main] Login_till_ProdSelectionPage:320 - EE 10 Started
+2020-11-21 18:26:47,546  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468017
+2020-11-21 18:26:47,558  INFO [main] Login_till_ProdSelectionPage:1129 - EE 10 Skipped
+2020-11-21 18:26:47,559  INFO [main] Login_till_ProdSelectionPage:320 - EE 11 Started
+2020-11-21 18:26:47,578  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Failed - Submission. Please check if an entry is submitted
+2020-11-21 18:26:47,591  INFO [main] Login_till_ProdSelectionPage:1129 - EE 11 Skipped
+2020-11-21 18:26:47,591  INFO [main] Login_till_ProdSelectionPage:320 - EE 12 Started
+2020-11-21 18:26:47,613  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468026
+2020-11-21 18:26:47,625  INFO [main] Login_till_ProdSelectionPage:1129 - EE 12 Skipped
+2020-11-21 18:26:47,625  INFO [main] Login_till_ProdSelectionPage:320 - EE 13 Started
+2020-11-21 18:26:47,645  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-21 18:26:47,660  INFO [main] Login_till_ProdSelectionPage:324 - EE 13 Started
+2020-11-21 18:26:50,707  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 18:27:50,761  INFO [main] Login_till_ProdSelectionPage:349 - EE 13 product 1 started for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 18:28:13,955  INFO [main] Login_till_ProdSelectionPage:375 - EE 13 product 1 ended for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 18:28:13,956  INFO [main] Login_till_ProdSelectionPage:349 - EE 13 product 2 started for product --> 
+2020-11-21 18:28:30,326  INFO [main] Login_till_ProdSelectionPage:357 - invalid Product idetified during product selection : 
+2020-11-21 18:28:30,326  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 18:28:31,061  INFO [main] Login_till_ProdSelectionPage:320 - EE 14 Started
+2020-11-21 18:28:31,078  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Success - Submission completed with order number: Request details    /    PR468031
+2020-11-21 18:28:31,089  INFO [main] Login_till_ProdSelectionPage:1129 - EE 14 Skipped
+2020-11-21 18:28:31,089  INFO [main] Login_till_ProdSelectionPage:320 - EE 15 Started
+2020-11-21 18:28:31,105  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Failed - Submission. Please check if an entry is submitted
+2020-11-21 18:28:31,115  INFO [main] Login_till_ProdSelectionPage:1129 - EE 15 Skipped
+2020-11-21 18:28:31,115  INFO [main] Login_till_ProdSelectionPage:320 - EE 16 Started
+2020-11-21 18:28:31,137  INFO [main] Login_till_ProdSelectionPage:441 - Status check - Failed - Submission. Please check if an entry is submitted
+2020-11-21 18:28:31,148  INFO [main] Login_till_ProdSelectionPage:1129 - EE 16 Skipped
+2020-11-21 18:28:31,149  INFO [main] Login_till_ProdSelectionPage:320 - EE 17 Started
+2020-11-21 18:28:31,168  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-21 18:28:31,178  INFO [main] Login_till_ProdSelectionPage:324 - EE 17 Started
+2020-11-21 18:28:34,213  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 18:29:39,674  INFO [main] Login_till_ProdSelectionPage:349 - EE 17 product 1 started for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-21 18:30:08,319  INFO [main] Login_till_ProdSelectionPage:375 - EE 17 product 1 ended for product -->EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-21 18:30:08,320  INFO [main] Login_till_ProdSelectionPage:349 - EE 17 product 2 started for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 18:30:39,012  INFO [main] Login_till_ProdSelectionPage:375 - EE 17 product 2 ended for product -->VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 18:30:39,012  INFO [main] Login_till_ProdSelectionPage:349 - EE 17 product 3 started for product -->null
+2020-11-21 18:30:39,012  INFO [main] Login_till_ProdSelectionPage:372 - null pointer break
+2020-11-21 18:31:38,077  INFO [main] Login_till_ProdSelectionPage:320 - EE 18 Started
+2020-11-21 18:31:38,097  INFO [main] Login_till_ProdSelectionPage:441 - Status check - null
+2020-11-21 18:31:38,108  INFO [main] Login_till_ProdSelectionPage:324 - EE 18 Started
+2020-11-21 18:31:41,144  INFO [main] Login_till_ProdSelectionPage:92 - chck cart starts 
+2020-11-21 18:32:22,308  INFO [main] Login_till_ProdSelectionPage:72 - After class starts
+2020-11-21 18:32:22,308  INFO [main] Login_till_ProdSelectionPage:73 - Critical Flag -->false
+2020-11-21 18:32:22,309  INFO [main] Login_till_ProdSelectionPage:76 - Batch Restarts
+2020-11-21 18:32:29,818  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 18:32:31,437  INFO [main] Login_till_ProdSelectionPage:100 - W3 sign On Method is requested - w3id Credentials method is selected
+2020-11-21 18:32:31,537  INFO [main] Login_till_ProdSelectionPage:118 - UserID is enterrerd
+2020-11-21 18:32:31,610  INFO [main] Login_till_ProdSelectionPage:122 - Pwd is enterrerd
+2020-11-21 18:32:33,215  INFO [main] Login_till_ProdSelectionPage:124 - LoginButton is clicked
+2020-11-21 19:33:24,795  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 19:33:26,214  INFO [main] Login_till_ProdSelectionPage:100 - W3 sign On Method is requested - w3id Credentials method is selected
+2020-11-21 19:33:26,296  INFO [main] Login_till_ProdSelectionPage:118 - UserID is enterrerd
+2020-11-21 19:33:26,358  INFO [main] Login_till_ProdSelectionPage:122 - Pwd is enterrerd
+2020-11-21 19:33:27,861  INFO [main] Login_till_ProdSelectionPage:124 - LoginButton is clicked
+2020-11-21 19:33:57,862  INFO [main] Login_till_ProdSelectionPage:142 - Multi Factor Autentication is NOT requested - Batch continues
+2020-11-21 19:33:57,877  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 19:34:01,506  INFO [main] Login_till_ProdSelectionPage:49 - Folder Path initialized
+2020-11-21 19:34:01,506  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 19:34:01,507  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 19:34:01,507  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 19:34:01,507  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 19:34:01,507  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 19:34:01,507  INFO [main] Login_till_ProdSelectionPage:710 - Weed out method init 
+2020-11-21 19:34:01,507  INFO [main] Login_till_ProdSelectionPage:517 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\TD\TD.xlsx
+2020-11-21 19:34:01,513  INFO [main] Login_till_ProdSelectionPage:557 - 11/21/2020 19:34:01
+2020-11-21 19:34:01,514  INFO [main] Login_till_ProdSelectionPage:845 - GET IP File method call init
+2020-11-21 19:34:01,514  INFO [main] Login_till_ProdSelectionPage:847 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input
+2020-11-21 19:34:01,514  INFO [main] Login_till_ProdSelectionPage:854 - Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 19:34:01,514  INFO [main] Login_till_ProdSelectionPage:854 - Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 19:34:01,514  INFO [main] Login_till_ProdSelectionPage:854 - Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 19:34:01,989  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 68
+2020-11-21 19:34:02,155  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 19:34:02,157  INFO [main] Login_till_ProdSelectionPage:173 - 01205Q
+2020-11-21 19:34:02,158  INFO [main] Login_till_ProdSelectionPage:181 - Rajasekaran Periasamy
+2020-11-21 19:34:02,158  INFO [main] Login_till_ProdSelectionPage:189 - Apt # 204, 144 Galway Drive
+2020-11-21 19:34:02,159  INFO [main] Login_till_ProdSelectionPage:198 - Mooresville
+2020-11-21 19:34:02,159  INFO [main] Login_till_ProdSelectionPage:206 - NC
+2020-11-21 19:34:02,159  INFO [main] Login_till_ProdSelectionPage:214 - 28117-5558
+2020-11-21 19:34:02,159  INFO [main] Login_till_ProdSelectionPage:238 - raperias@in.ibm.com
+2020-11-21 19:34:02,164  INFO [main] Login_till_ProdSelectionPage:246 - 4693860871
+2020-11-21 19:34:02,164  INFO [main] Login_till_ProdSelectionPage:254 - Vamsi M Thirumala
+2020-11-21 19:34:02,164  INFO [main] Login_till_ProdSelectionPage:262 - Vamsi M Thirumala1/India/IBM
+2020-11-21 19:34:02,164  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 40 UC USB-A CORDED BINAURAL HEADSET
+2020-11-21 19:34:02,165  INFO [main] Login_till_ProdSelectionPage:287 - VOYAGER 5200 UC WIRELESS BLUETOOTH HEADSET UC
+2020-11-21 19:34:02,171  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 19:34:02,172  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 19:34:02,173  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Branch - Office Supplies Vamsi  v2.0-4.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 19:34:02,174  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Branch - Office Supplies Vamsi  v2.0-4.xlsx
+2020-11-21 19:34:02,354  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 69
+2020-11-21 19:34:02,431  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 19:34:02,431  INFO [main] Login_till_ProdSelectionPage:173 - 073574
+2020-11-21 19:34:02,431  INFO [main] Login_till_ProdSelectionPage:181 - Farid Ahmad
+2020-11-21 19:34:02,432  INFO [main] Login_till_ProdSelectionPage:189 - 2106 Lakeview Drive
+2020-11-21 19:34:02,432  INFO [main] Login_till_ProdSelectionPage:198 - Parlin
+2020-11-21 19:34:02,432  INFO [main] Login_till_ProdSelectionPage:206 - NJ
+2020-11-21 19:34:02,432  INFO [main] Login_till_ProdSelectionPage:214 - 08859-2252
+2020-11-21 19:34:02,432  INFO [main] Login_till_ProdSelectionPage:238 - fariahma@in.ibm.com
+2020-11-21 19:34:02,432  INFO [main] Login_till_ProdSelectionPage:246 - 732 397 3266
+2020-11-21 19:34:02,432  INFO [main] Login_till_ProdSelectionPage:254 - Phani Kiran
+2020-11-21 19:34:02,433  INFO [main] Login_till_ProdSelectionPage:262 - phanikiran@in.ibm.com
+2020-11-21 19:34:02,433  INFO [main] Login_till_ProdSelectionPage:287 - Apple Magic Keyboard - keyboard - US
+2020-11-21 19:34:02,438  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 19:34:02,438  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 19:34:02,439  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 19:34:02,440  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Farid Ahmad - Emp Id - 073574 -  11 12 2020.xlsx
+2020-11-21 19:34:02,514  INFO [main] Login_till_ProdSelectionPage:574 - ROW COUNT 70
+2020-11-21 19:34:02,587  INFO [main] Login_till_ProdSelectionPage:163 - 11/12/2020
+2020-11-21 19:34:02,588  INFO [main] Login_till_ProdSelectionPage:173 - 018594
+2020-11-21 19:34:02,588  INFO [main] Login_till_ProdSelectionPage:181 - HILLOL MUKHERJEE
+2020-11-21 19:34:02,588  INFO [main] Login_till_ProdSelectionPage:189 - 2330 Pleasant Hill Rd. Apt 20
+2020-11-21 19:34:02,588  INFO [main] Login_till_ProdSelectionPage:198 - Pleasant Hill
+2020-11-21 19:34:02,588  INFO [main] Login_till_ProdSelectionPage:206 - CA
+2020-11-21 19:34:02,588  INFO [main] Login_till_ProdSelectionPage:214 - 94523-3160
+2020-11-21 19:34:02,589  INFO [main] Login_till_ProdSelectionPage:238 - hilmukhe@in.ibm.com
+2020-11-21 19:34:02,589  INFO [main] Login_till_ProdSelectionPage:246 - 925-914-7904
+2020-11-21 19:34:02,589  INFO [main] Login_till_ProdSelectionPage:254 - JOYJIT BOSE
+2020-11-21 19:34:02,589  INFO [main] Login_till_ProdSelectionPage:262 - joyjbose@in.ibm.com
+2020-11-21 19:34:02,589  INFO [main] Login_till_ProdSelectionPage:287 - EVOLVE 65 WIRELESS BT DUAL EAR HEADSET W/STAND
+2020-11-21 19:34:02,589  INFO [main] Login_till_ProdSelectionPage:287 - StarTech.com USB 3.0 to Gigabit Ethernet Adapter - 10/100/1000 NIC Network Adapt
+2020-11-21 19:34:02,591  INFO [main] Login_till_ProdSelectionPage:745 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 19:34:02,592  INFO [main] Login_till_ProdSelectionPage:747 - C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 19:34:02,592  INFO [main] Login_till_ProdSelectionPage:771 - Exception while moving file: C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Input\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx -> C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 19:34:02,593  INFO [main] Login_till_ProdSelectionPage:778 - File movement failed.C:\Users\DeveshBhardwaj\Documents\Devesh\development\GIT BOND 9\MyFramework_1\TestData\Archieve\Office Supplies Requisiton_018594_HILLOL MUKHERJEE.xlsx
+2020-11-21 19:34:02,631  INFO [main] Login_till_ProdSelectionPage:64 - Page Is loaded.
+2020-11-21 19:34:23,647  INFO [main] Login_till_ProdSelectionPage:72 - After class starts
+2020-11-21 19:34:23,647  INFO [main] Login_till_ProdSelectionPage:73 - Critical Flag -->false
+2020-11-21 19:34:23,647  INFO [main] Login_till_ProdSelectionPage:76 - Batch Restarts
