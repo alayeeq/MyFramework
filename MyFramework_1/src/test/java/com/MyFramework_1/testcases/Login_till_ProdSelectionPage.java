@@ -11,6 +11,7 @@ import javax.swing.JOptionPane;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -69,7 +70,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 
 	@AfterClass(alwaysRun = true)
 	public void teardown() {
-		logger.info("After class starts");
+		logger.info("After class initiated");
 		logger.info("Critical Flag -->"+criticalFlag);
 		
 		if (criticalFlag == false) {
@@ -79,10 +80,8 @@ public class Login_till_ProdSelectionPage extends TestBase {
 		} else {
 			logger.info("Batch Completed");
 			driver.quit();
+			JOptionPane.showMessageDialog(null, "BatchComplete");
 		}
-		logger.info("After class initiated");
-		JOptionPane.showMessageDialog(null, "BatchComplete");
-
 	}
 
 	@Test(priority = 1)
@@ -350,14 +349,14 @@ public class Login_till_ProdSelectionPage extends TestBase {
 								"EE " + row + " product " + (col - 12) + " started for product -->" + (r1[row][col]));
 						try {
 							if ((!(r1[row][col].isEmpty()))) {
-								Thread.sleep(5000);
+								//Thread.sleep(5000);
+								boolean dummyFlag=p1.webPageChck(driver);
 								flag = p1.addProdCart(driver, r1[row][col]);
 
 								if (!(flag)) {
 									logger.info("invalid Product idetified during product selection :" + r1[row][col]);
-									// bl.statusUpdate(row, "Failed -Invalid Product exist :"+r1[row][col]);
+									bl.statusUpdate(row, "Failed -Invalid Product exist :"+r1[row][col]);
 									if (!p1.chckCart(driver))
-										;
 									{
 										System.out.println("Unalbe to empty cart");
 									}
@@ -379,22 +378,34 @@ public class Login_till_ProdSelectionPage extends TestBase {
 					// if(false)
 					// {
 
+					boolean dummyFlag=p1.webPageChck(driver);
+					
 					// Devesh_ checkout page
 					logger.info("total no of items: " + item_counter);
 					Thread.sleep(2000);
 					try {
 						driver.findElement(By.xpath("//*[@id=\"shoppingCart\"]/div/div/div[1]/button")).click();// click
-																												// on
-																												// cart
-																												// button
 						driver.findElement(By.xpath("//*[@id=\"shopping-cart-submit-button\"]")).click();// click on
 																											// checkout
 																											// button
 						// Thread.sleep(15000);
 						// driver.switchTo().defaultContent();
-					} catch (Exception e) {
+					} catch (ElementNotInteractableException e) {
+						try {
+							logger.info("Shopping cart Element Not intercatable - Batch to refresh and try again ");
+						driver.navigate().refresh();
+						
+						dummyFlag=p1.waitMod(driver, "//*[@id=\"shoppingCart\"]/div/div/div[1]/button");
+						driver.findElement(By.xpath("//*[@id=\"shoppingCart\"]/div/div/div[1]/button")).click();// click
+						
+						dummyFlag=p1.waitMod(driver, "//*[@id=\"shopping-cart-submit-button\"]");
+						driver.findElement(By.xpath("//*[@id=\"shopping-cart-submit-button\"]")).click();//
+						}catch(Exception f)
+						{f.printStackTrace();}
+						
+					}
+					catch (Exception e) {
 						e.printStackTrace();
-						System.out.println("place 9");
 					}
 					logger.info("--------------------------entered checkout page-------------------------------");
 

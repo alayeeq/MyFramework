@@ -45,10 +45,10 @@ public class ProductPagePOM extends TestBase{
 			try {
 				WebDriverWait wait = new WebDriverWait(driver, 60);
 				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpth)));
-				System.out.println("wait implemented for xpath "+xpth);
+				logger.info("wait implemented for xpath "+xpth);
 				itemFound=true;
 			}catch(Exception e) {
-				System.out.println("Element NOT found");
+				logger.info("Element NOT found");
 			}
 			return itemFound;
 		}
@@ -103,19 +103,21 @@ public class ProductPagePOM extends TestBase{
 				
 				cartExpandChck = this.waitMod(driver,cartPth);
 				WebElement cart=driver.findElement(By.xpath(cartPth));
-				System.out.println("Items exist in Cart - need to delete");
+				logger.info("Items exist in Cart - need to delete");
 				
 				cart.click();
-				System.out.println("Cart icon clicked");
+				logger.info("Cart icon clicked");
 				
 				//check whether cart got Expanded 
 				cartExpandChck=this.waitMod(driver, cartitemsPth);
+				
 				//If cart is NOT expanded click again
 				if(!(cartExpandChck))
 					{
 					cart.click();
-					System.out.println("Cart icon clicked again");
+					logger.info("Cart icon clicked again");
 					}
+				
 				//check whether cart expanded again IF NOT exit with return flag as false.
 				cartExpandChck=this.waitMod(driver, cartitemsPth);
 				
@@ -124,32 +126,39 @@ public class ProductPagePOM extends TestBase{
 					boolean dlist=true;
 					boolean cartRef=false;
 					int refresh_Counter=1;
+					int prodDelCounter=0;
 					
 					while(dlist)
 					{
 						try {
-							//Thread.sleep(3000);
-							if(this.waitMod(driver, cartitemsPth));
+							Thread.sleep(3000);
+							
+/*							boolean tmp=this.waitMod(driver, cartitemsPth)
+							logger.info(tmp);*/
+/*							if(tmp);*/
+							
 								{
 								WebElement dartList=driver.findElement(By.xpath(cartitemsPth));
 								dartList.click();
+								prodDelCounter++;
+								logger.info("Product deleted count :"+prodDelCounter);
 								}
 						}catch(org.openqa.selenium.NoSuchElementException nse) {
-							System.out.println("Cart deletion completed");
+							logger.info("Cart deletion completed");
 							dlist=false;
 							//break;
 						}catch(ElementNotInteractableException nse){
-							System.out.println("Page unResponsive - Refresh page");
+							logger.info("Page unResponsive - Refresh page");
 							
 							if(refresh_Counter<=3)
 							{
 								driver.navigate().refresh();
 								Thread.sleep(20000);
-								System.out.println("Refresh :"+refresh_Counter);
+								logger.info("Refresh :"+refresh_Counter);
 								refresh_Counter++;
 							}
 							else {
-								System.out.println("Maxium refresh reached Batch to Terminate");
+								logger.info("Maxium refresh reached Batch to Terminate");
 								dlist=false;
 								//break;
 							}
@@ -158,26 +167,26 @@ public class ProductPagePOM extends TestBase{
 					
 					if(refresh_Counter<=3)
 					{
-						System.out.println("Items Deleted rechecking Cart....");
+						logger.info("Items Deleted rechecking Cart....");
 						FL_flag=this.chckCart(driver);
 					}
 				}
 				
 			}catch(org.openqa.selenium.NoSuchElementException nse) {
-				System.out.println("Cart Empty");
+				logger.info("Cart Empty");
 				FL_flag=true;
 			}catch(org.openqa.selenium.StaleElementReferenceException e) {
-				System.out.println("stale element");
+				logger.info("stale element");
 				e.printStackTrace();
 			}catch (InterruptedException e) {
 				e.printStackTrace();
 			}/*catch(org.openqa.selenium.ElementNotInteractableException e) {
-				System.out.println("Element Not Interactable");
+				logger.info("Element Not Interactable");
 				e.printStackTrace();
 			}*/
 			
-			System.out.println("return cart flag : "+FL_flag);
-			System.out.println("chck cart ends ");
+			logger.info("return cart flag : "+FL_flag);
+			logger.info("chck cart ends ");
 			
 			return FL_flag;
 		}
@@ -189,11 +198,11 @@ public class ProductPagePOM extends TestBase{
 			{
 				driver.navigate().refresh();
 				Thread.sleep(20000);
-				System.out.println("Refresh :"+refresh_Counter);
+				logger.info("Refresh :"+refresh_Counter);
 				refresh_Counter++;
 			}
 			else {
-				System.out.println("Maxium refresh reached Batch to Terminate");
+				logger.info("Maxium refresh reached Batch to Terminate");
 				dlist=false;
 				//break;
 			}
@@ -216,7 +225,7 @@ public class ProductPagePOM extends TestBase{
 
 			XSSFSheet sh=wb.getSheet("Sheet1");
 			int rowCount = sh.getLastRowNum();
-			System.out.println("ROW COUNT "+rowCount);
+			logger.info("ROW COUNT "+rowCount);
 			++rowCount;
 			
 			td_Set=new String[rowCount][27];
@@ -228,7 +237,7 @@ public class ProductPagePOM extends TestBase{
 					{
 						XSSFRow rw=sh.getRow(row);
 						XSSFCell cl=rw.getCell(col);
-						//System.out.println("Row # "+row+"| Col # "+col);
+						//logger.info("Row # "+row+"| Col # "+col);
 						
 						//td_Set[row][col]=cl.getStringCellValue();
 						
@@ -238,32 +247,32 @@ public class ProductPagePOM extends TestBase{
 		                    if ((type == CellType.STRING) ||(type == CellType.BLANK))
 		                    {					
 		                    	td_Set[row][col]=cl.getStringCellValue();
-		                    	//System.out.println(type);
+		                    	//logger.info(type);
 		                    }
 		                    else if (type == CellType.NUMERIC)  
 		                    {
 		                    	td_Set[row][col]=NumberToTextConverter.toText(cl.getNumericCellValue());
-		                    	//System.out.println(type);
+		                    	//logger.info(type);
 		                    	
 		                    }
 		                    else if (type == CellType.NUMERIC)  
 		                    {
 		                    	td_Set[row][col]=NumberToTextConverter.toText(cl.getNumericCellValue());
-		                    	//System.out.println(type);
+		                    	//logger.info(type);
 		                    	
 		                    }
 		                    else  if (HSSFDateUtil.isCellDateFormatted(cl))
 		                    {
 		        				Date date=cl.getDateCellValue();
-		        				System.out.println(date);
+		        				logger.info(date);
 		        				DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");  
 		        				td_Set[row][col]=dateFormat.format(date);
-		                    	//System.out.println(type);	
+		                    	//logger.info(type);	
 		                    }
 		                    else 
 		                    {
 		                      	td_Set[row][col]=cl.getStringCellValue();
-		                    	//System.out.println(type);
+		                    	//logger.info(type);
 		                    }
 							}catch(NullPointerException e) 
 				        { 
@@ -271,7 +280,7 @@ public class ProductPagePOM extends TestBase{
 				         	//td_Set[row][col]=cl.getStringCellValue();
 				        } 
 	                     
-	                    System.out.println("Row # "+row+"| Col # "+col+"| Val -->"+td_Set[row][col]);
+	                    logger.info("Row # "+row+"| Col # "+col+"| Val -->"+td_Set[row][col]);
 	                }
 				}
 				
@@ -317,13 +326,13 @@ public class ProductPagePOM extends TestBase{
 			
 				if(prodPageEle.isDisplayed()) 
 					{
-					System.out.println("Product Page is loaded");
+					logger.info("Product Page is loaded");
 					Thread.sleep(1000);
 					siteChck=true;
 					}
 				}catch(Exception e) 
 				{
-					System.out.println("Product Page is NOT properly loaded");
+					logger.info("Product Page is NOT properly loaded");
 				}
 			
 			
@@ -336,12 +345,13 @@ public class ProductPagePOM extends TestBase{
 				String srchXpth="//input[@class='fd-input']";
 				String srchButtonXpth="//button[@class='sap-icon--search fd-button--shell']";
 				
-				WebElement srchEle=driver.findElement(By.xpath(srchXpth));
-				WebElement srchButtonEle=driver.findElement(By.xpath(srchButtonXpth));
 				
+				WebElement srchEle=driver.findElement(By.xpath(srchXpth));
 				srchEle.click();
 				srchEle.clear();
 				srchEle.sendKeys(prdName);
+				
+				WebElement srchButtonEle=driver.findElement(By.xpath(srchButtonXpth));
 				srchButtonEle.click();
 			
 				Thread.sleep(5000);
@@ -353,11 +363,11 @@ public class ProductPagePOM extends TestBase{
 					 flag=true;
 				}
 				catch(org.openqa.selenium.NoSuchElementException nse){
-					System.out.println("invalid Product selection : "+prdName);
+					logger.info("invalid Product selection : "+prdName);
 					flag=false;
 				}
 				catch(org.openqa.selenium.ElementNotInteractableException ese) {
-					System.out.println("Element not interacctable - "+tmp);
+					logger.info("Element not interacctable - "+tmp);
 					flag=false;
 				}
 				
