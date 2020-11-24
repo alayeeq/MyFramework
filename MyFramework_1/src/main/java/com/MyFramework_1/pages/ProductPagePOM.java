@@ -18,6 +18,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -31,7 +32,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.MyFramework_1baseclasses.TestBase;
 
 public class ProductPagePOM extends TestBase{
-		
+	
+	boolean dummyFlag =true;
+	inputConsolPOM bl = new inputConsolPOM(driver);
+	
 		//WebDriver driver;	
 		public ProductPagePOM(WebDriver d) {
 		 driver = d;
@@ -101,7 +105,17 @@ public class ProductPagePOM extends TestBase{
 			try {
 				//Thread.sleep(3000);
 				
-				cartExpandChck = this.waitMod(driver,cartPth);
+				//cartExpandChck = this.waitMod(driver,cartPth);
+				
+				try {
+					WebDriverWait wait = new WebDriverWait(driver, 10);
+					wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(cartPth)));
+					logger.info("wait implemented for xpath "+cartExpandChck);
+					cartExpandChck=true;
+				}catch(Exception e) {
+					logger.info("Element NOT found");
+				}
+				
 				WebElement cart=driver.findElement(By.xpath(cartPth));
 				logger.info("Items exist in Cart - need to delete");
 				
@@ -280,7 +294,7 @@ public class ProductPagePOM extends TestBase{
 				         	//td_Set[row][col]=cl.getStringCellValue();
 				        } 
 	                     
-	                    logger.info("Row # "+row+"| Col # "+col+"| Val -->"+td_Set[row][col]);
+	                    //logger.info("Row # "+row+"| Col # "+col+"| Val -->"+td_Set[row][col]);
 	                }
 				}
 				
@@ -305,19 +319,27 @@ public class ProductPagePOM extends TestBase{
 			return NumCols;
 		}
 		
-		public boolean addProdCart(WebDriver driver,String prdName ) throws InterruptedException 
+		public boolean addProdCart(WebDriver driver,int row,String prdName ) throws InterruptedException 
 		{
 			Actions builder = new Actions(driver);
 		
+			Boolean flag=false;
+			boolean siteChck=false;
+			
 			String ibmEntNamXpth="//li[contains(text(),'1216218657 – IBM US Global Services_HSBC')]";
 			String selectAddCartXpth1="//button[text()='Add to cart']";
 			String selectGoBackXpth="//button[@title='Go back to the previous page']";
-			
-			Boolean flag=false;
 			String tmp="(//div[@class='product-name' and text()='"+prdName+"'])[1]";
+			String srchXpth="//input[@class='fd-input']";
+			String srchButtonXpth="//button[@class='sap-icon--search fd-button--shell']";
+			
+			WebElement srchEle;
+			WebElement srchButtonEle;
+			WebElement ibmEntName;
+			WebElement selectAddCart;
+			WebElement selectGoBack;
 			
 			
-			boolean siteChck=false;
 			
 			//site check
 			try {
@@ -342,59 +364,132 @@ public class ProductPagePOM extends TestBase{
 				//Step 2 - Enter product name
 				//Step 3 - Click Enter
 				
-				String srchXpth="//input[@class='fd-input']";
-				String srchButtonXpth="//button[@class='sap-icon--search fd-button--shell']";
-				
-				
-				WebElement srchEle=driver.findElement(By.xpath(srchXpth));
+				try {
+				srchEle=driver.findElement(By.xpath(srchXpth));
 				srchEle.click();
 				srchEle.clear();
 				srchEle.sendKeys(prdName);
+				flag=true;
+				}catch(Exception e)
+				{
+					e.printStackTrace();
+					logger.info("Failure with product search box entry");
+					flag=false;
+				}
 				
-				WebElement srchButtonEle=driver.findElement(By.xpath(srchButtonXpth));
-				srchButtonEle.click();
+				if(flag)
+				{
+					try {
+					srchButtonEle=driver.findElement(By.xpath(srchButtonXpth));
+					srchButtonEle.click();
+					}catch(Exception e)
+					{
+						e.printStackTrace();
+						logger.info("Product Search button click faliure");
+						flag=false;
+					}
+				}
 			
-				Thread.sleep(5000);
+				dummyFlag=this.webPageChck(driver);
+				dummyFlag=this.waitMod(driver, tmp);
+				//Thread.sleep(5000);
 				
-				try {
-					 WebElement prod = driver.findElement(By.xpath(tmp));
-					 builder.moveToElement(prod).build().perform();
-					 prod.click();
-					 flag=true;
+				//Locating and clicking product name
+				if(flag)
+				{
+					try {
+						 WebElement prod = driver.findElement(By.xpath(tmp));	
+						 
+						 WebDriverWait wait1 = new WebDriverWait(driver, 60);
+						 prod = wait1.until(ExpectedConditions.elementToBeClickable(By.xpath(tmp)));
+						 
+						 builder.moveToElement(prod).build().perform();
+						 prod.click();
+						 flag=true;
+					}
+					catch(org.openqa.selenium.NoSuchElementException nse){
+						logger.info("invalid Product selection : "+prdName);
+						bl.statusUpdate(row, "Failed -Invalid Product exist :"+prdName);
+						flag=false;
+					}
+					catch(org.openqa.selenium.ElementNotInteractableException ese) {
+						logger.info("Element not interacctable - "+tmp);
+						flag=false;
+					}
 				}
-				catch(org.openqa.selenium.NoSuchElementException nse){
-					logger.info("invalid Product selection : "+prdName);
-					flag=false;
-				}
-				catch(org.openqa.selenium.ElementNotInteractableException ese) {
-					logger.info("Element not interacctable - "+tmp);
-					flag=false;
-				}
+				
+				//Product page to be loaded
+				dummyFlag=this.webPageChck(driver);
+				//dummyFlag=this.waitMod(driver, selectAddCartXpth1);
+				//Thread.sleep(1000);
 				
 				if(flag) {
-					Thread.sleep(5000);
 					try{
-						WebElement ibmEntName = driver.findElement(By.xpath(ibmEntNamXpth));
-						 ibmEntName.click();
-					    }
-					    catch(org.openqa.selenium.NoSuchElementException nse){
-					}
-		
-					 catch(org.openqa.selenium.TimeoutException nse){
-					}
+						ibmEntName = driver.findElement(By.xpath(ibmEntNamXpth));
+						ibmEntName.click();
+					    }catch(org.openqa.selenium.NoSuchElementException nse){
+				    	}catch(org.openqa.selenium.TimeoutException nse){
+				    	}
 					
-					 WebElement selectAddCart=driver.findElement(By.xpath(selectAddCartXpth1));
-					 selectAddCart.click();
+					try {
+						WebDriverWait wait1 = new WebDriverWait(driver, 60);
+						selectAddCart = wait1.until(ExpectedConditions.elementToBeClickable(By.xpath(selectAddCartXpth1)));
+						
+						//selectAddCart=driver.findElement(By.xpath(selectAddCartXpth1));
+					 	selectAddCart.click();
+					}catch(ElementClickInterceptedException e)
+					{	
+						try {
+								driver.navigate().refresh();
+								Thread.sleep(5000);
+								WebDriverWait wait1 = new WebDriverWait(driver, 60);
+								selectAddCart = wait1.until(ExpectedConditions.elementToBeClickable(By.xpath(selectAddCartXpth1)));
+								selectAddCart.click();
+							}catch(Exception f) 
+							{
+								f.printStackTrace();
+								logger.info("Add Cart button failure");
+								flag=false;
+							}
+					}catch(Exception e)
+					{
+						e.printStackTrace();
+						logger.info("Add Cart button failure");
+						flag=false;
+					}
 					 
-					 Thread.sleep(5000);
-					 driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-					 WebElement selectGoBack=driver.findElement(By.xpath(selectGoBackXpth));
-					 selectGoBack.click();
+					
+					//page Load wait after Product addition to Cart
+					 Thread.sleep(1000);
+					 dummyFlag=this.webPageChck(driver);
+					 dummyFlag=this.waitMod(driver, selectGoBackXpth);
+					 
+					 //driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+					 
+					 try {
+						 	WebDriverWait wait1 = new WebDriverWait(driver, 60);
+						 	selectGoBack = wait1.until(ExpectedConditions.elementToBeClickable(By.xpath(selectGoBackXpth)));
+							
+							selectGoBack=driver.findElement(By.xpath(selectGoBackXpth));
+							selectGoBack.click();
+					 }catch(Exception e) {
+						 e.printStackTrace();
+						 logger.info("Back button failure");
+						 flag=false;
+					 }
 
 					 try {
-					 srchEle.clear();
-					srchButtonEle.click();
+						 srchEle=driver.findElement(By.xpath(srchXpth));
+						 srchEle.clear();
+
+						 WebDriverWait wait1 = new WebDriverWait(driver, 60);	
+						 srchButtonEle = wait1.until(ExpectedConditions.elementToBeClickable(By.xpath(srchButtonXpth)));
+						 
+						 //srchButtonEle=driver.findElement(By.xpath(srchButtonXpth));
+						 srchButtonEle.click();
 					 }catch(Exception e) {
+						 e.printStackTrace();
+						 logger.info("Warning - After Product addition - Srch Box is not cleared - Batch will continue");
 					 }
 					
 				}

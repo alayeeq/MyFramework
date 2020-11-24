@@ -91,10 +91,14 @@ public class Login_till_ProdSelectionPage extends TestBase {
 			// NK Single-Sign On method
 			try {
 				String signOnMethodXpth = "//span[@id='credentialSignin']";
+
 				WebElement signOnMethodEle = wait_base(signOnMethodXpth);
 
 				try {
 					if (signOnMethodEle.isDisplayed()) {
+						WebDriverWait wait1 = new WebDriverWait(driver, 30);
+						signOnMethodEle = wait1.until(ExpectedConditions.elementToBeClickable(By.xpath(signOnMethodXpth)));
+
 						signOnMethodEle.click();
 						logger.info("W3 sign On Method is requested - w3id Credentials method is selected");
 					}
@@ -109,13 +113,9 @@ public class Login_till_ProdSelectionPage extends TestBase {
 			if (criticalFlag) {
 				try{	
 					System.out.println("Login is Visible");
-					// Thread.sleep(10000);
-					// WebElement w =wait.until(ExpectedConditions.visibilityOf(loginPOM.UserID));
-					// w.sendKeys(prop.getProperty("UID"));
 					WebElement UID = wait_base(loginPOM.UserID);
 					UID.sendKeys(prop.getProperty("UID"));
 					logger.info("UserID is enterrerd");
-					// Thread.sleep(2000);
 	
 					loginPOM.Pwd.sendKeys(prop.getProperty("PWD"));
 					logger.info("Pwd is enterrerd");
@@ -128,17 +128,20 @@ public class Login_till_ProdSelectionPage extends TestBase {
 					logger.info("Login page failure - CriticalFlag set to False to reboot");
 					criticalFlag=false;
 				}
+				
 				// NK MFA Code
-				try {
-					String mfaXpth = "//h3[text()='Authorize this device']";
-					WebElement mfaEle = wait_base(mfaXpth);
-
-					if (mfaEle.isDisplayed()) {
-						logger.info("Multi Factor Autentication is requested - Wait time increased 20+ Secs");
-						Thread.sleep(30000);
+				if (criticalFlag) {
+					try {
+						String mfaXpth = "//h3[text()='Authorize this device']";
+						WebElement mfaEle = wait_base(mfaXpth);
+	
+						if (mfaEle.isDisplayed()) {
+							logger.info("Multi Factor Autentication is requested - Wait time increased 20+ Secs");
+							Thread.sleep(30000);
+						}
+					} catch (Exception e) {
+						logger.info("Multi Factor Autentication is NOT requested - Batch continues");
 					}
-				} catch (Exception e) {
-					logger.info("Multi Factor Autentication is NOT requested - Batch continues");
 				}
 			}
 		}
@@ -351,14 +354,16 @@ public class Login_till_ProdSelectionPage extends TestBase {
 							if ((!(r1[row][col].isEmpty()))) {
 								//Thread.sleep(5000);
 								boolean dummyFlag=p1.webPageChck(driver);
-								flag = p1.addProdCart(driver, r1[row][col]);
+								flag = p1.addProdCart(driver, row,r1[row][col]);
 
 								if (!(flag)) {
-									logger.info("invalid Product idetified during product selection :" + r1[row][col]);
-									bl.statusUpdate(row, "Failed -Invalid Product exist :"+r1[row][col]);
+									logger.info("Product Addition Failure :" + r1[row][col]);
+									//bl.statusUpdate(row, "Failed -Invalid Product exist :"+r1[row][col]);
+									
+									//clear existing cart products.
 									if (!p1.chckCart(driver))
 									{
-										System.out.println("Unalbe to empty cart");
+										System.out.println("Unable to empty cart");
 									}
 									continue Employee_loop;
 								}
@@ -374,9 +379,10 @@ public class Login_till_ProdSelectionPage extends TestBase {
 						logger.info("EE " + row + " product " + (col - 12) + " ended for product -->" + (r1[row][col]));
 					} // Product Loop ends here
 
+					//bl.statusUpdate(row, "Product added to cart- Checkout pending");
 					// checkout to be added.
 					// if(false)
-					// {
+					//{
 
 					boolean dummyFlag=p1.webPageChck(driver);
 					
@@ -387,28 +393,34 @@ public class Login_till_ProdSelectionPage extends TestBase {
 						driver.findElement(By.xpath("//*[@id=\"shoppingCart\"]/div/div/div[1]/button")).click();// click
 						driver.findElement(By.xpath("//*[@id=\"shopping-cart-submit-button\"]")).click();// click on
 																											// checkout
-																											// button
 						// Thread.sleep(15000);
 						// driver.switchTo().defaultContent();
+						
 					} catch (ElementNotInteractableException e) {
 						try {
 							logger.info("Shopping cart Element Not intercatable - Batch to refresh and try again ");
-						driver.navigate().refresh();
+							driver.navigate().refresh();
 						
-						dummyFlag=p1.waitMod(driver, "//*[@id=\"shoppingCart\"]/div/div/div[1]/button");
-						driver.findElement(By.xpath("//*[@id=\"shoppingCart\"]/div/div/div[1]/button")).click();// click
-						
-						dummyFlag=p1.waitMod(driver, "//*[@id=\"shopping-cart-submit-button\"]");
-						driver.findElement(By.xpath("//*[@id=\"shopping-cart-submit-button\"]")).click();//
+							dummyFlag=p1.waitMod(driver, "//*[@id=\"shoppingCart\"]/div/div/div[1]/button");
+							driver.findElement(By.xpath("//*[@id=\"shoppingCart\"]/div/div/div[1]/button")).click();// click
+							
+							dummyFlag=p1.waitMod(driver, "//*[@id=\"shopping-cart-submit-button\"]");
+							driver.findElement(By.xpath("//*[@id=\"shopping-cart-submit-button\"]")).click();//
 						}catch(Exception f)
-						{f.printStackTrace();}
-						
-					}
-					catch (Exception e) {
+						{
+							f.printStackTrace();
+							logger.info(" Cart Icon Element Not intercatable - Critical Flag to set as False and Batch to Reboot ");
+							criticalFlag=false;
+							break;
+						}
+					}catch (Exception e) {
 						e.printStackTrace();
 					}
+					
+					logger.info("Check out Page - Critical flag check-->"+criticalFlag);
+					if(criticalFlag)
+					{
 					logger.info("--------------------------entered checkout page-------------------------------");
-
 					WebDriverWait wait = new WebDriverWait(driver, 60);
 					wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(
 							"//*[@id=\"gbsection\"]/div[1]/gb-action-bar/div/div/div/div[2]/div[1]/div[2]/div/button[2]")));
@@ -806,6 +818,7 @@ public class Login_till_ProdSelectionPage extends TestBase {
 									+ "']//div[@class='ship-section']//field[1]//button/i")).click();
 							logger.info(
 									"--------------------------clicked address drop down-------------------------------");
+							
 							Thread.sleep(5000);
 							wait.until(ExpectedConditions.visibilityOfElementLocated(
 									By.xpath("//*[@id='section' and @class='item line-item-container-" + i
@@ -1134,7 +1147,8 @@ public class Login_till_ProdSelectionPage extends TestBase {
 						}
 					}
 
-					// }//
+					 }
+					//}
 				} else {
 					logger.info("EE " + row + " Skipped");
 				}

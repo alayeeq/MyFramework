@@ -42,7 +42,7 @@ public class inputConsolPOM extends TestBase{
 	String errPath=null;
 	String tdPath=null;
 	String archieveTD=null;
-	ProductPagePOM p = new ProductPagePOM(driver);
+	//ProductPagePOM p = new ProductPagePOM(driver);
 	
 	public void initPath()
 	{
@@ -160,7 +160,7 @@ public class inputConsolPOM extends TestBase{
 	            }
 				
 				
-				logger.info(ip_val[0]);
+				//logger.info(ip_val[0]);
 				//logger.info("experiment");
 				//logger.info(this.readCell(cl));
 			}
@@ -170,7 +170,7 @@ public class inputConsolPOM extends TestBase{
 				XSSFRow rw=sh.getRow(ip_Emp_No_Row);
 				XSSFCell cl=rw.getCell(1);
 				ip_val[1]=this.readCell(cl);
-				logger.info(ip_val[1]);
+				//logger.info(ip_val[1]);
 			}
 			
 			//ip_Emp_Name
@@ -178,7 +178,7 @@ public class inputConsolPOM extends TestBase{
 				XSSFRow rw=sh.getRow(ip_Emp_Name_Row);
 				XSSFCell cl=rw.getCell(1);
 				ip_val[2]=this.readCell(cl);
-				logger.info(ip_val[2]);
+				//logger.info(ip_val[2]);
 			}
 			
 			//ip_Home_address
@@ -186,7 +186,7 @@ public class inputConsolPOM extends TestBase{
 				XSSFRow rw=sh.getRow(ip_Home_address_Row);
 				XSSFCell cl=rw.getCell(1);
 				ip_val[3]=this.readCell(cl);
-				logger.info(ip_val[3]);
+				//logger.info(ip_val[3]);
 			}
 			
 			
@@ -195,7 +195,7 @@ public class inputConsolPOM extends TestBase{
 				XSSFRow rw=sh.getRow(ip_City);
 				XSSFCell cl=rw.getCell(1);
 				ip_val[4]=this.readCell(cl);
-				logger.info(ip_val[4]);
+				//logger.info(ip_val[4]);
 			}
 			
 			//State
@@ -203,7 +203,7 @@ public class inputConsolPOM extends TestBase{
 				XSSFRow rw=sh.getRow(ip_State);
 				XSSFCell cl=rw.getCell(1);
 				ip_val[5]=this.readCell(cl);
-				logger.info(ip_val[5]);
+				//logger.info(ip_val[5]);
 			}
 			
 			//Zip
@@ -211,7 +211,7 @@ public class inputConsolPOM extends TestBase{
 				XSSFRow rw=sh.getRow(ip_Zip);
 				XSSFCell cl=rw.getCell(1);
 				ip_val[6]=this.readCell(cl);
-				logger.info(ip_val[6]);
+				//logger.info(ip_val[6]);
 			}
 			
 			/*//ip_Home_address1
@@ -235,7 +235,7 @@ public class inputConsolPOM extends TestBase{
 				XSSFRow rw=sh.getRow(ip_Email_Address_Row);
 				XSSFCell cl=rw.getCell(1);
 				ip_val[7]=this.readCell(cl);
-				logger.info(ip_val[7]);
+				//logger.info(ip_val[7]);
 			}
 			
 			//ip_Cell_No
@@ -243,7 +243,7 @@ public class inputConsolPOM extends TestBase{
 				XSSFRow rw=sh.getRow(ip_Cell_No_Row);
 				XSSFCell cl=rw.getCell(1);
 				ip_val[8]=this.readCell(cl);
-				logger.info(ip_val[8]);
+				//logger.info(ip_val[8]);
 			}
 			
 			//ip_Manager_Name
@@ -251,7 +251,7 @@ public class inputConsolPOM extends TestBase{
 				XSSFRow rw=sh.getRow(ip_Manager_Name_Row);
 				XSSFCell cl=rw.getCell(1);
 				ip_val[9]=this.readCell(cl);
-				logger.info(ip_val[9]);
+				//logger.info(ip_val[9]);
 			}
 			
 			//ip_Manager_Email
@@ -259,7 +259,7 @@ public class inputConsolPOM extends TestBase{
 				XSSFRow rw=sh.getRow(ip_Manager_Email_Row);
 				XSSFCell cl=rw.getCell(1);
 				ip_val[10]=this.readCell(cl);
-				logger.info(ip_val[10]);
+				//logger.info(ip_val[10]);
 			}
 			
 			
@@ -284,7 +284,7 @@ public class inputConsolPOM extends TestBase{
 			while(flag)
 			{
 				ip_val[counter2]=tmp;
-				logger.info(ip_val[counter2]);
+				//logger.info(ip_val[counter2]);
 				counter1++;
 				counter2++;
 				{
@@ -455,6 +455,7 @@ public class inputConsolPOM extends TestBase{
 	
 	public void statusUpdate(int row, String msg)
 	{
+		this.initPath();
 		String tdPathAbs=tdPath+"\\TD.xlsx";
 		int status_Col = 1;
 		try {
@@ -478,13 +479,12 @@ public class inputConsolPOM extends TestBase{
 		}
 	}
 	
-	//Asif code for records processed
+	/*//Asif code for records processed
 		public void nofRecords(int row, String msg)
 		{
 			String tdPathAbs=tdPath+"\\TD.xlsx";
 			
-			
-			int a = p.numberOfCols();
+			//int a = p.numberOfCols();
 			
 			int status_Col = a+4;
 			try {
@@ -503,12 +503,11 @@ public class inputConsolPOM extends TestBase{
 				wb.write(fos);
 				fos.close();
 				wb.close();
-				
 			}catch(Exception e)
 			{
 				e.printStackTrace();
 			}
-		}
+		}*/
 	
 	public void xlwrite()
 	{
