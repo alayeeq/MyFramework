@@ -20,8 +20,7 @@ public class BasicTestScript {
 	    System.out.println("id "+mailId.getText());
 	    System.out.println("pwd"+pwd.getText());
 	    
-		    //mailId.sendKeys("Nagaraja.Kumarasamy@ibm.com");
-		    //pwd.sendKeys("11Novo2020@11Novo2020");
+		    
 	    WebElement signIn =driver.findElement(By.xpath("//button[@id='btn_signin']"));
 	    signIn.click();
 
